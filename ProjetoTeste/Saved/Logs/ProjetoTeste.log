@@ -1144,4 +1144,569 @@ LogInit: Object subsystem initialized
 [2016.07.28-21.06.39:620][887]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tenda/Tenda_Mat.uasset
 [2016.07.28-21.06.39:620][887]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tenda/Wood.uasset
 [2016.07.28-21.06.39:638][887]SourceControl: Info Commited [master 3b1ff40] Camp(tendas add).
-[2016.07.28-21.07.22:772][501
+[2016.07.28-21.07.22:772][501]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.07.28-21.07.23:572][555]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (campfire)
+[2016.07.28-21.15.41:360][169]LogSavePackage: Save=2151.24ms
+[2016.07.28-21.15.41:360][169]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/MAPA01_Auto9C350ACEA4D1CF16F9AA10C90478283D6.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto9.umap'
+[2016.07.28-21.15.41:382][169]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto9.umap
+[2016.07.28-21.15.41:385][169]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TheDarkAges/Maps/MAPA01' took 4.044
+[2016.07.28-21.15.41:385][169]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.044
+[2016.07.28-21.49.16:624][485]LogActorFactory: Actor Factory created Apple
+[2016.07.28-21.49.17:019][521]LogActorFactory: Actor Factory created Apple
+[2016.07.28-21.49.19:985][801]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Apple)
+[2016.07.28-21.49.20:703][869]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Apple)
+[2016.07.28-21.49.22:099][  8]Cmd: DELETE
+[2016.07.28-21.49.22:099][  8]Cmd: ACTOR DELETE
+[2016.07.28-21.49.22:101][  8]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.28-21.49.22:118][  8]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2016.07.28-21.49.25:861][255]LogActorFactory: Actor Factory created shield_lend
+[2016.07.28-21.49.26:437][310]LogActorFactory: Actor Factory created shield_lend
+[2016.07.28-21.49.32:240][825]Cmd: DELETE
+[2016.07.28-21.49.32:240][825]Cmd: ACTOR DELETE
+[2016.07.28-21.49.32:242][825]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.28-21.49.32:260][825]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.28-21.49.34:843][977]LogActorFactory: Actor Factory created shield2
+[2016.07.28-21.49.35:490][ 29]LogActorFactory: Actor Factory created shield2
+[2016.07.28-21.51.23:117][988]Cmd: DELETE
+[2016.07.28-21.51.23:117][988]Cmd: ACTOR DELETE
+[2016.07.28-21.51.23:118][988]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.28-21.51.23:137][988]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.28-21.52.56:575][285]LogSavePackage: Save=1995.49ms
+[2016.07.28-21.52.56:575][285]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/MAPA01_Auto016EFC19C465D8AF69A6380A2D1517AB1.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto0.umap'
+[2016.07.28-21.52.56:577][285]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto0.umap
+[2016.07.28-21.52.56:579][285]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TheDarkAges/Maps/MAPA01' took 2.074
+[2016.07.28-21.52.56:580][285]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.074
+[2016.07.28-21.53.01:207][665]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pira)
+[2016.07.28-21.53.10:511][498]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Apple-Barril2)
+[2016.07.28-21.53.49:771][776]LogActorFactory: Actor Factory created Barril
+[2016.07.28-21.53.50:565][846]LogActorFactory: Actor Factory created Barril
+[2016.07.28-21.53.55:816][355]Cmd: DELETE
+[2016.07.28-21.53.55:816][355]Cmd: ACTOR DELETE
+[2016.07.28-21.53.55:818][355]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.28-21.53.55:834][355]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2016.07.28-21.53.58:546][589]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Apple-Barril2)
+[2016.07.28-21.54.09:083][528]Cmd: DELETE
+[2016.07.28-21.54.09:083][528]Cmd: ACTOR DELETE
+[2016.07.28-21.54.09:084][528]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.28-21.54.09:103][528]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2016.07.28-21.54.14:506][994]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril5)
+[2016.07.28-21.54.20:359][491]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.07.28-21.54.26:159][ 10]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.07.28-21.54.36:596][973]Cmd: DELETE
+[2016.07.28-21.54.36:596][973]Cmd: ACTOR DELETE
+[2016.07.28-21.54.36:597][973]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.28-21.54.36:616][973]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.28-21.54.39:550][174]LogActorFactory: Actor Factory created barraca
+[2016.07.28-21.54.39:998][213]LogActorFactory: Actor Factory created barraca
+[2016.07.28-21.54.41:040][301]Cmd: DELETE
+[2016.07.28-21.54.41:040][301]Cmd: ACTOR DELETE
+[2016.07.28-21.54.41:041][301]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.28-21.54.41:059][301]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.07.28-21.54.58:151][579]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.28-21.54.58:151][579]PIE: New page: PIE session: MAPA01 (Jul 28, 2016, 3:54:58 PM)
+[2016.07.28-21.54.58:151][579]LogPlayLevel: Creating play world package: /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01
+[2016.07.28-21.54.58:316][579]LogPlayLevel: PIE: StaticDuplicateObject took: (0.164023s)
+[2016.07.28-21.54.58:317][579]LogAIModule: Creating AISystem for world MAPA01
+[2016.07.28-21.54.58:318][579]LogPlayLevel: PIE: World Init took: (0.002209s)
+[2016.07.28-21.54.58:318][579]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TheDarkAges/Maps/MAPA01.MAPA01 to /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01.MAPA01 (0.166638s)
+[2016.07.28-21.54.58:344][579]LogInit: XAudio2 using 'Alto-falantes (Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.28-21.54.58:354][579]LogInit: FAudioDevice initialized.
+[2016.07.28-21.54.58:431][579]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.07.28-21.54.58:447][579]LogWorld: Bringing World /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01.MAPA01 up for play (max tick rate 0) at 2016.07.28-18.54.58
+[2016.07.28-21.54.58:448][579]LogWorld: Bringing up level for play took: 0.015892
+[2016.07.28-21.54.58:492][579]PIE: Info Play in editor start time for /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01 -0.37
+[2016.07.28-21.55.17:878][450]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda-grande)
+[2016.07.28-21.55.28:620][113]LogTexture:Display: Building textures: SimplygonLogo (AutoDXT)
+[2016.07.28-21.55.42:052][944]LogRenderer: Reallocating scene render targets to support 1192x744 (Frame:535761).
+[2016.07.28-21.56.22:023][654]LogMaterial: Missing cached shader map for material TentTexture2_Mat, compiling. 
+[2016.07.28-21.56.23:727][654]LogMaterial: Missing cached shader map for material TentTexture2_Mat, compiling. 
+[2016.07.28-21.56.23:742][654]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-21.56.23:772][654]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.07.28-21.56.27:484][698]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.07.28-21.56.27:484][698]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.07.28-21.56.27:484][698]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.07.28-21.56.43:452][571]LogMaterial: Missing cached shader map for material TentTexture2_Mat, compiling. 
+[2016.07.28-21.56.45:950][686]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2016.07.28-21.56.45:950][686]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.07.28-21.56.45:966][686]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.07.28-21.56.47:604][783]LogMaterialEditor: Applying material TentTexture2_Mat
+[2016.07.28-21.56.49:250][783]LogMaterial: Missing cached shader map for material TentTexture2_Mat, compiling. 
+[2016.07.28-21.56.49:275][783]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-21.56.49:323][783]LogMaterial: Missing cached shader map for material TentTexture2_Mat, compiling. 
+[2016.07.28-21.56.49:385][783]LogMaterial: Missing cached shader map for material TentTexture2_Mat, compiling. 
+[2016.07.28-21.56.49:414][783]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-21.56.56:522][215]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 63 instructions
+[2016.07.28-21.56.56:522][215]MaterialEditorStats: Info Vertex shader: 41 instructions
+[2016.07.28-21.56.56:522][215]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.07.28-21.59.17:397][916]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/Bed.fbx)
+[2016.07.28-21.59.17:404][916]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.07.28-21.59.17:404][916]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.07.28-21.59.17:404][916]LogFbx: ItemName: Model, ItemCount : 1
+[2016.07.28-21.59.17:404][916]LogFbx: ItemName: Material, ItemCount : 2
+[2016.07.28-21.59.17:415][916]LogFbx: Loading FBX Scene from ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/Bed.fbx
+[2016.07.28-21.59.17:427][916]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.28-21.59.20:325][916]LogFbx: Loading FBX Scene from ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/Bed.fbx
+[2016.07.28-21.59.20:336][916]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.28-21.59.20:340][916]LogFbx:Warning: Triangulating static mesh Circle.001
+[2016.07.28-21.59.20:519][916]LogStaticMesh: Building static mesh Bed...
+[2016.07.28-21.59.20:577][916]LogStaticMesh: Built static mesh [0.06s] /Game/TheDarkAges/Scenes/Camp/Bed.Bed
+[2016.07.28-21.59.20:599][916]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.28-21.59.31:115][732]LogActorFactory: Actor Factory created Bed
+[2016.07.28-21.59.31:868][792]LogActorFactory: Actor Factory created Bed
+[2016.07.28-21.59.32:829][871]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2016.07.28-21.59.34:157][961]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bed)
+[2016.07.28-22.00.04:746][730]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2016.07.28-22.00.06:139][824]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bed)
+[2016.07.28-22.02.07:822][767]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bed)
+[2016.07.28-22.02.08:907][869]Cmd: DELETE
+[2016.07.28-22.02.08:907][869]Cmd: ACTOR DELETE
+[2016.07.28-22.02.08:908][869]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.28-22.02.08:929][869]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2016.07.28-22.03.18:076][456]LogSavePackage: Save=1985.78ms
+[2016.07.28-22.03.18:076][456]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/MAPA01_Auto17E5082324C25837FB0B267B8C3AAF32E.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto1.umap'
+[2016.07.28-22.03.18:079][456]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto1.umap
+[2016.07.28-22.03.18:081][456]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TheDarkAges/Maps/MAPA01' took 2.065
+[2016.07.28-22.03.18:082][456]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.065
+[2016.07.28-22.03.18:085][456]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Texture/TentTexture2_Mat] ([1] browsable assets)...
+[2016.07.28-22.03.18:138][456]OBJ SavePackage:     Rendered thumbnail for [Material /Game/TheDarkAges/Scenes/Camp/Texture/TentTexture2_Mat.TentTexture2_Mat]
+[2016.07.28-22.03.18:138][456]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Texture/TentTexture2_Mat]
+[2016.07.28-22.03.18:176][456]LogSavePackage: Save=29.53ms
+[2016.07.28-22.03.18:176][456]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/TentTexture2_Mat_Auto10D76BBBF4FDEBC4368034A922F49013D.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Texture/TentTexture2_Mat_Auto1.uasset'
+[2016.07.28-22.03.18:178][456]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Texture/TentTexture2_Mat_Auto1.uasset
+[2016.07.28-22.03.18:179][456]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Bed] ([1] browsable assets)...
+[2016.07.28-22.03.18:200][456]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TheDarkAges/Scenes/Camp/Bed.Bed]
+[2016.07.28-22.03.18:200][456]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Bed]
+[2016.07.28-22.03.18:220][456]LogSavePackage: Save=17.34ms
+[2016.07.28-22.03.18:220][456]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Bed_Auto11A4E72084B17F23CFF8B8AB06C3E1336.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Bed_Auto1.uasset'
+[2016.07.28-22.03.18:222][456]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Bed_Auto1.uasset
+[2016.07.28-22.03.18:222][456]LogFileHelpers: Auto-saving content packages took 0.138
+[2016.07.28-22.06.21:628][184]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/training/training/Linen.jpg)
+[2016.07.28-22.06.21:755][184]LogTexture:Display: Building textures: Linen (AutoDXT)
+[2016.07.28-22.06.26:629][184]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/training/training/target.png)
+[2016.07.28-22.06.26:815][184]LogTexture:Display: Building textures: target (AutoDXT)
+[2016.07.28-22.06.27:467][184]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/training/training/Training Dummie.fbx)
+[2016.07.28-22.06.27:507][184]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.07.28-22.06.27:507][184]LogFbx: ItemName: Geometry, ItemCount : 3
+[2016.07.28-22.06.27:507][184]LogFbx: ItemName: Model, ItemCount : 3
+[2016.07.28-22.06.27:507][184]LogFbx: ItemName: Material, ItemCount : 4
+[2016.07.28-22.06.27:507][184]LogFbx: ItemName: Texture, ItemCount : 5
+[2016.07.28-22.06.27:507][184]LogFbx: ItemName: Video, ItemCount : 3
+[2016.07.28-22.06.27:515][184]LogFbx: Loading FBX Scene from ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/training/training/Training Dummie.fbx
+[2016.07.28-22.06.27:537][184]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.28-22.06.34:768][184]LogFbx: Loading FBX Scene from ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/training/training/Training Dummie.fbx
+[2016.07.28-22.06.34:783][184]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.28-22.06.34:807][184]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Training/Rope'
+[2016.07.28-22.06.34:807][184]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Training/Rope'
+[2016.07.28-22.06.34:818][184]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Training/43_linen-flaxseed-'
+[2016.07.28-22.06.34:818][184]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Training/43_linen-flaxseed-'
+[2016.07.28-22.06.34:818][184]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/TheDarkAges/Scenes/Camp/Training/43_linen-flaxseed-.43_linen-flaxseed-'
+[2016.07.28-22.06.34:819][184]LogStreaming:Warning: Failed to read file 'C:\Users\Empresa\Documents\43_linen-flaxseed-.jpg' error.
+[2016.07.28-22.06.34:819][184]LogStreaming:Warning: Failed to read file '../../../../../../Users/Diego BA/Downloads/Telegram Desktop/training/training/C:\Users\Empresa\Documents\43_linen-flaxseed-.jpg' error.
+[2016.07.28-22.06.34:829][184]LogStreaming:Warning: Failed to read file '../../../../../../Users/Diego BA/Downloads/Telegram Desktop/training/training/43_linen-flaxseed-.jpg' error.
+[2016.07.28-22.06.34:829][184]LogFbxMaterialImport:Warning: Unable to find TEXTure file 43_linen-flaxseed-.jpg. Tried:
+ - C:\Users\Empresa\Documents\43_linen-flaxseed-.jpg
+ - ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/training/training/C:\Users\Empresa\Documents\43_linen-flaxseed-.jpg
+ - ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/training/training/43_linen-flaxseed-.jpg
+[2016.07.28-22.06.34:829][184]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Training/43_linen-flaxseed-'
+[2016.07.28-22.06.34:829][184]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/TheDarkAges/Scenes/Camp/Training/43_linen-flaxseed-.43_linen-flaxseed-'
+[2016.07.28-22.06.34:830][184]LogStreaming:Warning: Failed to read file 'C:\Users\Empresa\Documents\43_linen-flaxseed-.jpg' error.
+[2016.07.28-22.06.34:830][184]LogStreaming:Warning: Failed to read file '../../../../../../Users/Diego BA/Downloads/Telegram Desktop/training/training/C:\Users\Empresa\Documents\43_linen-flaxseed-.jpg' error.
+[2016.07.28-22.06.34:830][184]LogStreaming:Warning: Failed to read file '../../../../../../Users/Diego BA/Downloads/Telegram Desktop/training/training/43_linen-flaxseed-.jpg' error.
+[2016.07.28-22.06.34:830][184]LogFbxMaterialImport:Warning: Unable to find TEXTure file 43_linen-flaxseed-.jpg. Tried:
+ - C:\Users\Empresa\Documents\43_linen-flaxseed-.jpg
+ - ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/training/training/C:\Users\Empresa\Documents\43_linen-flaxseed-.jpg
+ - ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/training/training/43_linen-flaxseed-.jpg
+[2016.07.28-22.06.34:841][184]LogMaterial: Missing cached shader map for material Rope, compiling. 
+[2016.07.28-22.06.34:880][184]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Training/Wood'
+[2016.07.28-22.06.34:881][184]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Training/Wood'
+[2016.07.28-22.06.34:884][184]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/TheDarkAges/Scenes/Camp/Training/Wood.Wood'
+[2016.07.28-22.06.34:986][184]LogTexture:Display: Building textures: Wood2 (AutoDXT)
+[2016.07.28-22.06.36:563][184]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/TheDarkAges/Scenes/Camp/Training/Wood.Wood'
+[2016.07.28-22.06.36:666][184]LogTexture:Display: Building textures: Wood3 (BC5)
+[2016.07.28-22.06.37:007][184]LogMaterial: Missing cached shader map for material Wood, compiling. 
+[2016.07.28-22.06.37:032][184]LogFbx:Warning: Triangulating static mesh Plane.001
+[2016.07.28-22.06.37:072][184]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Training/43_linen-flaxseed-'
+[2016.07.28-22.06.37:072][184]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/TheDarkAges/Scenes/Camp/Training/43_linen-flaxseed-.43_linen-flaxseed-'
+[2016.07.28-22.06.37:073][184]LogStreaming:Warning: Failed to read file 'C:\Users\Empresa\Documents\43_linen-flaxseed-.jpg' error.
+[2016.07.28-22.06.37:073][184]LogStreaming:Warning: Failed to read file '../../../../../../Users/Diego BA/Downloads/Telegram Desktop/training/training/C:\Users\Empresa\Documents\43_linen-flaxseed-.jpg' error.
+[2016.07.28-22.06.37:073][184]LogStreaming:Warning: Failed to read file '../../../../../../Users/Diego BA/Downloads/Telegram Desktop/training/training/43_linen-flaxseed-.jpg' error.
+[2016.07.28-22.06.37:073][184]LogFbxMaterialImport:Warning: Unable to find TEXTure file 43_linen-flaxseed-.jpg. Tried:
+ - C:\Users\Empresa\Documents\43_linen-flaxseed-.jpg
+ - ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/training/training/C:\Users\Empresa\Documents\43_linen-flaxseed-.jpg
+ - ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/training/training/43_linen-flaxseed-.jpg
+[2016.07.28-22.06.37:073][184]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Training/43_linen-flaxseed-'
+[2016.07.28-22.06.37:073][184]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/TheDarkAges/Scenes/Camp/Training/43_linen-flaxseed-.43_linen-flaxseed-'
+[2016.07.28-22.06.37:073][184]LogStreaming:Warning: Failed to read file 'C:\Users\Empresa\Documents\43_linen-flaxseed-.jpg' error.
+[2016.07.28-22.06.37:073][184]LogStreaming:Warning: Failed to read file '../../../../../../Users/Diego BA/Downloads/Telegram Desktop/training/training/C:\Users\Empresa\Documents\43_linen-flaxseed-.jpg' error.
+[2016.07.28-22.06.37:073][184]LogStreaming:Warning: Failed to read file '../../../../../../Users/Diego BA/Downloads/Telegram Desktop/training/training/43_linen-flaxseed-.jpg' error.
+[2016.07.28-22.06.37:073][184]LogFbxMaterialImport:Warning: Unable to find TEXTure file 43_linen-flaxseed-.jpg. Tried:
+ - C:\Users\Empresa\Documents\43_linen-flaxseed-.jpg
+ - ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/training/training/C:\Users\Empresa\Documents\43_linen-flaxseed-.jpg
+ - ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/training/training/43_linen-flaxseed-.jpg
+[2016.07.28-22.06.37:078][184]LogMaterial: Missing cached shader map for material Linen2, compiling. 
+[2016.07.28-22.06.37:108][184]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Training/43_linen-flaxseed-'
+[2016.07.28-22.06.37:108][184]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/TheDarkAges/Scenes/Camp/Training/43_linen-flaxseed-.43_linen-flaxseed-'
+[2016.07.28-22.06.37:109][184]LogStreaming:Warning: Failed to read file 'C:\Users\Empresa\Documents\43_linen-flaxseed-.jpg' error.
+[2016.07.28-22.06.37:109][184]LogStreaming:Warning: Failed to read file '../../../../../../Users/Diego BA/Downloads/Telegram Desktop/training/training/C:\Users\Empresa\Documents\43_linen-flaxseed-.jpg' error.
+[2016.07.28-22.06.37:109][184]LogStreaming:Warning: Failed to read file '../../../../../../Users/Diego BA/Downloads/Telegram Desktop/training/training/43_linen-flaxseed-.jpg' error.
+[2016.07.28-22.06.37:109][184]LogFbxMaterialImport:Warning: Unable to find TEXTure file 43_linen-flaxseed-.jpg. Tried:
+ - C:\Users\Empresa\Documents\43_linen-flaxseed-.jpg
+ - ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/training/training/C:\Users\Empresa\Documents\43_linen-flaxseed-.jpg
+ - ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/training/training/43_linen-flaxseed-.jpg
+[2016.07.28-22.06.37:109][184]LogStreaming:Warning: Failed to read file 'C:\Users\Empresa\Documents\target.png' error.
+[2016.07.28-22.06.37:109][184]LogStreaming:Warning: Failed to read file '../../../../../../Users/Diego BA/Downloads/Telegram Desktop/training/training/C:\Users\Empresa\Documents\target.png' error.
+[2016.07.28-22.06.37:387][184]LogTexture:Display: Building textures: target (AutoDXT)
+[2016.07.28-22.06.38:054][184]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Training/43_linen-flaxseed-'
+[2016.07.28-22.06.38:055][184]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/TheDarkAges/Scenes/Camp/Training/43_linen-flaxseed-.43_linen-flaxseed-'
+[2016.07.28-22.06.38:055][184]LogStreaming:Warning: Failed to read file 'C:\Users\Empresa\Documents\43_linen-flaxseed-.jpg' error.
+[2016.07.28-22.06.38:055][184]LogStreaming:Warning: Failed to read file '../../../../../../Users/Diego BA/Downloads/Telegram Desktop/training/training/C:\Users\Empresa\Documents\43_linen-flaxseed-.jpg' error.
+[2016.07.28-22.06.38:056][184]LogStreaming:Warning: Failed to read file '../../../../../../Users/Diego BA/Downloads/Telegram Desktop/training/training/43_linen-flaxseed-.jpg' error.
+[2016.07.28-22.06.38:056][184]LogFbxMaterialImport:Warning: Unable to find TEXTure file 43_linen-flaxseed-.jpg. Tried:
+ - C:\Users\Empresa\Documents\43_linen-flaxseed-.jpg
+ - ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/training/training/C:\Users\Empresa\Documents\43_linen-flaxseed-.jpg
+ - ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/training/training/43_linen-flaxseed-.jpg
+[2016.07.28-22.06.38:063][184]LogMaterial: Missing cached shader map for material Target2, compiling. 
+[2016.07.28-22.06.38:092][184]LogFbx:Warning: Triangulating static mesh Plane
+[2016.07.28-22.06.38:166][184]LogStaticMesh: Building static mesh Training_Dummie...
+[2016.07.28-22.06.38:416][184]LogStaticMesh: Built static mesh [0.27s] /Game/TheDarkAges/Scenes/Camp/Training/Training_Dummie.Training_Dummie
+[2016.07.28-22.06.38:427][184]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.28-22.06.43:833][184]LogAssetTools:Warning: Failed to delete '/Game/TheDarkAges/Scenes/Camp/Training/Wood'. The asset is referenced by other content.
+[2016.07.28-22.13.18:336][256]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TheDarkAges/Maps/MAPA01' took 0.020
+[2016.07.28-22.13.18:339][256]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Training/Linen] ([1] browsable assets)...
+[2016.07.28-22.13.18:359][256]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TheDarkAges/Scenes/Camp/Training/Linen.Linen]
+[2016.07.28-22.13.18:359][256]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Training/Linen]
+[2016.07.28-22.13.18:395][256]LogSavePackage: Save=34.24ms
+[2016.07.28-22.13.18:395][256]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Linen_Auto2D58AEF45472EF310EAE0CFAF82EE3D1A.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Training/Linen_Auto2.uasset'
+[2016.07.28-22.13.18:397][256]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Training/Linen_Auto2.uasset
+[2016.07.28-22.13.18:398][256]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Training/target] ([1] browsable assets)...
+[2016.07.28-22.13.18:415][256]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TheDarkAges/Scenes/Camp/Training/target.target]
+[2016.07.28-22.13.18:415][256]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Training/target]
+[2016.07.28-22.13.18:451][256]LogSavePackage: Save=33.28ms
+[2016.07.28-22.13.18:451][256]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/target_Auto2A92FE57F48AF13E35189F8B1519F01B9.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Training/target_Auto2.uasset'
+[2016.07.28-22.13.18:453][256]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Training/target_Auto2.uasset
+[2016.07.28-22.13.18:454][256]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Training/Training_Dummie] ([1] browsable assets)...
+[2016.07.28-22.13.18:496][256]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TheDarkAges/Scenes/Camp/Training/Training_Dummie.Training_Dummie]
+[2016.07.28-22.13.18:496][256]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Training/Training_Dummie]
+[2016.07.28-22.13.18:517][256]LogSavePackage: Save=18.32ms
+[2016.07.28-22.13.18:517][256]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Training_Dummie_Auto244487EAA41C480F131D560A2D0BAB30D.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Training/Training_Dummie_Auto2.uasset'
+[2016.07.28-22.13.18:519][256]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Training/Training_Dummie_Auto2.uasset
+[2016.07.28-22.13.18:520][256]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Training/Rope] ([1] browsable assets)...
+[2016.07.28-22.13.18:542][256]OBJ SavePackage:     Rendered thumbnail for [Material /Game/TheDarkAges/Scenes/Camp/Training/Rope.Rope]
+[2016.07.28-22.13.18:543][256]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Training/Rope]
+[2016.07.28-22.13.18:563][256]LogSavePackage: Save=17.74ms
+[2016.07.28-22.13.18:563][256]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Rope_Auto214FC4FDE4BA953474D0B4F95A428294B.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Training/Rope_Auto2.uasset'
+[2016.07.28-22.13.18:566][256]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Training/Rope_Auto2.uasset
+[2016.07.28-22.13.18:566][256]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Training/Wood] ([1] browsable assets)...
+[2016.07.28-22.13.18:589][256]OBJ SavePackage:     Rendered thumbnail for [Material /Game/TheDarkAges/Scenes/Camp/Training/Wood.Wood]
+[2016.07.28-22.13.18:589][256]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Training/Wood]
+[2016.07.28-22.13.18:613][256]LogSavePackage: Save=21.68ms
+[2016.07.28-22.13.18:613][256]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Wood_Auto213BA06B44F70AF59D0819FA3468E3E51.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Training/Wood_Auto2.uasset'
+[2016.07.28-22.13.18:616][256]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Training/Wood_Auto2.uasset
+[2016.07.28-22.13.18:617][256]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Training/Wood2] ([1] browsable assets)...
+[2016.07.28-22.13.18:633][256]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TheDarkAges/Scenes/Camp/Training/Wood2.Wood2]
+[2016.07.28-22.13.18:633][256]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Training/Wood2]
+[2016.07.28-22.13.18:668][256]LogSavePackage: Save=33.26ms
+[2016.07.28-22.13.18:669][256]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Wood2_Auto2461D516440BADB19371AB58EAB4A9D34.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Training/Wood2_Auto2.uasset'
+[2016.07.28-22.13.18:671][256]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Training/Wood2_Auto2.uasset
+[2016.07.28-22.13.18:672][256]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Training/Wood3] ([1] browsable assets)...
+[2016.07.28-22.13.18:689][256]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TheDarkAges/Scenes/Camp/Training/Wood3.Wood3]
+[2016.07.28-22.13.18:689][256]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Training/Wood3]
+[2016.07.28-22.13.18:715][256]LogSavePackage: Save=23.60ms
+[2016.07.28-22.13.18:716][256]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Wood3_Auto2EA221EF4444316E7EBE57EB4BABFDA7A.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Training/Wood3_Auto2.uasset'
+[2016.07.28-22.13.18:718][256]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Training/Wood3_Auto2.uasset
+[2016.07.28-22.13.18:719][256]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Training/Linen2] ([1] browsable assets)...
+[2016.07.28-22.13.18:747][256]OBJ SavePackage:     Rendered thumbnail for [Material /Game/TheDarkAges/Scenes/Camp/Training/Linen2.Linen2]
+[2016.07.28-22.13.18:747][256]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Training/Linen2]
+[2016.07.28-22.13.18:768][256]LogSavePackage: Save=17.37ms
+[2016.07.28-22.13.18:768][256]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Linen2_Auto2C0DFAE3E4877329EF01A2696691AEDE7.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Training/Linen2_Auto2.uasset'
+[2016.07.28-22.13.18:770][256]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Training/Linen2_Auto2.uasset
+[2016.07.28-22.13.18:771][256]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Training/Target2] ([1] browsable assets)...
+[2016.07.28-22.13.18:794][256]OBJ SavePackage:     Rendered thumbnail for [Material /Game/TheDarkAges/Scenes/Camp/Training/Target2.Target2]
+[2016.07.28-22.13.18:794][256]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Training/Target2]
+[2016.07.28-22.13.18:816][256]LogSavePackage: Save=19.77ms
+[2016.07.28-22.13.18:816][256]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Target2_Auto26CB0D4E74D21D696C2EEC3BC707D256B.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Training/Target2_Auto2.uasset'
+[2016.07.28-22.13.18:818][256]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Training/Target2_Auto2.uasset
+[2016.07.28-22.13.18:818][256]LogFileHelpers: Auto-saving content packages took 0.481
+[2016.07.28-22.25.09:125][441]LogSavePackage: Save=2015.45ms
+[2016.07.28-22.25.09:125][441]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/MAPA01D4098F044E98C87939DD0EA50F8674AB.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Maps/MAPA01.umap'
+[2016.07.28-22.25.09:163][441]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Maps/MAPA01.umap
+[2016.07.28-22.25.09:221][441]LogFileHelpers: Saving map 'MAPA01' took 2.521
+[2016.07.28-22.25.09:266][441]LogSavePackage: Save=17.42ms
+[2016.07.28-22.25.09:266][441]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/BedC50FB1A14A881E74E3B6B999D8E7C3D0.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Bed.uasset'
+[2016.07.28-22.25.09:274][441]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Bed.uasset
+[2016.07.28-22.25.09:525][441]LogSavePackage: Save=26.16ms
+[2016.07.28-22.25.09:525][441]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/TentTexture2_Mat8F0EF1474C80459336EEE69DBD091709.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Texture/TentTexture2_Mat.uasset'
+[2016.07.28-22.25.09:533][441]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Texture/TentTexture2_Mat.uasset
+[2016.07.28-22.25.10:070][441]LogSavePackage: Save=514.12ms
+[2016.07.28-22.25.10:070][441]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/LinenEFC5BB1945C3B67277FE56A9F432FABA.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Training/Linen.uasset'
+[2016.07.28-22.25.10:079][441]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Training/Linen.uasset
+[2016.07.28-22.25.10:656][441]LogSavePackage: Save=18.26ms
+[2016.07.28-22.25.10:656][441]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Linen287F2D39244B9C126838989A469AD9368.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Training/Linen2.uasset'
+[2016.07.28-22.25.10:665][441]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Training/Linen2.uasset
+[2016.07.28-22.25.10:968][441]LogSavePackage: Save=17.31ms
+[2016.07.28-22.25.10:968][441]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Rope3C6C063C4E6B663055B91882DDE7E4A2.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Training/Rope.uasset'
+[2016.07.28-22.25.10:978][441]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Training/Rope.uasset
+[2016.07.28-22.25.11:422][441]LogSavePackage: Save=181.63ms
+[2016.07.28-22.25.11:424][441]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/targetB673A3BA47DEBD09D0E738A751B1D9A3.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Training/target.uasset'
+[2016.07.28-22.25.11:433][441]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Training/target.uasset
+[2016.07.28-22.25.11:701][441]LogSavePackage: Save=19.53ms
+[2016.07.28-22.25.11:701][441]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Target2BE71313E4E6113C6B1C1D69DA277EA41.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Training/Target2.uasset'
+[2016.07.28-22.25.11:709][441]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Training/Target2.uasset
+[2016.07.28-22.25.11:975][441]LogSavePackage: Save=18.56ms
+[2016.07.28-22.25.11:975][441]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Training_Dummie3F1AAE944826B6DA5086348275DFA378.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Training/Training_Dummie.uasset'
+[2016.07.28-22.25.11:990][441]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Training/Training_Dummie.uasset
+[2016.07.28-22.25.12:237][441]LogSavePackage: Save=20.39ms
+[2016.07.28-22.25.12:237][441]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Wood443DC1C34095B4D969F18AB5A01FF1B5.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Training/Wood.uasset'
+[2016.07.28-22.25.12:244][441]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Training/Wood.uasset
+[2016.07.28-22.25.12:677][441]LogSavePackage: Save=217.09ms
+[2016.07.28-22.25.12:677][441]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Wood283597BB1442337FA52A5ADAB07F4AB91.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Training/Wood2.uasset'
+[2016.07.28-22.25.12:723][441]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Training/Wood2.uasset
+[2016.07.28-22.25.13:294][441]LogSavePackage: Save=222.47ms
+[2016.07.28-22.25.13:294][441]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Wood360FD9D67474B5F03BC782FA888ABD78E.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Training/Wood3.uasset'
+[2016.07.28-22.25.13:301][441]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Training/Wood3.uasset
+[2016.07.28-22.25.17:408][841]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.12/Engine/Content/: 'C:/Program Files (x86)/Epic Games/4.12/Engine/Content/' is outside repository
+[2016.07.28-22.25.51:989][841]LogSourceControl: FGitCheckInWorker: commit successful
+[2016.07.28-22.25.52:290][841]SourceControl: Info [master 3de78c1] Camp (atualização02)
+[2016.07.28-22.25.52:290][841]SourceControl: Info  12 files changed, 0 insertions(+), 0 deletions(-)
+[2016.07.28-22.25.52:290][841]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Bed.uasset
+[2016.07.28-22.25.52:290][841]SourceControl: Info  rewrite ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Texture/TentTexture2_Mat.uasset (98%)
+[2016.07.28-22.25.52:290][841]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Training/Linen.uasset
+[2016.07.28-22.25.52:290][841]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Training/Linen2.uasset
+[2016.07.28-22.25.52:290][841]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Training/Rope.uasset
+[2016.07.28-22.25.52:290][841]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Training/Target2.uasset
+[2016.07.28-22.25.52:290][841]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Training/Training_Dummie.uasset
+[2016.07.28-22.25.52:290][841]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Training/Wood.uasset
+[2016.07.28-22.25.52:290][841]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Training/Wood2.uasset
+[2016.07.28-22.25.52:290][841]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Training/Wood3.uasset
+[2016.07.28-22.25.52:290][841]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Training/target.uasset
+[2016.07.28-22.25.52:296][841]SourceControl: Info Commited [master 3de78c1] Camp (atualização02).
+[2016.07.28-22.25.57:230][280]Cmd: QUIT_EDITOR
+[2016.07.28-22.25.58:591][280]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.07.28-22.25.58:774][280]LogExit: Preparing to exit.
+[2016.07.28-22.26.00:347][280]LogExit: Editor shut down
+[2016.07.28-22.26.00:349][280]LogExit: Transaction tracking system shut down
+[2016.07.28-22.26.03:389][280]LogObj: Freed 0b from 0 cluster array pools.
+[2016.07.28-22.26.03:389][280]LogExit: Object subsystem successfully closed.
+[2016.07.28-22.26.04:162][280]LogD3D11RHI: Shutdown
+[2016.07.28-22.26.04:169][280]LogD3D11RHI: CleanupD3DDevice
+[2016.07.28-22.26.04:695][280]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.07.28-22.26.05:965][280]LogModuleManager: Shutting down and abandoning module MaterialEditor (219)
+[2016.07.28-22.26.06:028][280]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (218)
+[2016.07.28-22.26.06:028][280]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (217)
+[2016.07.28-22.26.06:029][280]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (216)
+[2016.07.28-22.26.06:029][280]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (215)
+[2016.07.28-22.26.06:034][280]LogModuleManager: Shutting down and abandoning module CrashTracker (214)
+[2016.07.28-22.26.06:034][280]LogModuleManager: Shutting down and abandoning module SceneOutliner (213)
+[2016.07.28-22.26.06:034][280]LogModuleManager: Shutting down and abandoning module WidgetCarousel (212)
+[2016.07.28-22.26.06:053][280]LogModuleManager: Shutting down and abandoning module AddContentDialog (211)
+[2016.07.28-22.26.06:113][280]LogModuleManager: Shutting down and abandoning module GameplayTags (210)
+[2016.07.28-22.26.06:113][280]LogModuleManager: Shutting down and abandoning module EditorWidgets (209)
+[2016.07.28-22.26.06:113][280]LogModuleManager: Shutting down and abandoning module CollectionManager (208)
+[2016.07.28-22.26.06:120][280]LogModuleManager: Shutting down and abandoning module StatsViewer (207)
+[2016.07.28-22.26.06:130][280]LogModuleManager: Shutting down and abandoning module FoliageEdit (206)
+[2016.07.28-22.26.06:137][280]LogModuleManager: Shutting down and abandoning module LandscapeEditor (205)
+[2016.07.28-22.26.06:165][280]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (204)
+[2016.07.28-22.26.06:165][280]LogModuleManager: Shutting down and abandoning module ActorPickerMode (203)
+[2016.07.28-22.26.06:165][280]LogModuleManager: Shutting down and abandoning module GeometryMode (202)
+[2016.07.28-22.26.06:165][280]LogModuleManager: Shutting down and abandoning module TextureAlignMode (201)
+[2016.07.28-22.26.06:165][280]LogModuleManager: Shutting down and abandoning module BspMode (200)
+[2016.07.28-22.26.06:174][280]LogModuleManager: Shutting down and abandoning module HardwareSurvey (199)
+[2016.07.28-22.26.06:180][280]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (198)
+[2016.07.28-22.26.06:180][280]LogModuleManager: Shutting down and abandoning module SequenceRecorder (197)
+[2016.07.28-22.26.06:189][280]LogModuleManager: Shutting down and abandoning module AutomationWorker (196)
+[2016.07.28-22.26.06:189][280]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (195)
+[2016.07.28-22.26.06:202][280]LogModuleManager: Shutting down and abandoning module PlacementMode (194)
+[2016.07.28-22.26.06:209][280]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (193)
+[2016.07.28-22.26.06:233][280]LogModuleManager: Shutting down and abandoning module CharacterAI (192)
+[2016.07.28-22.26.06:234][280]LogModuleManager: Shutting down and abandoning module SmartSnapping (191)
+[2016.07.28-22.26.06:234][280]LogModuleManager: Shutting down and abandoning module SessionServices (190)
+[2016.07.28-22.26.06:234][280]LogModuleManager: Shutting down and abandoning module ViewportSnapping (189)
+[2016.07.28-22.26.06:234][280]LogModuleManager: Shutting down and abandoning module LogVisualizer (188)
+[2016.07.28-22.26.06:247][280]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (187)
+[2016.07.28-22.26.06:264][280]LogModuleManager: Shutting down and abandoning module IntroTutorials (186)
+[2016.07.28-22.26.06:273][280]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (185)
+[2016.07.28-22.26.06:274][280]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (184)
+[2016.07.28-22.26.06:282][280]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (183)
+[2016.07.28-22.26.06:282][280]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (182)
+[2016.07.28-22.26.06:847][280]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (181)
+[2016.07.28-22.26.06:860][280]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (180)
+[2016.07.28-22.26.06:860][280]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (179)
+[2016.07.28-22.26.06:860][280]LogModuleManager: Shutting down and abandoning module MergeActors (178)
+[2016.07.28-22.26.06:869][280]LogModuleManager: Shutting down and abandoning module SizeMap (177)
+[2016.07.28-22.26.06:869][280]LogModuleManager: Shutting down and abandoning module TreeMap (176)
+[2016.07.28-22.26.06:894][280]LogModuleManager: Shutting down and abandoning module ReferenceViewer (175)
+[2016.07.28-22.26.06:900][280]LogModuleManager: Shutting down and abandoning module LocalizationService (174)
+[2016.07.28-22.26.06:907][280]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (173)
+[2016.07.28-22.26.06:913][280]LogModuleManager: Shutting down and abandoning module HardwareTargeting (172)
+[2016.07.28-22.26.06:919][280]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (171)
+[2016.07.28-22.26.06:930][280]LogModuleManager: Shutting down and abandoning module UndoHistory (170)
+[2016.07.28-22.26.06:936][280]LogModuleManager: Shutting down and abandoning module UserFeedback (169)
+[2016.07.28-22.26.06:936][280]LogModuleManager: Shutting down and abandoning module XmlParser (168)
+[2016.07.28-22.26.06:947][280]LogModuleManager: Shutting down and abandoning module Blutility (167)
+[2016.07.28-22.26.06:952][280]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (166)
+[2016.07.28-22.26.06:963][280]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (165)
+[2016.07.28-22.26.06:963][280]LogModuleManager: Shutting down and abandoning module InputBindingEditor (164)
+[2016.07.28-22.26.06:974][280]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (163)
+[2016.07.28-22.26.06:974][280]LogModuleManager: Shutting down and abandoning module SettingsEditor (162)
+[2016.07.28-22.26.06:974][280]LogModuleManager: Shutting down and abandoning module ProjectLauncher (161)
+[2016.07.28-22.26.06:993][280]LogModuleManager: Shutting down and abandoning module SessionFrontend (160)
+[2016.07.28-22.26.07:004][280]LogModuleManager: Shutting down and abandoning module ProfilerClient (159)
+[2016.07.28-22.26.07:013][280]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (158)
+[2016.07.28-22.26.07:013][280]LogModuleManager: Shutting down and abandoning module DeviceManager (157)
+[2016.07.28-22.26.07:064][280]LogModuleManager: Shutting down and abandoning module AutomationController (156)
+[2016.07.28-22.26.07:077][280]LogModuleManager: Shutting down and abandoning module AutomationWindow (155)
+[2016.07.28-22.26.07:095][280]LogModuleManager: Shutting down and abandoning module Layers (154)
+[2016.07.28-22.26.07:106][280]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (153)
+[2016.07.28-22.26.07:106][280]LogModuleManager: Shutting down and abandoning module DetailCustomizations (152)
+[2016.07.28-22.26.07:110][280]LogModuleManager: Shutting down and abandoning module PackagesDialog (151)
+[2016.07.28-22.26.07:110][280]LogModuleManager: Shutting down and abandoning module Persona (150)
+[2016.07.28-22.26.07:135][280]LogModuleManager: Shutting down and abandoning module Kismet (149)
+[2016.07.28-22.26.07:139][280]LogModuleManager: Shutting down and abandoning module GraphEditor (148)
+[2016.07.28-22.26.07:139][280]LogModuleManager: Shutting down and abandoning module ClassViewer (147)
+[2016.07.28-22.26.07:148][280]LogModuleManager: Shutting down and abandoning module Toolbox (146)
+[2016.07.28-22.26.07:154][280]LogModuleManager: Shutting down and abandoning module ModuleUI (145)
+[2016.07.28-22.26.07:163][280]LogModuleManager: Shutting down and abandoning module MovieSceneTools (144)
+[2016.07.28-22.26.07:184][280]LogModuleManager: Shutting down and abandoning module OutputLog (143)
+[2016.07.28-22.26.07:192][280]LogModuleManager: Shutting down and abandoning module GammaUI (142)
+[2016.07.28-22.26.07:211][280]LogModuleManager: Shutting down and abandoning module Documentation (141)
+[2016.07.28-22.26.07:211][280]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (140)
+[2016.07.28-22.26.07:211][280]LogModuleManager: Shutting down and abandoning module AnalyticsET (139)
+[2016.07.28-22.26.07:211][280]LogModuleManager: Shutting down and abandoning module Analytics (138)
+[2016.07.28-22.26.07:211][280]LogModuleManager: Shutting down and abandoning module PortalServices (137)
+[2016.07.28-22.26.07:211][280]LogModuleManager: Shutting down and abandoning module PortalRpc (136)
+[2016.07.28-22.26.07:211][280]LogModuleManager: Shutting down and abandoning module MessagingRpc (135)
+[2016.07.28-22.26.07:211][280]LogModuleManager: Shutting down and abandoning module GameplayDebugger (134)
+[2016.07.28-22.26.07:211][280]LogModuleManager: Shutting down and abandoning module AITestSuite (133)
+[2016.07.28-22.26.07:222][280]LogModuleManager: Shutting down and abandoning module AIModule (132)
+[2016.07.28-22.26.07:222][280]LogModuleManager: Shutting down and abandoning module ProfilerService (131)
+[2016.07.28-22.26.07:234][280]LogModuleManager: Shutting down and abandoning module TaskGraph (130)
+[2016.07.28-22.26.07:246][280]LogModuleManager: Shutting down and abandoning module SlateRemote (129)
+[2016.07.28-22.26.07:246][280]LogModuleManager: Shutting down and abandoning module SteamVRController (128)
+[2016.07.28-22.26.07:246][280]LogModuleManager: Shutting down and abandoning module SteamVR (127)
+[2016.07.28-22.26.07:246][280]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (126)
+[2016.07.28-22.26.07:246][280]LogModuleManager: Shutting down and abandoning module OculusLibrary (125)
+[2016.07.28-22.26.07:246][280]LogModuleManager: Shutting down and abandoning module OculusInput (124)
+[2016.07.28-22.26.07:246][280]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (123)
+[2016.07.28-22.26.07:246][280]LogModuleManager: Shutting down and abandoning module CableComponent (122)
+[2016.07.28-22.26.07:246][280]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (121)
+[2016.07.28-22.26.07:246][280]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (120)
+[2016.07.28-22.26.07:257][280]LogModuleManager: Shutting down and abandoning module VaRestEditorPlugin (119)
+[2016.07.28-22.26.07:257][280]LogModuleManager: Shutting down and abandoning module HTML5Networking (118)
+[2016.07.28-22.26.07:257][280]LogModuleManager: Shutting down and abandoning module SuperSearch (117)
+[2016.07.28-22.26.07:257][280]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (116)
+[2016.07.28-22.26.07:258][280]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (115)
+[2016.07.28-22.26.07:258][280]LogModuleManager: Shutting down and abandoning module PluginBrowser (114)
+[2016.07.28-22.26.07:265][280]LogModuleManager: Shutting down and abandoning module EpicSurvey (113)
+[2016.07.28-22.26.07:272][280]LogModuleManager: Shutting down and abandoning module DesktopPlatform (112)
+[2016.07.28-22.26.07:285][280]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (111)
+[2016.07.28-22.26.07:298][280]LogModuleManager: Shutting down and abandoning module UObjectPlugin (110)
+[2016.07.28-22.26.07:298][280]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (109)
+[2016.07.28-22.26.07:306][280]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (108)
+[2016.07.28-22.26.07:314][280]LogModuleManager: Shutting down and abandoning module SourceControl (107)
+[2016.07.28-22.26.07:323][280]LogModuleManager: Shutting down and abandoning module GitSourceControl (106)
+[2016.07.28-22.26.07:323][280]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (105)
+[2016.07.28-22.26.07:323][280]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (104)
+[2016.07.28-22.26.07:328][280]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (103)
+[2016.07.28-22.26.07:328][280]LogModuleManager: Shutting down and abandoning module MeshPaint (102)
+[2016.07.28-22.26.07:333][280]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (101)
+[2016.07.28-22.26.07:377][280]LogModuleManager: Shutting down and abandoning module HotReload (100)
+[2016.07.28-22.26.07:398][280]LogModuleManager: Shutting down and abandoning module MainFrame (99)
+[2016.07.28-22.26.07:402][280]LogModuleManager: Shutting down and abandoning module LevelEditor (98)
+[2016.07.28-22.26.07:412][280]LogModuleManager: Shutting down and abandoning module ContentBrowser (97)
+[2016.07.28-22.26.07:414][280]LogModuleManager: Shutting down and abandoning module Paper2DEditor (96)
+[2016.07.28-22.26.07:423][280]LogModuleManager: Shutting down and abandoning module UdpMessaging (95)
+[2016.07.28-22.26.07:524][280]LogModuleManager: Shutting down and abandoning module VaRestPlugin (94)
+[2016.07.28-22.26.07:524][280]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.07.28-22.26.07:524][280]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.07.28-22.26.07:533][280]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.07.28-22.26.07:533][280]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.07.28-22.26.07:533][280]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.07.28-22.26.07:538][280]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.07.28-22.26.07:538][280]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.07.28-22.26.07:545][280]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.07.28-22.26.07:545][280]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.07.28-22.26.07:545][280]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.07.28-22.26.07:555][280]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.07.28-22.26.07:555][280]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.07.28-22.26.07:555][280]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.07.28-22.26.07:582][280]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.07.28-22.26.07:582][280]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.07.28-22.26.07:599][280]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.07.28-22.26.07:623][280]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.07.28-22.26.07:623][280]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.07.28-22.26.07:623][280]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.07.28-22.26.07:636][280]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.07.28-22.26.07:664][280]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.07.28-22.26.07:685][280]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.07.28-22.26.07:708][280]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.07.28-22.26.07:708][280]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.07.28-22.26.07:714][280]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.07.28-22.26.07:714][280]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.07.28-22.26.07:714][280]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.07.28-22.26.07:714][280]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.07.28-22.26.07:714][280]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.07.28-22.26.07:714][280]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.07.28-22.26.07:722][280]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.07.28-22.26.08:041][280]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.07.28-22.26.08:041][280]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.07.28-22.26.08:041][280]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.07.28-22.26.08:050][280]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.07.28-22.26.08:079][280]LogDerivedDataCache: Shutdown
+[2016.07.28-22.26.08:080][280]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.07.28-22.26.08:086][280]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.07.28-22.26.08:098][280]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.07.28-22.26.08:104][280]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.07.28-22.26.08:115][280]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.07.28-22.26.08:115][280]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.07.28-22.26.08:122][280]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.07.28-22.26.08:123][280]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.07.28-22.26.08:123][280]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.07.28-22.26.08:123][280]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.07.28-22.26.08:123][280]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.07.28-22.26.08:123][280]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.07.28-22.26.08:132][280]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.07.28-22.26.08:142][280]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.07.28-22.26.08:143][280]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.07.28-22.26.08:143][280]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.07.28-22.26.08:156][280]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.07.28-22.26.08:159][280]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.07.28-22.26.08:159][280]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.07.28-22.26.08:159][280]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.07.28-22.26.08:159][280]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.07.28-22.26.08:159][280]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.07.28-22.26.08:159][280]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.07.28-22.26.08:159][280]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.07.28-22.26.08:159][280]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.07.28-22.26.08:159][280]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.07.28-22.26.08:159][280]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.07.28-22.26.08:159][280]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.07.28-22.26.08:159][280]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.07.28-22.26.08:159][280]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.07.28-22.26.08:159][280]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.07.28-22.26.08:164][280]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.07.28-22.26.08:169][280]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.07.28-22.26.08:181][280]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.07.28-22.26.08:181][280]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.07.28-22.26.08:188][280]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.07.28-22.26.08:188][280]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.07.28-22.26.08:192][280]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.07.28-22.26.08:192][280]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.07.28-22.26.11:199][280]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.07.28-22.26.11:209][280]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.07.28-22.26.11:221][280]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.07.28-22.26.11:221][280]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.07.28-22.26.11:233][280]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.07.28-22.26.11:233][280]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.07.28-22.26.11:233][280]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.07.28-22.26.11:264][280]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.07.28-22.26.11:271][280]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.07.28-22.26.11:272][280]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.07.28-22.26.11:278][280]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.07.28-22.26.11:278][280]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.07.28-22.26.11:278][280]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.07.28-22.26.11:278][280]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.07.28-22.26.11:292][280]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.07.28-22.26.11:302][280]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.07.28-22.26.11:309][280]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.07.28-22.26.11:342][280]LogExit: Exiting.
+[2016.07.28-22.26.11:395][280]Log file closed, 07/28/16 19:26:11
