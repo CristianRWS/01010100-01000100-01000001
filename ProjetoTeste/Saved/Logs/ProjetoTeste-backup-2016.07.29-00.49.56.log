@@ -1,0 +1,941 @@
+﻿Log file open, 07/28/16 20:42:11
+LogInit:Display: Running engine for game: ProjetoTeste
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-2084640172) SRandInit(-2084640171).
+LogTaskGraph: Started task graph with 4 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.151646
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.07.28-23.42.12:080][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.28-23.42.12:080][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.07.28-23.42.12:110][  0]LogInit: Computer: DESKTOP-63GHF8H
+[2016.07.28-23.42.12:110][  0]LogInit: User: DiegoBA
+[2016.07.28-23.42.12:110][  0]LogInit: CPU Page size=65536, Cores=3
+[2016.07.28-23.42.12:110][  0]LogInit: High frequency timer resolution =3.237190 MHz
+[2016.07.28-23.42.12:110][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx)
+[2016.07.28-23.42.12:110][  0]LogMemory: Platform Memory Stats for Windows
+[2016.07.28-23.42.12:110][  0]LogMemory: Process Physical Memory: 189.86 MB used, 189.86 MB peak
+[2016.07.28-23.42.12:110][  0]LogMemory: Process Virtual Memory: 194.82 MB used, 194.82 MB peak
+[2016.07.28-23.42.12:110][  0]LogMemory: Physical Memory: 2442.56 MB used, 4078.11 MB total
+[2016.07.28-23.42.12:110][  0]LogMemory: Virtual Memory: 548.48 MB used, 134217728.00 MB total
+[2016.07.28-23.42.12:556][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.07.28-23.42.13:386][  0]LogD3D11RHI: D3D11 adapters:
+[2016.07.28-23.42.13:403][  0]LogD3D11RHI:    0. 'AMD Radeon R7 200 Series' (Feature Level 11_0)
+[2016.07.28-23.42.13:403][  0]LogD3D11RHI:       2026/0/2039 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2016.07.28-23.42.13:405][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.07.28-23.42.13:405][  0]LogD3D11RHI:       0/0/2039 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.07.28-23.42.13:405][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.07.28-23.42.13:411][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.07.28-23.42.13:411][  0]LogD3D11RHI:     GPU DeviceId: 0x6658 (for the marketing name, search the web for "GPU Device Id")
+[2016.07.28-23.42.13:411][  0]LogWindows: EnumDisplayDevices:
+[2016.07.28-23.42.13:411][  0]LogWindows:    0. 'AMD Radeon R7 200 Series' (P:1 D:1)
+[2016.07.28-23.42.13:411][  0]LogWindows:    1. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2016.07.28-23.42.13:412][  0]LogWindows:    2. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2016.07.28-23.42.13:412][  0]LogWindows:    3. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2016.07.28-23.42.13:412][  0]LogWindows:    4. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2016.07.28-23.42.13:413][  0]LogWindows:    5. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2016.07.28-23.42.13:413][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2016.07.28-23.42.13:413][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R7 200 Series
+[2016.07.28-23.42.13:413][  0]LogD3D11RHI:   Driver Version: Crimson 16.3.2 (internal:16.150.2211.0, unified:16.150.2211.0)
+[2016.07.28-23.42.13:413][  0]LogD3D11RHI:      Driver Date: 3-21-2016
+[2016.07.28-23.42.13:413][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.07.28-23.42.13:422][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.07.28-23.42.13:435][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2016.07.28-23.42.13:436][  0]LogShaderCompilers: Guid format shader working directory is -40 characters bigger than the processId version (../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Intermediate/Shaders/WorkingDirectory/5140/).
+[2016.07.28-23.42.13:436][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/DIEGOB~1/AppData/Local/Temp/UnrealShaderWorkingDir/5C102C3046A66714F2E3A8A252D7BEA6/'.
+[2016.07.28-23.42.13:436][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.07.28-23.42.16:066][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.07.28-23.42.16:080][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.07.28-23.42.16:094][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.07.28-23.42.16:109][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.07.28-23.42.16:122][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.07.28-23.42.16:138][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.07.28-23.42.16:150][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.07.28-23.42.16:162][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.07.28-23.42.16:174][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.07.28-23.42.16:187][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.07.28-23.42.16:199][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.07.28-23.42.16:223][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.07.28-23.42.16:224][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.07.28-23.42.16:224][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.07.28-23.42.16:306][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.07.28-23.42.16:317][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.07.28-23.42.16:330][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.07.28-23.42.16:345][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.07.28-23.42.16:371][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.07.28-23.42.16:372][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.07.28-23.42.17:136][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.07.28-23.42.17:615][  0]LogDerivedDataCache: Loaded boot cache 0.48s 48MB C:/Users/Diego BA/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.07.28-23.42.17:616][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Diego BA/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.07.28-23.42.17:616][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.07.28-23.42.17:616][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.07.28-23.42.17:616][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.07.28-23.42.17:616][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.07.28-23.42.17:657][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.07.28-23.42.17:670][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Diego BA/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.07.28-23.42.24:566][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.28-23.42.24:567][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.07.28-23.42.24:830][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.07.28-23.42.24:830][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.07.28-23.42.24:830][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.07.28-23.42.25:353][  0]LogAssetRegistry: FAssetRegistry took 0.0213 seconds to start up
+[2016.07.28-23.42.25:456][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.095965 seconds
+[2016.07.28-23.42.25:470][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.07.28-23.42.25:470][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
+[2016.07.28-23.42.25:470][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.07.28-23.42.25:485][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.07.28-23.42.25:982][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.07.28-23.42.25:982][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.07.28-23.42.37:721][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.07.28-23.42.38:101][  0]SourceControl: Info Source control is disabled
+[2016.07.28-23.42.39:371][  0]LogEngine: Initializing Engine...
+[2016.07.28-23.42.39:433][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.07.28-23.42.39:434][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.07.28-23.42.39:669][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.07.28-23.42.39:681][  0]LogInit: XAudio2 using 'Alto-falantes (Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.28-23.42.39:694][  0]LogInit: FAudioDevice initialized.
+[2016.07.28-23.42.39:768][  0]LogDerivedDataCache: Saved boot cache 0.07s 48MB C:/Users/Diego BA/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.07.28-23.42.39:793][  0]LogInit: Texture streaming: Enabled
+[2016.07.28-23.42.39:829][  0]LogInit: Transaction tracking system initialized
+[2016.07.28-23.42.39:864][  0]BlueprintLog: New page: Editor Load
+[2016.07.28-23.42.40:106][  0]LocalizationService: Info Localization service is disabled
+[2016.07.28-23.42.40:286][  0]LogConsoleResponse:Display: 
+[2016.07.28-23.42.40:822][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.07.28-23.42.40:822][  0]LogCook:Display: Mobile HDR setting 1
+[2016.07.28-23.42.40:916][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/' took 0.02s
+[2016.07.28-23.42.41:568][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.07.28-23.42.41:603][  0]LightingResults: New page: Lighting Build
+[2016.07.28-23.42.41:608][  0]MapCheck: New page: Map Check
+[2016.07.28-23.42.41:608][  0]LightingResults: New page: Lighting Build
+[2016.07.28-23.42.42:087][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.07.28-23.42.42:302][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.07.28-23.42.42:354][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.07.28-23.42.42:423][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 68.608ms to complete.
+[2016.07.28-23.42.42:423][  0]LogFileHelpers: Loading map 'Template_Default' took 0.856
+[2016.07.28-23.42.42:532][  0]LogCollectionManager: Loaded 0 collections in 0.002473 seconds
+[2016.07.28-23.42.42:575][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Collections/' took 0.01s
+[2016.07.28-23.42.42:575][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/Developers/DiegoBA/Collections/' took 0.01s
+[2016.07.28-23.42.42:575][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/Collections/' took 0.01s
+[2016.07.28-23.42.42:575][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2016.07.28-23.42.42:591][  0]LogContentBrowser: Native class hierarchy populated in 0.0154 seconds. Added 2051 classes and 375 folders.
+[2016.07.28-23.42.42:596][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.07.28-23.42.42:596][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.07.28-23.42.42:597][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 12 classes and 0 folders.
+[2016.07.28-23.42.42:604][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.07.28-23.42.43:708][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2016.07.28-23.42.43:868][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.07.28-23.42.43:890][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.07.28-23.42.43:896][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.07.28-23.42.43:925][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.07.28-23.42.43:925][  0]LogLoad: Full Startup: 35.05 seconds (BP compile: 0.13 seconds)
+[2016.07.28-23.42.43:925][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.07.28-23.42.44:264][  0]LogOcInput: OculusInput pre-init called
+[2016.07.28-23.42.44:297][  0]SourceControl: Info On branch master
+[2016.07.28-23.42.44:297][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2016.07.28-23.42.44:297][  0]SourceControl: Info Changes not staged for commit:
+[2016.07.28-23.42.44:297][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2016.07.28-23.42.44:297][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.07.28-23.42.44:297][  0]SourceControl: Info 	modified:   ProjetoTeste/Intermediate/CachedAssetRegistry.bin
+[2016.07.28-23.42.44:297][  0]SourceControl: Info 	modified:   ProjetoTeste/Saved/Autosaves/PackageRestoreData.json
+[2016.07.28-23.42.44:297][  0]SourceControl: Info 	deleted:    ProjetoTeste/Saved/Logs/ProjetoTeste-backup-2016.07.23-21.24.59.log
+[2016.07.28-23.42.44:297][  0]SourceControl: Info 	modified:   ProjetoTeste/Saved/Logs/ProjetoTeste.log
+[2016.07.28-23.42.44:297][  0]SourceControl: Info Untracked files:
+[2016.07.28-23.42.44:297][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2016.07.28-23.42.44:297][  0]SourceControl: Info 	ProjetoTeste/Saved/Logs/ProjetoTeste-backup-2016.07.28-20.42.11.log
+[2016.07.28-23.42.44:297][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2016.07.28-23.42.44:297][  0]LogContentStreaming: Texture pool size now 700 MB
+[2016.07.28-23.42.44:727][  0]LogRenderer: Reallocating scene render targets to support 632x744 (Frame:2).
+[2016.07.28-23.42.45:788][  3]LogAssetRegistry: Asset discovery search completed in 20.4559 seconds
+[2016.07.28-23.42.45:788][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.07.28-23.42.45:788][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2016.07.28-23.44.11:661][866]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_AnimBP'
+[2016.07.28-23.44.11:661][866]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_AnimBP' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2016.07.28-23.44.11:661][866]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter : Can't find file for asset. /Game/Mannequin/Animations/ThirdPerson_AnimBP
+[2016.07.28-23.44.11:664][866]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_AnimBP'
+[2016.07.28-23.44.11:664][866]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_AnimBP' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2016.07.28-23.44.11:665][866]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin'
+[2016.07.28-23.44.11:665][866]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2016.07.28-23.44.11:665][866]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter : Can't find file for asset. /Game/Mannequin/Character/Mesh/SK_Mannequin
+[2016.07.28-23.44.11:665][866]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin'
+[2016.07.28-23.44.11:665][866]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2016.07.28-23.44.11:668][866]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_AnimBP'
+[2016.07.28-23.44.11:668][866]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_AnimBP' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset.
+[2016.07.28-23.44.11:668][866]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode : Can't find file for asset. /Game/Mannequin/Animations/ThirdPerson_AnimBP
+[2016.07.28-23.44.11:668][866]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_AnimBP'
+[2016.07.28-23.44.11:668][866]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_AnimBP' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset.
+[2016.07.28-23.44.11:669][866]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin'
+[2016.07.28-23.44.11:669][866]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset.
+[2016.07.28-23.44.11:669][866]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode : Can't find file for asset. /Game/Mannequin/Character/Mesh/SK_Mannequin
+[2016.07.28-23.44.11:669][866]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin'
+[2016.07.28-23.44.11:669][866]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset.
+[2016.07.28-23.44.11:670][866]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_AnimBP'
+[2016.07.28-23.44.11:670][866]LoadErrors: Info Failed to load /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C Referenced by Default__ThirdPersonCharacter_C
+[2016.07.28-23.44.11:671][866]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_AnimBP' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset.
+[2016.07.28-23.44.11:671][866]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_AnimBP'
+[2016.07.28-23.44.11:671][866]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_AnimBP' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset.
+[2016.07.28-23.44.11:671][866]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin'
+[2016.07.28-23.44.11:671][866]LoadErrors: Info Failed to load /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin Referenced by Default__ThirdPersonCharacter_C
+[2016.07.28-23.44.11:671][866]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset.
+[2016.07.28-23.44.11:705][866]LogBlueprint:Warning: Compiler Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR 
+[2016.07.28-23.44.11:711][866]LogBlueprint:Warning: Compiler Warning [0122.83] Compile of ThirdPersonCharacter successful, but with 1 Warning(s) [in 14 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2016.07.28-23.44.11:711][866]LogBlueprint:Warning: Compiler Warning [0122.83] Compile of ThirdPersonCharacter successful, but with 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2016.07.28-23.44.11:711][866]LogBlueprint:Warning: Compiler Warning [0122.83] Compile of ThirdPersonCharacter successful, but with 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2016.07.28-23.44.11:723][866]LogBlueprint:Warning: Compiler Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR 
+[2016.07.28-23.44.11:728][866]LogBlueprint:Warning: Compiler Warning [0122.85] Compile of ThirdPersonCharacter successful, but with 1 Warning(s) [in 13 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2016.07.28-23.44.11:728][866]LogBlueprint:Warning: Compiler Warning [0122.85] Compile of ThirdPersonCharacter successful, but with 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2016.07.28-23.44.11:728][866]LogBlueprint:Warning: Compiler Warning [0122.85] Compile of ThirdPersonCharacter successful, but with 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2016.07.28-23.44.18:292][866]LogAIModule: Creating AISystem for world MAPA01
+[2016.07.28-23.44.18:405][866]Cmd: MAP LOAD FILE="../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Maps/MAPA01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.07.28-23.44.18:406][866]LightingResults: New page: Lighting Build
+[2016.07.28-23.44.18:407][866]LoadErrors: New page: Loading map: MAPA01.umap
+[2016.07.28-23.44.18:415][866]MapCheck: New page: Map Check
+[2016.07.28-23.44.18:415][866]LightingResults: New page: Lighting Build
+[2016.07.28-23.44.20:847][866]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.07.28-23.44.20:921][866]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.07.28-23.44.21:009][866]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 88.593ms to complete.
+[2016.07.28-23.44.21:009][866]LogFileHelpers: Loading map 'MAPA01' took 2.605
+[2016.07.28-23.44.21:094][867]Cmd: UpdateLandscapeEditorData -warnings
+[2016.07.28-23.44.21:229][867]Cmd: UpdateLandscapeEditorData
+[2016.07.28-23.44.39:381][855]LogRenderer: Reallocating scene render targets to support 656x744 (Frame:2179).
+[2016.07.28-23.44.39:467][856]LogRenderer: Reallocating scene render targets to support 668x744 (Frame:2181).
+[2016.07.28-23.44.39:532][857]LogRenderer: Reallocating scene render targets to support 728x744 (Frame:2183).
+[2016.07.28-23.44.39:599][858]LogRenderer: Reallocating scene render targets to support 732x744 (Frame:2185).
+[2016.07.28-23.44.40:107][909]LogRenderer: Reallocating scene render targets to support 744x744 (Frame:2189).
+[2016.07.28-23.45.06:133][436]SourceControl:Error: Error fatal: Could not switch to '/Script/': No such file or directory
+[2016.07.28-23.45.24:355][728]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2016.07.28-23.45.44:545][157]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2016.07.28-23.45.44:635][157]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2016.07.28-23.45.44:714][157]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2016.07.28-23.45.44:780][157]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2016.07.28-23.45.44:829][157]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2016.07.28-23.45.44:865][157]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2016.07.28-23.47.06:880][354]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda4)
+[2016.07.28-23.47.07:396][379]Cmd: DELETE
+[2016.07.28-23.47.07:396][379]Cmd: ACTOR DELETE
+[2016.07.28-23.47.07:403][379]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.28-23.47.07:505][379]LogEditorActor: Deleted 1 Actors (0.107 secs)
+[2016.07.28-23.47.07:996][412]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda3)
+[2016.07.28-23.47.08:147][420]Cmd: DELETE
+[2016.07.28-23.47.08:147][420]Cmd: ACTOR DELETE
+[2016.07.28-23.47.08:148][420]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.28-23.47.08:173][420]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2016.07.28-23.47.08:645][453]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril3)
+[2016.07.28-23.47.08:812][461]Cmd: DELETE
+[2016.07.28-23.47.08:812][461]Cmd: ACTOR DELETE
+[2016.07.28-23.47.08:813][461]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.28-23.47.08:831][461]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.07.28-23.47.09:375][498]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.07.28-23.47.09:504][504]Cmd: DELETE
+[2016.07.28-23.47.09:504][504]Cmd: ACTOR DELETE
+[2016.07.28-23.47.09:505][504]LogEditorActor: Deleted Actor: Landscape
+[2016.07.28-23.47.09:687][504]LogEditorActor: Deleted 1 Actors (0.183 secs)
+[2016.07.28-23.47.09:696][505]Cmd: UpdateLandscapeEditorData
+[2016.07.28-23.47.09:917][525]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.07.28-23.47.11:511][659]Cmd: TRANSACTION UNDO
+[2016.07.28-23.47.11:526][659]LogEditorTransaction: Undo Clicking on Actors
+[2016.07.28-23.47.12:670][751]Cmd: TRANSACTION UNDO
+[2016.07.28-23.47.12:670][751]LogEditorTransaction: Undo Delete Actors
+[2016.07.28-23.47.12:766][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:829][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:829][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:829][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:829][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:830][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:830][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:830][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:830][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:831][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:831][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:831][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:831][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:832][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:832][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:832][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:832][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:833][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:833][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:833][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:833][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:834][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:834][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:834][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:834][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:835][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:835][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:835][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:835][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:836][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:836][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:836][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:837][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:837][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:837][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:837][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:838][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:838][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:838][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:838][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:839][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:839][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:839][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:839][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:853][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:853][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:854][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:854][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:854][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:854][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:855][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:855][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:855][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:856][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:856][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:856][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:856][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:857][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:857][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:857][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:857][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:858][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:863][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.12:864][751]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.47.13:459][752]Cmd: UpdateLandscapeEditorData
+[2016.07.28-23.47.13:533][754]Cmd: TRANSACTION UNDO
+[2016.07.28-23.47.13:533][754]LogEditorTransaction: Undo Clicking on Actors
+[2016.07.28-23.47.17:614][ 39]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pira)
+[2016.07.28-23.47.18:444][105]Cmd: DELETE
+[2016.07.28-23.47.18:444][105]Cmd: ACTOR DELETE
+[2016.07.28-23.47.18:444][105]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.28-23.47.18:470][105]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2016.07.28-23.47.18:987][150]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Apple-Barril2)
+[2016.07.28-23.47.19:130][157]Cmd: DELETE
+[2016.07.28-23.47.19:130][157]Cmd: ACTOR DELETE
+[2016.07.28-23.47.19:131][157]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.28-23.47.19:148][157]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.07.28-23.47.19:830][218]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Apple-Barril)
+[2016.07.28-23.47.20:334][257]Cmd: DELETE
+[2016.07.28-23.47.20:334][257]Cmd: ACTOR DELETE
+[2016.07.28-23.47.20:334][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.28-23.47.20:353][257]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.07.28-23.47.20:828][301]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril5)
+[2016.07.28-23.47.20:969][310]Cmd: DELETE
+[2016.07.28-23.47.20:969][310]Cmd: ACTOR DELETE
+[2016.07.28-23.47.20:970][310]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.28-23.47.20:989][310]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.07.28-23.47.21:604][367]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril4)
+[2016.07.28-23.47.21:734][375]Cmd: DELETE
+[2016.07.28-23.47.21:734][375]Cmd: ACTOR DELETE
+[2016.07.28-23.47.21:735][375]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.28-23.47.21:752][375]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2016.07.28-23.47.22:308][427]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril)
+[2016.07.28-23.47.22:489][440]Cmd: DELETE
+[2016.07.28-23.47.22:489][440]Cmd: ACTOR DELETE
+[2016.07.28-23.47.22:490][440]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.28-23.47.22:507][440]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.07.28-23.47.23:438][527]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril6)
+[2016.07.28-23.47.23:686][545]Cmd: DELETE
+[2016.07.28-23.47.23:686][545]Cmd: ACTOR DELETE
+[2016.07.28-23.47.23:687][545]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.28-23.47.23:706][545]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2016.07.28-23.47.28:958][916]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (campfire)
+[2016.07.28-23.47.29:943][978]Cmd: DELETE
+[2016.07.28-23.47.29:943][978]Cmd: ACTOR DELETE
+[2016.07.28-23.47.29:944][978]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.28-23.47.29:962][978]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.07.28-23.47.37:142][566]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Tenda-grande)
+[2016.07.28-23.47.38:148][663]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda-grande)
+[2016.07.28-23.47.38:511][695]Cmd: DELETE
+[2016.07.28-23.47.38:511][695]Cmd: ACTOR DELETE
+[2016.07.28-23.47.38:512][695]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.28-23.47.38:530][695]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.07.28-23.47.43:964][229]Cmd: TRANSACTION UNDO
+[2016.07.28-23.47.43:964][229]LogEditorTransaction: Undo Delete Actors
+[2016.07.28-23.47.46:998][489]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.07.28-23.47.47:797][551]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca2)
+[2016.07.28-23.48.24:589][379]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.07.28-23.48.25:069][405]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca5)
+[2016.07.28-23.48.26:913][530]Cmd: DELETE
+[2016.07.28-23.48.26:913][530]Cmd: ACTOR DELETE
+[2016.07.28-23.48.26:914][530]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.28-23.48.26:933][530]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.07.28-23.48.32:280][946]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca2)
+[2016.07.28-23.48.35:274][174]LogTexture:Display: Building textures: Texture2D_32 (BGRA8)
+[2016.07.28-23.48.53:717][843]Cmd: TRANSACTION UNDO
+[2016.07.28-23.48.53:717][843]LogEditorTransaction: Undo Move Actors
+[2016.07.28-23.49.44:550][  0]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca5)
+[2016.07.28-23.50.50:267][651]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca5)
+[2016.07.28-23.50.53:041][893]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca11)
+[2016.07.28-23.51.04:004][835]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca5)
+[2016.07.28-23.51.07:233][109]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca7)
+[2016.07.28-23.51.08:108][184]Cmd: DELETE
+[2016.07.28-23.51.08:108][184]Cmd: ACTOR DELETE
+[2016.07.28-23.51.08:109][184]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.28-23.51.08:150][184]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2016.07.28-23.51.08:765][242]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca6)
+[2016.07.28-23.51.09:015][261]Cmd: DELETE
+[2016.07.28-23.51.09:015][261]Cmd: ACTOR DELETE
+[2016.07.28-23.51.09:016][261]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.28-23.51.09:035][261]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.28-23.51.11:183][434]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca10)
+[2016.07.28-23.51.12:930][565]Cmd: DELETE
+[2016.07.28-23.51.12:930][565]Cmd: ACTOR DELETE
+[2016.07.28-23.51.12:931][565]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.28-23.51.12:950][565]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.07.28-23.51.13:495][608]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca9)
+[2016.07.28-23.51.13:894][636]Cmd: DELETE
+[2016.07.28-23.51.13:894][636]Cmd: ACTOR DELETE
+[2016.07.28-23.51.13:895][636]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.28-23.51.13:913][636]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.07.28-23.51.14:335][670]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca8)
+[2016.07.28-23.51.14:484][676]Cmd: DELETE
+[2016.07.28-23.51.14:484][676]Cmd: ACTOR DELETE
+[2016.07.28-23.51.14:485][676]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.28-23.51.14:503][676]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2016.07.28-23.51.18:270][976]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca4)
+[2016.07.28-23.51.19:404][ 64]Cmd: DELETE
+[2016.07.28-23.51.19:404][ 64]Cmd: ACTOR DELETE
+[2016.07.28-23.51.19:405][ 64]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.28-23.51.19:423][ 64]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.07.28-23.51.19:830][101]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca12)
+[2016.07.28-23.51.20:243][133]Cmd: DELETE
+[2016.07.28-23.51.20:243][133]Cmd: ACTOR DELETE
+[2016.07.28-23.51.20:245][133]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.28-23.51.20:262][133]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.07.28-23.51.33:998][648]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda-grande)
+[2016.07.28-23.52.17:971][946]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca3)
+[2016.07.28-23.52.20:452][182]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca2)
+[2016.07.28-23.52.24:083][530]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca11)
+[2016.07.28-23.52.28:406][929]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca5)
+[2016.07.28-23.52.47:509][667]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda-grande)
+[2016.07.28-23.52.54:555][ 76]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda5)
+[2016.07.28-23.52.57:637][344]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda6)
+[2016.07.28-23.53.19:833][338]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca3)
+[2016.07.28-23.53.20:923][437]Cmd: DELETE
+[2016.07.28-23.53.20:923][437]Cmd: ACTOR DELETE
+[2016.07.28-23.53.20:924][437]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.28-23.53.20:944][437]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.28-23.53.21:539][496]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.07.28-23.53.21:685][506]Cmd: DELETE
+[2016.07.28-23.53.21:685][506]Cmd: ACTOR DELETE
+[2016.07.28-23.53.21:686][506]LogEditorActor: Deleted Actor: Landscape
+[2016.07.28-23.53.21:787][506]LogEditorActor: Deleted 1 Actors (0.102 secs)
+[2016.07.28-23.53.21:796][507]Cmd: UpdateLandscapeEditorData
+[2016.07.28-23.53.23:194][640]Cmd: TRANSACTION UNDO
+[2016.07.28-23.53.23:194][640]LogEditorTransaction: Undo Delete Actors
+[2016.07.28-23.53.23:281][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:281][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:282][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:282][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:282][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:282][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:282][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:283][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:283][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:284][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:284][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:284][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:284][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:285][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:285][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:285][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:286][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:286][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:286][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:286][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:287][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:287][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:287][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:288][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:288][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:288][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:288][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:289][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:289][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:289][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:289][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:290][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:290][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:290][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:291][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:291][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:291][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:291][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:292][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:292][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:292][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:292][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:293][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:293][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:294][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:294][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:294][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:295][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:295][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:295][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:295][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:296][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:296][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:296][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:296][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:297][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:297][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:297][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:297][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:298][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:298][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:298][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:299][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:299][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.28-23.53.23:887][641]Cmd: UpdateLandscapeEditorData
+[2016.07.28-23.53.24:648][701]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca11)
+[2016.07.28-23.53.25:590][786]Cmd: DELETE
+[2016.07.28-23.53.25:590][786]Cmd: ACTOR DELETE
+[2016.07.28-23.53.25:592][786]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.28-23.53.25:611][786]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2016.07.28-23.53.26:689][894]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda-grande)
+[2016.07.28-23.53.33:880][550]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda6)
+[2016.07.28-23.54.18:874][376]LogSavePackage: Save=3411.35ms
+[2016.07.28-23.54.18:874][376]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/MAPA01_Auto1E6C393204779A8D8549E908E0C321169.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto1.umap'
+[2016.07.28-23.54.18:929][376]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto1.umap
+[2016.07.28-23.54.18:983][376]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TheDarkAges/Maps/MAPA01' took 3.760
+[2016.07.28-23.54.18:983][376]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.760
+[2016.07.28-23.56.32:137][156]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda-grande)
+[2016.07.28-23.57.03:267][456]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tower3)
+[2016.07.28-23.57.05:402][651]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda-grande2)
+[2016.07.28-23.57.18:728][883]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tower3)
+[2016.07.28-23.57.36:759][715]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.07.28-23.57.37:929][765]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tower3)
+[2016.07.28-23.57.51:160][814]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda5)
+[2016.07.28-23.58.10:273][376]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda-grande)
+[2016.07.28-23.58.30:913][ 48]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda8)
+[2016.07.28-23.58.34:672][367]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda5)
+[2016.07.28-23.58.39:567][777]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda6)
+[2016.07.28-23.58.44:260][210]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda7)
+[2016.07.28-23.58.53:930][ 78]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda8)
+[2016.07.28-23.58.56:394][298]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda6)
+[2016.07.28-23.58.58:401][475]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda5)
+[2016.07.29-00.00.09:814][985]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda6)
+[2016.07.29-00.00.14:267][375]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda7)
+[2016.07.29-00.00.16:979][609]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda8)
+[2016.07.29-00.00.52:394][207]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda5)
+[2016.07.29-00.00.58:868][723]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda7)
+[2016.07.29-00.01.02:559][ 17]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda6)
+[2016.07.29-00.01.11:204][692]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda7)
+[2016.07.29-00.01.19:260][356]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda5)
+[2016.07.29-00.01.21:458][539]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda8)
+[2016.07.29-00.01.25:647][906]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda6)
+[2016.07.29-00.01.29:801][267]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda7)
+[2016.07.29-00.01.43:312][301]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda6)
+[2016.07.29-00.01.53:815][  8]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca5)
+[2016.07.29-00.01.54:742][ 69]Cmd: DELETE
+[2016.07.29-00.01.54:742][ 69]Cmd: ACTOR DELETE
+[2016.07.29-00.01.54:743][ 69]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-00.01.54:762][ 69]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-00.01.55:421][116]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca6)
+[2016.07.29-00.01.55:590][125]Cmd: DELETE
+[2016.07.29-00.01.55:590][125]Cmd: ACTOR DELETE
+[2016.07.29-00.01.55:591][125]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-00.01.55:610][125]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.07.29-00.01.58:621][349]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca2)
+[2016.07.29-00.02.03:715][793]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca7)
+[2016.07.29-00.03.03:910][330]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda7)
+[2016.07.29-00.05.01:060][806]LogTexture:Display: Building textures: Texture2D_32 (BGRA8)
+[2016.07.29-00.05.03:062][806]LogSavePackage: Save=2010.26ms
+[2016.07.29-00.05.03:062][806]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/MAPA01_Auto2FC442D3646FD63007D3C7187FAB63C6B.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto2.umap'
+[2016.07.29-00.05.03:078][806]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto2.umap
+[2016.07.29-00.05.03:081][806]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TheDarkAges/Maps/MAPA01' took 2.101
+[2016.07.29-00.05.03:081][806]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.101
+[2016.07.29-00.05.08:149][122]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca7)
+[2016.07.29-00.05.19:672][188]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.07.29-00.05.20:292][235]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca2)
+[2016.07.29-00.05.36:524][681]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca7)
+[2016.07.29-00.06.40:837][791]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca2)
+[2016.07.29-00.07.02:648][373]Cmd: DELETE
+[2016.07.29-00.07.02:648][373]Cmd: ACTOR DELETE
+[2016.07.29-00.07.02:649][373]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-00.07.02:668][373]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2016.07.29-00.07.10:244][ 43]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda-grande2)
+[2016.07.29-00.08.07:596][640]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda-grande3)
+[2016.07.29-00.08.22:875][678]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda-grande4)
+[2016.07.29-00.08.43:365][619]Cmd: DELETE
+[2016.07.29-00.08.43:365][619]Cmd: ACTOR DELETE
+[2016.07.29-00.08.43:366][619]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-00.08.43:385][619]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-00.09.11:309][677]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda-grande3)
+[2016.07.29-00.09.12:500][753]Cmd: DELETE
+[2016.07.29-00.09.12:500][753]Cmd: ACTOR DELETE
+[2016.07.29-00.09.12:501][753]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-00.09.12:520][753]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-00.15.05:473][871]LogSavePackage: Save=2042.32ms
+[2016.07.29-00.15.05:473][871]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/MAPA01_Auto3BC16D10249C7B7B50B72D1A79E38FD3E.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto3.umap'
+[2016.07.29-00.15.05:475][871]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto3.umap
+[2016.07.29-00.15.05:478][871]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TheDarkAges/Maps/MAPA01' took 2.122
+[2016.07.29-00.15.05:478][871]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.122
+[2016.07.29-00.52.56:034][276]Cmd: TRANSACTION UNDO
+[2016.07.29-00.52.56:034][276]LogEditorTransaction: Undo Landscape Editing: Paint
+[2016.07.29-00.52.56:061][276]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.29-00.52.56:062][276]LogTexture:Display: Building textures: Texture2D_32 (BGRA8)
+[2016.07.29-00.52.56:140][276]PIE:Warning: Warning AttachTo: '/Game/TheDarkAges/Maps/MAPA01.MAPA01:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Game/TheDarkAges/Maps/MAPA01.MAPA01:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.07.29-00.53.27:164][734]LogSavePackage: Save=2122.08ms
+[2016.07.29-00.53.27:164][734]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/MAPA01_Auto407CD99974A02E1A118B015B4257C950A.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto4.umap'
+[2016.07.29-00.53.27:179][734]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto4.umap
+[2016.07.29-00.53.27:185][734]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TheDarkAges/Maps/MAPA01' took 2.250
+[2016.07.29-00.53.27:185][734]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.250
+[2016.07.29-00.56.28:178][571]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.29-00.56.28:238][571]PIE: New page: PIE session: MAPA01 (Jul 28, 2016, 6:56:28 PM)
+[2016.07.29-00.56.28:238][571]LogPlayLevel: Creating play world package: /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01
+[2016.07.29-00.56.28:410][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.172614s)
+[2016.07.29-00.56.28:413][571]LogAIModule: Creating AISystem for world MAPA01
+[2016.07.29-00.56.28:413][571]LogPlayLevel: PIE: World Init took: (0.002594s)
+[2016.07.29-00.56.28:428][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TheDarkAges/Maps/MAPA01.MAPA01 to /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01.MAPA01 (0.190132s)
+[2016.07.29-00.56.28:489][571]LogInit: XAudio2 using 'Alto-falantes (Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.29-00.56.28:499][571]LogInit: FAudioDevice initialized.
+[2016.07.29-00.56.28:757][571]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.07.29-00.56.28:907][571]LogWorld: Bringing World /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01.MAPA01 up for play (max tick rate 0) at 2016.07.28-21.56.28
+[2016.07.29-00.56.28:953][571]LogWorld: Bringing up level for play took: 0.062461
+[2016.07.29-00.56.29:257][571]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0056 seconds. Added 11 classes and 0 folders.
+[2016.07.29-00.56.29:421][571]PIE: Info Play in editor start time for /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01 0.558
+[2016.07.29-00.56.42:533][ 89]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.29-00.56.42:533][ 89]PIE: New page: PIE session: MAPA01 (Jul 28, 2016, 6:56:42 PM)
+[2016.07.29-00.56.42:533][ 89]LogPlayLevel: Creating play world package: /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01
+[2016.07.29-00.56.42:682][ 89]LogPlayLevel: PIE: StaticDuplicateObject took: (0.148679s)
+[2016.07.29-00.56.42:683][ 89]LogAIModule: Creating AISystem for world MAPA01
+[2016.07.29-00.56.42:683][ 89]LogPlayLevel: PIE: World Init took: (0.001454s)
+[2016.07.29-00.56.42:684][ 89]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TheDarkAges/Maps/MAPA01.MAPA01 to /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01.MAPA01 (0.150502s)
+[2016.07.29-00.56.42:715][ 89]LogInit: XAudio2 using 'Alto-falantes (Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.29-00.56.42:724][ 89]LogInit: FAudioDevice initialized.
+[2016.07.29-00.56.42:790][ 89]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.07.29-00.56.42:806][ 89]LogWorld: Bringing World /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01.MAPA01 up for play (max tick rate 0) at 2016.07.28-21.56.42
+[2016.07.29-00.56.42:807][ 89]LogWorld: Bringing up level for play took: 0.015554
+[2016.07.29-00.56.42:810][ 89]PIE: Info Play in editor start time for /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01 -0.053
+[2016.07.29-00.57.17:747][595]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.07.29-00.57.18:516][647]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda9)
+[2016.07.29-01.03.02:006][  1]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca8)
+[2016.07.29-01.04.00:966][930]LogTexture:Display: Building textures: Texture2D_32 (BGRA8)
+[2016.07.29-01.04.02:953][930]LogSavePackage: Save=1996.17ms
+[2016.07.29-01.04.02:953][930]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/MAPA01_Auto5A5798A3C47E2D941C33646BF13DCB1D9.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto5.umap'
+[2016.07.29-01.04.02:972][930]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto5.umap
+[2016.07.29-01.04.02:977][930]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TheDarkAges/Maps/MAPA01' took 2.110
+[2016.07.29-01.04.02:977][930]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.110
+[2016.07.29-01.05.16:874][534]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda-grande2)
+[2016.07.29-01.07.31:180][926]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2016.07.29-01.11.15:294][816]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca9)
+[2016.07.29-01.15.05:512][711]LogTexture:Display: Building textures: Texture2D_32 (BGRA8)
+[2016.07.29-01.15.07:475][711]LogSavePackage: Save=1972.18ms
+[2016.07.29-01.15.07:475][711]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/MAPA01_Auto66747163B45777839791CE1B96D7D1CE7.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto6.umap'
+[2016.07.29-01.15.07:495][711]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto6.umap
+[2016.07.29-01.15.07:500][711]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TheDarkAges/Maps/MAPA01' took 2.072
+[2016.07.29-01.15.07:500][711]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.072
+[2016.07.29-01.17.54:070][425]LogTexture:Display: Building textures: Texture2D_33 (BGRA8)
+[2016.07.29-01.17.54:237][425]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2016.07.29-01.17.54:268][425]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.29-01.18.24:755][428]LogMaterial: Missing cached shader map for material TerrainMat, compiling. 
+[2016.07.29-01.18.25:069][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2016.07.29-01.18.25:093][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.29-01.23.23:078][610]Cmd: TRANSACTION UNDO
+[2016.07.29-01.23.23:078][610]LogEditorTransaction: Undo Landscape Editing: Paint
+[2016.07.29-01.23.23:103][610]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.29-01.23.23:104][610]LogTexture:Display: Building textures: Texture2D_32 (BGRA8)
+[2016.07.29-01.25.39:875][898]LogTexture:Display: Building textures: Texture2D_20 (BGRA8)
+[2016.07.29-01.25.39:884][898]LogTexture:Display: Building textures: Texture2D_33 (BGRA8)
+[2016.07.29-01.25.39:893][898]LogTexture:Display: Building textures: Texture2D_28 (BGRA8)
+[2016.07.29-01.25.39:900][898]LogTexture:Display: Building textures: Texture2D_32 (BGRA8)
+[2016.07.29-01.25.41:892][898]LogSavePackage: Save=2025.70ms
+[2016.07.29-01.25.41:892][898]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/MAPA01_Auto790152D684BA02DB4D2618CA9BE17FF74.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto7.umap'
+[2016.07.29-01.25.41:895][898]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto7.umap
+[2016.07.29-01.25.41:898][898]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TheDarkAges/Maps/MAPA01' took 2.102
+[2016.07.29-01.25.41:898][898]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.102
+[2016.07.29-01.25.41:901][898]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TheDarkAges/Maps/MAPA01_sharedassets/Rock_LayerInfo] ([1] browsable assets)...
+[2016.07.29-01.25.41:901][898]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Maps/MAPA01_sharedassets/Rock_LayerInfo]
+[2016.07.29-01.25.41:909][898]LogSavePackage: Save=5.17ms
+[2016.07.29-01.25.41:909][898]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Rock_LayerInfo_Auto717C26EE8406D56D79CDC3FA99EE4884B.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_sharedassets/Rock_LayerInfo_Auto7.uasset'
+[2016.07.29-01.25.41:910][898]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_sharedassets/Rock_LayerInfo_Auto7.uasset
+[2016.07.29-01.25.41:910][898]LogFileHelpers: Auto-saving content packages took 0.011
+[2016.07.29-01.30.24:716][315]LogRenderer: Reallocating scene render targets to support 748x744 (Frame:262476).
+[2016.07.29-01.30.24:779][316]LogRenderer: Reallocating scene render targets to support 764x744 (Frame:262478).
+[2016.07.29-01.30.24:843][317]LogRenderer: Reallocating scene render targets to support 776x744 (Frame:262480).
+[2016.07.29-01.30.24:913][318]LogRenderer: Reallocating scene render targets to support 788x744 (Frame:262482).
+[2016.07.29-01.30.24:979][319]LogRenderer: Reallocating scene render targets to support 792x744 (Frame:262484).
+[2016.07.29-01.30.25:035][320]LogRenderer: Reallocating scene render targets to support 800x744 (Frame:262486).
+[2016.07.29-01.30.25:094][321]LogRenderer: Reallocating scene render targets to support 804x744 (Frame:262488).
+[2016.07.29-01.30.25:434][338]LogRenderer: Reallocating scene render targets to support 808x744 (Frame:262508).
+[2016.07.29-01.30.25:491][339]LogRenderer: Reallocating scene render targets to support 812x744 (Frame:262510).
+[2016.07.29-01.30.25:939][370]LogRenderer: Reallocating scene render targets to support 816x744 (Frame:262542).
+[2016.07.29-01.30.26:000][371]LogRenderer: Reallocating scene render targets to support 876x744 (Frame:262544).
+[2016.07.29-01.30.26:070][372]LogRenderer: Reallocating scene render targets to support 944x744 (Frame:262546).
+[2016.07.29-01.30.26:155][373]LogRenderer: Reallocating scene render targets to support 968x744 (Frame:262548).
+[2016.07.29-01.35.42:789][207]LogTexture:Display: Building textures: Texture2D_19 (BGRA8)
+[2016.07.29-01.35.42:817][207]LogTexture:Display: Building textures: Texture2D_27 (BGRA8)
+[2016.07.29-01.35.42:824][207]LogTexture:Display: Building textures: Texture2D_33 (BGRA8)
+[2016.07.29-01.35.42:830][207]LogTexture:Display: Building textures: Texture2D_32 (BGRA8)
+[2016.07.29-01.35.44:872][207]LogSavePackage: Save=2102.46ms
+[2016.07.29-01.35.44:872][207]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/MAPA01_Auto8EB8D63A842095CBBEE52A98DF55E7667.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto8.umap'
+[2016.07.29-01.35.44:876][207]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto8.umap
+[2016.07.29-01.35.44:879][207]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TheDarkAges/Maps/MAPA01' took 2.224
+[2016.07.29-01.35.44:879][207]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.224
+[2016.07.29-01.47.51:281][723]Cmd: QUIT_EDITOR
+[2016.07.29-01.47.52:379][723]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.07.29-01.47.52:491][723]LogExit: Preparing to exit.
+[2016.07.29-01.47.54:215][723]LogExit: Editor shut down
+[2016.07.29-01.47.54:217][723]LogExit: Transaction tracking system shut down
+[2016.07.29-01.47.56:656][723]LogObj: Freed 0b from 0 cluster array pools.
+[2016.07.29-01.47.56:657][723]LogExit: Object subsystem successfully closed.
+[2016.07.29-01.47.57:393][723]LogD3D11RHI: Shutdown
+[2016.07.29-01.47.57:401][723]LogD3D11RHI: CleanupD3DDevice
+[2016.07.29-01.47.57:688][723]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.07.29-01.47.58:898][723]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (217)
+[2016.07.29-01.47.58:899][723]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (216)
+[2016.07.29-01.47.58:899][723]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (215)
+[2016.07.29-01.47.58:903][723]LogModuleManager: Shutting down and abandoning module CrashTracker (214)
+[2016.07.29-01.47.58:903][723]LogModuleManager: Shutting down and abandoning module SceneOutliner (213)
+[2016.07.29-01.47.58:903][723]LogModuleManager: Shutting down and abandoning module WidgetCarousel (212)
+[2016.07.29-01.47.58:907][723]LogModuleManager: Shutting down and abandoning module AddContentDialog (211)
+[2016.07.29-01.47.58:953][723]LogModuleManager: Shutting down and abandoning module GameplayTags (210)
+[2016.07.29-01.47.58:953][723]LogModuleManager: Shutting down and abandoning module EditorWidgets (209)
+[2016.07.29-01.47.58:953][723]LogModuleManager: Shutting down and abandoning module CollectionManager (208)
+[2016.07.29-01.47.58:965][723]LogModuleManager: Shutting down and abandoning module StatsViewer (207)
+[2016.07.29-01.47.58:973][723]LogModuleManager: Shutting down and abandoning module FoliageEdit (206)
+[2016.07.29-01.47.58:974][723]LogModuleManager: Shutting down and abandoning module LandscapeEditor (205)
+[2016.07.29-01.47.58:997][723]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (204)
+[2016.07.29-01.47.58:997][723]LogModuleManager: Shutting down and abandoning module ActorPickerMode (203)
+[2016.07.29-01.47.58:997][723]LogModuleManager: Shutting down and abandoning module GeometryMode (202)
+[2016.07.29-01.47.58:997][723]LogModuleManager: Shutting down and abandoning module TextureAlignMode (201)
+[2016.07.29-01.47.58:997][723]LogModuleManager: Shutting down and abandoning module BspMode (200)
+[2016.07.29-01.47.59:008][723]LogModuleManager: Shutting down and abandoning module HardwareSurvey (199)
+[2016.07.29-01.47.59:012][723]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (198)
+[2016.07.29-01.47.59:012][723]LogModuleManager: Shutting down and abandoning module SequenceRecorder (197)
+[2016.07.29-01.47.59:021][723]LogModuleManager: Shutting down and abandoning module AutomationWorker (196)
+[2016.07.29-01.47.59:021][723]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (195)
+[2016.07.29-01.47.59:031][723]LogModuleManager: Shutting down and abandoning module PlacementMode (194)
+[2016.07.29-01.47.59:048][723]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (193)
+[2016.07.29-01.47.59:077][723]LogModuleManager: Shutting down and abandoning module CharacterAI (192)
+[2016.07.29-01.47.59:077][723]LogModuleManager: Shutting down and abandoning module SmartSnapping (191)
+[2016.07.29-01.47.59:077][723]LogModuleManager: Shutting down and abandoning module SessionServices (190)
+[2016.07.29-01.47.59:077][723]LogModuleManager: Shutting down and abandoning module ViewportSnapping (189)
+[2016.07.29-01.47.59:077][723]LogModuleManager: Shutting down and abandoning module LogVisualizer (188)
+[2016.07.29-01.47.59:089][723]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (187)
+[2016.07.29-01.47.59:110][723]LogModuleManager: Shutting down and abandoning module IntroTutorials (186)
+[2016.07.29-01.47.59:119][723]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (185)
+[2016.07.29-01.47.59:119][723]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (184)
+[2016.07.29-01.47.59:122][723]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (183)
+[2016.07.29-01.47.59:122][723]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (182)
+[2016.07.29-01.47.59:545][723]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (181)
+[2016.07.29-01.47.59:561][723]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (180)
+[2016.07.29-01.47.59:561][723]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (179)
+[2016.07.29-01.47.59:561][723]LogModuleManager: Shutting down and abandoning module MergeActors (178)
+[2016.07.29-01.47.59:581][723]LogModuleManager: Shutting down and abandoning module SizeMap (177)
+[2016.07.29-01.47.59:581][723]LogModuleManager: Shutting down and abandoning module TreeMap (176)
+[2016.07.29-01.47.59:599][723]LogModuleManager: Shutting down and abandoning module ReferenceViewer (175)
+[2016.07.29-01.47.59:602][723]LogModuleManager: Shutting down and abandoning module LocalizationService (174)
+[2016.07.29-01.47.59:614][723]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (173)
+[2016.07.29-01.47.59:624][723]LogModuleManager: Shutting down and abandoning module HardwareTargeting (172)
+[2016.07.29-01.47.59:634][723]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (171)
+[2016.07.29-01.47.59:644][723]LogModuleManager: Shutting down and abandoning module UndoHistory (170)
+[2016.07.29-01.47.59:650][723]LogModuleManager: Shutting down and abandoning module UserFeedback (169)
+[2016.07.29-01.47.59:650][723]LogModuleManager: Shutting down and abandoning module XmlParser (168)
+[2016.07.29-01.47.59:659][723]LogModuleManager: Shutting down and abandoning module Blutility (167)
+[2016.07.29-01.47.59:666][723]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (166)
+[2016.07.29-01.47.59:671][723]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (165)
+[2016.07.29-01.47.59:672][723]LogModuleManager: Shutting down and abandoning module InputBindingEditor (164)
+[2016.07.29-01.47.59:690][723]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (163)
+[2016.07.29-01.47.59:690][723]LogModuleManager: Shutting down and abandoning module SettingsEditor (162)
+[2016.07.29-01.47.59:691][723]LogModuleManager: Shutting down and abandoning module ProjectLauncher (161)
+[2016.07.29-01.47.59:704][723]LogModuleManager: Shutting down and abandoning module SessionFrontend (160)
+[2016.07.29-01.47.59:716][723]LogModuleManager: Shutting down and abandoning module ProfilerClient (159)
+[2016.07.29-01.47.59:723][723]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (158)
+[2016.07.29-01.47.59:733][723]LogModuleManager: Shutting down and abandoning module DeviceManager (157)
+[2016.07.29-01.47.59:782][723]LogModuleManager: Shutting down and abandoning module AutomationController (156)
+[2016.07.29-01.47.59:799][723]LogModuleManager: Shutting down and abandoning module AutomationWindow (155)
+[2016.07.29-01.47.59:809][723]LogModuleManager: Shutting down and abandoning module Layers (154)
+[2016.07.29-01.47.59:824][723]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (153)
+[2016.07.29-01.47.59:824][723]LogModuleManager: Shutting down and abandoning module DetailCustomizations (152)
+[2016.07.29-01.47.59:835][723]LogModuleManager: Shutting down and abandoning module PackagesDialog (151)
+[2016.07.29-01.47.59:836][723]LogModuleManager: Shutting down and abandoning module Persona (150)
+[2016.07.29-01.47.59:871][723]LogModuleManager: Shutting down and abandoning module Kismet (149)
+[2016.07.29-01.47.59:881][723]LogModuleManager: Shutting down and abandoning module GraphEditor (148)
+[2016.07.29-01.47.59:915][723]LogModuleManager: Shutting down and abandoning module ClassViewer (147)
+[2016.07.29-01.47.59:923][723]LogModuleManager: Shutting down and abandoning module Toolbox (146)
+[2016.07.29-01.47.59:928][723]LogModuleManager: Shutting down and abandoning module ModuleUI (145)
+[2016.07.29-01.47.59:936][723]LogModuleManager: Shutting down and abandoning module MovieSceneTools (144)
+[2016.07.29-01.47.59:958][723]LogModuleManager: Shutting down and abandoning module OutputLog (143)
+[2016.07.29-01.47.59:965][723]LogModuleManager: Shutting down and abandoning module GammaUI (142)
+[2016.07.29-01.47.59:975][723]LogModuleManager: Shutting down and abandoning module Documentation (141)
+[2016.07.29-01.47.59:975][723]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (140)
+[2016.07.29-01.47.59:975][723]LogModuleManager: Shutting down and abandoning module AnalyticsET (139)
+[2016.07.29-01.47.59:975][723]LogModuleManager: Shutting down and abandoning module Analytics (138)
+[2016.07.29-01.47.59:975][723]LogModuleManager: Shutting down and abandoning module PortalServices (137)
+[2016.07.29-01.47.59:975][723]LogModuleManager: Shutting down and abandoning module PortalRpc (136)
+[2016.07.29-01.47.59:975][723]LogModuleManager: Shutting down and abandoning module MessagingRpc (135)
+[2016.07.29-01.47.59:976][723]LogModuleManager: Shutting down and abandoning module GameplayDebugger (134)
+[2016.07.29-01.47.59:976][723]LogModuleManager: Shutting down and abandoning module AITestSuite (133)
+[2016.07.29-01.47.59:979][723]LogModuleManager: Shutting down and abandoning module AIModule (132)
+[2016.07.29-01.47.59:979][723]LogModuleManager: Shutting down and abandoning module ProfilerService (131)
+[2016.07.29-01.48.00:022][723]LogModuleManager: Shutting down and abandoning module TaskGraph (130)
+[2016.07.29-01.48.00:030][723]LogModuleManager: Shutting down and abandoning module SlateRemote (129)
+[2016.07.29-01.48.00:030][723]LogModuleManager: Shutting down and abandoning module SteamVRController (128)
+[2016.07.29-01.48.00:030][723]LogModuleManager: Shutting down and abandoning module SteamVR (127)
+[2016.07.29-01.48.00:030][723]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (126)
+[2016.07.29-01.48.00:030][723]LogModuleManager: Shutting down and abandoning module OculusLibrary (125)
+[2016.07.29-01.48.00:030][723]LogModuleManager: Shutting down and abandoning module OculusInput (124)
+[2016.07.29-01.48.00:030][723]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (123)
+[2016.07.29-01.48.00:030][723]LogModuleManager: Shutting down and abandoning module CableComponent (122)
+[2016.07.29-01.48.00:030][723]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (121)
+[2016.07.29-01.48.00:030][723]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (120)
+[2016.07.29-01.48.00:046][723]LogModuleManager: Shutting down and abandoning module VaRestEditorPlugin (119)
+[2016.07.29-01.48.00:046][723]LogModuleManager: Shutting down and abandoning module HTML5Networking (118)
+[2016.07.29-01.48.00:046][723]LogModuleManager: Shutting down and abandoning module SuperSearch (117)
+[2016.07.29-01.48.00:046][723]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (116)
+[2016.07.29-01.48.00:046][723]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (115)
+[2016.07.29-01.48.00:046][723]LogModuleManager: Shutting down and abandoning module PluginBrowser (114)
+[2016.07.29-01.48.00:057][723]LogModuleManager: Shutting down and abandoning module EpicSurvey (113)
+[2016.07.29-01.48.00:058][723]LogModuleManager: Shutting down and abandoning module DesktopPlatform (112)
+[2016.07.29-01.48.00:068][723]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (111)
+[2016.07.29-01.48.00:073][723]LogModuleManager: Shutting down and abandoning module UObjectPlugin (110)
+[2016.07.29-01.48.00:073][723]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (109)
+[2016.07.29-01.48.00:079][723]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (108)
+[2016.07.29-01.48.00:084][723]LogModuleManager: Shutting down and abandoning module SourceControl (107)
+[2016.07.29-01.48.00:101][723]LogModuleManager: Shutting down and abandoning module GitSourceControl (106)
+[2016.07.29-01.48.00:101][723]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (105)
+[2016.07.29-01.48.00:101][723]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (104)
+[2016.07.29-01.48.00:106][723]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (103)
+[2016.07.29-01.48.00:106][723]LogModuleManager: Shutting down and abandoning module MeshPaint (102)
+[2016.07.29-01.48.00:111][723]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (101)
+[2016.07.29-01.48.00:123][723]LogModuleManager: Shutting down and abandoning module HotReload (100)
+[2016.07.29-01.48.00:149][723]LogModuleManager: Shutting down and abandoning module MainFrame (99)
+[2016.07.29-01.48.00:155][723]LogModuleManager: Shutting down and abandoning module LevelEditor (98)
+[2016.07.29-01.48.00:167][723]LogModuleManager: Shutting down and abandoning module ContentBrowser (97)
+[2016.07.29-01.48.00:173][723]LogModuleManager: Shutting down and abandoning module Paper2DEditor (96)
+[2016.07.29-01.48.00:192][723]LogModuleManager: Shutting down and abandoning module UdpMessaging (95)
+[2016.07.29-01.48.00:292][723]LogModuleManager: Shutting down and abandoning module VaRestPlugin (94)
+[2016.07.29-01.48.00:292][723]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.07.29-01.48.00:292][723]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.07.29-01.48.00:304][723]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.07.29-01.48.00:305][723]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.07.29-01.48.00:305][723]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.07.29-01.48.00:309][723]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.07.29-01.48.00:309][723]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.07.29-01.48.00:315][723]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.07.29-01.48.00:315][723]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.07.29-01.48.00:315][723]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.07.29-01.48.00:325][723]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.07.29-01.48.00:325][723]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.07.29-01.48.00:325][723]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.07.29-01.48.00:344][723]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.07.29-01.48.00:344][723]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.07.29-01.48.00:358][723]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.07.29-01.48.00:378][723]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.07.29-01.48.00:378][723]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.07.29-01.48.00:378][723]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.07.29-01.48.00:409][723]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.07.29-01.48.00:433][723]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.07.29-01.48.00:445][723]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.07.29-01.48.00:464][723]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.07.29-01.48.00:465][723]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.07.29-01.48.00:491][723]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.07.29-01.48.00:492][723]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.07.29-01.48.00:492][723]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.07.29-01.48.00:492][723]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.07.29-01.48.00:492][723]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.07.29-01.48.00:492][723]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.07.29-01.48.00:507][723]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.07.29-01.48.00:733][723]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.07.29-01.48.00:733][723]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.07.29-01.48.00:733][723]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.07.29-01.48.00:743][723]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.07.29-01.48.00:837][723]LogDerivedDataCache: Shutdown
+[2016.07.29-01.48.00:837][723]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.07.29-01.48.00:842][723]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.07.29-01.48.00:850][723]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.07.29-01.48.00:861][723]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.07.29-01.48.00:872][723]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.07.29-01.48.00:872][723]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.07.29-01.48.00:878][723]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.07.29-01.48.00:890][723]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.07.29-01.48.00:890][723]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.07.29-01.48.00:890][723]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.07.29-01.48.00:890][723]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.07.29-01.48.00:890][723]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.07.29-01.48.00:900][723]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.07.29-01.48.00:910][723]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.07.29-01.48.00:918][723]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.07.29-01.48.00:918][723]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.07.29-01.48.00:928][723]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.07.29-01.48.00:936][723]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.07.29-01.48.00:937][723]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.07.29-01.48.00:937][723]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.07.29-01.48.00:937][723]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.07.29-01.48.00:937][723]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.07.29-01.48.00:937][723]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.07.29-01.48.00:940][723]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.07.29-01.48.00:940][723]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.07.29-01.48.00:940][723]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.07.29-01.48.00:940][723]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.07.29-01.48.00:940][723]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.07.29-01.48.00:940][723]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.07.29-01.48.00:940][723]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.07.29-01.48.00:940][723]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.07.29-01.48.00:945][723]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.07.29-01.48.00:951][723]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.07.29-01.48.00:961][723]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.07.29-01.48.00:961][723]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.07.29-01.48.00:967][723]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.07.29-01.48.00:967][723]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.07.29-01.48.00:967][723]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.07.29-01.48.00:967][723]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.07.29-01.48.03:978][723]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.07.29-01.48.04:002][723]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.07.29-01.48.04:011][723]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.07.29-01.48.04:011][723]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.07.29-01.48.04:031][723]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.07.29-01.48.04:031][723]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.07.29-01.48.04:031][723]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.07.29-01.48.04:080][723]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.07.29-01.48.04:084][723]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.07.29-01.48.04:084][723]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.07.29-01.48.04:091][723]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.07.29-01.48.04:091][723]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.07.29-01.48.04:091][723]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.07.29-01.48.04:091][723]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.07.29-01.48.04:101][723]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.07.29-01.48.04:110][723]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.07.29-01.48.04:116][723]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.07.29-01.48.04:142][723]LogExit: Exiting.
+[2016.07.29-01.48.04:152][723]Log file closed, 07/28/16 22:48:04
