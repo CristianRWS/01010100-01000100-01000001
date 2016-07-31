@@ -1,0 +1,1495 @@
+﻿Log file open, 07/29/16 18:24:45
+LogInit:Display: Running engine for game: ProjetoTeste
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1822365841) SRandInit(1822365842).
+LogTaskGraph: Started task graph with 4 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.076431
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.07.29-21.24.45:190][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.29-21.24.45:190][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.07.29-21.24.45:208][  0]LogInit: Computer: DESKTOP-63GHF8H
+[2016.07.29-21.24.45:208][  0]LogInit: User: DiegoBA
+[2016.07.29-21.24.45:208][  0]LogInit: CPU Page size=65536, Cores=3
+[2016.07.29-21.24.45:208][  0]LogInit: High frequency timer resolution =3.237190 MHz
+[2016.07.29-21.24.45:209][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx)
+[2016.07.29-21.24.45:209][  0]LogMemory: Platform Memory Stats for Windows
+[2016.07.29-21.24.45:209][  0]LogMemory: Process Physical Memory: 189.83 MB used, 189.83 MB peak
+[2016.07.29-21.24.45:209][  0]LogMemory: Process Virtual Memory: 194.91 MB used, 194.91 MB peak
+[2016.07.29-21.24.45:209][  0]LogMemory: Physical Memory: 2291.18 MB used, 4078.11 MB total
+[2016.07.29-21.24.45:209][  0]LogMemory: Virtual Memory: 548.48 MB used, 134217728.00 MB total
+[2016.07.29-21.24.45:239][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.07.29-21.24.45:772][  0]LogD3D11RHI: D3D11 adapters:
+[2016.07.29-21.24.45:787][  0]LogD3D11RHI:    0. 'AMD Radeon R7 200 Series' (Feature Level 11_0)
+[2016.07.29-21.24.45:787][  0]LogD3D11RHI:       2026/0/2039 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2016.07.29-21.24.45:789][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.07.29-21.24.45:789][  0]LogD3D11RHI:       0/0/2039 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.07.29-21.24.45:789][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.07.29-21.24.45:795][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.07.29-21.24.45:795][  0]LogD3D11RHI:     GPU DeviceId: 0x6658 (for the marketing name, search the web for "GPU Device Id")
+[2016.07.29-21.24.45:795][  0]LogWindows: EnumDisplayDevices:
+[2016.07.29-21.24.45:795][  0]LogWindows:    0. 'AMD Radeon R7 200 Series' (P:1 D:1)
+[2016.07.29-21.24.45:795][  0]LogWindows:    1. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2016.07.29-21.24.45:795][  0]LogWindows:    2. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2016.07.29-21.24.45:796][  0]LogWindows:    3. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2016.07.29-21.24.45:796][  0]LogWindows:    4. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2016.07.29-21.24.45:796][  0]LogWindows:    5. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2016.07.29-21.24.45:796][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2016.07.29-21.24.45:796][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R7 200 Series
+[2016.07.29-21.24.45:796][  0]LogD3D11RHI:   Driver Version: Crimson 16.3.2 (internal:16.150.2211.0, unified:16.150.2211.0)
+[2016.07.29-21.24.45:796][  0]LogD3D11RHI:      Driver Date: 3-21-2016
+[2016.07.29-21.24.45:796][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.07.29-21.24.45:805][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.07.29-21.24.45:818][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2016.07.29-21.24.45:819][  0]LogShaderCompilers: Guid format shader working directory is -40 characters bigger than the processId version (../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Intermediate/Shaders/WorkingDirectory/4916/).
+[2016.07.29-21.24.45:819][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/DIEGOB~1/AppData/Local/Temp/UnrealShaderWorkingDir/82EF15514ADAA3C8B25417BE75E51818/'.
+[2016.07.29-21.24.45:819][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.07.29-21.24.52:349][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.07.29-21.24.52:364][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.07.29-21.24.52:380][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.07.29-21.24.52:398][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.07.29-21.24.52:413][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.07.29-21.24.52:426][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.07.29-21.24.52:439][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.07.29-21.24.52:453][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.07.29-21.24.52:469][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.07.29-21.24.52:482][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.07.29-21.24.52:496][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.07.29-21.24.52:522][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.07.29-21.24.52:522][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.07.29-21.24.52:524][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.07.29-21.24.52:553][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.07.29-21.24.52:566][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.07.29-21.24.52:581][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.07.29-21.24.52:594][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.07.29-21.24.52:609][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.07.29-21.24.52:609][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.07.29-21.24.52:719][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.07.29-21.24.52:839][  0]LogDerivedDataCache: Loaded boot cache 0.12s 48MB C:/Users/Diego BA/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.07.29-21.24.52:839][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Diego BA/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.07.29-21.24.52:840][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.07.29-21.24.52:840][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.07.29-21.24.52:840][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.07.29-21.24.52:840][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.07.29-21.24.52:866][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.07.29-21.24.52:879][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Diego BA/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.07.29-21.24.53:211][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.29-21.24.53:212][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.07.29-21.24.53:481][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.07.29-21.24.53:481][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.07.29-21.24.53:481][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.07.29-21.24.53:902][  0]LogAssetRegistry: FAssetRegistry took 0.0220 seconds to start up
+[2016.07.29-21.24.53:945][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.037914 seconds
+[2016.07.29-21.24.53:956][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.07.29-21.24.53:956][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
+[2016.07.29-21.24.53:956][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.07.29-21.24.53:969][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.07.29-21.24.54:222][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.07.29-21.24.54:222][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.07.29-21.24.55:237][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.07.29-21.24.55:526][  0]SourceControl: Info Source control is disabled
+[2016.07.29-21.24.56:595][  0]LogEngine: Initializing Engine...
+[2016.07.29-21.24.56:596][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.07.29-21.24.56:597][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.07.29-21.24.56:799][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.07.29-21.24.56:808][  0]LogInit: XAudio2 using 'Alto-falantes (Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.29-21.24.56:820][  0]LogInit: FAudioDevice initialized.
+[2016.07.29-21.24.56:876][  0]LogDerivedDataCache: Saved boot cache 0.06s 48MB C:/Users/Diego BA/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.07.29-21.24.56:897][  0]LogInit: Texture streaming: Enabled
+[2016.07.29-21.24.56:926][  0]LogInit: Transaction tracking system initialized
+[2016.07.29-21.24.56:960][  0]BlueprintLog: New page: Editor Load
+[2016.07.29-21.24.57:065][  0]LocalizationService: Info Localization service is disabled
+[2016.07.29-21.24.57:163][  0]LogConsoleResponse:Display: 
+[2016.07.29-21.24.57:299][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.07.29-21.24.57:299][  0]LogCook:Display: Mobile HDR setting 1
+[2016.07.29-21.24.57:434][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/' took 0.02s
+[2016.07.29-21.24.57:708][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.07.29-21.24.57:709][  0]LightingResults: New page: Lighting Build
+[2016.07.29-21.24.57:712][  0]MapCheck: New page: Map Check
+[2016.07.29-21.24.57:712][  0]LightingResults: New page: Lighting Build
+[2016.07.29-21.24.58:099][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.07.29-21.24.58:106][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.07.29-21.24.58:146][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.07.29-21.24.58:206][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 60.551ms to complete.
+[2016.07.29-21.24.58:206][  0]LogFileHelpers: Loading map 'Template_Default' took 0.499
+[2016.07.29-21.24.58:284][  0]LogCollectionManager: Loaded 0 collections in 0.002178 seconds
+[2016.07.29-21.24.58:327][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Collections/' took 0.01s
+[2016.07.29-21.24.58:327][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/Developers/DiegoBA/Collections/' took 0.01s
+[2016.07.29-21.24.58:327][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/Collections/' took 0.01s
+[2016.07.29-21.24.58:327][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2016.07.29-21.24.58:341][  0]LogContentBrowser: Native class hierarchy populated in 0.0146 seconds. Added 2051 classes and 375 folders.
+[2016.07.29-21.24.58:347][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.07.29-21.24.58:347][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.07.29-21.24.58:347][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 12 classes and 0 folders.
+[2016.07.29-21.24.58:353][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.07.29-21.24.58:409][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2016.07.29-21.24.58:505][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.07.29-21.24.58:530][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.07.29-21.24.58:536][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.07.29-21.24.58:564][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.07.29-21.24.58:564][  0]LogLoad: Full Startup: 14.45 seconds (BP compile: 0.05 seconds)
+[2016.07.29-21.24.58:564][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.07.29-21.24.58:905][  0]LogOcInput: OculusInput pre-init called
+[2016.07.29-21.24.58:928][  0]SourceControl: Info On branch master
+[2016.07.29-21.24.58:929][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2016.07.29-21.24.58:929][  0]SourceControl: Info Changes to be committed:
+[2016.07.29-21.24.58:929][  0]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2016.07.29-21.24.58:929][  0]SourceControl: Info 	new file:   ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Texture/tent_Mat.uasset
+[2016.07.29-21.24.58:929][  0]SourceControl: Info Changes not staged for commit:
+[2016.07.29-21.24.58:929][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2016.07.29-21.24.58:929][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.07.29-21.24.58:929][  0]SourceControl: Info 	modified:   ProjetoTeste/Config/DefaultEngine.ini
+[2016.07.29-21.24.58:929][  0]SourceControl: Info 	modified:   ProjetoTeste/Content/TheDarkAges/Maps/MAPA01.umap
+[2016.07.29-21.24.58:929][  0]SourceControl: Info 	modified:   ProjetoTeste/Intermediate/CachedAssetRegistry.bin
+[2016.07.29-21.24.58:929][  0]SourceControl: Info 	modified:   ProjetoTeste/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2016.07.29-21.24.58:929][  0]SourceControl: Info 	modified:   ProjetoTeste/Saved/AutoScreenshot.png
+[2016.07.29-21.24.58:929][  0]SourceControl: Info 	modified:   ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto1.umap
+[2016.07.29-21.24.58:929][  0]SourceControl: Info 	modified:   ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto2.umap
+[2016.07.29-21.24.58:929][  0]SourceControl: Info 	modified:   ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto3.umap
+[2016.07.29-21.24.58:929][  0]SourceControl: Info 	modified:   ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto4.umap
+[2016.07.29-21.24.58:929][  0]SourceControl: Info 	modified:   ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto5.umap
+[2016.07.29-21.24.58:929][  0]SourceControl: Info 	modified:   ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto6.umap
+[2016.07.29-21.24.58:929][  0]SourceControl: Info 	modified:   ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto7.umap
+[2016.07.29-21.24.58:929][  0]SourceControl: Info 	modified:   ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto8.umap
+[2016.07.29-21.24.58:929][  0]SourceControl: Info 	modified:   ProjetoTeste/Saved/Autosaves/PackageRestoreData.json
+[2016.07.29-21.24.58:929][  0]SourceControl: Info 	deleted:    ProjetoTeste/Saved/Backup/MAPA01_2016-07-28-17-38-24.umap
+[2016.07.29-21.24.58:929][  0]SourceControl: Info 	deleted:    ProjetoTeste/Saved/Backup/MAPA01_2016-07-28-17-44-18.umap
+[2016.07.29-21.24.58:929][  0]SourceControl: Info 	deleted:    ProjetoTeste/Saved/Backup/MAPA01_2016-07-28-17-58-40.umap
+[2016.07.29-21.24.58:929][  0]SourceControl: Info 	deleted:    ProjetoTeste/Saved/Backup/MAPA01_2016-07-28-18-05-40.umap
+[2016.07.29-21.24.58:929][  0]SourceControl: Info 	deleted:    ProjetoTeste/Saved/Backup/MAPA01_2016-07-28-18-15-37.umap
+[2016.07.29-21.24.58:929][  0]SourceControl: Info 	deleted:    ProjetoTeste/Saved/Backup/MAPA01_2016-07-28-18-52-54.umap
+[2016.07.29-21.24.58:929][  0]SourceControl: Info 	deleted:    ProjetoTeste/Saved/Backup/MAPA01_2016-07-28-19-03-16.umap
+[2016.07.29-21.24.58:929][  0]SourceControl: Info 	deleted:    ProjetoTeste/Saved/Backup/MAPA01_2016-07-28-19-25-07.umap
+[2016.07.29-21.24.58:930][  0]SourceControl: Info 	deleted:    ProjetoTeste/Saved/Backup/TentTexture2_Mat_2016-07-28-19-03-18.uasset
+[2016.07.29-21.24.58:930][  0]SourceControl: Info 	deleted:    ProjetoTeste/Saved/Backup/TentTexture2_Mat_2016-07-28-19-25-09.uasset
+[2016.07.29-21.24.58:930][  0]SourceControl: Info 	modified:   ProjetoTeste/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.07.29-21.24.58:930][  0]SourceControl: Info 	deleted:    ProjetoTeste/Saved/Logs/ProjetoTeste-backup-2016.07.23-21.24.59.log
+[2016.07.29-21.24.58:930][  0]SourceControl: Info 	deleted:    ProjetoTeste/Saved/Logs/ProjetoTeste-backup-2016.07.23-21.49.49.log
+[2016.07.29-21.24.58:930][  0]SourceControl: Info 	deleted:    ProjetoTeste/Saved/Logs/ProjetoTeste-backup-2016.07.23-21.51.38.log
+[2016.07.29-21.24.58:930][  0]SourceControl: Info 	deleted:    ProjetoTeste/Saved/Logs/ProjetoTeste-backup-2016.07.23-21.53.17.log
+[2016.07.29-21.24.58:930][  0]SourceControl: Info 	modified:   ProjetoTeste/Saved/Logs/ProjetoTeste.log
+[2016.07.29-21.24.58:930][  0]SourceControl: Info 	deleted:    ProjetoTeste/Saved/Logs/ProjetoTeste_2-backup-2016.07.23-21.48.18.log
+[2016.07.29-21.24.58:930][  0]SourceControl: Info 	modified:   ProjetoTeste/Saved/Logs/ProjetoTeste_2.log
+[2016.07.29-21.24.58:930][  0]SourceControl: Info Untracked files:
+[2016.07.29-21.24.58:930][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2016.07.29-21.24.58:930][  0]SourceControl: Info 	ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_sharedassets/
+[2016.07.29-21.24.58:930][  0]SourceControl: Info 	ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/
+[2016.07.29-21.24.58:930][  0]SourceControl: Info 	ProjetoTeste/Saved/Backup/MAPA01_2016-07-29-01-00-50.umap
+[2016.07.29-21.24.58:930][  0]SourceControl: Info 	ProjetoTeste/Saved/Backup/MAPA01_2016-07-29-16-02-10.umap
+[2016.07.29-21.24.58:930][  0]SourceControl: Info 	ProjetoTeste/Saved/Backup/MAPA01_2016-07-29-16-13-35.umap
+[2016.07.29-21.24.58:930][  0]SourceControl: Info 	ProjetoTeste/Saved/Backup/MAPA01_2016-07-29-16-25-13.umap
+[2016.07.29-21.24.58:930][  0]SourceControl: Info 	ProjetoTeste/Saved/Backup/MAPA01_2016-07-29-16-35-15.umap
+[2016.07.29-21.24.58:930][  0]SourceControl: Info 	ProjetoTeste/Saved/Backup/MAPA01_2016-07-29-16-45-31.umap
+[2016.07.29-21.24.58:930][  0]SourceControl: Info 	ProjetoTeste/Saved/Backup/MAPA01_2016-07-29-16-55-12.umap
+[2016.07.29-21.24.58:930][  0]SourceControl: Info 	ProjetoTeste/Saved/Backup/MAPA01_2016-07-29-17-05-19.umap
+[2016.07.29-21.24.58:930][  0]SourceControl: Info 	ProjetoTeste/Saved/Logs/ProjetoTeste-backup-2016.07.28-20.42.11.log
+[2016.07.29-21.24.58:930][  0]SourceControl: Info 	ProjetoTeste/Saved/Logs/ProjetoTeste-backup-2016.07.29-00.49.56.log
+[2016.07.29-21.24.58:930][  0]SourceControl: Info 	ProjetoTeste/Saved/Logs/ProjetoTeste-backup-2016.07.29-15.48.53.log
+[2016.07.29-21.24.58:930][  0]SourceControl: Info 	ProjetoTeste/Saved/Logs/ProjetoTeste-backup-2016.07.29-18.12.50.log
+[2016.07.29-21.24.58:930][  0]SourceControl: Info 	ProjetoTeste/Saved/Logs/ProjetoTeste_2-backup-2016.07.29-18.24.44.log
+[2016.07.29-21.24.58:931][  0]LogContentStreaming: Texture pool size now 700 MB
+[2016.07.29-21.24.59:209][  0]LogRenderer: Reallocating scene render targets to support 724x744 (Frame:2).
+[2016.07.29-21.25.00:560][  4]LogAssetRegistry: Asset discovery search completed in 6.6795 seconds
+[2016.07.29-21.25.00:560][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.07.29-21.25.00:560][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000070 seconds (updated 0 objects)
+[2016.07.29-21.26.35:504][645]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_AnimBP'
+[2016.07.29-21.26.35:505][645]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_AnimBP' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2016.07.29-21.26.35:505][645]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter : Can't find file for asset. /Game/Mannequin/Animations/ThirdPerson_AnimBP
+[2016.07.29-21.26.35:507][645]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_AnimBP'
+[2016.07.29-21.26.35:508][645]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_AnimBP' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2016.07.29-21.26.35:508][645]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin'
+[2016.07.29-21.26.35:508][645]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2016.07.29-21.26.35:508][645]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter : Can't find file for asset. /Game/Mannequin/Character/Mesh/SK_Mannequin
+[2016.07.29-21.26.35:509][645]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin'
+[2016.07.29-21.26.35:509][645]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2016.07.29-21.26.35:511][645]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_AnimBP'
+[2016.07.29-21.26.35:511][645]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_AnimBP' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset.
+[2016.07.29-21.26.35:511][645]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode : Can't find file for asset. /Game/Mannequin/Animations/ThirdPerson_AnimBP
+[2016.07.29-21.26.35:511][645]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_AnimBP'
+[2016.07.29-21.26.35:512][645]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_AnimBP' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset.
+[2016.07.29-21.26.35:512][645]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin'
+[2016.07.29-21.26.35:512][645]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset.
+[2016.07.29-21.26.35:512][645]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode : Can't find file for asset. /Game/Mannequin/Character/Mesh/SK_Mannequin
+[2016.07.29-21.26.35:512][645]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin'
+[2016.07.29-21.26.35:512][645]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset.
+[2016.07.29-21.26.35:513][645]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_AnimBP'
+[2016.07.29-21.26.35:513][645]LoadErrors: Info Failed to load /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C Referenced by Default__ThirdPersonCharacter_C
+[2016.07.29-21.26.35:513][645]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_AnimBP' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset.
+[2016.07.29-21.26.35:513][645]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_AnimBP'
+[2016.07.29-21.26.35:513][645]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_AnimBP' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset.
+[2016.07.29-21.26.35:513][645]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin'
+[2016.07.29-21.26.35:513][645]LoadErrors: Info Failed to load /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin Referenced by Default__ThirdPersonCharacter_C
+[2016.07.29-21.26.35:514][645]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset.
+[2016.07.29-21.26.35:542][645]LogBlueprint:Warning: Compiler Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR 
+[2016.07.29-21.26.35:547][645]LogBlueprint:Warning: Compiler Warning [0111.44] Compile of ThirdPersonCharacter successful, but with 1 Warning(s) [in 12 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2016.07.29-21.26.35:547][645]LogBlueprint:Warning: Compiler Warning [0111.44] Compile of ThirdPersonCharacter successful, but with 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2016.07.29-21.26.35:547][645]LogBlueprint:Warning: Compiler Warning [0111.44] Compile of ThirdPersonCharacter successful, but with 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2016.07.29-21.26.35:557][645]LogBlueprint:Warning: Compiler Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR 
+[2016.07.29-21.26.35:563][645]LogBlueprint:Warning: Compiler Warning [0111.45] Compile of ThirdPersonCharacter successful, but with 1 Warning(s) [in 12 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2016.07.29-21.26.35:563][645]LogBlueprint:Warning: Compiler Warning [0111.45] Compile of ThirdPersonCharacter successful, but with 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2016.07.29-21.26.35:563][645]LogBlueprint:Warning: Compiler Warning [0111.45] Compile of ThirdPersonCharacter successful, but with 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2016.07.29-21.26.37:155][645]LogAIModule: Creating AISystem for world MAPA01
+[2016.07.29-21.26.37:236][645]Cmd: MAP LOAD FILE="../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Maps/MAPA01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.07.29-21.26.37:237][645]LightingResults: New page: Lighting Build
+[2016.07.29-21.26.37:237][645]LoadErrors: New page: Loading map: MAPA01.umap
+[2016.07.29-21.26.37:238][645]MapCheck: New page: Map Check
+[2016.07.29-21.26.37:238][645]LightingResults: New page: Lighting Build
+[2016.07.29-21.26.37:406][645]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.07.29-21.26.37:467][645]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.07.29-21.26.37:551][645]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 84.049ms to complete.
+[2016.07.29-21.26.37:551][645]LogFileHelpers: Loading map 'MAPA01' took 0.316
+[2016.07.29-21.26.37:612][646]Cmd: UpdateLandscapeEditorData -warnings
+[2016.07.29-21.26.37:627][646]Cmd: UpdateLandscapeEditorData
+[2016.07.29-21.27.17:289][330]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/Tenda3.fbx)
+[2016.07.29-21.27.17:297][330]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.07.29-21.27.17:298][330]LogFbx: ItemName: Geometry, ItemCount : 15
+[2016.07.29-21.27.17:298][330]LogFbx: ItemName: Model, ItemCount : 15
+[2016.07.29-21.27.17:298][330]LogFbx: ItemName: Material, ItemCount : 2
+[2016.07.29-21.27.17:298][330]LogFbx: ItemName: Texture, ItemCount : 2
+[2016.07.29-21.27.17:298][330]LogFbx: ItemName: Video, ItemCount : 2
+[2016.07.29-21.27.17:307][330]LogFbx: Loading FBX Scene from ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/Tenda3.fbx
+[2016.07.29-21.27.17:328][330]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.29-21.27.20:161][330]LogFbx: Loading FBX Scene from ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/Tenda3.fbx
+[2016.07.29-21.27.20:180][330]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.29-21.27.20:184][330]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/TentWood'
+[2016.07.29-21.27.20:184][330]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/TentWood'
+[2016.07.29-21.27.20:189][330]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/tileable_tree_bark_texture_by_ftourini-d3l69hz_-_Copia'
+[2016.07.29-21.27.20:189][330]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/tileable_tree_bark_texture_by_ftourini-d3l69hz_-_Copia'
+[2016.07.29-21.27.20:189][330]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/TheDarkAges/Scenes/Camp/tileable_tree_bark_texture_by_ftourini-d3l69hz_-_Copia.tileable_tree_bark_texture_by_ftourini-d3l69hz_-_Copia'
+[2016.07.29-21.27.20:190][330]LogStreaming:Warning: Failed to read file 'C:\Users\Usuário\Desktop\Texturas\Textures Game\tileable_tree_bark_texture_by_ftourini-d3l69hz - Copia.jpg' error.
+[2016.07.29-21.27.20:190][330]LogStreaming:Warning: Failed to read file '../../../../../../Users/Diego BA/Downloads/Telegram Desktop/C:\Users\Usuário\Desktop\Texturas\Textures Game\tileable_tree_bark_texture_by_ftourini-d3l69hz - Copia.jpg' error.
+[2016.07.29-21.27.20:190][330]LogStreaming:Warning: Failed to read file '../../../../../../Users/Diego BA/Downloads/Telegram Desktop/tileable_tree_bark_texture_by_ftourini-d3l69hz - Copia.jpg' error.
+[2016.07.29-21.27.20:190][330]LogFbxMaterialImport:Warning: Unable to find TEXTure file tileable_tree_bark_texture_by_ftourini-d3l69hz - Copia.jpg. Tried:
+ - C:\Users\Usuário\Desktop\Texturas\Textures Game\tileable_tree_bark_texture_by_ftourini-d3l69hz - Copia.jpg
+ - ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/C:\Users\Usuário\Desktop\Texturas\Textures Game\tileable_tree_bark_texture_by_ftourini-d3l69hz - Copia.jpg
+ - ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/tileable_tree_bark_texture_by_ftourini-d3l69hz - Copia.jpg
+[2016.07.29-21.27.20:205][330]LogMaterial: Missing cached shader map for material TentWood, compiling. 
+[2016.07.29-21.27.20:253][330]LogFbx:Warning: Triangulating static mesh Cylinder.013
+[2016.07.29-21.27.20:287][330]LogFbx:Warning: Triangulating static mesh Cylinder.012
+[2016.07.29-21.27.20:302][330]LogFbx:Warning: Triangulating static mesh Cylinder.011
+[2016.07.29-21.27.20:320][330]LogFbx:Warning: Triangulating static mesh Cylinder.010
+[2016.07.29-21.27.20:341][330]LogFbx:Warning: Triangulating static mesh Cylinder.009
+[2016.07.29-21.27.20:361][330]LogFbx:Warning: Triangulating static mesh Cylinder.008
+[2016.07.29-21.27.20:382][330]LogFbx:Warning: Triangulating static mesh Cylinder.007
+[2016.07.29-21.27.20:401][330]LogFbx:Warning: Triangulating static mesh Cylinder.006
+[2016.07.29-21.27.20:417][330]LogFbx:Warning: Triangulating static mesh Cylinder.005
+[2016.07.29-21.27.20:433][330]LogFbx:Warning: Triangulating static mesh Cylinder.004
+[2016.07.29-21.27.20:447][330]LogFbx:Warning: Triangulating static mesh Cylinder.003
+[2016.07.29-21.27.20:463][330]LogFbx:Warning: Triangulating static mesh Cylinder.002
+[2016.07.29-21.27.20:477][330]LogFbx:Warning: Triangulating static mesh Cylinder
+[2016.07.29-21.27.20:486][330]LogFbx:Warning: Triangulating static mesh Cylinder.001
+[2016.07.29-21.27.20:511][330]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/TentFabric'
+[2016.07.29-21.27.20:511][330]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/TentFabric'
+[2016.07.29-21.27.20:514][330]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/TentTexture2'
+[2016.07.29-21.27.20:514][330]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/TentTexture2'
+[2016.07.29-21.27.20:514][330]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/TheDarkAges/Scenes/Camp/TentTexture2.TentTexture2'
+[2016.07.29-21.27.20:515][330]LogStreaming:Warning: Failed to read file 'C:\Users\Usuário\Desktop\Texturas\Textures Game\TentTexture2.png' error.
+[2016.07.29-21.27.20:515][330]LogStreaming:Warning: Failed to read file '../../../../../../Users/Diego BA/Downloads/Telegram Desktop/C:\Users\Usuário\Desktop\Texturas\Textures Game\TentTexture2.png' error.
+[2016.07.29-21.27.20:515][330]LogStreaming:Warning: Failed to read file '../../../../../../Users/Diego BA/Downloads/Telegram Desktop/TentTexture2.png' error.
+[2016.07.29-21.27.20:515][330]LogFbxMaterialImport:Warning: Unable to find TEXTure file TentTexture2.png. Tried:
+ - C:\Users\Usuário\Desktop\Texturas\Textures Game\TentTexture2.png
+ - ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/C:\Users\Usuário\Desktop\Texturas\Textures Game\TentTexture2.png
+ - ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/TentTexture2.png
+[2016.07.29-21.27.20:519][330]LogMaterial: Missing cached shader map for material TentFabric, compiling. 
+[2016.07.29-21.27.20:544][330]LogFbx:Warning: Triangulating static mesh Plane.002
+[2016.07.29-21.27.21:162][330]LogStaticMesh: Building static mesh Tenda3...
+[2016.07.29-21.27.21:170][330]LogMeshUtilities:Warning: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2016.07.29-21.27.21:304][330]LogStaticMesh: Built static mesh [0.15s] /Game/TheDarkAges/Scenes/Camp/Tenda3.Tenda3
+[2016.07.29-21.28.00:043][279]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda12)
+[2016.07.29-21.28.01:266][392]Cmd: DELETE
+[2016.07.29-21.28.01:266][392]Cmd: ACTOR DELETE
+[2016.07.29-21.28.01:270][392]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-21.28.01:293][392]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2016.07.29-21.28.03:486][546]LogActorFactory: Actor Factory created Tenda3
+[2016.07.29-21.28.04:175][614]LogActorFactory: Actor Factory created Tenda3
+[2016.07.29-21.29.08:520][226]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.07.29-21.29.10:784][380]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca8)
+[2016.07.29-21.29.11:300][417]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda-grande)
+[2016.07.29-21.30.06:597][973]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/tent.jpg)
+[2016.07.29-21.30.07:367][973]LogTexture:Display: Building textures: tent (AutoDXT)
+[2016.07.29-21.30.53:306][122]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2016.07.29-21.30.58:765][588]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.07.29-21.31.47:802][241]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda6)
+[2016.07.29-21.32.02:409][241]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.07.29-21.32.38:169][135]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/Tent2.jpg)
+[2016.07.29-21.32.38:730][135]LogTexture:Display: Building textures: Tent2 (AutoDXT)
+[2016.07.29-21.32.58:127][489]LogMaterial: Missing cached shader map for material Tent2_Mat, compiling. 
+[2016.07.29-21.33.16:792][964]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda10)
+[2016.07.29-21.34.02:927][579]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Tenda6)
+[2016.07.29-21.34.59:787][346]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2016.07.29-21.35.35:811][303]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/Containers (2)/Containers/3e615c54899cd61ef14f8e1d41b43661.jpg)
+[2016.07.29-21.35.35:836][303]LogTexture:Display: Building textures: 3e615c54899cd61ef14f8e1d41b43661 (BGRA8)
+[2016.07.29-21.35.36:050][303]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/Containers (2)/Containers/43_linen-flaxseed-.jpg)
+[2016.07.29-21.35.36:181][303]LogTexture:Display: Building textures: 43_linen-flaxseed- (AutoDXT)
+[2016.07.29-21.35.41:253][303]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/Containers (2)/Containers/746c9f88527bc3f85b32a08d9e57d016.jpg)
+[2016.07.29-21.35.41:262][303]LogTexture:Display: Building textures: 746c9f88527bc3f85b32a08d9e57d016 (BGRA8)
+[2016.07.29-21.35.41:406][303]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/Containers (2)/Containers/Big-Box.fbx)
+[2016.07.29-21.35.41:413][303]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.07.29-21.35.41:413][303]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.07.29-21.35.41:413][303]LogFbx: ItemName: Model, ItemCount : 1
+[2016.07.29-21.35.41:413][303]LogFbx: ItemName: Material, ItemCount : 2
+[2016.07.29-21.35.41:413][303]LogFbx: ItemName: Texture, ItemCount : 2
+[2016.07.29-21.35.41:413][303]LogFbx: ItemName: Video, ItemCount : 2
+[2016.07.29-21.35.41:422][303]LogFbx: Loading FBX Scene from ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/Containers (2)/Containers/Big-Box.fbx
+[2016.07.29-21.35.41:434][303]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.29-21.35.43:233][303]LogFbx: Loading FBX Scene from ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/Containers (2)/Containers/Big-Box.fbx
+[2016.07.29-21.35.43:244][303]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.29-21.35.43:273][303]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/Wood-planks_1_001'
+[2016.07.29-21.35.43:273][303]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/Wood-planks_1_001'
+[2016.07.29-21.35.43:308][303]LogTexture:Display: Building textures: 746c9f88527bc3f85b32a08d9e57d016 (BGRA8)
+[2016.07.29-21.35.43:345][303]LogFbxMaterialImport:Warning: Manual texture reimport and recompression may be needed for 746c9f88527bc3f85b32a08d9e57d016
+[2016.07.29-21.35.43:356][303]LogTexture:Display: Building textures: 746c9f88527bc3f85b32a08d9e57d016 (BGRA8)
+[2016.07.29-21.35.43:423][303]LogMaterial: Missing cached shader map for material Wood-planks_1_001, compiling. 
+[2016.07.29-21.35.43:431][303]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Containers/Wood-planks_1_001.Wood-planks_1_001 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.07.29-21.35.43:431][303]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016.746c9f88527bc3f85b32a08d9e57d016
+[2016.07.29-21.35.43:459][303]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/Wood-plank_003'
+[2016.07.29-21.35.43:459][303]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/Wood-plank_003'
+[2016.07.29-21.35.43:462][303]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3'
+[2016.07.29-21.35.43:462][303]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3'
+[2016.07.29-21.35.43:463][303]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3.rough-wood-texture-seamless-design-3'
+[2016.07.29-21.35.43:516][303]LogTexture:Display: Building textures: rough-wood-texture-seamless-design-3 (BGRA8)
+[2016.07.29-21.35.43:680][303]LogFbxMaterialImport:Warning: Manual texture reimport and recompression may be needed for rough-wood-texture-seamless-design-3
+[2016.07.29-21.35.43:736][303]LogTexture:Display: Building textures: rough-wood-texture-seamless-design-3 (BGRA8)
+[2016.07.29-21.35.43:888][303]LogMaterial: Missing cached shader map for material Wood-plank_003, compiling. 
+[2016.07.29-21.35.43:889][303]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Containers/Wood-plank_003.Wood-plank_003 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.07.29-21.35.43:889][303]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3.rough-wood-texture-seamless-design-3
+[2016.07.29-21.35.43:892][303]LogFbx:Warning: Triangulating static mesh Plane
+[2016.07.29-21.35.43:944][303]LogStaticMesh: Building static mesh Big-Box...
+[2016.07.29-21.35.43:983][303]LogStaticMesh: Built static mesh [0.04s] /Game/TheDarkAges/Scenes/Camp/Containers/Big-Box.Big-Box
+[2016.07.29-21.35.44:015][303]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.29-21.35.44:204][303]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/Containers (2)/Containers/Big-Box-Locked.fbx)
+[2016.07.29-21.35.45:140][303]LogFbx: Loading FBX Scene from ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/Containers (2)/Containers/Big-Box-Locked.fbx
+[2016.07.29-21.35.45:152][303]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.29-21.35.45:155][303]LogFbx:Warning: Triangulating static mesh Circle.004
+[2016.07.29-21.35.45:228][303]LogFbx:Warning: Triangulating static mesh Plane.005
+[2016.07.29-21.35.45:261][303]LogStaticMesh: Building static mesh Big-Box-Locked...
+[2016.07.29-21.35.45:295][303]LogStaticMesh: Built static mesh [0.03s] /Game/TheDarkAges/Scenes/Camp/Containers/Big-Box-Locked.Big-Box-Locked
+[2016.07.29-21.35.45:325][303]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.29-21.35.45:446][303]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/Containers (2)/Containers/Box.fbx)
+[2016.07.29-21.35.46:457][303]LogFbx: Loading FBX Scene from ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/Containers (2)/Containers/Box.fbx
+[2016.07.29-21.35.46:467][303]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.29-21.35.46:470][303]LogFbx:Warning: Triangulating static mesh Plane.004
+[2016.07.29-21.35.46:520][303]LogStaticMesh: Building static mesh Box...
+[2016.07.29-21.35.46:552][303]LogStaticMesh: Built static mesh [0.05s] /Game/TheDarkAges/Scenes/Camp/Containers/Box.Box
+[2016.07.29-21.35.46:581][303]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.29-21.35.46:701][303]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/Containers (2)/Containers/Box-Locked.fbx)
+[2016.07.29-21.35.48:693][303]LogFbx: Loading FBX Scene from ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/Containers (2)/Containers/Box-Locked.fbx
+[2016.07.29-21.35.48:703][303]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.29-21.35.48:706][303]LogFbx:Warning: Triangulating static mesh Plane.003
+[2016.07.29-21.35.48:762][303]LogStaticMesh: Building static mesh Box-Locked...
+[2016.07.29-21.35.48:780][303]LogStaticMesh: Built static mesh [0.04s] /Game/TheDarkAges/Scenes/Camp/Containers/Box-Locked.Box-Locked
+[2016.07.29-21.35.48:812][303]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.29-21.35.48:933][303]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/Containers (2)/Containers/large-Box.fbx)
+[2016.07.29-21.35.48:948][303]LogFbx: Loading FBX Scene from ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/Containers (2)/Containers/large-Box.fbx
+[2016.07.29-21.35.48:960][303]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.29-21.35.48:964][303]LogFbx:Warning: Triangulating static mesh Plane.001
+[2016.07.29-21.35.49:108][303]LogStaticMesh: Building static mesh large-Box...
+[2016.07.29-21.35.49:232][303]LogStaticMesh: Built static mesh [0.14s] /Game/TheDarkAges/Scenes/Camp/Containers/large-Box.large-Box
+[2016.07.29-21.35.49:237][303]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.29-21.35.49:378][303]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/Containers (2)/Containers/large-Box-Locked.fbx)
+[2016.07.29-21.35.49:392][303]LogFbx: Loading FBX Scene from ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/Containers (2)/Containers/large-Box-Locked.fbx
+[2016.07.29-21.35.49:404][303]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.29-21.35.49:407][303]LogFbx:Warning: Triangulating static mesh Plane.002
+[2016.07.29-21.35.49:553][303]LogStaticMesh: Building static mesh large-Box-Locked...
+[2016.07.29-21.35.49:701][303]LogStaticMesh: Built static mesh [0.17s] /Game/TheDarkAges/Scenes/Camp/Containers/large-Box-Locked.large-Box-Locked
+[2016.07.29-21.35.49:724][303]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.29-21.35.49:872][303]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/Containers (2)/Containers/Mug.fbx)
+[2016.07.29-21.35.49:887][303]LogFbx: Loading FBX Scene from ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/Containers (2)/Containers/Mug.fbx
+[2016.07.29-21.35.49:898][303]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.29-21.35.49:901][303]LogFbx:Warning: Triangulating static mesh Circle.001
+[2016.07.29-21.35.49:975][303]LogFbx:Warning: Triangulating static mesh BezierCurve
+[2016.07.29-21.35.50:080][303]LogFbx:Warning: Triangulating static mesh Circle
+[2016.07.29-21.35.50:267][303]LogStaticMesh: Building static mesh Mug...
+[2016.07.29-21.35.50:290][303]LogStaticMesh: Built static mesh [0.02s] /Game/TheDarkAges/Scenes/Camp/Containers/Mug.Mug
+[2016.07.29-21.35.50:328][303]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.29-21.35.55:456][303]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/Containers (2)/Containers/rough-wood-texture-seamless-design-3.jpeg)
+[2016.07.29-21.35.57:170][303]LogTexture:Display: Building textures: rough-wood-texture-seamless-design-3 (BGRA8)
+[2016.07.29-21.35.57:404][303]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/Containers (2)/Containers/Soja.fbx)
+[2016.07.29-21.35.57:420][303]LogFbx: Loading FBX Scene from ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/Containers (2)/Containers/Soja.fbx
+[2016.07.29-21.35.57:433][303]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.29-21.35.57:437][303]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/Linho'
+[2016.07.29-21.35.57:437][303]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/Linho'
+[2016.07.29-21.35.57:584][303]LogTexture:Display: Building textures: 43_linen-flaxseed- (AutoDXT)
+[2016.07.29-21.36.02:158][303]LogFbxMaterialImport:Warning: Manual texture reimport and recompression may be needed for 43_linen-flaxseed-
+[2016.07.29-21.36.02:282][303]LogTexture:Display: Building textures: 43_linen-flaxseed- (AutoDXT)
+[2016.07.29-21.36.06:902][303]LogMaterial: Missing cached shader map for material Linho, compiling. 
+[2016.07.29-21.36.06:903][303]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Containers/Linho.Linho for platform PCD3D_SM5, Default Material will be used in game.
+[2016.07.29-21.36.06:903][303]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-.43_linen-flaxseed-
+[2016.07.29-21.36.06:905][303]LogFbx:Warning: Triangulating static mesh Circle.003
+[2016.07.29-21.36.07:719][303]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/Soya'
+[2016.07.29-21.36.07:719][303]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/Soya'
+[2016.07.29-21.36.07:723][303]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales'
+[2016.07.29-21.36.07:723][303]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales'
+[2016.07.29-21.36.07:723][303]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales.Soybean_Meal_100_mt_Ready_for_sales'
+[2016.07.29-21.36.07:752][303]LogTexture:Display: Building textures: Soybean_Meal_100_mt_Ready_for_sales (AutoDXT)
+[2016.07.29-21.36.08:638][303]LogFbxMaterialImport:Warning: Manual texture reimport and recompression may be needed for Soybean_Meal_100_mt_Ready_for_sales
+[2016.07.29-21.36.08:696][303]LogTexture:Display: Building textures: Soybean_Meal_100_mt_Ready_for_sales (AutoDXT)
+[2016.07.29-21.36.09:632][303]LogMaterial: Missing cached shader map for material Soya, compiling. 
+[2016.07.29-21.36.09:633][303]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Containers/Soya.Soya for platform PCD3D_SM5, Default Material will be used in game.
+[2016.07.29-21.36.09:633][303]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales.Soybean_Meal_100_mt_Ready_for_sales
+[2016.07.29-21.36.09:636][303]LogFbx:Warning: Triangulating static mesh Circle.002
+[2016.07.29-21.36.09:842][303]LogStaticMesh: Building static mesh Soja...
+[2016.07.29-21.36.09:971][303]LogStaticMesh: Built static mesh [0.13s] /Game/TheDarkAges/Scenes/Camp/Containers/Soja.Soja
+[2016.07.29-21.36.09:995][303]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.29-21.36.10:128][303]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/Containers (2)/Containers/Soja-Grande.fbx)
+[2016.07.29-21.36.10:143][303]LogFbx: Loading FBX Scene from ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/Containers (2)/Containers/Soja-Grande.fbx
+[2016.07.29-21.36.10:159][303]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.29-21.36.10:198][303]LogTexture:Display: Building textures: 3e615c54899cd61ef14f8e1d41b43661 (BGRA8)
+[2016.07.29-21.36.10:294][303]LogFbxMaterialImport:Warning: Manual texture reimport and recompression may be needed for 3e615c54899cd61ef14f8e1d41b43661
+[2016.07.29-21.36.10:330][303]LogTexture:Display: Building textures: 3e615c54899cd61ef14f8e1d41b43661 (BGRA8)
+[2016.07.29-21.36.10:430][303]LogMaterial: Missing cached shader map for material Mug2, compiling. 
+[2016.07.29-21.36.10:431][303]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Containers/Mug2.Mug2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.07.29-21.36.10:431][303]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Containers/3e615c54899cd61ef14f8e1d41b43661.3e615c54899cd61ef14f8e1d41b43661
+[2016.07.29-21.36.10:453][303]LogFbx:Warning: Triangulating static mesh BezierCurve
+[2016.07.29-21.36.10:757][303]LogFbx:Warning: Triangulating static mesh Circle
+[2016.07.29-21.36.10:938][303]LogFbx:Warning: Triangulating static mesh Circle.001
+[2016.07.29-21.36.11:775][303]LogStaticMesh: Building static mesh Soja-Grande...
+[2016.07.29-21.36.11:969][303]LogStaticMesh: Built static mesh [0.23s] /Game/TheDarkAges/Scenes/Camp/Containers/Soja-Grande.Soja-Grande
+[2016.07.29-21.36.11:987][303]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.29-21.36.14:095][303]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/Containers (2)/Containers/Soybean_Meal_100_mt_Ready_for_sales.jpg)
+[2016.07.29-21.36.14:156][303]LogTexture:Display: Building textures: Soybean_Meal_100_mt_Ready_for_sales (AutoDXT)
+[2016.07.29-21.37.01:541][584]LogSavePackage: Save=1991.06ms
+[2016.07.29-21.37.01:541][584]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/MAPA01_Auto1A5347D3F478926B4E9704EAAE0D5FF92.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto1.umap'
+[2016.07.29-21.37.01:569][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto1.umap
+[2016.07.29-21.37.01:574][584]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TheDarkAges/Maps/MAPA01' took 2.100
+[2016.07.29-21.37.01:574][584]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.100
+[2016.07.29-21.37.01:577][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/TentFabric] ([1] browsable assets)...
+[2016.07.29-21.37.01:600][584]OBJ SavePackage:     Rendered thumbnail for [Material /Game/TheDarkAges/Scenes/Camp/TentFabric.TentFabric]
+[2016.07.29-21.37.01:600][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/TentFabric]
+[2016.07.29-21.37.01:619][584]LogSavePackage: Save=17.05ms
+[2016.07.29-21.37.01:619][584]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/TentFabric_Auto18C911A2D423BA560D06F479936C9DF7B.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/TentFabric_Auto1.uasset'
+[2016.07.29-21.37.01:621][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/TentFabric_Auto1.uasset
+[2016.07.29-21.37.01:622][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Tenda3] ([1] browsable assets)...
+[2016.07.29-21.37.01:644][584]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TheDarkAges/Scenes/Camp/Tenda3.Tenda3]
+[2016.07.29-21.37.01:644][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Tenda3]
+[2016.07.29-21.37.01:662][584]LogSavePackage: Save=16.36ms
+[2016.07.29-21.37.01:662][584]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Tenda3_Auto1E8FDC950448419AD5F664291F367BEB8.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Tenda3_Auto1.uasset'
+[2016.07.29-21.37.01:664][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Tenda3_Auto1.uasset
+[2016.07.29-21.37.01:665][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Texture/tent] ([1] browsable assets)...
+[2016.07.29-21.37.01:681][584]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TheDarkAges/Scenes/Camp/Texture/tent.tent]
+[2016.07.29-21.37.01:681][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Texture/tent]
+[2016.07.29-21.37.01:752][584]LogSavePackage: Save=69.17ms
+[2016.07.29-21.37.01:752][584]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/tent_Auto1B2E4A61D42B9E880E8A9808A9EA9218B.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Texture/tent_Auto1.uasset'
+[2016.07.29-21.37.01:755][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Texture/tent_Auto1.uasset
+[2016.07.29-21.37.01:755][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/TentWood] ([1] browsable assets)...
+[2016.07.29-21.37.01:791][584]OBJ SavePackage:     Rendered thumbnail for [Material /Game/TheDarkAges/Scenes/Camp/TentWood.TentWood]
+[2016.07.29-21.37.01:791][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/TentWood]
+[2016.07.29-21.37.01:810][584]LogSavePackage: Save=16.36ms
+[2016.07.29-21.37.01:810][584]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/TentWood_Auto1F1C0ADE04D9699D0DDCD7390979DFE19.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/TentWood_Auto1.uasset'
+[2016.07.29-21.37.01:812][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/TentWood_Auto1.uasset
+[2016.07.29-21.37.01:813][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Texture/Tent2] ([1] browsable assets)...
+[2016.07.29-21.37.01:828][584]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TheDarkAges/Scenes/Camp/Texture/Tent2.Tent2]
+[2016.07.29-21.37.01:829][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Texture/Tent2]
+[2016.07.29-21.37.01:874][584]LogSavePackage: Save=43.59ms
+[2016.07.29-21.37.01:874][584]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Tent2_Auto111EFAD0E478EBB1866AF8C8DCCAE8279.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Texture/Tent2_Auto1.uasset'
+[2016.07.29-21.37.01:877][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Texture/Tent2_Auto1.uasset
+[2016.07.29-21.37.01:878][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Texture/Tent2_Mat] ([1] browsable assets)...
+[2016.07.29-21.37.01:900][584]OBJ SavePackage:     Rendered thumbnail for [Material /Game/TheDarkAges/Scenes/Camp/Texture/Tent2_Mat.Tent2_Mat]
+[2016.07.29-21.37.01:900][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Texture/Tent2_Mat]
+[2016.07.29-21.37.01:922][584]LogSavePackage: Save=20.32ms
+[2016.07.29-21.37.01:922][584]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Tent2_Mat_Auto13DEC8D474B01802B97EA31AB612AF2F4.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Texture/Tent2_Mat_Auto1.uasset'
+[2016.07.29-21.37.01:924][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Texture/Tent2_Mat_Auto1.uasset
+[2016.07.29-21.37.01:926][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Containers/3e615c54899cd61ef14f8e1d41b43661] ([1] browsable assets)...
+[2016.07.29-21.37.01:939][584]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TheDarkAges/Scenes/Camp/Containers/3e615c54899cd61ef14f8e1d41b43661.3e615c54899cd61ef14f8e1d41b43661]
+[2016.07.29-21.37.01:939][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Containers/3e615c54899cd61ef14f8e1d41b43661]
+[2016.07.29-21.37.01:958][584]LogSavePackage: Save=16.19ms
+[2016.07.29-21.37.01:958][584]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/3e615c54899cd61ef14f8e1d41b43661_Auto1F675F33E48EA8DBC4514A489C8A264D1.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/3e615c54899cd61ef14f8e1d41b43661_Auto1.uasset'
+[2016.07.29-21.37.01:960][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/3e615c54899cd61ef14f8e1d41b43661_Auto1.uasset
+[2016.07.29-21.37.01:961][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-] ([1] browsable assets)...
+[2016.07.29-21.37.01:977][584]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-.43_linen-flaxseed-]
+[2016.07.29-21.37.01:977][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-]
+[2016.07.29-21.37.02:011][584]LogSavePackage: Save=31.58ms
+[2016.07.29-21.37.02:011][584]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/43_linen-flaxseed-_Auto12AFFF63B4A7F16399DCBDCB7995CE738.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-_Auto1.uasset'
+[2016.07.29-21.37.02:013][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-_Auto1.uasset
+[2016.07.29-21.37.02:014][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016] ([1] browsable assets)...
+[2016.07.29-21.37.02:030][584]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016.746c9f88527bc3f85b32a08d9e57d016]
+[2016.07.29-21.37.02:030][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016]
+[2016.07.29-21.37.02:052][584]LogSavePackage: Save=19.13ms
+[2016.07.29-21.37.02:052][584]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/746c9f88527bc3f85b32a08d9e57d016_Auto1127275BA451A613517EAE4B22DE34F5F.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Auto1.uasset'
+[2016.07.29-21.37.02:053][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Auto1.uasset
+[2016.07.29-21.37.02:054][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Containers/Big-Box] ([1] browsable assets)...
+[2016.07.29-21.37.02:076][584]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TheDarkAges/Scenes/Camp/Containers/Big-Box.Big-Box]
+[2016.07.29-21.37.02:076][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Containers/Big-Box]
+[2016.07.29-21.37.02:095][584]LogSavePackage: Save=17.02ms
+[2016.07.29-21.37.02:095][584]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Big-Box_Auto179D4AC72499D8AA1B8810A936A60C348.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/Big-Box_Auto1.uasset'
+[2016.07.29-21.37.02:098][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/Big-Box_Auto1.uasset
+[2016.07.29-21.37.02:099][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Containers/Wood-planks_1_001] ([1] browsable assets)...
+[2016.07.29-21.37.02:120][584]OBJ SavePackage:     Rendered thumbnail for [Material /Game/TheDarkAges/Scenes/Camp/Containers/Wood-planks_1_001.Wood-planks_1_001]
+[2016.07.29-21.37.02:120][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Containers/Wood-planks_1_001]
+[2016.07.29-21.37.02:140][584]LogSavePackage: Save=17.58ms
+[2016.07.29-21.37.02:140][584]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Wood-planks_1_001_Auto1F9A25B1C4CDB7EDCB03E1F88F48BB03B.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/Wood-planks_1_001_Auto1.uasset'
+[2016.07.29-21.37.02:142][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/Wood-planks_1_001_Auto1.uasset
+[2016.07.29-21.37.02:143][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Containers/Wood-plank_003] ([1] browsable assets)...
+[2016.07.29-21.37.02:165][584]OBJ SavePackage:     Rendered thumbnail for [Material /Game/TheDarkAges/Scenes/Camp/Containers/Wood-plank_003.Wood-plank_003]
+[2016.07.29-21.37.02:165][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Containers/Wood-plank_003]
+[2016.07.29-21.37.02:185][584]LogSavePackage: Save=17.23ms
+[2016.07.29-21.37.02:185][584]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Wood-plank_003_Auto17F5CEF1F450942B25F01568FB28CD1A4.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/Wood-plank_003_Auto1.uasset'
+[2016.07.29-21.37.02:187][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/Wood-plank_003_Auto1.uasset
+[2016.07.29-21.37.02:189][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3] ([1] browsable assets)...
+[2016.07.29-21.37.02:204][584]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3.rough-wood-texture-seamless-design-3]
+[2016.07.29-21.37.02:204][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3]
+[2016.07.29-21.37.02:229][584]LogSavePackage: Save=22.12ms
+[2016.07.29-21.37.02:229][584]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/rough-wood-texture-seamless-design-3_Auto1EF9EB0634D71BD8E4D10C0B29789DAD1.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Auto1.uasset'
+[2016.07.29-21.37.02:231][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Auto1.uasset
+[2016.07.29-21.37.02:232][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Containers/Big-Box-Locked] ([1] browsable assets)...
+[2016.07.29-21.37.02:253][584]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TheDarkAges/Scenes/Camp/Containers/Big-Box-Locked.Big-Box-Locked]
+[2016.07.29-21.37.02:253][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Containers/Big-Box-Locked]
+[2016.07.29-21.37.02:282][584]LogSavePackage: Save=26.19ms
+[2016.07.29-21.37.02:282][584]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Big-Box-Locked_Auto16DF208604D811F1B50C821B3D8D2D8BF.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/Big-Box-Locked_Auto1.uasset'
+[2016.07.29-21.37.02:284][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/Big-Box-Locked_Auto1.uasset
+[2016.07.29-21.37.02:285][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Containers/Box] ([1] browsable assets)...
+[2016.07.29-21.37.02:307][584]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TheDarkAges/Scenes/Camp/Containers/Box.Box]
+[2016.07.29-21.37.02:307][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Containers/Box]
+[2016.07.29-21.37.02:326][584]LogSavePackage: Save=17.16ms
+[2016.07.29-21.37.02:327][584]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Box_Auto103FB33544A0638B51FF69CB054B6DCE9.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/Box_Auto1.uasset'
+[2016.07.29-21.37.02:339][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/Box_Auto1.uasset
+[2016.07.29-21.37.02:340][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Containers/Box-Locked] ([1] browsable assets)...
+[2016.07.29-21.37.02:361][584]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TheDarkAges/Scenes/Camp/Containers/Box-Locked.Box-Locked]
+[2016.07.29-21.37.02:361][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Containers/Box-Locked]
+[2016.07.29-21.37.02:380][584]LogSavePackage: Save=16.61ms
+[2016.07.29-21.37.02:380][584]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Box-Locked_Auto12D682AFC4FAD113B4794ABB444AAD5B0.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/Box-Locked_Auto1.uasset'
+[2016.07.29-21.37.02:382][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/Box-Locked_Auto1.uasset
+[2016.07.29-21.37.02:383][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Containers/large-Box] ([1] browsable assets)...
+[2016.07.29-21.37.02:405][584]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TheDarkAges/Scenes/Camp/Containers/large-Box.large-Box]
+[2016.07.29-21.37.02:405][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Containers/large-Box]
+[2016.07.29-21.37.02:425][584]LogSavePackage: Save=17.15ms
+[2016.07.29-21.37.02:425][584]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/large-Box_Auto140ED56444B7AB9CF384588AAFCCE2C53.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/large-Box_Auto1.uasset'
+[2016.07.29-21.37.02:427][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/large-Box_Auto1.uasset
+[2016.07.29-21.37.02:428][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Containers/large-Box-Locked] ([1] browsable assets)...
+[2016.07.29-21.37.02:450][584]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TheDarkAges/Scenes/Camp/Containers/large-Box-Locked.large-Box-Locked]
+[2016.07.29-21.37.02:450][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Containers/large-Box-Locked]
+[2016.07.29-21.37.02:469][584]LogSavePackage: Save=17.23ms
+[2016.07.29-21.37.02:469][584]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/large-Box-Locked_Auto18D8B0335416D23025E0DF495D9B4C942.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/large-Box-Locked_Auto1.uasset'
+[2016.07.29-21.37.02:471][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/large-Box-Locked_Auto1.uasset
+[2016.07.29-21.37.02:472][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Containers/Mug] ([1] browsable assets)...
+[2016.07.29-21.37.02:494][584]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TheDarkAges/Scenes/Camp/Containers/Mug.Mug]
+[2016.07.29-21.37.02:494][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Containers/Mug]
+[2016.07.29-21.37.02:513][584]LogSavePackage: Save=17.42ms
+[2016.07.29-21.37.02:513][584]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Mug_Auto1904A83A04437AD5DAFB4F78079DBC361.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/Mug_Auto1.uasset'
+[2016.07.29-21.37.02:515][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/Mug_Auto1.uasset
+[2016.07.29-21.37.02:516][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Containers/Soja] ([1] browsable assets)...
+[2016.07.29-21.37.02:538][584]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TheDarkAges/Scenes/Camp/Containers/Soja.Soja]
+[2016.07.29-21.37.02:538][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Containers/Soja]
+[2016.07.29-21.37.02:560][584]LogSavePackage: Save=20.26ms
+[2016.07.29-21.37.02:560][584]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Soja_Auto1BA2F2EFF4F35C005371B40A1359231CE.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/Soja_Auto1.uasset'
+[2016.07.29-21.37.02:563][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/Soja_Auto1.uasset
+[2016.07.29-21.37.02:564][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Containers/Linho] ([1] browsable assets)...
+[2016.07.29-21.37.02:586][584]OBJ SavePackage:     Rendered thumbnail for [Material /Game/TheDarkAges/Scenes/Camp/Containers/Linho.Linho]
+[2016.07.29-21.37.02:586][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Containers/Linho]
+[2016.07.29-21.37.02:608][584]LogSavePackage: Save=19.06ms
+[2016.07.29-21.37.02:610][584]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Linho_Auto1957F0EA14E67EA59D5B4B6B1DB0B5B91.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/Linho_Auto1.uasset'
+[2016.07.29-21.37.02:613][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/Linho_Auto1.uasset
+[2016.07.29-21.37.02:614][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Containers/Soya] ([1] browsable assets)...
+[2016.07.29-21.37.02:638][584]OBJ SavePackage:     Rendered thumbnail for [Material /Game/TheDarkAges/Scenes/Camp/Containers/Soya.Soya]
+[2016.07.29-21.37.02:638][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Containers/Soya]
+[2016.07.29-21.37.02:658][584]LogSavePackage: Save=17.28ms
+[2016.07.29-21.37.02:658][584]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Soya_Auto1B8489EA545057F5A56D93F878A98E067.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/Soya_Auto1.uasset'
+[2016.07.29-21.37.02:660][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/Soya_Auto1.uasset
+[2016.07.29-21.37.02:661][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales] ([1] browsable assets)...
+[2016.07.29-21.37.02:677][584]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales.Soybean_Meal_100_mt_Ready_for_sales]
+[2016.07.29-21.37.02:677][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales]
+[2016.07.29-21.37.02:702][584]LogSavePackage: Save=23.14ms
+[2016.07.29-21.37.02:702][584]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Soybean_Meal_100_mt_Ready_for_sales_Auto1400AE9C546F9B726FF21269C8066B55B.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales_Auto1.uasset'
+[2016.07.29-21.37.02:704][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales_Auto1.uasset
+[2016.07.29-21.37.02:705][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Containers/Soja-Grande] ([1] browsable assets)...
+[2016.07.29-21.37.02:726][584]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TheDarkAges/Scenes/Camp/Containers/Soja-Grande.Soja-Grande]
+[2016.07.29-21.37.02:726][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Containers/Soja-Grande]
+[2016.07.29-21.37.02:748][584]LogSavePackage: Save=19.31ms
+[2016.07.29-21.37.02:748][584]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Soja-Grande_Auto170026C814735E92A5E52899131524687.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/Soja-Grande_Auto1.uasset'
+[2016.07.29-21.37.02:750][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/Soja-Grande_Auto1.uasset
+[2016.07.29-21.37.02:751][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Scenes/Camp/Containers/Mug2] ([1] browsable assets)...
+[2016.07.29-21.37.02:772][584]OBJ SavePackage:     Rendered thumbnail for [Material /Game/TheDarkAges/Scenes/Camp/Containers/Mug2.Mug2]
+[2016.07.29-21.37.02:772][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Scenes/Camp/Containers/Mug2]
+[2016.07.29-21.37.02:794][584]LogSavePackage: Save=19.32ms
+[2016.07.29-21.37.02:794][584]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Mug2_Auto15BB67F254C37D6634FC857893DA25C4D.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/Mug2_Auto1.uasset'
+[2016.07.29-21.37.02:796][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Containers/Mug2_Auto1.uasset
+[2016.07.29-21.37.02:796][584]LogFileHelpers: Auto-saving content packages took 1.221
+[2016.07.29-21.37.19:037][597]LogActorFactory: Actor Factory created Big-Box
+[2016.07.29-21.37.19:037][597]LogActorFactory: Actor Factory created Big-Box-Locked
+[2016.07.29-21.37.19:037][597]LogActorFactory: Actor Factory created Box
+[2016.07.29-21.37.19:038][597]LogActorFactory: Actor Factory created Box-Locked
+[2016.07.29-21.37.19:038][597]LogActorFactory: Actor Factory created large-Box
+[2016.07.29-21.37.19:040][597]LogActorFactory: Actor Factory created large-Box-Locked
+[2016.07.29-21.37.19:040][597]LogActorFactory: Actor Factory created Mug
+[2016.07.29-21.37.19:041][597]LogActorFactory: Actor Factory created Soja
+[2016.07.29-21.37.19:042][597]LogActorFactory: Actor Factory created Soja-Grande
+[2016.07.29-21.37.20:235][656]LogActorFactory: Actor Factory created Big-Box
+[2016.07.29-21.37.20:260][656]LogActorFactory: Actor Factory created Big-Box-Locked
+[2016.07.29-21.37.20:283][656]LogActorFactory: Actor Factory created Box
+[2016.07.29-21.37.20:305][656]LogActorFactory: Actor Factory created Box-Locked
+[2016.07.29-21.37.20:328][656]LogActorFactory: Actor Factory created large-Box
+[2016.07.29-21.37.20:351][656]LogActorFactory: Actor Factory created large-Box-Locked
+[2016.07.29-21.37.20:375][656]LogActorFactory: Actor Factory created Mug
+[2016.07.29-21.37.20:399][656]LogActorFactory: Actor Factory created Soja
+[2016.07.29-21.37.20:423][656]LogActorFactory: Actor Factory created Soja-Grande
+[2016.07.29-21.37.32:020][456]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Mug)
+[2016.07.29-21.37.33:242][552]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Big-Box)
+[2016.07.29-21.37.54:652][309]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Mug)
+[2016.07.29-21.37.59:372][653]Cmd: TRANSACTION UNDO
+[2016.07.29-21.37.59:372][653]LogEditorTransaction: Undo Move Actors
+[2016.07.29-21.38.00:872][755]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Big-Box-Locked)
+[2016.07.29-21.38.05:376][ 75]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Big-Box-Locked)
+[2016.07.29-21.38.07:603][239]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box)
+[2016.07.29-21.38.10:581][455]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Mug)
+[2016.07.29-21.38.14:586][746]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Soja-Grande2)
+[2016.07.29-21.38.33:193][153]LogMaterial: Missing cached shader map for material 3e615c54899cd61ef14f8e1d41b43661_Mat, compiling. 
+[2016.07.29-21.38.33:231][153]LogMaterial: Missing cached shader map for material 43_linen-flaxseed-_Mat, compiling. 
+[2016.07.29-21.38.33:271][153]LogMaterial: Missing cached shader map for material 746c9f88527bc3f85b32a08d9e57d016_Mat, compiling. 
+[2016.07.29-21.38.33:301][153]LogActorFactory: Actor Factory created Big-Box
+[2016.07.29-21.38.33:338][153]LogActorFactory: Actor Factory created Big-Box-Locked
+[2016.07.29-21.38.33:375][153]LogActorFactory: Actor Factory created Box
+[2016.07.29-21.38.33:410][153]LogActorFactory: Actor Factory created Box-Locked
+[2016.07.29-21.38.33:447][153]LogActorFactory: Actor Factory created large-Box
+[2016.07.29-21.38.33:481][153]LogActorFactory: Actor Factory created large-Box-Locked
+[2016.07.29-21.38.33:516][153]LogActorFactory: Actor Factory created Mug
+[2016.07.29-21.38.33:560][153]LogMaterial: Missing cached shader map for material rough-wood-texture-seamless-design-3_Mat, compiling. 
+[2016.07.29-21.38.33:589][153]LogActorFactory: Actor Factory created Soja
+[2016.07.29-21.38.33:624][153]LogActorFactory: Actor Factory created Soja-Grande
+[2016.07.29-21.38.33:670][153]LogMaterial: Missing cached shader map for material Soybean_Meal_100_mt_Ready_for_sales_Mat, compiling. 
+[2016.07.29-21.38.53:369][474]Cmd: TRANSACTION UNDO
+[2016.07.29-21.38.53:369][474]LogEditorTransaction: Undo Create Actors
+[2016.07.29-21.39.33:598][741]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Soja-Grande2)
+[2016.07.29-21.39.35:331][903]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Soja-Grande2)
+[2016.07.29-21.39.35:871][952]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Soja-Grande2)
+[2016.07.29-21.39.40:196][324]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Soja-Grande2)
+[2016.07.29-21.39.55:824][548]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.07.29-21.40.39:171][621]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Big-Box)
+[2016.07.29-21.41.00:818][447]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Big-Box)
+[2016.07.29-21.41.11:733][359]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box)
+[2016.07.29-21.41.21:286][129]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Soja)
+[2016.07.29-21.41.29:472][814]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Soja)
+[2016.07.29-21.42.26:274][617]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Soja)
+[2016.07.29-21.42.37:349][580]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box)
+[2016.07.29-21.42.43:206][124]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Big-Box)
+[2016.07.29-21.43.03:785][671]LogActorFactory: Actor Factory created large-Box-Locked
+[2016.07.29-21.43.04:512][732]LogActorFactory: Actor Factory created large-Box-Locked
+[2016.07.29-21.43.12:418][434]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.07.29-21.43.23:298][242]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.07.29-21.43.37:324][241]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.07.29-21.43.39:486][437]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked2)
+[2016.07.29-21.44.10:672][349]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked2)
+[2016.07.29-21.44.42:520][658]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Soja2)
+[2016.07.29-21.44.46:077][921]Cmd: DELETE
+[2016.07.29-21.44.46:077][921]Cmd: ACTOR DELETE
+[2016.07.29-21.44.46:079][921]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-21.44.46:099][921]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2016.07.29-21.44.47:254][ 11]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Big-Box)
+[2016.07.29-21.44.50:655][261]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box)
+[2016.07.29-21.44.59:761][958]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked2)
+[2016.07.29-21.45.02:275][151]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (large-Box-Locked2)
+[2016.07.29-21.45.02:326][151]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (StaticMeshComponent0)
+[2016.07.29-21.45.09:328][662]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Mug)
+[2016.07.29-21.45.11:930][853]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box-Locked)
+[2016.07.29-21.45.14:638][ 47]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box)
+[2016.07.29-21.45.21:512][561]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.07.29-21.45.22:112][594]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Big-Box-Locked)
+[2016.07.29-21.45.23:504][692]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Big-Box-Locked)
+[2016.07.29-21.45.28:702][108]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked2)
+[2016.07.29-21.45.38:092][871]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.07.29-21.46.37:764][597]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked5)
+[2016.07.29-21.46.44:767][ 74]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked3)
+[2016.07.29-21.46.48:419][314]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked2)
+[2016.07.29-21.47.01:529][296]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked5)
+[2016.07.29-21.47.06:499][621]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked2)
+[2016.07.29-21.47.10:419][885]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked3)
+[2016.07.29-21.47.26:506][988]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked3)
+[2016.07.29-21.47.33:119][480]Cmd: DELETE
+[2016.07.29-21.47.33:119][480]Cmd: ACTOR DELETE
+[2016.07.29-21.47.33:120][480]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-21.47.33:141][480]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2016.07.29-21.47.33:919][540]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked7)
+[2016.07.29-21.47.34:072][548]Cmd: DELETE
+[2016.07.29-21.47.34:072][548]Cmd: ACTOR DELETE
+[2016.07.29-21.47.34:074][548]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-21.47.34:093][548]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-21.47.34:596][587]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked5)
+[2016.07.29-21.47.34:768][595]Cmd: DELETE
+[2016.07.29-21.47.34:768][595]Cmd: ACTOR DELETE
+[2016.07.29-21.47.34:769][595]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-21.47.34:787][595]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.07.29-21.47.35:249][631]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked4)
+[2016.07.29-21.47.35:475][645]Cmd: DELETE
+[2016.07.29-21.47.35:475][645]Cmd: ACTOR DELETE
+[2016.07.29-21.47.35:477][645]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-21.47.35:495][645]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-21.48.02:476][552]LogSavePackage: Save=2030.10ms
+[2016.07.29-21.48.02:476][552]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/MAPA01_Auto2867CDB51488AFBEFB88741A35CD644C5.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto2.umap'
+[2016.07.29-21.48.02:479][552]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto2.umap
+[2016.07.29-21.48.02:481][552]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TheDarkAges/Maps/MAPA01' took 2.114
+[2016.07.29-21.48.02:481][552]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.114
+[2016.07.29-21.48.12:011][996]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked6)
+[2016.07.29-21.48.12:832][ 57]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked2)
+[2016.07.29-21.48.22:650][790]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box)
+[2016.07.29-21.48.27:151][163]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Mug)
+[2016.07.29-21.48.29:595][366]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box-Locked)
+[2016.07.29-21.48.31:278][503]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Big-Box-Locked)
+[2016.07.29-21.48.42:239][397]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box)
+[2016.07.29-21.48.59:173][833]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2016.07.29-21.49.12:115][656]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Big-Box)
+[2016.07.29-21.49.15:208][919]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box)
+[2016.07.29-21.49.33:140][377]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked6)
+[2016.07.29-21.49.44:907][276]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked2)
+[2016.07.29-21.50.18:522][774]LogActorFactory: Actor Factory created large-Box
+[2016.07.29-21.51.30:858][206]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked)
+[2016.07.29-21.51.32:676][379]Cmd: DELETE
+[2016.07.29-21.51.32:677][379]Cmd: ACTOR DELETE
+[2016.07.29-21.51.32:678][379]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-21.51.32:695][379]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2016.07.29-21.52.06:247][280]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril6)
+[2016.07.29-21.52.35:180][769]Cmd: DELETE
+[2016.07.29-21.52.35:180][769]Cmd: ACTOR DELETE
+[2016.07.29-21.52.35:181][769]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-21.52.35:199][769]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.07.29-21.52.42:376][391]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Apple-Barril2)
+[2016.07.29-21.53.30:372][631]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Soja)
+[2016.07.29-21.54.21:301][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda-grande)
+[2016.07.29-21.54.40:809][284]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Apple-Barril2)
+[2016.07.29-21.55.31:104][726]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Apple-Barril3)
+[2016.07.29-21.55.32:150][819]Cmd: DELETE
+[2016.07.29-21.55.32:150][819]Cmd: ACTOR DELETE
+[2016.07.29-21.55.32:151][819]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-21.55.32:169][819]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.07.29-21.55.35:083][ 89]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Apple-Barril2)
+[2016.07.29-21.55.55:966][888]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril2)
+[2016.07.29-21.56.19:660][999]Cmd: TRANSACTION UNDO
+[2016.07.29-21.56.19:660][999]LogEditorTransaction: Undo Move Actors
+[2016.07.29-21.56.38:966][544]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked4)
+[2016.07.29-21.56.41:787][744]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked3)
+[2016.07.29-21.58.08:454][211]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril2)
+[2016.07.29-21.58.32:077][ 88]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril9)
+[2016.07.29-21.58.45:851][189]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril2)
+[2016.07.29-21.58.58:913][255]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril7)
+[2016.07.29-21.59.00:088][348]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril2)
+[2016.07.29-21.59.20:951][839]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril10)
+[2016.07.29-21.59.28:620][305]LogSavePackage: Save=1973.21ms
+[2016.07.29-21.59.28:620][305]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/MAPA01_Auto3DA081CAB4F5885B2C7F5C984F90F5B50.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto3.umap'
+[2016.07.29-21.59.28:623][305]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto3.umap
+[2016.07.29-21.59.28:625][305]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TheDarkAges/Maps/MAPA01' took 2.061
+[2016.07.29-21.59.28:625][305]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.061
+[2016.07.29-21.59.40:097][608]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril2)
+[2016.07.29-21.59.59:072][238]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Mug)
+[2016.07.29-22.00.04:641][697]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril9)
+[2016.07.29-22.00.12:350][351]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril11)
+[2016.07.29-22.00.38:939][776]Cmd: DELETE
+[2016.07.29-22.00.38:939][776]Cmd: ACTOR DELETE
+[2016.07.29-22.00.38:940][776]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-22.00.38:959][776]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-22.00.41:116][974]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril14)
+[2016.07.29-22.00.43:416][176]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril13)
+[2016.07.29-22.00.45:975][405]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril16)
+[2016.07.29-22.00.49:044][682]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril12)
+[2016.07.29-22.00.55:591][270]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril11)
+[2016.07.29-22.00.57:660][458]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril11)
+[2016.07.29-22.00.58:150][502]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril15)
+[2016.07.29-22.01.14:823][ 33]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril11)
+[2016.07.29-22.01.22:434][708]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril16)
+[2016.07.29-22.01.27:476][159]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril17)
+[2016.07.29-22.01.42:939][522]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Apple-Barril2)
+[2016.07.29-22.01.48:842][984]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Big-Box)
+[2016.07.29-22.01.55:766][589]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril12)
+[2016.07.29-22.01.58:932][865]Cmd: DELETE
+[2016.07.29-22.01.58:932][865]Cmd: ACTOR DELETE
+[2016.07.29-22.01.58:933][865]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-22.01.58:952][865]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-22.01.59:620][927]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril14)
+[2016.07.29-22.01.59:717][931]Cmd: DELETE
+[2016.07.29-22.01.59:717][931]Cmd: ACTOR DELETE
+[2016.07.29-22.01.59:718][931]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-22.01.59:735][931]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2016.07.29-22.02.01:315][ 79]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril13)
+[2016.07.29-22.02.21:691][763]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril2)
+[2016.07.29-22.02.32:322][668]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked11)
+[2016.07.29-22.02.35:551][925]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda9)
+[2016.07.29-22.02.40:528][315]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked10)
+[2016.07.29-22.02.46:825][832]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril2)
+[2016.07.29-22.02.51:369][203]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked10)
+[2016.07.29-22.04.04:123][209]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Big-Box-Locked)
+[2016.07.29-22.04.12:646][855]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Big-Box-Locked)
+[2016.07.29-22.04.14:674][944]LogRenderer: Reallocating scene render targets to support 1192x744 (Frame:163989).
+[2016.07.29-22.05.09:643][833]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Soja)
+[2016.07.29-22.06.10:048][674]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/TendaCircle/1969-normal.jpg)
+[2016.07.29-22.06.10:134][674]LogTexture:Display: Building textures: 1969-normal (BC5)
+[2016.07.29-22.06.10:340][674]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/TendaCircle/7176-normal.jpg)
+[2016.07.29-22.06.10:357][674]LogTexture:Display: Building textures: 7176-normal (BC5)
+[2016.07.29-22.06.10:556][674]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/TendaCircle/10477-normal.jpg)
+[2016.07.29-22.06.10:580][674]LogTexture:Display: Building textures: 10477-normal (BC5)
+[2016.07.29-22.06.10:807][674]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/TendaCircle/normal-0031.jpg)
+[2016.07.29-22.06.10:830][674]LogTexture:Display: Building textures: normal-0031 (BC5)
+[2016.07.29-22.06.11:107][674]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/TendaCircle/Tenda-Normal.jpg)
+[2016.07.29-22.06.11:145][674]LogTexture:Display: Building textures: Tenda-Normal (AutoDXT)
+[2016.07.29-22.06.11:880][674]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/TendaCircle/Tenda-Redonda.fbx)
+[2016.07.29-22.06.11:890][674]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.07.29-22.06.11:890][674]LogFbx: ItemName: Geometry, ItemCount : 2
+[2016.07.29-22.06.11:890][674]LogFbx: ItemName: Model, ItemCount : 2
+[2016.07.29-22.06.11:890][674]LogFbx: ItemName: Material, ItemCount : 2
+[2016.07.29-22.06.11:890][674]LogFbx: ItemName: Texture, ItemCount : 6
+[2016.07.29-22.06.11:890][674]LogFbx: ItemName: Video, ItemCount : 6
+[2016.07.29-22.06.11:900][674]LogFbx: Loading FBX Scene from ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/TendaCircle/Tenda-Redonda.fbx
+[2016.07.29-22.06.11:917][674]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.29-22.06.15:300][674]LogFbx: Loading FBX Scene from ../../../../../../Users/Diego BA/Downloads/Telegram Desktop/TendaCircle/Tenda-Redonda.fbx
+[2016.07.29-22.06.15:314][674]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.29-22.06.15:325][674]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/TheDarkAges/Scenes/Camp/Tend/Wood.Wood'
+[2016.07.29-22.06.15:458][674]LogTexture:Display: Building textures: Wood2 (AutoDXT)
+[2016.07.29-22.06.20:291][674]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/TheDarkAges/Scenes/Camp/Tend/Wood.Wood'
+[2016.07.29-22.06.20:451][674]LogTexture:Display: Building textures: Wood3 (BC5)
+[2016.07.29-22.06.21:153][674]LogMaterial: Missing cached shader map for material Wood, compiling. 
+[2016.07.29-22.06.21:175][674]LogFbx:Warning: Triangulating static mesh Plane.001
+[2016.07.29-22.06.21:397][674]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Tend/Material'
+[2016.07.29-22.06.21:397][674]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Tend/Material'
+[2016.07.29-22.06.21:401][674]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Tend/Tent2'
+[2016.07.29-22.06.21:401][674]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Tend/Tent2'
+[2016.07.29-22.06.21:401][674]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/TheDarkAges/Scenes/Camp/Tend/Tent2.Tent2'
+[2016.07.29-22.06.21:401][674]LogStreaming:Warning: Failed to read file 'C:\Users\Empresa\Documents\Tent2.jpg' error.
+[2016.07.29-22.06.21:401][674]LogStreaming:Warning: Failed to read file '../../../../../../Users/Diego BA/Downloads/Telegram Desktop/TendaCircle/C:\Users\Empresa\Documents\Tent2.jpg' error.
+[2016.07.29-22.06.22:547][674]LogTexture:Display: Building textures: Tent2 (AutoDXT)
+[2016.07.29-22.06.46:411][674]LogStreaming:Warning: Failed to read file 'C:\Users\Empresa\Documents\Tent2.jpg' error.
+[2016.07.29-22.06.46:411][674]LogStreaming:Warning: Failed to read file '../../../../../../Users/Diego BA/Downloads/Telegram Desktop/TendaCircle/C:\Users\Empresa\Documents\Tent2.jpg' error.
+[2016.07.29-22.06.46:430][674]LogFbxMaterialImport:Warning: Manual texture reimport and recompression may be needed for Tent2
+[2016.07.29-22.06.47:309][674]LogTexture:Display: Building textures: Tent2 (AutoDXT)
+[2016.07.29-22.07.10:208][674]LogFbxMaterialImport:Warning: Manual texture reimport and recompression may be needed for Tenda-Normal
+[2016.07.29-22.07.10:262][674]LogTexture:Display: Building textures: Tenda-Normal (AutoDXT)
+[2016.07.29-22.07.10:868][674]LogFbxMaterialImport:Warning: Manual texture reimport and recompression may be needed for 10477-normal
+[2016.07.29-22.07.10:884][674]LogTexture:Display: Building textures: 10477-normal (BC5)
+[2016.07.29-22.07.10:943][674]LogFbxMaterialImport:Warning: Manual texture reimport and recompression may be needed for 7176-normal
+[2016.07.29-22.07.10:953][674]LogTexture:Display: Building textures: 7176-normal (BC5)
+[2016.07.29-22.07.11:009][674]LogFbxMaterialImport:Warning: Manual texture reimport and recompression may be needed for normal-0031
+[2016.07.29-22.07.11:026][674]LogTexture:Display: Building textures: normal-0031 (BC5)
+[2016.07.29-22.07.11:102][674]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2016.07.29-22.07.11:124][674]LogFbx:Warning: Triangulating static mesh Circle
+[2016.07.29-22.07.12:033][674]LogStaticMesh: Building static mesh Tenda-Redonda...
+[2016.07.29-22.07.12:336][674]LogStaticMesh: Built static mesh [0.30s] /Game/TheDarkAges/Scenes/Camp/Tend/Tenda-Redonda.Tenda-Redonda
+[2016.07.29-22.07.12:354][674]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.29-22.08.18:905][498]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda9)
+[2016.07.29-22.08.20:783][619]Cmd: DELETE
+[2016.07.29-22.08.20:783][619]Cmd: ACTOR DELETE
+[2016.07.29-22.08.20:784][619]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-22.08.20:813][619]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2016.07.29-22.08.23:094][764]LogActorFactory: Actor Factory created Tenda-Redonda
+[2016.07.29-22.08.24:058][819]LogActorFactory: Actor Factory created Tenda-Redonda
+[2016.07.29-22.08.42:891][272]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril8)
+[2016.07.29-22.08.50:867][922]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda-Redonda)
+[2016.07.29-22.09.52:327][138]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked5)
+[2016.07.29-22.09.53:252][215]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked8)
+[2016.07.29-22.09.55:772][435]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked11)
+[2016.07.29-22.09.59:310][746]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked9)
+[2016.07.29-22.10.01:961][977]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked5)
+[2016.07.29-22.10.04:784][224]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked10)
+[2016.07.29-22.10.09:249][623]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril8)
+[2016.07.29-22.10.14:991][140]Cmd: DELETE
+[2016.07.29-22.10.14:991][140]Cmd: ACTOR DELETE
+[2016.07.29-22.10.14:992][140]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-22.10.15:011][140]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-22.10.20:726][645]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda-Redonda)
+[2016.07.29-22.10.22:868][814]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda6)
+[2016.07.29-22.10.27:860][202]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda-Redonda)
+[2016.07.29-22.10.44:857][466]Cmd: TRANSACTION UNDO
+[2016.07.29-22.10.44:857][466]LogEditorTransaction: Undo Rotate Actors
+[2016.07.29-22.10.57:533][217]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril2)
+[2016.07.29-22.10.59:342][321]Cmd: DELETE
+[2016.07.29-22.10.59:342][321]Cmd: ACTOR DELETE
+[2016.07.29-22.10.59:343][321]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-22.10.59:362][321]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-22.11.02:904][541]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril9)
+[2016.07.29-22.11.05:541][686]Cmd: DELETE
+[2016.07.29-22.11.05:541][686]Cmd: ACTOR DELETE
+[2016.07.29-22.11.05:542][686]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-22.11.05:561][686]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-22.11.06:681][749]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril7)
+[2016.07.29-22.11.09:519][902]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril10)
+[2016.07.29-22.11.19:037][493]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda-Redonda)
+[2016.07.29-22.11.34:002][437]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2016.07.29-22.11.34:139][437]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2016.07.29-22.11.34:151][437]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.29-22.11.34:182][437]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.07.29-22.11.34:188][437]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.07.29-22.11.34:195][437]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.07.29-22.11.34:198][437]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.07.29-22.11.34:200][437]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.07.29-22.11.34:206][437]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.07.29-22.11.36:758][538]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2016.07.29-22.11.36:758][538]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.07.29-22.11.36:758][538]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.07.29-22.11.45:547][996]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2016.07.29-22.11.46:728][ 45]LogMaterialEditor: Applying material Material
+[2016.07.29-22.11.47:733][ 45]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2016.07.29-22.11.47:766][ 45]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.29-22.11.47:803][ 45]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2016.07.29-22.11.47:842][ 45]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2016.07.29-22.11.47:870][ 45]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.29-22.11.50:286][151]LogMaterialEditor: Saving and Compiling material Material
+[2016.07.29-22.11.54:237][151]LogSavePackage: Save=24.40ms
+[2016.07.29-22.11.54:237][151]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Material8F7421564333874D03F343880163AAAA.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tend/Material.uasset'
+[2016.07.29-22.11.54:246][151]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tend/Material.uasset
+[2016.07.29-22.11.54:514][151]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 69 instructions
+[2016.07.29-22.11.54:514][151]MaterialEditorStats: Info Vertex shader: 41 instructions
+[2016.07.29-22.11.54:514][151]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.07.29-22.12.14:462][701]Cmd: TRANSACTION UNDO
+[2016.07.29-22.12.14:462][701]LogEditorTransaction: Undo Move Actors
+[2016.07.29-22.12.55:462][ 84]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril6)
+[2016.07.29-22.13.00:331][484]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda-Redonda2)
+[2016.07.29-22.13.08:993][189]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda-Redonda)
+[2016.07.29-22.13.09:857][255]Cmd: DELETE
+[2016.07.29-22.13.09:857][255]Cmd: ACTOR DELETE
+[2016.07.29-22.13.09:859][255]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-22.13.09:880][255]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2016.07.29-22.13.10:981][345]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda-Redonda2)
+[2016.07.29-22.13.25:052][439]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked10)
+[2016.07.29-22.13.30:907][898]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked11)
+[2016.07.29-22.13.34:986][213]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked11)
+[2016.07.29-22.13.35:859][280]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked8)
+[2016.07.29-22.13.48:324][966]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked10)
+[2016.07.29-22.13.49:355][ 47]Cmd: DELETE
+[2016.07.29-22.13.49:355][ 47]Cmd: ACTOR DELETE
+[2016.07.29-22.13.49:356][ 47]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-22.13.49:375][ 47]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-22.13.50:059][105]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked9)
+[2016.07.29-22.13.50:458][135]Cmd: DELETE
+[2016.07.29-22.13.50:458][135]Cmd: ACTOR DELETE
+[2016.07.29-22.13.50:459][135]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-22.13.50:478][135]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-22.13.51:175][194]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked8)
+[2016.07.29-22.13.54:087][429]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked11)
+[2016.07.29-22.13.56:311][610]Cmd: DELETE
+[2016.07.29-22.13.56:311][610]Cmd: ACTOR DELETE
+[2016.07.29-22.13.56:312][610]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-22.13.56:330][610]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.07.29-22.13.56:784][649]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked5)
+[2016.07.29-22.13.56:931][658]Cmd: DELETE
+[2016.07.29-22.13.56:931][658]Cmd: ACTOR DELETE
+[2016.07.29-22.13.56:932][658]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-22.13.56:951][658]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-22.14.00:401][930]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked8)
+[2016.07.29-22.14.34:159][540]LogActorFactory: Actor Factory created Big-Box
+[2016.07.29-22.14.35:212][625]LogActorFactory: Actor Factory created Big-Box
+[2016.07.29-22.16.01:200][799]LogSavePackage: Save=2088.21ms
+[2016.07.29-22.16.01:201][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/MAPA01623947754395C110B96A8DBBDA0C12DF.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Maps/MAPA01.umap'
+[2016.07.29-22.16.01:218][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Maps/MAPA01.umap
+[2016.07.29-22.16.01:277][799]LogFileHelpers: Saving map 'MAPA01' took 2.334
+[2016.07.29-22.16.01:402][799]LogSavePackage: Save=95.79ms
+[2016.07.29-22.16.01:402][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/3e615c54899cd61ef14f8e1d41b4366107A784B84E4617F6B4C6A9A10AE618DB.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/3e615c54899cd61ef14f8e1d41b43661.uasset'
+[2016.07.29-22.16.01:438][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/3e615c54899cd61ef14f8e1d41b43661.uasset
+[2016.07.29-22.16.02:287][799]LogSavePackage: Save=584.23ms
+[2016.07.29-22.16.02:287][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/43_linen-flaxseed-51F5EF0F4AB75035A91A9A89BCE7F371.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-.uasset'
+[2016.07.29-22.16.02:297][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-.uasset
+[2016.07.29-22.16.02:904][799]LogSavePackage: Save=52.99ms
+[2016.07.29-22.16.02:904][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/746c9f88527bc3f85b32a08d9e57d016EEB330F941534C6A77AFBCBE16C07A21.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016.uasset'
+[2016.07.29-22.16.02:915][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016.uasset
+[2016.07.29-22.16.03:212][799]LogSavePackage: Save=17.53ms
+[2016.07.29-22.16.03:212][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Big-BoxDAF36B2F4862475410D68A851A402694.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Big-Box.uasset'
+[2016.07.29-22.16.03:224][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Big-Box.uasset
+[2016.07.29-22.16.03:490][799]LogSavePackage: Save=18.73ms
+[2016.07.29-22.16.03:490][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Big-Box-Locked1DF3409D41F796203B6E7485C9501829.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Big-Box-Locked.uasset'
+[2016.07.29-22.16.03:500][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Big-Box-Locked.uasset
+[2016.07.29-22.16.03:944][799]LogSavePackage: Save=23.88ms
+[2016.07.29-22.16.03:944][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Box27A2331D4CE9B4E4EB37EBAE8AF3CCB8.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Box.uasset'
+[2016.07.29-22.16.03:959][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Box.uasset
+[2016.07.29-22.16.04:186][799]LogSavePackage: Save=17.77ms
+[2016.07.29-22.16.04:186][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Box-LockedBD4B3CB34F93B946FDCD8DB0D0B22ED6.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Box-Locked.uasset'
+[2016.07.29-22.16.04:195][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Box-Locked.uasset
+[2016.07.29-22.16.04:452][799]LogSavePackage: Save=17.80ms
+[2016.07.29-22.16.04:452][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/large-Box1BC799FD49BAE5BFDE2EC4A93D7EE5E0.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/large-Box.uasset'
+[2016.07.29-22.16.04:469][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/large-Box.uasset
+[2016.07.29-22.16.04:726][799]LogSavePackage: Save=18.01ms
+[2016.07.29-22.16.04:726][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/large-Box-LockedA76A28B94F3A5BDCFC4E568254EB7AA7.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/large-Box-Locked.uasset'
+[2016.07.29-22.16.04:738][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/large-Box-Locked.uasset
+[2016.07.29-22.16.05:005][799]LogSavePackage: Save=20.19ms
+[2016.07.29-22.16.05:005][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Linho8FBCBEF04DE23BD7EE0EB79941CF9BCF.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Linho.uasset'
+[2016.07.29-22.16.05:015][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Linho.uasset
+[2016.07.29-22.16.05:273][799]LogSavePackage: Save=19.22ms
+[2016.07.29-22.16.05:273][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/MugA0BE333B41820A7876046C8C83100F11.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Mug.uasset'
+[2016.07.29-22.16.05:284][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Mug.uasset
+[2016.07.29-22.16.05:553][799]LogSavePackage: Save=18.82ms
+[2016.07.29-22.16.05:553][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Mug27A54944B43698A04FBDAA3860F310BDA.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Mug2.uasset'
+[2016.07.29-22.16.05:561][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Mug2.uasset
+[2016.07.29-22.16.05:965][799]LogSavePackage: Save=172.00ms
+[2016.07.29-22.16.05:967][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/rough-wood-texture-seamless-design-38474F4D44B32D707890AF1A60EB4946D.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3.uasset'
+[2016.07.29-22.16.05:978][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3.uasset
+[2016.07.29-22.16.06:330][799]LogSavePackage: Save=20.93ms
+[2016.07.29-22.16.06:330][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/SojaAFD471A74859B0CC090FE39B7F2312EE.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Soja.uasset'
+[2016.07.29-22.16.06:340][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Soja.uasset
+[2016.07.29-22.16.06:609][799]LogSavePackage: Save=20.70ms
+[2016.07.29-22.16.06:609][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Soja-Grande1037364B46EE7A45AA30E788B35EEB59.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Soja-Grande.uasset'
+[2016.07.29-22.16.06:618][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Soja-Grande.uasset
+[2016.07.29-22.16.06:898][799]LogSavePackage: Save=18.93ms
+[2016.07.29-22.16.06:898][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/SoyaE15EBFCF4CD1D985F63CC9BD5C044476.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Soya.uasset'
+[2016.07.29-22.16.06:907][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Soya.uasset
+[2016.07.29-22.16.07:261][799]LogSavePackage: Save=138.30ms
+[2016.07.29-22.16.07:261][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Soybean_Meal_100_mt_Ready_for_sales46E6322B47A795CD83DEB0B5FCC6076D.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales.uasset'
+[2016.07.29-22.16.07:271][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales.uasset
+[2016.07.29-22.16.07:623][799]LogSavePackage: Save=20.90ms
+[2016.07.29-22.16.07:623][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Wood-plank_0031455463D4F1E1B12BF09CA9AF87684D5.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Wood-plank_003.uasset'
+[2016.07.29-22.16.07:647][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Wood-plank_003.uasset
+[2016.07.29-22.16.07:933][799]LogSavePackage: Save=20.07ms
+[2016.07.29-22.16.07:933][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Wood-planks_1_0014598258B4D61BA664EA9EF9D5ED7F0DA.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Wood-planks_1_001.uasset'
+[2016.07.29-22.16.07:949][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Wood-planks_1_001.uasset
+[2016.07.29-22.16.08:237][799]LogSavePackage: Save=44.43ms
+[2016.07.29-22.16.08:237][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/10477-normal55B6A90F4E82E9241873829EFA9B3A17.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tend/10477-normal.uasset'
+[2016.07.29-22.16.08:241][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tend/10477-normal.uasset
+[2016.07.29-22.16.08:542][799]LogSavePackage: Save=73.21ms
+[2016.07.29-22.16.08:542][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/1969-normal392CCC944E2A414BFBB90BA9640E9DFD.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tend/1969-normal.uasset'
+[2016.07.29-22.16.08:546][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tend/1969-normal.uasset
+[2016.07.29-22.16.08:867][799]LogSavePackage: Save=68.28ms
+[2016.07.29-22.16.08:867][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/7176-normal982018354B2048BA95ADB18FCEFA6DD8.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tend/7176-normal.uasset'
+[2016.07.29-22.16.08:872][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tend/7176-normal.uasset
+[2016.07.29-22.16.09:196][799]LogSavePackage: Save=82.68ms
+[2016.07.29-22.16.09:196][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/normal-00319E1DE76845C72FABDB3EA9B28489AF32.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tend/normal-0031.uasset'
+[2016.07.29-22.16.09:199][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tend/normal-0031.uasset
+[2016.07.29-22.16.09:633][799]LogSavePackage: Save=163.61ms
+[2016.07.29-22.16.09:633][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Tenda-NormalCBE50C71467BDD71FA6281A3A85DAE0F.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tend/Tenda-Normal.uasset'
+[2016.07.29-22.16.09:638][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tend/Tenda-Normal.uasset
+[2016.07.29-22.16.09:694][799]LogSavePackage: Save=23.42ms
+[2016.07.29-22.16.09:694][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Tenda-RedondaD6CCE4D847A9930840AE93AC19989261.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tend/Tenda-Redonda.uasset'
+[2016.07.29-22.16.09:699][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tend/Tenda-Redonda.uasset
+[2016.07.29-22.16.12:844][799]LogSavePackage: Save=2884.81ms
+[2016.07.29-22.16.12:844][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Tent26F4DC0F34E08FEFADD8A98855FE003B4.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tend/Tent2.uasset'
+[2016.07.29-22.16.12:848][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tend/Tent2.uasset
+[2016.07.29-22.16.14:918][799]LogSavePackage: Save=23.40ms
+[2016.07.29-22.16.14:918][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Wood92BC44DB48F4724DF3C7CE85C3F74144.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tend/Wood.uasset'
+[2016.07.29-22.16.14:922][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tend/Wood.uasset
+[2016.07.29-22.16.15:491][799]LogSavePackage: Save=547.43ms
+[2016.07.29-22.16.15:491][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Wood2B8A6826D4D762653E72A0390BB8B20E4.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tend/Wood2.uasset'
+[2016.07.29-22.16.15:494][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tend/Wood2.uasset
+[2016.07.29-22.16.16:689][799]LogSavePackage: Save=541.58ms
+[2016.07.29-22.16.16:689][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Wood354B58DEF48218B1C80335CA4E58D6CC2.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tend/Wood3.uasset'
+[2016.07.29-22.16.16:693][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tend/Wood3.uasset
+[2016.07.29-22.16.17:226][799]LogSavePackage: Save=17.17ms
+[2016.07.29-22.16.17:226][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Tenda3AD35C6F94DB369878B6D5C88952D0D11.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tenda3.uasset'
+[2016.07.29-22.16.17:235][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tenda3.uasset
+[2016.07.29-22.16.17:489][799]LogSavePackage: Save=16.66ms
+[2016.07.29-22.16.17:489][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/TentFabric6D965DB04112BEFBDB3718B997C9EBD7.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/TentFabric.uasset'
+[2016.07.29-22.16.17:498][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/TentFabric.uasset
+[2016.07.29-22.16.17:732][799]LogSavePackage: Save=17.51ms
+[2016.07.29-22.16.17:732][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/TentWood0FAB0D104D712AE69A3ECBB0F2AA1A15.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/TentWood.uasset'
+[2016.07.29-22.16.17:742][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/TentWood.uasset
+[2016.07.29-22.16.20:333][799]LogSavePackage: Save=2366.49ms
+[2016.07.29-22.16.20:333][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/tent3647DC334EB39824D37FE6A5DDB0C228.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Texture/tent.uasset'
+[2016.07.29-22.16.20:340][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Texture/tent.uasset
+[2016.07.29-22.16.23:250][799]LogSavePackage: Save=1533.90ms
+[2016.07.29-22.16.23:250][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Tent2E1EBFED14B315D17540683B40B7FA00D.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Texture/Tent2.uasset'
+[2016.07.29-22.16.23:258][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Texture/Tent2.uasset
+[2016.07.29-22.16.24:442][799]LogSavePackage: Save=22.43ms
+[2016.07.29-22.16.24:442][799]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Tent2_Mat1896D6FC411C24D6B5BF06BFBF607920.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Texture/Tent2_Mat.uasset'
+[2016.07.29-22.16.24:447][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Texture/Tent2_Mat.uasset
+[2016.07.29-22.25.57:317][843]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TheDarkAges/Maps/MAPA01' took 0.020
+[2016.07.29-22.35.57:422][910]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TheDarkAges/Maps/MAPA01' took 0.018
+[2016.07.29-22.38.45:888][915]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked4)
+[2016.07.29-22.38.47:809][ 64]Cmd: DELETE
+[2016.07.29-22.38.47:809][ 64]Cmd: ACTOR DELETE
+[2016.07.29-22.38.47:811][ 64]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-22.38.47:829][ 64]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-22.38.48:235][ 98]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked3)
+[2016.07.29-22.38.48:408][109]Cmd: DELETE
+[2016.07.29-22.38.48:408][109]Cmd: ACTOR DELETE
+[2016.07.29-22.38.48:410][109]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-22.38.48:429][109]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-22.38.51:084][273]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked7)
+[2016.07.29-22.38.51:738][307]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked2)
+[2016.07.29-22.39.03:856][ 38]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked6)
+[2016.07.29-22.39.07:461][239]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked7)
+[2016.07.29-22.39.16:846][857]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2016.07.29-22.43.18:948][923]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked9)
+[2016.07.29-22.43.19:821][986]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked8)
+[2016.07.29-22.44.08:311][631]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.07.29-22.44.18:759][426]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked12)
+[2016.07.29-22.45.17:260][741]LogActorFactory: Actor Factory created Soja-Grande
+[2016.07.29-22.45.17:991][795]LogActorFactory: Actor Factory created Soja-Grande
+[2016.07.29-22.45.19:522][911]Cmd: DELETE
+[2016.07.29-22.45.19:522][911]Cmd: ACTOR DELETE
+[2016.07.29-22.45.19:523][911]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-22.45.19:542][911]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-22.45.43:497][824]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril6)
+[2016.07.29-22.47.20:405][686]LogSavePackage: Save=1983.11ms
+[2016.07.29-22.47.20:405][686]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/MAPA01_Auto4E96AE23048F8A80FA26E31887D09BCC8.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto4.umap'
+[2016.07.29-22.47.20:432][686]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto4.umap
+[2016.07.29-22.47.20:435][686]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TheDarkAges/Maps/MAPA01' took 2.097
+[2016.07.29-22.47.20:435][686]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.097
+[2016.07.29-22.47.41:152][208]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked8)
+[2016.07.29-22.48.52:464][122]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca2)
+[2016.07.29-22.49.14:631][996]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Apple-Barril)
+[2016.07.29-22.49.16:056][ 94]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.07.29-22.50.07:381][166]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Big-Box2)
+[2016.07.29-22.50.09:475][304]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.07.29-22.50.36:182][850]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Tenda-grande3)
+[2016.07.29-22.50.46:177][629]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2016.07.29-22.50.48:651][783]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda-Redonda2)
+[2016.07.29-22.50.52:587][ 83]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril7)
+[2016.07.29-22.50.53:492][151]Cmd: DELETE
+[2016.07.29-22.50.53:492][151]Cmd: ACTOR DELETE
+[2016.07.29-22.50.53:494][151]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-22.50.53:512][151]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-22.50.54:082][198]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril10)
+[2016.07.29-22.50.54:313][213]Cmd: DELETE
+[2016.07.29-22.50.54:313][213]Cmd: ACTOR DELETE
+[2016.07.29-22.50.54:314][213]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-22.50.54:333][213]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.07.29-22.50.56:267][383]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda-Redonda2)
+[2016.07.29-22.51.12:640][726]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Apple-Barril)
+[2016.07.29-22.51.56:452][310]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda-Redonda2)
+[2016.07.29-22.52.27:016][701]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril5)
+[2016.07.29-22.52.54:785][ 99]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril7)
+[2016.07.29-22.53.07:636][186]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril7)
+[2016.07.29-22.53.09:620][343]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril10)
+[2016.07.29-22.53.13:188][630]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril14)
+[2016.07.29-22.53.13:901][685]Cmd: DELETE
+[2016.07.29-22.53.13:901][685]Cmd: ACTOR DELETE
+[2016.07.29-22.53.13:902][685]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-22.53.13:920][685]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.07.29-22.53.14:603][744]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril8)
+[2016.07.29-22.53.14:841][761]Cmd: DELETE
+[2016.07.29-22.53.14:841][761]Cmd: ACTOR DELETE
+[2016.07.29-22.53.14:843][761]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-22.53.14:861][761]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.07.29-22.53.15:502][817]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril12)
+[2016.07.29-22.53.15:584][820]Cmd: DELETE
+[2016.07.29-22.53.15:584][820]Cmd: ACTOR DELETE
+[2016.07.29-22.53.15:585][820]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-22.53.15:603][820]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.07.29-22.53.17:194][958]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril10)
+[2016.07.29-22.54.45:462][386]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Soja)
+[2016.07.29-22.55.13:165][516]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.07.29-22.55.15:888][712]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca5)
+[2016.07.29-22.55.17:676][847]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca2)
+[2016.07.29-22.55.23:120][236]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Soja2)
+[2016.07.29-22.55.49:313][234]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Soja4)
+[2016.07.29-22.55.54:476][711]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Soja3)
+[2016.07.29-22.55.56:944][936]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Soja2)
+[2016.07.29-22.56.28:849][751]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Soja4)
+[2016.07.29-22.56.50:313][470]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked11)
+[2016.07.29-22.56.52:863][678]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Big-Box2)
+[2016.07.29-22.56.57:102][986]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril6)
+[2016.07.29-22.57.24:716][121]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Big-Box-Locked)
+[2016.07.29-22.57.25:667][199]Cmd: DELETE
+[2016.07.29-22.57.25:667][199]Cmd: ACTOR DELETE
+[2016.07.29-22.57.25:669][199]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-22.57.25:687][199]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-22.57.26:355][259]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Mug)
+[2016.07.29-22.57.26:451][260]Cmd: DELETE
+[2016.07.29-22.57.26:451][260]Cmd: ACTOR DELETE
+[2016.07.29-22.57.26:452][260]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-22.57.26:469][260]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2016.07.29-22.57.26:923][300]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box-Locked)
+[2016.07.29-22.59.18:272][372]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box-Locked)
+[2016.07.29-22.59.23:566][826]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca8)
+[2016.07.29-22.59.29:652][316]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box-Locked3)
+[2016.07.29-22.59.36:131][872]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box-Locked2)
+[2016.07.29-22.59.38:342][ 67]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box-Locked3)
+[2016.07.29-22.59.42:133][398]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box-Locked6)
+[2016.07.29-22.59.45:792][718]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box-Locked)
+[2016.07.29-22.59.48:720][972]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box-Locked4)
+[2016.07.29-22.59.51:846][251]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box-Locked5)
+[2016.07.29-23.00.01:574][112]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box-Locked2)
+[2016.07.29-23.00.21:495][596]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked12)
+[2016.07.29-23.00.42:105][994]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked14)
+[2016.07.29-23.00.45:526][219]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked13)
+[2016.07.29-23.00.52:436][733]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked14)
+[2016.07.29-23.00.54:407][902]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked19)
+[2016.07.29-23.01.14:643][420]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked13)
+[2016.07.29-23.01.19:216][738]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked14)
+[2016.07.29-23.01.23:430][ 47]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked20)
+[2016.07.29-23.01.24:680][157]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked19)
+[2016.07.29-23.01.28:422][475]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked20)
+[2016.07.29-23.01.35:311][ 27]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked17)
+[2016.07.29-23.01.35:903][ 68]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked12)
+[2016.07.29-23.01.39:347][317]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda7)
+[2016.07.29-23.01.39:724][338]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked17)
+[2016.07.29-23.01.40:589][396]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked17)
+[2016.07.29-23.01.45:124][736]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked17)
+[2016.07.29-23.01.45:404][755]Cmd: DELETE
+[2016.07.29-23.01.45:404][755]Cmd: ACTOR DELETE
+[2016.07.29-23.01.45:405][755]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-23.01.45:426][755]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2016.07.29-23.01.46:001][799]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked18)
+[2016.07.29-23.01.46:363][823]Cmd: DELETE
+[2016.07.29-23.01.46:363][823]Cmd: ACTOR DELETE
+[2016.07.29-23.01.46:365][823]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-23.01.46:383][823]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-23.02.49:677][578]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box)
+[2016.07.29-23.02.50:508][654]Cmd: DELETE
+[2016.07.29-23.02.50:509][654]Cmd: ACTOR DELETE
+[2016.07.29-23.02.50:510][654]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-23.02.50:528][654]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-23.02.54:070][896]LogActorFactory: Actor Factory created Box
+[2016.07.29-23.02.55:948][ 76]LogActorFactory: Actor Factory created Box
+[2016.07.29-23.03.40:920][950]LogSavePackage: Save=1966.34ms
+[2016.07.29-23.03.40:920][950]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/MAPA01_Auto5A4B57B0A458D33BACF834EB82FA16E7E.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto5.umap'
+[2016.07.29-23.03.40:946][950]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto5.umap
+[2016.07.29-23.03.40:952][950]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TheDarkAges/Maps/MAPA01' took 2.065
+[2016.07.29-23.03.40:952][950]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.065
+[2016.07.29-23.04.20:913][951]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril6)
+[2016.07.29-23.04.44:331][788]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril22)
+[2016.07.29-23.05.00:840][100]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril23)
+[2016.07.29-23.05.01:849][172]Cmd: DELETE
+[2016.07.29-23.05.01:849][172]Cmd: ACTOR DELETE
+[2016.07.29-23.05.01:851][172]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-23.05.01:870][172]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-23.05.02:943][254]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril12)
+[2016.07.29-23.05.03:992][331]Cmd: DELETE
+[2016.07.29-23.05.03:992][331]Cmd: ACTOR DELETE
+[2016.07.29-23.05.03:993][331]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-23.05.04:012][331]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-23.05.05:052][414]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril14)
+[2016.07.29-23.05.08:627][681]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril22)
+[2016.07.29-23.05.44:995][190]Cmd: DELETE
+[2016.07.29-23.05.44:995][190]Cmd: ACTOR DELETE
+[2016.07.29-23.05.44:996][190]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-23.05.45:014][190]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-23.05.47:517][375]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril22)
+[2016.07.29-23.05.48:289][430]Cmd: DELETE
+[2016.07.29-23.05.48:289][430]Cmd: ACTOR DELETE
+[2016.07.29-23.05.48:290][430]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-23.05.48:309][430]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-23.06.16:253][726]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril6)
+[2016.07.29-23.06.20:216][  7]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.07.29-23.06.35:303][297]Cmd: TRANSACTION UNDO
+[2016.07.29-23.06.35:303][297]LogEditorTransaction: Undo Move Actors
+[2016.07.29-23.06.45:278][154]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Barril22)
+[2016.07.29-23.06.46:096][226]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril24)
+[2016.07.29-23.06.49:237][515]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril22)
+[2016.07.29-23.07.28:141][697]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box-Locked8)
+[2016.07.29-23.07.30:889][950]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box-Locked7)
+[2016.07.29-23.07.35:004][335]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box-Locked5)
+[2016.07.29-23.07.37:446][558]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box-Locked)
+[2016.07.29-23.07.42:527][ 35]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box-Locked2)
+[2016.07.29-23.07.47:390][491]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box-Locked4)
+[2016.07.29-23.07.54:252][121]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box-Locked8)
+[2016.07.29-23.08.02:134][852]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.07.29-23.08.48:402][ 25]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box-Locked8)
+[2016.07.29-23.08.51:928][316]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box-Locked7)
+[2016.07.29-23.08.53:828][472]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.07.29-23.09.05:136][ 91]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box-Locked8)
+[2016.07.29-23.09.15:148][964]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Soja6)
+[2016.07.29-23.09.19:790][366]Cmd: TRANSACTION UNDO
+[2016.07.29-23.09.19:790][366]LogEditorTransaction: Undo Scale Actors
+[2016.07.29-23.09.25:684][832]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril14)
+[2016.07.29-23.09.30:505][196]Cmd: TRANSACTION UNDO
+[2016.07.29-23.09.30:505][196]LogEditorTransaction: Undo Move Actors
+[2016.07.29-23.09.33:054][373]Cmd: TRANSACTION UNDO
+[2016.07.29-23.09.33:054][373]LogEditorTransaction: Undo Move Actors
+[2016.07.29-23.10.28:572][112]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Barril14)
+[2016.07.29-23.10.49:511][467]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril25)
+[2016.07.29-23.10.50:616][559]Cmd: DELETE
+[2016.07.29-23.10.50:616][559]Cmd: ACTOR DELETE
+[2016.07.29-23.10.50:618][559]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-23.10.50:637][559]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-23.11.15:593][609]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Soja6)
+[2016.07.29-23.11.24:825][391]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Soja4)
+[2016.07.29-23.11.32:372][ 52]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Soja2)
+[2016.07.29-23.11.33:228][123]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Soja3)
+[2016.07.29-23.11.40:072][704]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.07.29-23.11.41:732][826]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril14)
+[2016.07.29-23.11.44:854][ 81]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda6)
+[2016.07.29-23.11.59:884][287]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked12)
+[2016.07.29-23.12.04:217][641]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked13)
+[2016.07.29-23.12.12:875][357]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked20)
+[2016.07.29-23.12.18:125][760]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked14)
+[2016.07.29-23.12.21:752][ 39]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked20)
+[2016.07.29-23.12.48:292][ 55]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril6)
+[2016.07.29-23.12.51:834][356]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.07.29-23.12.59:546][979]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Soja4)
+[2016.07.29-23.13.43:608][689]LogSavePackage: Save=1964.88ms
+[2016.07.29-23.13.43:608][689]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/MAPA01_Auto6EDAC1176447CF2242FD0E3A0407CE051.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto6.umap'
+[2016.07.29-23.13.43:623][689]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto6.umap
+[2016.07.29-23.13.43:625][689]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TheDarkAges/Maps/MAPA01' took 2.053
+[2016.07.29-23.13.43:625][689]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.053
+[2016.07.29-23.13.52:391][105]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked10)
+[2016.07.29-23.13.57:256][500]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (large-Box-Locked11)
+[2016.07.29-23.13.58:288][581]Cmd: DELETE
+[2016.07.29-23.13.58:288][581]Cmd: ACTOR DELETE
+[2016.07.29-23.13.58:289][581]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-23.13.58:308][581]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-23.14.12:431][827]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Big-Box3)
+[2016.07.29-23.15.07:677][201]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril5)
+[2016.07.29-23.15.11:189][540]Cmd: DELETE
+[2016.07.29-23.15.11:189][540]Cmd: ACTOR DELETE
+[2016.07.29-23.15.11:191][540]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-23.15.11:210][540]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-23.15.12:211][642]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril4)
+[2016.07.29-23.15.13:084][725]Cmd: DELETE
+[2016.07.29-23.15.13:085][725]Cmd: ACTOR DELETE
+[2016.07.29-23.15.13:086][725]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-23.15.13:104][725]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.07.29-23.15.14:401][859]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril3)
+[2016.07.29-23.15.15:269][943]Cmd: DELETE
+[2016.07.29-23.15.15:269][943]Cmd: ACTOR DELETE
+[2016.07.29-23.15.15:271][943]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-23.15.15:289][943]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.07.29-23.15.16:263][ 45]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril)
+[2016.07.29-23.15.17:040][119]Cmd: DELETE
+[2016.07.29-23.15.17:040][119]Cmd: ACTOR DELETE
+[2016.07.29-23.15.17:041][119]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-23.15.17:058][119]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2016.07.29-23.15.24:845][781]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril10)
+[2016.07.29-23.15.31:887][386]Cmd: DELETE
+[2016.07.29-23.15.31:887][386]Cmd: ACTOR DELETE
+[2016.07.29-23.15.31:888][386]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-23.15.31:907][386]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-23.15.33:165][499]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril7)
+[2016.07.29-23.15.34:362][600]Cmd: DELETE
+[2016.07.29-23.15.34:362][600]Cmd: ACTOR DELETE
+[2016.07.29-23.15.34:363][600]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-23.15.34:382][600]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-23.15.35:257][681]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril9)
+[2016.07.29-23.15.36:200][762]Cmd: DELETE
+[2016.07.29-23.15.36:201][762]Cmd: ACTOR DELETE
+[2016.07.29-23.15.36:202][762]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-23.15.36:220][762]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-23.15.48:053][720]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril22)
+[2016.07.29-23.16.42:928][927]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril26)
+[2016.07.29-23.16.44:315][ 52]Cmd: DELETE
+[2016.07.29-23.16.44:315][ 52]Cmd: ACTOR DELETE
+[2016.07.29-23.16.44:316][ 52]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-23.16.44:335][ 52]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-23.16.45:570][172]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril25)
+[2016.07.29-23.16.46:478][253]Cmd: DELETE
+[2016.07.29-23.16.46:478][253]Cmd: ACTOR DELETE
+[2016.07.29-23.16.46:480][253]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-23.16.46:498][253]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-23.16.49:063][494]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril27)
+[2016.07.29-23.17.26:358][417]Cmd: DELETE
+[2016.07.29-23.17.26:358][417]Cmd: ACTOR DELETE
+[2016.07.29-23.17.26:360][417]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-23.17.26:379][417]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-23.17.26:907][461]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril27)
+[2016.07.29-23.17.27:038][467]Cmd: DELETE
+[2016.07.29-23.17.27:038][467]Cmd: ACTOR DELETE
+[2016.07.29-23.17.27:040][467]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-23.17.27:058][467]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.07.29-23.17.31:005][744]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda-Redonda3)
+[2016.07.29-23.17.42:772][675]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril22)
+[2016.07.29-23.17.54:553][579]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2016.07.29-23.18.01:423][987]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril25)
+[2016.07.29-23.19.07:523][345]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril28)
+[2016.07.29-23.19.11:609][726]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril27)
+[2016.07.29-23.19.15:687][ 98]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril28)
+[2016.07.29-23.19.18:648][373]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril29)
+[2016.07.29-23.19.58:691][780]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Tenda-grande)
+[2016.07.29-23.20.12:324][747]LogActorFactory: Actor Factory created Apple-Barril
+[2016.07.29-23.20.13:921][879]LogActorFactory: Actor Factory created Apple-Barril
+[2016.07.29-23.20.15:528][  9]Cmd: DELETE
+[2016.07.29-23.20.15:528][  9]Cmd: ACTOR DELETE
+[2016.07.29-23.20.15:529][  9]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-23.20.15:548][  9]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-23.20.22:338][573]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril32)
+[2016.07.29-23.20.23:561][679]Cmd: DELETE
+[2016.07.29-23.20.23:561][679]Cmd: ACTOR DELETE
+[2016.07.29-23.20.23:562][679]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-23.20.23:580][679]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-23.20.24:869][802]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril33)
+[2016.07.29-23.20.37:555][933]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril31)
+[2016.07.29-23.20.40:332][183]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril31)
+[2016.07.29-23.20.59:594][945]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda-grande)
+[2016.07.29-23.21.16:631][262]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tenda-Redonda3)
+[2016.07.29-23.21.27:163][976]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Apple-Barril3)
+[2016.07.29-23.21.40:191][918]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.07.29-23.21.48:600][642]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril31)
+[2016.07.29-23.21.49:598][725]Cmd: DELETE
+[2016.07.29-23.21.49:598][725]Cmd: ACTOR DELETE
+[2016.07.29-23.21.49:599][725]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-23.21.49:618][725]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-23.21.50:834][838]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril33)
+[2016.07.29-23.21.51:560][899]Cmd: DELETE
+[2016.07.29-23.21.51:560][899]Cmd: ACTOR DELETE
+[2016.07.29-23.21.51:562][899]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-23.21.51:580][899]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-23.21.52:545][990]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril28)
+[2016.07.29-23.21.53:213][ 48]Cmd: DELETE
+[2016.07.29-23.21.53:213][ 48]Cmd: ACTOR DELETE
+[2016.07.29-23.21.53:214][ 48]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-23.21.53:232][ 48]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.07.29-23.21.54:256][146]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril27)
+[2016.07.29-23.21.55:106][221]Cmd: DELETE
+[2016.07.29-23.21.55:106][221]Cmd: ACTOR DELETE
+[2016.07.29-23.21.55:108][221]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.29-23.21.55:127][221]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.07.29-23.21.56:489][354]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Apple-Barril4)
+[2016.07.29-23.23.30:249][ 37]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barril29)
+[2016.07.29-23.26.18:623][124]LogSavePackage: Save=2003.24ms
+[2016.07.29-23.26.18:623][124]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/MAPA01_Auto7E50762B7441E238A61199AB4749720E6.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto7.umap'
+[2016.07.29-23.26.18:655][124]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto7.umap
+[2016.07.29-23.26.18:659][124]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TheDarkAges/Maps/MAPA01' took 2.111
+[2016.07.29-23.26.18:659][124]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.111
+[2016.07.29-23.36.18:802][931]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TheDarkAges/Maps/MAPA01' took 0.020
+[2016.07.29-23.46.18:934][ 73]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TheDarkAges/Maps/MAPA01' took 0.023
+[2016.07.29-23.56.19:088][229]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TheDarkAges/Maps/MAPA01' took 0.020
+[2016.07.30-00.06.19:208][393]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TheDarkAges/Maps/MAPA01' took 0.020
+[2016.07.30-00.15.40:566][275]LogSavePackage: Save=2029.70ms
+[2016.07.30-00.15.40:566][275]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/MAPA01745BB34F4FCD31EF73D079BA0C6A1558.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Maps/MAPA01.umap'
+[2016.07.30-00.15.40:576][275]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Maps/MAPA01.umap
+[2016.07.30-00.15.40:650][275]LogFileHelpers: Saving map 'MAPA01' took 2.290
+[2016.07.30-00.15.44:639][558]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.12/Engine/Content/: 'C:/Program Files (x86)/Epic Games/4.12/Engine/Content/' is outside repository
+[2016.07.30-00.16.33:369][558]LogSourceControl: FGitCheckInWorker: commit successful
+[2016.07.30-00.16.33:743][558]SourceControl: Info [master 61c21fe] Camp e Objects
+[2016.07.30-00.16.33:743][558]SourceControl: Info  38 files changed, 0 insertions(+), 0 deletions(-)
+[2016.07.30-00.16.33:746][558]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/3e615c54899cd61ef14f8e1d41b43661.uasset
+[2016.07.30-00.16.33:746][558]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-.uasset
+[2016.07.30-00.16.33:746][558]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016.uasset
+[2016.07.30-00.16.33:746][558]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Big-Box-Locked.uasset
+[2016.07.30-00.16.33:747][558]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Big-Box.uasset
+[2016.07.30-00.16.33:747][558]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Box-Locked.uasset
+[2016.07.30-00.16.33:747][558]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Box.uasset
+[2016.07.30-00.16.33:747][558]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Linho.uasset
+[2016.07.30-00.16.33:747][558]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Mug.uasset
+[2016.07.30-00.16.33:747][558]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Mug2.uasset
+[2016.07.30-00.16.33:747][558]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Soja-Grande.uasset
+[2016.07.30-00.16.33:747][558]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Soja.uasset
+[2016.07.30-00.16.33:747][558]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Soya.uasset
+[2016.07.30-00.16.33:747][558]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales.uasset
+[2016.07.30-00.16.33:747][558]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Wood-plank_003.uasset
+[2016.07.30-00.16.33:747][558]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/Wood-planks_1_001.uasset
+[2016.07.30-00.16.33:747][558]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/large-Box-Locked.uasset
+[2016.07.30-00.16.33:747][558]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/large-Box.uasset
+[2016.07.30-00.16.33:747][558]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3.uasset
+[2016.07.30-00.16.33:747][558]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tend/10477-normal.uasset
+[2016.07.30-00.16.33:747][558]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tend/1969-normal.uasset
+[2016.07.30-00.16.33:747][558]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tend/7176-normal.uasset
+[2016.07.30-00.16.33:747][558]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tend/Material.uasset
+[2016.07.30-00.16.33:747][558]SourceControl: Info  rewrite ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tend/Tenda-Normal.uasset (76%)
+[2016.07.30-00.16.33:747][558]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tend/Tenda-Redonda.uasset
+[2016.07.30-00.16.33:747][558]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tend/Tent2.uasset
+[2016.07.30-00.16.33:747][558]SourceControl: Info  rewrite ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tend/Wood.uasset (100%)
+[2016.07.30-00.16.33:747][558]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tend/Wood2.uasset
+[2016.07.30-00.16.33:747][558]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tend/Wood3.uasset
+[2016.07.30-00.16.33:747][558]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tend/normal-0031.uasset
+[2016.07.30-00.16.33:747][558]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Tenda3.uasset
+[2016.07.30-00.16.33:747][558]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/TentFabric.uasset
+[2016.07.30-00.16.33:747][558]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/TentWood.uasset
+[2016.07.30-00.16.33:747][558]SourceControl: Info  create mode 100644 ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Texture/Tent2.uasset
+[2016.07.30-00.16.33:747][558
