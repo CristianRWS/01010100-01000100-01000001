@@ -1,0 +1,709 @@
+﻿Log file open, 07/30/16 00:56:01
+LogInit:Display: Running engine for game: ProjetoTeste
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(517588450) SRandInit(517588452).
+LogTaskGraph: Started task graph with 4 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.139781
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.07.30-03.56.01:672][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.30-03.56.01:672][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.07.30-03.56.01:706][  0]LogInit: Computer: DESKTOP-63GHF8H
+[2016.07.30-03.56.01:706][  0]LogInit: User: DiegoBA
+[2016.07.30-03.56.01:706][  0]LogInit: CPU Page size=65536, Cores=3
+[2016.07.30-03.56.01:706][  0]LogInit: High frequency timer resolution =3.237190 MHz
+[2016.07.30-03.56.01:706][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx)
+[2016.07.30-03.56.01:706][  0]LogMemory: Platform Memory Stats for Windows
+[2016.07.30-03.56.01:706][  0]LogMemory: Process Physical Memory: 189.76 MB used, 189.76 MB peak
+[2016.07.30-03.56.01:706][  0]LogMemory: Process Virtual Memory: 194.80 MB used, 194.80 MB peak
+[2016.07.30-03.56.01:706][  0]LogMemory: Physical Memory: 2717.42 MB used, 4078.11 MB total
+[2016.07.30-03.56.01:706][  0]LogMemory: Virtual Memory: 548.48 MB used, 134217728.00 MB total
+[2016.07.30-03.56.02:094][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.07.30-03.56.02:664][  0]LogD3D11RHI: D3D11 adapters:
+[2016.07.30-03.56.02:680][  0]LogD3D11RHI:    0. 'AMD Radeon R7 200 Series' (Feature Level 11_0)
+[2016.07.30-03.56.02:680][  0]LogD3D11RHI:       2026/0/2039 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2016.07.30-03.56.02:682][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.07.30-03.56.02:682][  0]LogD3D11RHI:       0/0/2039 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.07.30-03.56.02:682][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.07.30-03.56.02:687][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.07.30-03.56.02:687][  0]LogD3D11RHI:     GPU DeviceId: 0x6658 (for the marketing name, search the web for "GPU Device Id")
+[2016.07.30-03.56.02:687][  0]LogWindows: EnumDisplayDevices:
+[2016.07.30-03.56.02:687][  0]LogWindows:    0. 'AMD Radeon R7 200 Series' (P:1 D:1)
+[2016.07.30-03.56.02:688][  0]LogWindows:    1. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2016.07.30-03.56.02:688][  0]LogWindows:    2. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2016.07.30-03.56.02:688][  0]LogWindows:    3. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2016.07.30-03.56.02:688][  0]LogWindows:    4. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2016.07.30-03.56.02:689][  0]LogWindows:    5. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2016.07.30-03.56.02:689][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2016.07.30-03.56.02:689][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R7 200 Series
+[2016.07.30-03.56.02:689][  0]LogD3D11RHI:   Driver Version: Crimson 16.3.2 (internal:16.150.2211.0, unified:16.150.2211.0)
+[2016.07.30-03.56.02:689][  0]LogD3D11RHI:      Driver Date: 3-21-2016
+[2016.07.30-03.56.02:689][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.07.30-03.56.02:697][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.07.30-03.56.02:710][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2016.07.30-03.56.02:711][  0]LogShaderCompilers: Guid format shader working directory is -40 characters bigger than the processId version (../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Intermediate/Shaders/WorkingDirectory/6048/).
+[2016.07.30-03.56.02:711][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/DIEGOB~1/AppData/Local/Temp/UnrealShaderWorkingDir/797AB4EE4B0211E523F4C2925A66F7D3/'.
+[2016.07.30-03.56.02:711][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.07.30-03.56.06:360][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.07.30-03.56.06:374][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.07.30-03.56.06:388][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.07.30-03.56.06:402][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.07.30-03.56.06:415][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.07.30-03.56.06:431][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.07.30-03.56.06:443][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.07.30-03.56.06:455][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.07.30-03.56.06:467][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.07.30-03.56.06:479][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.07.30-03.56.06:490][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.07.30-03.56.06:514][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.07.30-03.56.06:514][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.07.30-03.56.06:516][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.07.30-03.56.06:625][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.07.30-03.56.06:638][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.07.30-03.56.06:652][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.07.30-03.56.06:666][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.07.30-03.56.06:683][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.07.30-03.56.06:683][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.07.30-03.56.07:614][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.07.30-03.56.07:743][  0]LogDerivedDataCache: Loaded boot cache 0.13s 48MB C:/Users/Diego BA/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.07.30-03.56.07:744][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Diego BA/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.07.30-03.56.07:744][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.07.30-03.56.07:744][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.07.30-03.56.07:744][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.07.30-03.56.07:744][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.07.30-03.56.07:782][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.07.30-03.56.07:794][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Diego BA/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.07.30-03.56.15:002][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.30-03.56.15:012][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.07.30-03.56.15:490][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.07.30-03.56.15:491][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.07.30-03.56.15:491][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.07.30-03.56.16:543][  0]LogAssetRegistry: FAssetRegistry took 0.0215 seconds to start up
+[2016.07.30-03.56.16:636][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.081801 seconds
+[2016.07.30-03.56.16:657][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.07.30-03.56.16:657][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2016.07.30-03.56.16:657][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.07.30-03.56.16:677][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.07.30-03.56.17:440][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.07.30-03.56.17:440][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.07.30-03.56.20:834][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.07.30-03.56.21:217][  0]SourceControl: Info Source control is disabled
+[2016.07.30-03.56.22:266][  0]LogEngine: Initializing Engine...
+[2016.07.30-03.56.22:401][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.07.30-03.56.22:403][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.07.30-03.56.22:750][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.07.30-03.56.22:760][  0]LogInit: XAudio2 using 'Alto-falantes (Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.30-03.56.22:772][  0]LogInit: FAudioDevice initialized.
+[2016.07.30-03.56.22:828][  0]LogDerivedDataCache: Saved boot cache 0.06s 48MB C:/Users/Diego BA/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.07.30-03.56.22:853][  0]LogInit: Texture streaming: Enabled
+[2016.07.30-03.56.22:977][  0]LogInit: Transaction tracking system initialized
+[2016.07.30-03.56.23:006][  0]BlueprintLog: New page: Editor Load
+[2016.07.30-03.56.23:118][  0]LocalizationService: Info Localization service is disabled
+[2016.07.30-03.56.23:205][  0]LogConsoleResponse:Display: 
+[2016.07.30-03.56.23:878][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.07.30-03.56.23:878][  0]LogCook:Display: Mobile HDR setting 1
+[2016.07.30-03.56.24:033][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/' took 0.02s
+[2016.07.30-03.56.24:302][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.07.30-03.56.24:321][  0]LightingResults: New page: Lighting Build
+[2016.07.30-03.56.24:325][  0]MapCheck: New page: Map Check
+[2016.07.30-03.56.24:325][  0]LightingResults: New page: Lighting Build
+[2016.07.30-03.56.24:857][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.07.30-03.56.25:049][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.07.30-03.56.25:100][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.07.30-03.56.25:171][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 70.699ms to complete.
+[2016.07.30-03.56.25:171][  0]LogFileHelpers: Loading map 'Template_Default' took 0.870
+[2016.07.30-03.56.25:262][  0]LogCollectionManager: Loaded 0 collections in 0.002235 seconds
+[2016.07.30-03.56.25:305][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/Collections/' took 0.01s
+[2016.07.30-03.56.25:305][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/Developers/DiegoBA/Collections/' took 0.01s
+[2016.07.30-03.56.25:305][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/Collections/' took 0.01s
+[2016.07.30-03.56.25:305][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2016.07.30-03.56.25:320][  0]LogContentBrowser: Native class hierarchy populated in 0.0151 seconds. Added 2051 classes and 375 folders.
+[2016.07.30-03.56.25:326][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.07.30-03.56.25:326][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.07.30-03.56.25:327][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0008 seconds. Added 12 classes and 0 folders.
+[2016.07.30-03.56.25:333][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.07.30-03.56.25:647][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2016.07.30-03.56.25:761][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2016.07.30-03.56.25:783][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.07.30-03.56.25:788][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.07.30-03.56.25:816][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2016.07.30-03.56.25:816][  0]LogLoad: Full Startup: 26.96 seconds (BP compile: 0.15 seconds)
+[2016.07.30-03.56.25:816][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.07.30-03.56.26:155][  0]LogOcInput: OculusInput pre-init called
+[2016.07.30-03.56.26:181][  0]SourceControl: Info On branch master
+[2016.07.30-03.56.26:181][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2016.07.30-03.56.26:181][  0]SourceControl: Info Changes not staged for commit:
+[2016.07.30-03.56.26:181][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2016.07.30-03.56.26:181][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.07.30-03.56.26:181][  0]SourceControl: Info 	deleted:    ProjetoTeste/Saved/Logs/ProjetoTeste-backup-2016.07.27-22.09.41.log
+[2016.07.30-03.56.26:181][  0]SourceControl: Info 	modified:   ProjetoTeste/Saved/Logs/ProjetoTeste_2.log
+[2016.07.30-03.56.26:181][  0]SourceControl: Info Untracked files:
+[2016.07.30-03.56.26:181][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2016.07.30-03.56.26:181][  0]SourceControl: Info 	ProjetoTeste/Saved/Logs/ProjetoTeste_2-backup-2016.07.30-00.56.01.log
+[2016.07.30-03.56.26:181][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2016.07.30-03.56.26:181][  0]LogContentStreaming: Texture pool size now 700 MB
+[2016.07.30-03.56.26:654][  0]LogRenderer: Reallocating scene render targets to support 724x744 (Frame:2).
+[2016.07.30-03.56.27:714][  3]LogAssetRegistry: Asset discovery search completed in 11.1917 seconds
+[2016.07.30-03.56.27:714][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.07.30-03.56.27:714][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000035 seconds (updated 0 objects)
+[2016.07.30-03.56.37:649][961]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_AnimBP'
+[2016.07.30-03.56.37:649][961]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_AnimBP' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2016.07.30-03.56.37:649][961]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter : Can't find file for asset. /Game/Mannequin/Animations/ThirdPerson_AnimBP
+[2016.07.30-03.56.37:652][961]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_AnimBP'
+[2016.07.30-03.56.37:652][961]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_AnimBP' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2016.07.30-03.56.37:652][961]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin'
+[2016.07.30-03.56.37:652][961]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2016.07.30-03.56.37:652][961]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter : Can't find file for asset. /Game/Mannequin/Character/Mesh/SK_Mannequin
+[2016.07.30-03.56.37:653][961]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin'
+[2016.07.30-03.56.37:653][961]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2016.07.30-03.56.37:655][961]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_AnimBP'
+[2016.07.30-03.56.37:655][961]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_AnimBP' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset.
+[2016.07.30-03.56.37:655][961]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode : Can't find file for asset. /Game/Mannequin/Animations/ThirdPerson_AnimBP
+[2016.07.30-03.56.37:655][961]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_AnimBP'
+[2016.07.30-03.56.37:655][961]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_AnimBP' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset.
+[2016.07.30-03.56.37:656][961]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin'
+[2016.07.30-03.56.37:656][961]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset.
+[2016.07.30-03.56.37:656][961]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode : Can't find file for asset. /Game/Mannequin/Character/Mesh/SK_Mannequin
+[2016.07.30-03.56.37:656][961]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin'
+[2016.07.30-03.56.37:656][961]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset.
+[2016.07.30-03.56.37:656][961]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_AnimBP'
+[2016.07.30-03.56.37:656][961]LoadErrors: Info Failed to load /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C Referenced by Default__ThirdPersonCharacter_C
+[2016.07.30-03.56.37:657][961]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_AnimBP' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset.
+[2016.07.30-03.56.37:657][961]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_AnimBP'
+[2016.07.30-03.56.37:657][961]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_AnimBP' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset.
+[2016.07.30-03.56.37:657][961]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin'
+[2016.07.30-03.56.37:657][961]LoadErrors: Info Failed to load /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin Referenced by Default__ThirdPersonCharacter_C
+[2016.07.30-03.56.37:657][961]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset.
+[2016.07.30-03.56.37:685][961]LogBlueprint:Warning: Compiler Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR 
+[2016.07.30-03.56.37:690][961]LogBlueprint:Warning: Compiler Warning [0038.84] Compile of ThirdPersonCharacter successful, but with 1 Warning(s) [in 12 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2016.07.30-03.56.37:690][961]LogBlueprint:Warning: Compiler Warning [0038.84] Compile of ThirdPersonCharacter successful, but with 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2016.07.30-03.56.37:690][961]LogBlueprint:Warning: Compiler Warning [0038.84] Compile of ThirdPersonCharacter successful, but with 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2016.07.30-03.56.37:700][961]LogBlueprint:Warning: Compiler Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR 
+[2016.07.30-03.56.37:707][961]LogBlueprint:Warning: Compiler Warning [0038.85] Compile of ThirdPersonCharacter successful, but with 1 Warning(s) [in 13 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2016.07.30-03.56.37:707][961]LogBlueprint:Warning: Compiler Warning [0038.85] Compile of ThirdPersonCharacter successful, but with 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2016.07.30-03.56.37:707][961]LogBlueprint:Warning: Compiler Warning [0038.85] Compile of ThirdPersonCharacter successful, but with 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2016.07.30-03.56.37:802][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/3e615c54899cd61ef14f8e1d41b43661_Mat'
+[2016.07.30-03.56.37:802][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/3e615c54899cd61ef14f8e1d41b43661_Mat' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Maps/MAPA01.umap.
+[2016.07.30-03.56.37:802][961]LoadErrors:Error: Error /Game/TheDarkAges/Maps/MAPA01 : Can't find file for asset. /Game/TheDarkAges/Scenes/Camp/Containers/3e615c54899cd61ef14f8e1d41b43661_Mat
+[2016.07.30-03.56.37:802][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-_Mat'
+[2016.07.30-03.56.37:802][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-_Mat' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Maps/MAPA01.umap.
+[2016.07.30-03.56.37:802][961]LoadErrors:Error: Error /Game/TheDarkAges/Maps/MAPA01 : Can't find file for asset. /Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-_Mat
+[2016.07.30-03.56.37:803][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat'
+[2016.07.30-03.56.37:803][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Maps/MAPA01.umap.
+[2016.07.30-03.56.37:803][961]LoadErrors:Error: Error /Game/TheDarkAges/Maps/MAPA01 : Can't find file for asset. /Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat
+[2016.07.30-03.56.37:803][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat'
+[2016.07.30-03.56.37:803][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Maps/MAPA01.umap.
+[2016.07.30-03.56.37:803][961]LoadErrors:Error: Error /Game/TheDarkAges/Maps/MAPA01 : Can't find file for asset. /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat
+[2016.07.30-03.56.37:803][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales_Mat'
+[2016.07.30-03.56.37:803][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales_Mat' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Maps/MAPA01.umap.
+[2016.07.30-03.56.37:803][961]LoadErrors:Error: Error /Game/TheDarkAges/Maps/MAPA01 : Can't find file for asset. /Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales_Mat
+[2016.07.30-03.56.38:536][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/3e615c54899cd61ef14f8e1d41b43661_Mat'
+[2016.07.30-03.56.38:536][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/3e615c54899cd61ef14f8e1d41b43661_Mat' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Maps/MAPA01.umap.
+[2016.07.30-03.56.38:553][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-_Mat'
+[2016.07.30-03.56.38:553][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-_Mat' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Maps/MAPA01.umap.
+[2016.07.30-03.56.38:565][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat'
+[2016.07.30-03.56.38:565][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Maps/MAPA01.umap.
+[2016.07.30-03.56.38:632][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat'
+[2016.07.30-03.56.38:632][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Maps/MAPA01.umap.
+[2016.07.30-03.56.38:723][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales_Mat'
+[2016.07.30-03.56.38:723][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales_Mat' while loading ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Maps/MAPA01.umap.
+[2016.07.30-03.56.38:969][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat'
+[2016.07.30-03.56.38:969][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat.746c9f88527bc3f85b32a08d9e57d016_Mat Referenced by Big-Box2_95
+[2016.07.30-03.56.38:969][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat' while loading NULL.
+[2016.07.30-03.56.38:969][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat'
+[2016.07.30-03.56.38:969][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat.rough-wood-texture-seamless-design-3_Mat Referenced by Big-Box2_95
+[2016.07.30-03.56.38:970][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat' while loading NULL.
+[2016.07.30-03.56.38:970][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat'
+[2016.07.30-03.56.38:970][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat.746c9f88527bc3f85b32a08d9e57d016_Mat Referenced by Big-Box3
+[2016.07.30-03.56.38:970][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat' while loading NULL.
+[2016.07.30-03.56.38:970][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat'
+[2016.07.30-03.56.38:970][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat.rough-wood-texture-seamless-design-3_Mat Referenced by Big-Box3
+[2016.07.30-03.56.38:970][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat' while loading NULL.
+[2016.07.30-03.56.38:971][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat'
+[2016.07.30-03.56.38:971][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat.rough-wood-texture-seamless-design-3_Mat Referenced by Big-Box_14
+[2016.07.30-03.56.38:971][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat' while loading NULL.
+[2016.07.30-03.56.38:971][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat'
+[2016.07.30-03.56.38:971][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat' while loading NULL.
+[2016.07.30-03.56.38:972][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat'
+[2016.07.30-03.56.38:972][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat.746c9f88527bc3f85b32a08d9e57d016_Mat Referenced by Box-Locked2
+[2016.07.30-03.56.38:972][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat' while loading NULL.
+[2016.07.30-03.56.38:972][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat'
+[2016.07.30-03.56.38:972][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat.rough-wood-texture-seamless-design-3_Mat Referenced by Box-Locked2
+[2016.07.30-03.56.38:972][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat' while loading NULL.
+[2016.07.30-03.56.38:973][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat'
+[2016.07.30-03.56.38:973][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat.746c9f88527bc3f85b32a08d9e57d016_Mat Referenced by Box-Locked3
+[2016.07.30-03.56.38:973][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat' while loading NULL.
+[2016.07.30-03.56.38:973][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat'
+[2016.07.30-03.56.38:973][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat.rough-wood-texture-seamless-design-3_Mat Referenced by Box-Locked3
+[2016.07.30-03.56.38:973][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat' while loading NULL.
+[2016.07.30-03.56.38:973][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat'
+[2016.07.30-03.56.38:974][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat.746c9f88527bc3f85b32a08d9e57d016_Mat Referenced by Box-Locked4
+[2016.07.30-03.56.38:974][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat' while loading NULL.
+[2016.07.30-03.56.38:974][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat'
+[2016.07.30-03.56.38:974][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat.rough-wood-texture-seamless-design-3_Mat Referenced by Box-Locked4
+[2016.07.30-03.56.38:974][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat' while loading NULL.
+[2016.07.30-03.56.38:974][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat'
+[2016.07.30-03.56.38:975][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat.746c9f88527bc3f85b32a08d9e57d016_Mat Referenced by Box-Locked5
+[2016.07.30-03.56.38:975][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat' while loading NULL.
+[2016.07.30-03.56.38:975][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat'
+[2016.07.30-03.56.38:975][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat.rough-wood-texture-seamless-design-3_Mat Referenced by Box-Locked5
+[2016.07.30-03.56.38:975][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat' while loading NULL.
+[2016.07.30-03.56.38:975][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat'
+[2016.07.30-03.56.38:976][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat.746c9f88527bc3f85b32a08d9e57d016_Mat Referenced by Box-Locked6
+[2016.07.30-03.56.38:976][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat' while loading NULL.
+[2016.07.30-03.56.38:976][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat'
+[2016.07.30-03.56.38:976][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat.rough-wood-texture-seamless-design-3_Mat Referenced by Box-Locked6
+[2016.07.30-03.56.38:976][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat' while loading NULL.
+[2016.07.30-03.56.38:977][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat'
+[2016.07.30-03.56.38:977][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat.746c9f88527bc3f85b32a08d9e57d016_Mat Referenced by Box-Locked7
+[2016.07.30-03.56.38:977][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat' while loading NULL.
+[2016.07.30-03.56.38:977][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat'
+[2016.07.30-03.56.38:977][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat.rough-wood-texture-seamless-design-3_Mat Referenced by Box-Locked7
+[2016.07.30-03.56.38:977][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat' while loading NULL.
+[2016.07.30-03.56.38:978][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat'
+[2016.07.30-03.56.38:978][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat.746c9f88527bc3f85b32a08d9e57d016_Mat Referenced by Box-Locked8
+[2016.07.30-03.56.38:978][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat' while loading NULL.
+[2016.07.30-03.56.38:978][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat'
+[2016.07.30-03.56.38:978][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat.rough-wood-texture-seamless-design-3_Mat Referenced by Box-Locked8
+[2016.07.30-03.56.38:979][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat' while loading NULL.
+[2016.07.30-03.56.38:979][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat'
+[2016.07.30-03.56.38:979][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat.746c9f88527bc3f85b32a08d9e57d016_Mat Referenced by Box-Locked_20
+[2016.07.30-03.56.38:979][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat' while loading NULL.
+[2016.07.30-03.56.38:979][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat'
+[2016.07.30-03.56.38:980][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat.rough-wood-texture-seamless-design-3_Mat Referenced by Box-Locked_20
+[2016.07.30-03.56.38:980][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat' while loading NULL.
+[2016.07.30-03.56.38:980][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat'
+[2016.07.30-03.56.38:980][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat.rough-wood-texture-seamless-design-3_Mat Referenced by Box_18
+[2016.07.30-03.56.38:980][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat' while loading NULL.
+[2016.07.30-03.56.38:981][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat'
+[2016.07.30-03.56.38:981][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat' while loading NULL.
+[2016.07.30-03.56.38:981][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat'
+[2016.07.30-03.56.38:982][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat.rough-wood-texture-seamless-design-3_Mat Referenced by large-Box-Locked10_92
+[2016.07.30-03.56.38:982][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat' while loading NULL.
+[2016.07.30-03.56.38:982][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat'
+[2016.07.30-03.56.38:982][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat.746c9f88527bc3f85b32a08d9e57d016_Mat Referenced by large-Box-Locked10_92
+[2016.07.30-03.56.38:982][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat' while loading NULL.
+[2016.07.30-03.56.38:983][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat'
+[2016.07.30-03.56.38:983][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat.rough-wood-texture-seamless-design-3_Mat Referenced by large-Box-Locked12
+[2016.07.30-03.56.38:983][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat' while loading NULL.
+[2016.07.30-03.56.38:983][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat'
+[2016.07.30-03.56.38:983][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat.746c9f88527bc3f85b32a08d9e57d016_Mat Referenced by large-Box-Locked12
+[2016.07.30-03.56.38:983][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat' while loading NULL.
+[2016.07.30-03.56.38:984][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat'
+[2016.07.30-03.56.38:984][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat.rough-wood-texture-seamless-design-3_Mat Referenced by large-Box-Locked13
+[2016.07.30-03.56.38:984][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat' while loading NULL.
+[2016.07.30-03.56.38:984][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat'
+[2016.07.30-03.56.38:985][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat.746c9f88527bc3f85b32a08d9e57d016_Mat Referenced by large-Box-Locked13
+[2016.07.30-03.56.38:985][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat' while loading NULL.
+[2016.07.30-03.56.38:985][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat'
+[2016.07.30-03.56.38:985][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat.rough-wood-texture-seamless-design-3_Mat Referenced by large-Box-Locked14
+[2016.07.30-03.56.38:985][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat' while loading NULL.
+[2016.07.30-03.56.38:986][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat'
+[2016.07.30-03.56.38:986][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat.746c9f88527bc3f85b32a08d9e57d016_Mat Referenced by large-Box-Locked14
+[2016.07.30-03.56.38:986][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat' while loading NULL.
+[2016.07.30-03.56.38:986][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat'
+[2016.07.30-03.56.38:987][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat.rough-wood-texture-seamless-design-3_Mat Referenced by large-Box-Locked15
+[2016.07.30-03.56.38:987][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat' while loading NULL.
+[2016.07.30-03.56.38:987][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat'
+[2016.07.30-03.56.38:987][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat.746c9f88527bc3f85b32a08d9e57d016_Mat Referenced by large-Box-Locked15
+[2016.07.30-03.56.38:987][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat' while loading NULL.
+[2016.07.30-03.56.38:988][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat'
+[2016.07.30-03.56.38:988][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat.rough-wood-texture-seamless-design-3_Mat Referenced by large-Box-Locked16
+[2016.07.30-03.56.38:988][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat' while loading NULL.
+[2016.07.30-03.56.38:989][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat'
+[2016.07.30-03.56.38:989][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat.746c9f88527bc3f85b32a08d9e57d016_Mat Referenced by large-Box-Locked16
+[2016.07.30-03.56.38:989][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat' while loading NULL.
+[2016.07.30-03.56.38:989][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat'
+[2016.07.30-03.56.38:990][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat.rough-wood-texture-seamless-design-3_Mat Referenced by large-Box-Locked19
+[2016.07.30-03.56.38:990][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat' while loading NULL.
+[2016.07.30-03.56.38:990][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat'
+[2016.07.30-03.56.38:990][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat.746c9f88527bc3f85b32a08d9e57d016_Mat Referenced by large-Box-Locked19
+[2016.07.30-03.56.38:990][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat' while loading NULL.
+[2016.07.30-03.56.38:991][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat'
+[2016.07.30-03.56.38:991][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat.rough-wood-texture-seamless-design-3_Mat Referenced by large-Box-Locked20
+[2016.07.30-03.56.38:991][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat' while loading NULL.
+[2016.07.30-03.56.38:991][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat'
+[2016.07.30-03.56.38:992][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat.746c9f88527bc3f85b32a08d9e57d016_Mat Referenced by large-Box-Locked20
+[2016.07.30-03.56.38:992][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat' while loading NULL.
+[2016.07.30-03.56.38:992][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat'
+[2016.07.30-03.56.38:992][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat.rough-wood-texture-seamless-design-3_Mat Referenced by large-Box-Locked2_43
+[2016.07.30-03.56.38:993][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat' while loading NULL.
+[2016.07.30-03.56.38:993][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat'
+[2016.07.30-03.56.38:993][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat.746c9f88527bc3f85b32a08d9e57d016_Mat Referenced by large-Box-Locked2_43
+[2016.07.30-03.56.38:993][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat' while loading NULL.
+[2016.07.30-03.56.38:994][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat'
+[2016.07.30-03.56.38:994][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat.rough-wood-texture-seamless-design-3_Mat Referenced by large-Box-Locked6
+[2016.07.30-03.56.38:994][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat' while loading NULL.
+[2016.07.30-03.56.38:994][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat'
+[2016.07.30-03.56.38:995][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat.746c9f88527bc3f85b32a08d9e57d016_Mat Referenced by large-Box-Locked6
+[2016.07.30-03.56.38:995][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat' while loading NULL.
+[2016.07.30-03.56.38:995][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat'
+[2016.07.30-03.56.38:995][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat.rough-wood-texture-seamless-design-3_Mat Referenced by large-Box-Locked7_50
+[2016.07.30-03.56.38:996][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat' while loading NULL.
+[2016.07.30-03.56.38:996][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat'
+[2016.07.30-03.56.38:996][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat.746c9f88527bc3f85b32a08d9e57d016_Mat Referenced by large-Box-Locked7_50
+[2016.07.30-03.56.38:996][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat' while loading NULL.
+[2016.07.30-03.56.38:997][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat'
+[2016.07.30-03.56.38:997][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat.rough-wood-texture-seamless-design-3_Mat Referenced by large-Box-Locked8
+[2016.07.30-03.56.38:997][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat' while loading NULL.
+[2016.07.30-03.56.38:998][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat'
+[2016.07.30-03.56.38:998][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat.746c9f88527bc3f85b32a08d9e57d016_Mat Referenced by large-Box-Locked8
+[2016.07.30-03.56.38:998][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat' while loading NULL.
+[2016.07.30-03.56.38:999][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat'
+[2016.07.30-03.56.38:999][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat.rough-wood-texture-seamless-design-3_Mat Referenced by large-Box-Locked9_90
+[2016.07.30-03.56.38:999][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3_Mat' while loading NULL.
+[2016.07.30-03.56.38:999][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat'
+[2016.07.30-03.56.39:000][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat.746c9f88527bc3f85b32a08d9e57d016_Mat Referenced by large-Box-Locked9_90
+[2016.07.30-03.56.39:000][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016_Mat' while loading NULL.
+[2016.07.30-03.56.39:000][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/3e615c54899cd61ef14f8e1d41b43661_Mat'
+[2016.07.30-03.56.39:001][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/3e615c54899cd61ef14f8e1d41b43661_Mat.3e615c54899cd61ef14f8e1d41b43661_Mat Referenced by Soja-Grande2_30
+[2016.07.30-03.56.39:001][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/3e615c54899cd61ef14f8e1d41b43661_Mat' while loading NULL.
+[2016.07.30-03.56.39:001][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales_Mat'
+[2016.07.30-03.56.39:001][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales_Mat.Soybean_Meal_100_mt_Ready_for_sales_Mat Referenced by Soja-Grande2_30
+[2016.07.30-03.56.39:001][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales_Mat' while loading NULL.
+[2016.07.30-03.56.39:002][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-_Mat'
+[2016.07.30-03.56.39:002][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-_Mat.43_linen-flaxseed-_Mat Referenced by Soja-Grande2_30
+[2016.07.30-03.56.39:002][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-_Mat' while loading NULL.
+[2016.07.30-03.56.39:003][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-_Mat'
+[2016.07.30-03.56.39:003][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-_Mat.43_linen-flaxseed-_Mat Referenced by Soja2_58
+[2016.07.30-03.56.39:003][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-_Mat' while loading NULL.
+[2016.07.30-03.56.39:003][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales_Mat'
+[2016.07.30-03.56.39:004][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales_Mat.Soybean_Meal_100_mt_Ready_for_sales_Mat Referenced by Soja2_58
+[2016.07.30-03.56.39:004][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales_Mat' while loading NULL.
+[2016.07.30-03.56.39:004][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-_Mat'
+[2016.07.30-03.56.39:005][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-_Mat.43_linen-flaxseed-_Mat Referenced by Soja3
+[2016.07.30-03.56.39:005][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-_Mat' while loading NULL.
+[2016.07.30-03.56.39:005][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales_Mat'
+[2016.07.30-03.56.39:006][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales_Mat.Soybean_Meal_100_mt_Ready_for_sales_Mat Referenced by Soja3
+[2016.07.30-03.56.39:006][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales_Mat' while loading NULL.
+[2016.07.30-03.56.39:006][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-_Mat'
+[2016.07.30-03.56.39:007][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-_Mat.43_linen-flaxseed-_Mat Referenced by Soja4
+[2016.07.30-03.56.39:007][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-_Mat' while loading NULL.
+[2016.07.30-03.56.39:007][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales_Mat'
+[2016.07.30-03.56.39:007][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales_Mat.Soybean_Meal_100_mt_Ready_for_sales_Mat Referenced by Soja4
+[2016.07.30-03.56.39:008][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales_Mat' while loading NULL.
+[2016.07.30-03.56.39:008][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-_Mat'
+[2016.07.30-03.56.39:008][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-_Mat.43_linen-flaxseed-_Mat Referenced by Soja5
+[2016.07.30-03.56.39:008][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-_Mat' while loading NULL.
+[2016.07.30-03.56.39:009][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales_Mat'
+[2016.07.30-03.56.39:009][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales_Mat.Soybean_Meal_100_mt_Ready_for_sales_Mat Referenced by Soja5
+[2016.07.30-03.56.39:009][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales_Mat' while loading NULL.
+[2016.07.30-03.56.39:009][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-_Mat'
+[2016.07.30-03.56.39:010][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-_Mat.43_linen-flaxseed-_Mat Referenced by Soja6
+[2016.07.30-03.56.39:010][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-_Mat' while loading NULL.
+[2016.07.30-03.56.39:010][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales_Mat'
+[2016.07.30-03.56.39:010][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales_Mat.Soybean_Meal_100_mt_Ready_for_sales_Mat Referenced by Soja6
+[2016.07.30-03.56.39:011][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales_Mat' while loading NULL.
+[2016.07.30-03.56.39:011][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-_Mat'
+[2016.07.30-03.56.39:011][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-_Mat.43_linen-flaxseed-_Mat Referenced by Soja_28
+[2016.07.30-03.56.39:011][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-_Mat' while loading NULL.
+[2016.07.30-03.56.39:012][961]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales_Mat'
+[2016.07.30-03.56.39:012][961]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales_Mat.Soybean_Meal_100_mt_Ready_for_sales_Mat Referenced by Soja_28
+[2016.07.30-03.56.39:012][961]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales_Mat' while loading NULL.
+[2016.07.30-03.56.45:349][961]LogMaterial: Missing cached shader map for material Mug2, compiling. 
+[2016.07.30-03.56.45:350][961]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Containers/Mug2.Mug2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.07.30-03.56.45:350][961]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Containers/3e615c54899cd61ef14f8e1d41b43661.3e615c54899cd61ef14f8e1d41b43661
+[2016.07.30-03.56.45:410][961]LogMaterial: Missing cached shader map for material Soya, compiling. 
+[2016.07.30-03.56.45:410][961]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Containers/Soya.Soya for platform PCD3D_SM5, Default Material will be used in game.
+[2016.07.30-03.56.45:410][961]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales.Soybean_Meal_100_mt_Ready_for_sales
+[2016.07.30-03.56.45:414][961]LogMaterial: Missing cached shader map for material Linho, compiling. 
+[2016.07.30-03.56.45:414][961]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Containers/Linho.Linho for platform PCD3D_SM5, Default Material will be used in game.
+[2016.07.30-03.56.45:414][961]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-.43_linen-flaxseed-
+[2016.07.30-03.56.45:707][961]LogMaterial: Missing cached shader map for material Wood-planks_1_001, compiling. 
+[2016.07.30-03.56.45:707][961]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Containers/Wood-planks_1_001.Wood-planks_1_001 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.07.30-03.56.45:708][961]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016.746c9f88527bc3f85b32a08d9e57d016
+[2016.07.30-03.56.45:712][961]LogMaterial: Missing cached shader map for material Wood-plank_003, compiling. 
+[2016.07.30-03.56.45:713][961]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Containers/Wood-plank_003.Wood-plank_003 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.07.30-03.56.45:713][961]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3.rough-wood-texture-seamless-design-3
+[2016.07.30-03.56.46:571][961]LogAIModule: Creating AISystem for world MAPA01
+[2016.07.30-03.56.46:684][961]Cmd: MAP LOAD FILE="../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Maps/MAPA01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.07.30-03.56.46:684][961]LightingResults: New page: Lighting Build
+[2016.07.30-03.56.46:685][961]LoadErrors: New page: Loading map: MAPA01.umap
+[2016.07.30-03.56.46:686][961]MapCheck: New page: Map Check
+[2016.07.30-03.56.46:686][961]LightingResults: New page: Lighting Build
+[2016.07.30-03.56.49:075][961]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.07.30-03.56.49:124][961]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.07.30-03.56.49:208][961]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 84.355ms to complete.
+[2016.07.30-03.56.49:208][961]LogFileHelpers: Loading map 'MAPA01' took 2.531
+[2016.07.30-03.56.49:298][962]Cmd: UpdateLandscapeEditorData -warnings
+[2016.07.30-03.56.49:393][962]Cmd: UpdateLandscapeEditorData
+[2016.07.30-03.56.52:108][127]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.30-03.56.52:412][127]PIE: New page: PIE session: MAPA01 (Jul 29, 2016, 9:56:52 PM)
+[2016.07.30-03.56.52:413][127]LogPlayLevel: Creating play world package: /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01
+[2016.07.30-03.56.56:006][127]LogPlayLevel: PIE: StaticDuplicateObject took: (3.593024s)
+[2016.07.30-03.56.56:009][127]LogAIModule: Creating AISystem for world MAPA01
+[2016.07.30-03.56.56:009][127]LogPlayLevel: PIE: World Init took: (0.002325s)
+[2016.07.30-03.56.56:061][127]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TheDarkAges/Maps/MAPA01.MAPA01 to /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01.MAPA01 (3.647648s)
+[2016.07.30-03.56.56:391][127]LogInit: XAudio2 using 'Alto-falantes (Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.30-03.56.56:400][127]LogInit: FAudioDevice initialized.
+[2016.07.30-03.56.57:326][127]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.07.30-03.56.57:491][127]LogWorld: Bringing World /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01.MAPA01 up for play (max tick rate 0) at 2016.07.30-00.56.57
+[2016.07.30-03.56.57:551][127]LogWorld: Bringing up level for play took: 0.098702
+[2016.07.30-03.56.57:921][127]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2016.07.30-03.56.58:155][127]PIE: Info Play in editor start time for /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01 6.781
+[2016.07.30-03.57.51:478][790]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.12/Engine/Content/: 'C:/Program Files (x86)/Epic Games/4.12/Engine/Content/' is outside repository
+[2016.07.30-03.58.44:314][117]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.07.30-03.58.44:961][118]Cmd: QUIT_EDITOR
+[2016.07.30-03.58.45:783][118]LogExit: Preparing to exit.
+[2016.07.30-03.58.47:169][118]LogExit: Editor shut down
+[2016.07.30-03.58.47:170][118]LogExit: Transaction tracking system shut down
+[2016.07.30-03.58.50:460][118]LogObj: Freed 0b from 0 cluster array pools.
+[2016.07.30-03.58.50:460][118]LogExit: Object subsystem successfully closed.
+[2016.07.30-03.58.50:947][118]LogD3D11RHI: Shutdown
+[2016.07.30-03.58.50:958][118]LogD3D11RHI: CleanupD3DDevice
+[2016.07.30-03.58.51:296][118]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.07.30-03.58.52:219][118]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (216)
+[2016.07.30-03.58.52:219][118]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (215)
+[2016.07.30-03.58.52:240][118]LogModuleManager: Shutting down and abandoning module CrashTracker (214)
+[2016.07.30-03.58.52:240][118]LogModuleManager: Shutting down and abandoning module SceneOutliner (213)
+[2016.07.30-03.58.52:257][118]LogModuleManager: Shutting down and abandoning module WidgetCarousel (212)
+[2016.07.30-03.58.52:277][118]LogModuleManager: Shutting down and abandoning module AddContentDialog (211)
+[2016.07.30-03.58.52:309][118]LogModuleManager: Shutting down and abandoning module GameplayTags (210)
+[2016.07.30-03.58.52:309][118]LogModuleManager: Shutting down and abandoning module EditorWidgets (209)
+[2016.07.30-03.58.52:309][118]LogModuleManager: Shutting down and abandoning module CollectionManager (208)
+[2016.07.30-03.58.52:331][118]LogModuleManager: Shutting down and abandoning module StatsViewer (207)
+[2016.07.30-03.58.52:350][118]LogModuleManager: Shutting down and abandoning module FoliageEdit (206)
+[2016.07.30-03.58.52:363][118]LogModuleManager: Shutting down and abandoning module LandscapeEditor (205)
+[2016.07.30-03.58.52:461][118]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (204)
+[2016.07.30-03.58.52:461][118]LogModuleManager: Shutting down and abandoning module ActorPickerMode (203)
+[2016.07.30-03.58.52:461][118]LogModuleManager: Shutting down and abandoning module GeometryMode (202)
+[2016.07.30-03.58.52:461][118]LogModuleManager: Shutting down and abandoning module TextureAlignMode (201)
+[2016.07.30-03.58.52:461][118]LogModuleManager: Shutting down and abandoning module BspMode (200)
+[2016.07.30-03.58.52:492][118]LogModuleManager: Shutting down and abandoning module HardwareSurvey (199)
+[2016.07.30-03.58.52:499][118]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (198)
+[2016.07.30-03.58.52:499][118]LogModuleManager: Shutting down and abandoning module SequenceRecorder (197)
+[2016.07.30-03.58.52:522][118]LogModuleManager: Shutting down and abandoning module AutomationWorker (196)
+[2016.07.30-03.58.52:522][118]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (195)
+[2016.07.30-03.58.52:535][118]LogModuleManager: Shutting down and abandoning module PlacementMode (194)
+[2016.07.30-03.58.52:576][118]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (193)
+[2016.07.30-03.58.52:762][118]LogModuleManager: Shutting down and abandoning module CharacterAI (192)
+[2016.07.30-03.58.52:762][118]LogModuleManager: Shutting down and abandoning module SmartSnapping (191)
+[2016.07.30-03.58.52:763][118]LogModuleManager: Shutting down and abandoning module SessionServices (190)
+[2016.07.30-03.58.52:763][118]LogModuleManager: Shutting down and abandoning module ViewportSnapping (189)
+[2016.07.30-03.58.52:763][118]LogModuleManager: Shutting down and abandoning module LogVisualizer (188)
+[2016.07.30-03.58.52:883][118]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (187)
+[2016.07.30-03.58.52:979][118]LogModuleManager: Shutting down and abandoning module IntroTutorials (186)
+[2016.07.30-03.58.52:994][118]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (185)
+[2016.07.30-03.58.52:994][118]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (184)
+[2016.07.30-03.58.53:009][118]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (183)
+[2016.07.30-03.58.53:009][118]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (182)
+[2016.07.30-03.58.53:212][118]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (181)
+[2016.07.30-03.58.53:223][118]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (180)
+[2016.07.30-03.58.53:223][118]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (179)
+[2016.07.30-03.58.53:223][118]LogModuleManager: Shutting down and abandoning module MergeActors (178)
+[2016.07.30-03.58.53:278][118]LogModuleManager: Shutting down and abandoning module SizeMap (177)
+[2016.07.30-03.58.53:278][118]LogModuleManager: Shutting down and abandoning module TreeMap (176)
+[2016.07.30-03.58.53:294][118]LogModuleManager: Shutting down and abandoning module ReferenceViewer (175)
+[2016.07.30-03.58.53:297][118]LogModuleManager: Shutting down and abandoning module LocalizationService (174)
+[2016.07.30-03.58.53:326][118]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (173)
+[2016.07.30-03.58.53:372][118]LogModuleManager: Shutting down and abandoning module HardwareTargeting (172)
+[2016.07.30-03.58.53:379][118]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (171)
+[2016.07.30-03.58.53:446][118]LogModuleManager: Shutting down and abandoning module UndoHistory (170)
+[2016.07.30-03.58.53:487][118]LogModuleManager: Shutting down and abandoning module UserFeedback (169)
+[2016.07.30-03.58.53:487][118]LogModuleManager: Shutting down and abandoning module XmlParser (168)
+[2016.07.30-03.58.53:521][118]LogModuleManager: Shutting down and abandoning module Blutility (167)
+[2016.07.30-03.58.53:552][118]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (166)
+[2016.07.30-03.58.53:573][118]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (165)
+[2016.07.30-03.58.53:573][118]LogModuleManager: Shutting down and abandoning module InputBindingEditor (164)
+[2016.07.30-03.58.53:643][118]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (163)
+[2016.07.30-03.58.53:643][118]LogModuleManager: Shutting down and abandoning module SettingsEditor (162)
+[2016.07.30-03.58.53:729][118]LogModuleManager: Shutting down and abandoning module ProjectLauncher (161)
+[2016.07.30-03.58.53:792][118]LogModuleManager: Shutting down and abandoning module SessionFrontend (160)
+[2016.07.30-03.58.53:959][118]LogModuleManager: Shutting down and abandoning module ProfilerClient (159)
+[2016.07.30-03.58.54:026][118]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (158)
+[2016.07.30-03.58.54:061][118]LogModuleManager: Shutting down and abandoning module DeviceManager (157)
+[2016.07.30-03.58.54:274][118]LogModuleManager: Shutting down and abandoning module AutomationController (156)
+[2016.07.30-03.58.54:337][118]LogModuleManager: Shutting down and abandoning module AutomationWindow (155)
+[2016.07.30-03.58.54:488][118]LogModuleManager: Shutting down and abandoning module Layers (154)
+[2016.07.30-03.58.54:714][118]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (153)
+[2016.07.30-03.58.54:714][118]LogModuleManager: Shutting down and abandoning module DetailCustomizations (152)
+[2016.07.30-03.58.54:803][118]LogModuleManager: Shutting down and abandoning module PackagesDialog (151)
+[2016.07.30-03.58.54:920][118]LogModuleManager: Shutting down and abandoning module Persona (150)
+[2016.07.30-03.58.55:072][118]LogModuleManager: Shutting down and abandoning module Kismet (149)
+[2016.07.30-03.58.55:082][118]LogModuleManager: Shutting down and abandoning module GraphEditor (148)
+[2016.07.30-03.58.55:176][118]LogModuleManager: Shutting down and abandoning module ClassViewer (147)
+[2016.07.30-03.58.55:197][118]LogModuleManager: Shutting down and abandoning module Toolbox (146)
+[2016.07.30-03.58.55:205][118]LogModuleManager: Shutting down and abandoning module ModuleUI (145)
+[2016.07.30-03.58.55:212][118]LogModuleManager: Shutting down and abandoning module MovieSceneTools (144)
+[2016.07.30-03.58.55:234][118]LogModuleManager: Shutting down and abandoning module OutputLog (143)
+[2016.07.30-03.58.55:241][118]LogModuleManager: Shutting down and abandoning module GammaUI (142)
+[2016.07.30-03.58.55:252][118]LogModuleManager: Shutting down and abandoning module Documentation (141)
+[2016.07.30-03.58.55:252][118]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (140)
+[2016.07.30-03.58.55:252][118]LogModuleManager: Shutting down and abandoning module AnalyticsET (139)
+[2016.07.30-03.58.55:252][118]LogModuleManager: Shutting down and abandoning module Analytics (138)
+[2016.07.30-03.58.55:252][118]LogModuleManager: Shutting down and abandoning module PortalServices (137)
+[2016.07.30-03.58.55:252][118]LogModuleManager: Shutting down and abandoning module PortalRpc (136)
+[2016.07.30-03.58.55:252][118]LogModuleManager: Shutting down and abandoning module MessagingRpc (135)
+[2016.07.30-03.58.55:252][118]LogModuleManager: Shutting down and abandoning module GameplayDebugger (134)
+[2016.07.30-03.58.55:252][118]LogModuleManager: Shutting down and abandoning module AITestSuite (133)
+[2016.07.30-03.58.55:255][118]LogModuleManager: Shutting down and abandoning module AIModule (132)
+[2016.07.30-03.58.55:256][118]LogModuleManager: Shutting down and abandoning module ProfilerService (131)
+[2016.07.30-03.58.55:315][118]LogModuleManager: Shutting down and abandoning module TaskGraph (130)
+[2016.07.30-03.58.55:323][118]LogModuleManager: Shutting down and abandoning module SlateRemote (129)
+[2016.07.30-03.58.55:323][118]LogModuleManager: Shutting down and abandoning module SteamVRController (128)
+[2016.07.30-03.58.55:323][118]LogModuleManager: Shutting down and abandoning module SteamVR (127)
+[2016.07.30-03.58.55:323][118]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (126)
+[2016.07.30-03.58.55:323][118]LogModuleManager: Shutting down and abandoning module OculusLibrary (125)
+[2016.07.30-03.58.55:323][118]LogModuleManager: Shutting down and abandoning module OculusInput (124)
+[2016.07.30-03.58.55:323][118]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (123)
+[2016.07.30-03.58.55:323][118]LogModuleManager: Shutting down and abandoning module CableComponent (122)
+[2016.07.30-03.58.55:323][118]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (121)
+[2016.07.30-03.58.55:324][118]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (120)
+[2016.07.30-03.58.55:339][118]LogModuleManager: Shutting down and abandoning module VaRestEditorPlugin (119)
+[2016.07.30-03.58.55:339][118]LogModuleManager: Shutting down and abandoning module HTML5Networking (118)
+[2016.07.30-03.58.55:339][118]LogModuleManager: Shutting down and abandoning module SuperSearch (117)
+[2016.07.30-03.58.55:339][118]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (116)
+[2016.07.30-03.58.55:339][118]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (115)
+[2016.07.30-03.58.55:339][118]LogModuleManager: Shutting down and abandoning module PluginBrowser (114)
+[2016.07.30-03.58.55:350][118]LogModuleManager: Shutting down and abandoning module EpicSurvey (113)
+[2016.07.30-03.58.55:350][118]LogModuleManager: Shutting down and abandoning module DesktopPlatform (112)
+[2016.07.30-03.58.55:361][118]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (111)
+[2016.07.30-03.58.55:366][118]LogModuleManager: Shutting down and abandoning module UObjectPlugin (110)
+[2016.07.30-03.58.55:366][118]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (109)
+[2016.07.30-03.58.55:372][118]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (108)
+[2016.07.30-03.58.55:377][118]LogModuleManager: Shutting down and abandoning module SourceControl (107)
+[2016.07.30-03.58.55:393][118]LogModuleManager: Shutting down and abandoning module GitSourceControl (106)
+[2016.07.30-03.58.55:394][118]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (105)
+[2016.07.30-03.58.55:394][118]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (104)
+[2016.07.30-03.58.55:399][118]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (103)
+[2016.07.30-03.58.55:400][118]LogModuleManager: Shutting down and abandoning module MeshPaint (102)
+[2016.07.30-03.58.55:404][118]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (101)
+[2016.07.30-03.58.55:416][118]LogModuleManager: Shutting down and abandoning module HotReload (100)
+[2016.07.30-03.58.55:426][118]LogModuleManager: Shutting down and abandoning module MainFrame (99)
+[2016.07.30-03.58.55:432][118]LogModuleManager: Shutting down and abandoning module LevelEditor (98)
+[2016.07.30-03.58.55:442][118]LogModuleManager: Shutting down and abandoning module ContentBrowser (97)
+[2016.07.30-03.58.55:444][118]LogModuleManager: Shutting down and abandoning module Paper2DEditor (96)
+[2016.07.30-03.58.55:461][118]LogModuleManager: Shutting down and abandoning module UdpMessaging (95)
+[2016.07.30-03.58.55:562][118]LogModuleManager: Shutting down and abandoning module VaRestPlugin (94)
+[2016.07.30-03.58.55:562][118]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.07.30-03.58.55:562][118]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.07.30-03.58.55:578][118]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.07.30-03.58.55:578][118]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.07.30-03.58.55:578][118]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.07.30-03.58.55:586][118]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.07.30-03.58.55:586][118]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.07.30-03.58.55:592][118]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.07.30-03.58.55:592][118]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.07.30-03.58.55:592][118]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.07.30-03.58.55:602][118]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.07.30-03.58.55:602][118]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.07.30-03.58.55:602][118]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.07.30-03.58.55:621][118]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.07.30-03.58.55:621][118]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.07.30-03.58.55:635][118]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.07.30-03.58.55:655][118]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.07.30-03.58.55:655][118]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.07.30-03.58.55:655][118]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.07.30-03.58.55:678][118]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.07.30-03.58.55:702][118]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.07.30-03.58.55:714][118]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.07.30-03.58.55:734][118]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.07.30-03.58.55:734][118]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.07.30-03.58.55:742][118]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.07.30-03.58.55:742][118]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.07.30-03.58.55:743][118]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.07.30-03.58.55:743][118]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.07.30-03.58.55:743][118]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.07.30-03.58.55:743][118]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.07.30-03.58.55:744][118]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.07.30-03.58.56:017][118]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.07.30-03.58.56:017][118]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.07.30-03.58.56:020][118]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.07.30-03.58.56:031][118]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.07.30-03.58.56:055][118]LogDerivedDataCache: Shutdown
+[2016.07.30-03.58.56:055][118]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.07.30-03.58.56:060][118]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.07.30-03.58.56:069][118]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.07.30-03.58.56:080][118]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.07.30-03.58.56:091][118]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.07.30-03.58.56:091][118]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.07.30-03.58.56:097][118]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.07.30-03.58.56:108][118]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.07.30-03.58.56:109][118]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.07.30-03.58.56:109][118]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.07.30-03.58.56:109][118]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.07.30-03.58.56:109][118]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.07.30-03.58.56:118][118]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.07.30-03.58.56:129][118]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.07.30-03.58.56:136][118]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.07.30-03.58.56:136][118]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.07.30-03.58.56:146][118]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.07.30-03.58.56:155][118]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.07.30-03.58.56:155][118]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.07.30-03.58.56:155][118]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.07.30-03.58.56:155][118]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.07.30-03.58.56:155][118]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.07.30-03.58.56:155][118]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.07.30-03.58.56:158][118]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.07.30-03.58.56:158][118]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.07.30-03.58.56:158][118]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.07.30-03.58.56:158][118]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.07.30-03.58.56:158][118]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.07.30-03.58.56:158][118]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.07.30-03.58.56:158][118]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.07.30-03.58.56:158][118]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.07.30-03.58.56:163][118]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.07.30-03.58.56:169][118]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.07.30-03.58.56:179][118]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.07.30-03.58.56:179][118]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.07.30-03.58.56:185][118]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.07.30-03.58.56:185][118]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.07.30-03.58.56:185][118]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.07.30-03.58.56:185][118]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.07.30-03.59.08:697][118]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.07.30-03.59.08:718][118]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.07.30-03.59.08:728][118]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.07.30-03.59.08:728][118]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.07.30-03.59.08:740][118]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.07.30-03.59.08:740][118]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.07.30-03.59.08:740][118]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.07.30-03.59.08:757][118]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.07.30-03.59.08:767][118]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.07.30-03.59.08:767][118]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.07.30-03.59.08:774][118]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.07.30-03.59.08:774][118]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.07.30-03.59.08:774][118]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.07.30-03.59.08:774][118]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.07.30-03.59.08:786][118]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.07.30-03.59.08:794][118]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.07.30-03.59.08:801][118]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.07.30-03.59.08:835][118]LogExit: Exiting.
+[2016.07.30-03.59.08:839][118]Log file closed, 07/30/16 00:59:08
