@@ -1,0 +1,783 @@
+﻿Log file open, 08/02/16 23:34:21
+LogInit:Display: Running engine for game: ProjetoTeste
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(879893559) SRandInit(879893560).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.087208
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.08.03-02.34.21:659][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.03-02.34.21:659][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.08.03-02.34.21:689][  0]LogInit: Computer: WILLIAN-PC
+[2016.08.03-02.34.21:689][  0]LogInit: User: Willian
+[2016.08.03-02.34.21:689][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.08.03-02.34.21:689][  0]LogInit: High frequency timer resolution =2.942904 MHz
+[2016.08.03-02.34.21:690][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2016.08.03-02.34.21:690][  0]LogMemory: Platform Memory Stats for Windows
+[2016.08.03-02.34.21:690][  0]LogMemory: Process Physical Memory: 190.25 MB used, 190.25 MB peak
+[2016.08.03-02.34.21:690][  0]LogMemory: Process Virtual Memory: 195.11 MB used, 195.11 MB peak
+[2016.08.03-02.34.21:690][  0]LogMemory: Physical Memory: 4210.50 MB used, 8190.11 MB total
+[2016.08.03-02.34.21:690][  0]LogMemory: Virtual Memory: 553.53 MB used, 134217728.00 MB total
+[2016.08.03-02.34.22:008][  0]LogD3D11RHI: D3D11 adapters:
+[2016.08.03-02.34.23:240][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750' (Feature Level 11_0)
+[2016.08.03-02.34.23:240][  0]LogD3D11RHI:       966/0/3072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.08.03-02.34.23:242][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.08.03-02.34.23:242][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.08.03-02.34.23:242][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.08.03-02.34.23:248][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.08.03-02.34.23:248][  0]LogD3D11RHI:     GPU DeviceId: 0x1381 (for the marketing name, search the web for "GPU Device Id")
+[2016.08.03-02.34.23:248][  0]LogWindows: EnumDisplayDevices:
+[2016.08.03-02.34.23:248][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750' (P:1 D:1)
+[2016.08.03-02.34.23:248][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750' (P:0 D:0)
+[2016.08.03-02.34.23:248][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750' (P:0 D:0)
+[2016.08.03-02.34.23:248][  0]LogWindows:    3. 'NVIDIA GeForce GTX 750' (P:0 D:0)
+[2016.08.03-02.34.23:248][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.08.03-02.34.23:248][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750
+[2016.08.03-02.34.23:248][  0]LogD3D11RHI:   Driver Version: 368.22 (internal:10.18.13.6822, unified:368.22)
+[2016.08.03-02.34.23:248][  0]LogD3D11RHI:      Driver Date: 5-19-2016
+[2016.08.03-02.34.23:248][  0]LogRHI: Texture pool is 676 MB (70% of 966 MB)
+[2016.08.03-02.34.24:755][  0]LogD3D11RHI: Async texture creation enabled
+[2016.08.03-02.34.24:785][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.08.03-02.34.24:785][  0]LogShaderCompilers: Guid format shader working directory is -60 characters bigger than the processId version (../../../../../../Users/Willian/Documents/01010100-01000100-01000001/01010100-01000100-01000001/ProjetoTeste/Intermediate/Shaders/WorkingDirectory/6636/).
+[2016.08.03-02.34.24:785][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Willian/AppData/Local/Temp/UnrealShaderWorkingDir/DC8A59854A75D352324D869584E7BFAA/'.
+[2016.08.03-02.34.24:785][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.08.03-02.34.26:989][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.08.03-02.34.27:005][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.08.03-02.34.27:020][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.08.03-02.34.27:035][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.08.03-02.34.27:049][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.08.03-02.34.27:062][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.08.03-02.34.27:075][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.08.03-02.34.27:087][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.08.03-02.34.27:100][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.08.03-02.34.27:113][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.08.03-02.34.27:126][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.08.03-02.34.27:152][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.08.03-02.34.27:152][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.08.03-02.34.27:153][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.08.03-02.34.27:182][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.08.03-02.34.27:194][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.08.03-02.34.27:207][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.08.03-02.34.27:220][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.08.03-02.34.27:234][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.08.03-02.34.27:234][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.03-02.34.27:327][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.08.03-02.34.29:679][  0]LogDerivedDataCache: Loaded boot cache 2.35s 48MB C:/Users/Willian/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.08.03-02.34.29:680][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Willian/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.08.03-02.34.29:681][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Willian/Documents/01010100-01000100-01000001/01010100-01000100-01000001/ProjetoTeste/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.08.03-02.34.29:681][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.08.03-02.34.29:681][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Willian/Documents/01010100-01000100-01000001/01010100-01000100-01000001/ProjetoTeste/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.08.03-02.34.29:681][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.08.03-02.34.29:718][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.08.03-02.34.29:732][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Willian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.08.03-02.34.30:020][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.03-02.34.30:268][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.08.03-02.34.30:517][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.08.03-02.34.30:517][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.08.03-02.34.30:517][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.08.03-02.34.30:949][  0]LogAssetRegistry: FAssetRegistry took 0.0221 seconds to start up
+[2016.08.03-02.34.31:006][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.052480 seconds
+[2016.08.03-02.34.31:014][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.08.03-02.34.31:014][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2016.08.03-02.34.31:014][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.08.03-02.34.31:022][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.08.03-02.34.33:122][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.03-02.34.33:122][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.03-02.35.16:736][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.08.03-02.35.17:794][  0]SourceControl: Informações Controle de origem desativado
+[2016.08.03-02.35.18:916][  0]LogEngine: Initializing Engine...
+[2016.08.03-02.35.18:918][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.08.03-02.35.18:919][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.08.03-02.35.19:159][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.08.03-02.35.19:193][  0]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.03-02.35.19:206][  0]LogInit: FAudioDevice initialized.
+[2016.08.03-02.35.19:250][  0]LogDerivedDataCache: Saved boot cache 0.04s 48MB C:/Users/Willian/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.08.03-02.35.19:267][  0]LogInit: Texture streaming: Enabled
+[2016.08.03-02.35.19:316][  0]LogInit: Transaction tracking system initialized
+[2016.08.03-02.35.19:784][  0]BlueprintLog: New page: Carregar Editor
+[2016.08.03-02.35.20:758][  0]LocalizationService: Informações Localization service is disabled
+[2016.08.03-02.35.21:458][  0]LogConsoleResponse:Display: 
+[2016.08.03-02.35.24:098][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.08.03-02.35.24:098][  0]LogCook:Display: Mobile HDR setting 1
+[2016.08.03-02.35.24:977][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Willian/Documents/01010100-01000100-01000001/01010100-01000100-01000001/ProjetoTeste/Content/' took 0.02s
+[2016.08.03-02.35.26:509][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.03-02.35.26:510][  0]LightingResults: New page: Compilação de Iluminação
+[2016.08.03-02.35.26:513][  0]MapCheck: New page: Verificação de Mapa
+[2016.08.03-02.35.26:513][  0]LightingResults: New page: Compilação de Iluminação
+[2016.08.03-02.35.26:971][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.08.03-02.35.27:094][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.03-02.35.27:102][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.03-02.35.27:163][  0]MapCheck: Informações Map check complete: 0 Error(s), 0 Warning(s), took 61,065ms to complete.
+[2016.08.03-02.35.27:163][  0]LogFileHelpers: Loading map 'Template_Default' took 0.655
+[2016.08.03-02.35.27:520][  0]LogCollectionManager: Loaded 0 collections in 0.002039 seconds
+[2016.08.03-02.35.27:567][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Willian/Documents/01010100-01000100-01000001/01010100-01000100-01000001/ProjetoTeste/Saved/Collections/' took 0.01s
+[2016.08.03-02.35.27:567][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Willian/Documents/01010100-01000100-01000001/01010100-01000100-01000001/ProjetoTeste/Content/Developers/Willian/Collections/' took 0.01s
+[2016.08.03-02.35.27:567][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Willian/Documents/01010100-01000100-01000001/01010100-01000100-01000001/ProjetoTeste/Content/Collections/' took 0.01s
+[2016.08.03-02.35.27:567][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.08.03-02.35.27:581][  0]LogContentBrowser: Native class hierarchy populated in 0.0138 seconds. Added 2047 classes and 369 folders.
+[2016.08.03-02.35.27:586][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.08.03-02.35.27:586][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.08.03-02.35.27:587][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 12 classes and 0 folders.
+[2016.08.03-02.35.27:592][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.08.03-02.35.33:490][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.08.03-02.35.33:614][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.08.03-02.35.33:704][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.08.03-02.35.33:713][  0]LogUObjectGlobals:Warning: Falha ao encontrar objeto “Class Nenhum.”
+[2016.08.03-02.35.33:772][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.08.03-02.35.33:773][  0]LogLoad: Full Startup: 75.13 seconds (BP compile: 0.05 seconds)
+[2016.08.03-02.35.33:773][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.08.03-02.35.33:773][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.08.03-02.35.33:783][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.08.03-02.35.33:783][  0]LogOcInput: OculusInput pre-init called
+[2016.08.03-02.35.33:805][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.08.03-02.35.38:370][  0]LogRenderer: Reallocating scene render targets to support 812x372 (Frame:2).
+[2016.08.03-02.35.43:706][474]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.08.03-02.35.45:137][607]LogAssetRegistry: Asset discovery search completed in 74.2108 seconds
+[2016.08.03-02.35.45:137][607]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000007 seconds (updated 0 objects)
+[2016.08.03-02.35.48:303][930]LogBlueprint:Warning: Compiler Advertência Evento de InputAction referencia uma Ação desconhecida 'ResetVR' para  InputAction ResetVR 
+[2016.08.03-02.35.48:308][930]LogBlueprint:Warning: Compiler Advertência [0089,66] Compile of Jorah_BP successful, but with 1 Warning(s) [in 11 ms] (/Game/TheDarkAges/Personagens/Jorah/Jorah_BP.Jorah_BP)
+[2016.08.03-02.35.48:308][930]LogBlueprint:Warning: Compiler Advertência [0089,66] Compile of Jorah_BP successful, but with 2 Warning(s) [in 0 ms] (/Game/TheDarkAges/Personagens/Jorah/Jorah_BP.Jorah_BP)
+[2016.08.03-02.35.48:308][930]LogBlueprint:Warning: Compiler Advertência [0089,66] Compile of Jorah_BP successful, but with 3 Warning(s) [in 0 ms] (/Game/TheDarkAges/Personagens/Jorah/Jorah_BP.Jorah_BP)
+[2016.08.03-02.35.48:326][930]LogBlueprint:Warning: Compiler Advertência Evento de InputAction referencia uma Ação desconhecida 'ResetVR' para  InputAction ResetVR 
+[2016.08.03-02.35.48:331][930]LogBlueprint:Warning: Compiler Advertência [0089,69] Compile of Jorah_BP successful, but with 1 Warning(s) [in 11 ms] (/Game/TheDarkAges/Personagens/Jorah/Jorah_BP.Jorah_BP)
+[2016.08.03-02.35.48:331][930]LogBlueprint:Warning: Compiler Advertência [0089,69] Compile of Jorah_BP successful, but with 2 Warning(s) [in 0 ms] (/Game/TheDarkAges/Personagens/Jorah/Jorah_BP.Jorah_BP)
+[2016.08.03-02.35.48:331][930]LogBlueprint:Warning: Compiler Advertência [0089,69] Compile of Jorah_BP successful, but with 3 Warning(s) [in 0 ms] (/Game/TheDarkAges/Personagens/Jorah/Jorah_BP.Jorah_BP)
+[2016.08.03-02.35.48:560][930]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/TheDarkAges/Scenes/Camp/Training/Linen2”
+[2016.08.03-02.35.48:560][930]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/Willian/Documents/01010100-01000100-01000001/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Objects/Training/Training_Dummie.uasset” ao carregar /Game/TheDarkAges/Scenes/Camp/Training/Linen2.
+[2016.08.03-02.35.48:560][930]LoadErrors:Error: Erro /Game/TheDarkAges/Scenes/Camp/Objects/Training/Training_Dummie : Não é possível encontrar o arquivo do ativo. /Game/TheDarkAges/Scenes/Camp/Training/Linen2
+[2016.08.03-02.35.48:560][930]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/TheDarkAges/Scenes/Camp/Training/Rope”
+[2016.08.03-02.35.48:561][930]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/Willian/Documents/01010100-01000100-01000001/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Objects/Training/Training_Dummie.uasset” ao carregar /Game/TheDarkAges/Scenes/Camp/Training/Rope.
+[2016.08.03-02.35.48:561][930]LoadErrors:Error: Erro /Game/TheDarkAges/Scenes/Camp/Objects/Training/Training_Dummie : Não é possível encontrar o arquivo do ativo. /Game/TheDarkAges/Scenes/Camp/Training/Rope
+[2016.08.03-02.35.48:561][930]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/TheDarkAges/Scenes/Camp/Training/Target2”
+[2016.08.03-02.35.48:561][930]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/Willian/Documents/01010100-01000100-01000001/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Objects/Training/Training_Dummie.uasset” ao carregar /Game/TheDarkAges/Scenes/Camp/Training/Target2.
+[2016.08.03-02.35.48:561][930]LoadErrors:Error: Erro /Game/TheDarkAges/Scenes/Camp/Objects/Training/Training_Dummie : Não é possível encontrar o arquivo do ativo. /Game/TheDarkAges/Scenes/Camp/Training/Target2
+[2016.08.03-02.35.48:561][930]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/TheDarkAges/Scenes/Camp/Training/Wood”
+[2016.08.03-02.35.48:561][930]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/Willian/Documents/01010100-01000100-01000001/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Objects/Training/Training_Dummie.uasset” ao carregar /Game/TheDarkAges/Scenes/Camp/Training/Wood.
+[2016.08.03-02.35.48:561][930]LoadErrors:Error: Erro /Game/TheDarkAges/Scenes/Camp/Objects/Training/Training_Dummie : Não é possível encontrar o arquivo do ativo. /Game/TheDarkAges/Scenes/Camp/Training/Wood
+[2016.08.03-02.35.48:561][930]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/TheDarkAges/Scenes/Camp/Training/Linen2”
+[2016.08.03-02.35.48:561][930]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/Willian/Documents/01010100-01000100-01000001/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Objects/Training/Training_Dummie.uasset” ao carregar /Game/TheDarkAges/Scenes/Camp/Training/Linen2.
+[2016.08.03-02.35.48:562][930]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/TheDarkAges/Scenes/Camp/Training/Rope”
+[2016.08.03-02.35.48:562][930]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/Willian/Documents/01010100-01000100-01000001/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Objects/Training/Training_Dummie.uasset” ao carregar /Game/TheDarkAges/Scenes/Camp/Training/Rope.
+[2016.08.03-02.35.48:562][930]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/TheDarkAges/Scenes/Camp/Training/Target2”
+[2016.08.03-02.35.48:562][930]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/Willian/Documents/01010100-01000100-01000001/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Objects/Training/Training_Dummie.uasset” ao carregar /Game/TheDarkAges/Scenes/Camp/Training/Target2.
+[2016.08.03-02.35.48:562][930]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/TheDarkAges/Scenes/Camp/Training/Wood”
+[2016.08.03-02.35.48:562][930]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/Willian/Documents/01010100-01000100-01000001/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Objects/Training/Training_Dummie.uasset” ao carregar /Game/TheDarkAges/Scenes/Camp/Training/Wood.
+[2016.08.03-02.35.48:690][930]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/TheDarkAges/Scenes/Camp/Training/Rope”
+[2016.08.03-02.35.48:690][930]LoadErrors: Informações Falha ao carregar /Game/TheDarkAges/Scenes/Camp/Training/Rope.Rope Referenciado por Training_Dummie
+[2016.08.03-02.35.48:690][930]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/TheDarkAges/Scenes/Camp/Training/Rope.
+[2016.08.03-02.35.48:690][930]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/TheDarkAges/Scenes/Camp/Training/Wood”
+[2016.08.03-02.35.48:690][930]LoadErrors: Informações Falha ao carregar /Game/TheDarkAges/Scenes/Camp/Training/Wood.Wood Referenciado por Training_Dummie
+[2016.08.03-02.35.48:691][930]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/TheDarkAges/Scenes/Camp/Training/Wood.
+[2016.08.03-02.35.48:691][930]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/TheDarkAges/Scenes/Camp/Training/Linen2”
+[2016.08.03-02.35.48:691][930]LoadErrors: Informações Falha ao carregar /Game/TheDarkAges/Scenes/Camp/Training/Linen2.Linen2 Referenciado por Training_Dummie
+[2016.08.03-02.35.48:691][930]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/TheDarkAges/Scenes/Camp/Training/Linen2.
+[2016.08.03-02.35.48:691][930]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/TheDarkAges/Scenes/Camp/Training/Target2”
+[2016.08.03-02.35.48:691][930]LoadErrors: Informações Falha ao carregar /Game/TheDarkAges/Scenes/Camp/Training/Target2.Target2 Referenciado por Training_Dummie
+[2016.08.03-02.35.48:691][930]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/TheDarkAges/Scenes/Camp/Training/Target2.
+[2016.08.03-02.35.51:730][930]LogTexture:Display: Criando texturas: LinemNM (BC5)
+[2016.08.03-02.35.52:371][930]LogMaterial: Missing cached shader map for material Linen_Mat, compiling. 
+[2016.08.03-02.35.53:085][930]LogTexture:Display: Criando texturas: Tileable-wood-texture (AutoDXT)
+[2016.08.03-02.35.56:993][930]LogMaterial: Missing cached shader map for material Tileable-wood-texture_Mat, compiling. 
+[2016.08.03-02.36.07:374][930]LogTexture:Display: Criando texturas: Tent3 (AutoDXT)
+[2016.08.03-02.36.35:383][930]LogMaterial: Missing cached shader map for material Tent3_Mat, compiling. 
+[2016.08.03-02.36.35:435][930]LogTexture:Display: Criando texturas: 746c9f88527bc3f85b32a08d9e57d016 (BGRA8)
+[2016.08.03-02.36.35:497][930]LogMaterial: Missing cached shader map for material 746c9f88527bc3f85b32a08d9e57d016_Mat, compiling. 
+[2016.08.03-02.36.35:623][930]LogTexture:Display: Criando texturas: Tplastic_nm (BGRA8)
+[2016.08.03-02.36.35:635][930]LogMaterial: Missing cached shader map for material tn1_PlasticTarpbymcbadshoes_zplhv_Mat, compiling. 
+[2016.08.03-02.36.35:770][930]LogTexture:Display: Criando texturas: Tenda2NM (BC5)
+[2016.08.03-02.36.36:018][930]LogMaterial: Missing cached shader map for material TentTexture2_Mat, compiling. 
+[2016.08.03-02.36.36:134][930]LogMaterial: Missing cached shader map for material Material_002, compiling. 
+[2016.08.03-02.36.36:135][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Objetos/Material_002.Material_002 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.36:135][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Objetos/sci_fi_metal_base.sci_fi_metal_base
+[2016.08.03-02.36.36:268][930]LogMaterial: Missing cached shader map for material Mug2, compiling. 
+[2016.08.03-02.36.36:269][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/MUG/Mug2.Mug2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.36:269][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/MUG/sleek-rock-grey-panel-b.sleek-rock-grey-panel-b
+[2016.08.03-02.36.36:355][930]LogMaterial: Missing cached shader map for material Rope_001, compiling. 
+[2016.08.03-02.36.36:355][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Jar/Rope_001.Rope_001 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.36:355][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Jar/8c1cae38e9f5b6d02b9cc1e4af3568fb.8c1cae38e9f5b6d02b9cc1e4af3568fb
+[2016.08.03-02.36.36:358][930]LogMaterial: Missing cached shader map for material Rope, compiling. 
+[2016.08.03-02.36.36:359][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Jar/Rope.Rope for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.36:359][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Jar/8c1cae38e9f5b6d02b9cc1e4af3568fb.8c1cae38e9f5b6d02b9cc1e4af3568fb
+[2016.08.03-02.36.36:361][930]LogMaterial: Missing cached shader map for material Jarra_001, compiling. 
+[2016.08.03-02.36.36:362][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Jar/Jarra_001.Jarra_001 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.36:362][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Jar/MG_9809-Tiled-thetextureclub_com-Edit1.MG_9809-Tiled-thetextureclub_com-Edit1
+[2016.08.03-02.36.36:365][930]LogMaterial: Missing cached shader map for material Jarra2, compiling. 
+[2016.08.03-02.36.36:365][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Jar/Jarra2.Jarra2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.36:365][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Jar/MG_9809-Tiled-thetextureclub_com-Edit1.MG_9809-Tiled-thetextureclub_com-Edit1
+[2016.08.03-02.36.36:654][930]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2016.08.03-02.36.36:654][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Garrafa/Material.Material for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.36:654][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Garrafa/rope_texture2089.rope_texture2089
+[2016.08.03-02.36.36:748][930]LogMaterial: Missing cached shader map for material Iron, compiling. 
+[2016.08.03-02.36.36:749][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/DrikingHorn/Iron.Iron for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.36:749][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/DrikingHorn/txt_castIron.txt_castIron
+[2016.08.03-02.36.36:753][930]LogMaterial: Missing cached shader map for material Horn, compiling. 
+[2016.08.03-02.36.36:753][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/DrikingHorn/Horn.Horn for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.36:753][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/DrikingHorn/48-2.48-2
+[2016.08.03-02.36.36:800][930]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2016.08.03-02.36.36:800][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/CUP/Metal.Metal for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.36:800][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/CUP/tn1_RustyMetalbyTaranMoltu_ocnfi.tn1_RustyMetalbyTaranMoltu_ocnfi
+[2016.08.03-02.36.36:837][930]LogMaterial: Missing cached shader map for material Wood2, compiling. 
+[2016.08.03-02.36.36:838][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Bed/Wood2.Wood2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.36:838][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Bed/Wood_dry_cracked_bench_tree_bark_texture_ver_4.Wood_dry_cracked_bench_tree_bark_texture_ver_4
+[2016.08.03-02.36.36:841][930]LogMaterial: Missing cached shader map for material Wood, compiling. 
+[2016.08.03-02.36.36:842][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Bed/Wood.Wood for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.36:842][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Bed/tileable_tree_bark_texture_by_ftourini-d3l69hz.tileable_tree_bark_texture_by_ftourini-d3l69hz
+[2016.08.03-02.36.36:846][930]LogMaterial: Missing cached shader map for material Ropes, compiling. 
+[2016.08.03-02.36.36:846][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Bed/Ropes.Ropes for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.36:846][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Bed/8c1cae38e9f5b6d02b9cc1e4af3568fb.8c1cae38e9f5b6d02b9cc1e4af3568fb
+[2016.08.03-02.36.36:856][930]LogMaterial: Missing cached shader map for material Pelt, compiling. 
+[2016.08.03-02.36.36:856][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Bed/Pelt.Pelt for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.36:856][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Bed/1238509-fur-texture2.1238509-fur-texture2
+[2016.08.03-02.36.36:860][930]LogMaterial: Missing cached shader map for material Iron, compiling. 
+[2016.08.03-02.36.36:861][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Bed/Iron.Iron for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.36:861][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Bed/sleek-rock-grey-panel-b.sleek-rock-grey-panel-b
+[2016.08.03-02.36.36:924][930]LogMaterial: Missing cached shader map for material Mug2, compiling. 
+[2016.08.03-02.36.36:925][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Containers/Mug2.Mug2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.36:925][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Containers/3e615c54899cd61ef14f8e1d41b43661.3e615c54899cd61ef14f8e1d41b43661
+[2016.08.03-02.36.37:041][930]LogMaterial: Missing cached shader map for material Soya, compiling. 
+[2016.08.03-02.36.37:041][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Containers/Soya.Soya for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.37:041][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales.Soybean_Meal_100_mt_Ready_for_sales
+[2016.08.03-02.36.37:045][930]LogMaterial: Missing cached shader map for material Linho, compiling. 
+[2016.08.03-02.36.37:046][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Containers/Linho.Linho for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.37:046][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-.43_linen-flaxseed-
+[2016.08.03-02.36.37:420][930]LogMaterial: Missing cached shader map for material Wood-planks_1_001, compiling. 
+[2016.08.03-02.36.37:421][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Containers/Wood-planks_1_001.Wood-planks_1_001 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.37:421][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016.746c9f88527bc3f85b32a08d9e57d016
+[2016.08.03-02.36.37:427][930]LogMaterial: Missing cached shader map for material Wood-plank_003, compiling. 
+[2016.08.03-02.36.37:427][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Containers/Wood-plank_003.Wood-plank_003 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.37:427][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3.rough-wood-texture-seamless-design-3
+[2016.08.03-02.36.38:735][930]LogMaterial: Missing cached shader map for material Rolha, compiling. 
+[2016.08.03-02.36.38:736][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/VINHO/Rolha.Rolha for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.38:736][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/VINHO/MG_9809-Tiled-thetextureclub_com-Edit1.MG_9809-Tiled-thetextureclub_com-Edit1
+[2016.08.03-02.36.38:738][930]LogMaterial: Missing cached shader map for material glass, compiling. 
+[2016.08.03-02.36.38:739][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/VINHO/glass.glass for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.38:739][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/VINHO/sci_fi_metal_base.sci_fi_metal_base
+[2016.08.03-02.36.38:804][930]LogMaterial: Missing cached shader map for material Vaso2, compiling. 
+[2016.08.03-02.36.38:805][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Vasos/Vaso2.Vaso2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.38:805][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Vasos/12-ceramicas-e-porcelanatos-pedras-madeira-ladrilho.12-ceramicas-e-porcelanatos-pedras-madeira-ladrilho
+[2016.08.03-02.36.38:855][930]LogMaterial: Missing cached shader map for material Ladrilho, compiling. 
+[2016.08.03-02.36.38:856][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Vasos/Ladrilho.Ladrilho for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.38:856][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Vasos/12-ceramicas-e-porcelanatos-pedras-madeira-ladrilho.12-ceramicas-e-porcelanatos-pedras-madeira-ladrilho
+[2016.08.03-02.36.38:859][930]LogMaterial: Missing cached shader map for material Jarra, compiling. 
+[2016.08.03-02.36.38:859][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Vasos/Jarra.Jarra for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.38:859][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Vasos/MG_9809-Tiled-thetextureclub_com-Edit1.MG_9809-Tiled-thetextureclub_com-Edit1
+[2016.08.03-02.36.39:082][930]LogMaterial: Missing cached shader map for material Wood_001, compiling. 
+[2016.08.03-02.36.39:083][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Target/Wood_001.Wood_001 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.39:083][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Target/tree_bark.tree_bark
+[2016.08.03-02.36.39:086][930]LogMaterial: Missing cached shader map for material Wood, compiling. 
+[2016.08.03-02.36.39:086][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Target/Wood.Wood for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.39:086][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Target/tileable_tree_bark_texture_by_ftourini-d3l69hz.tileable_tree_bark_texture_by_ftourini-d3l69hz
+[2016.08.03-02.36.39:089][930]LogMaterial: Missing cached shader map for material Target_001, compiling. 
+[2016.08.03-02.36.39:090][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Target/Target_001.Target_001 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.39:090][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Target/linen.linen
+[2016.08.03-02.36.39:096][930]LogMaterial: Missing cached shader map for material Target2, compiling. 
+[2016.08.03-02.36.39:096][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Target/Target2.Target2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.39:096][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Target/linen.linen
+[2016.08.03-02.36.39:302][930]LogMaterial: Missing cached shader map for material Table-Top, compiling. 
+[2016.08.03-02.36.39:303][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/TABLE/Table-Top.Table-Top for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.39:303][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/TABLE/1-free-wood-plank-texture.1-free-wood-plank-texture
+[2016.08.03-02.36.39:306][930]LogMaterial: Missing cached shader map for material Table-Legs, compiling. 
+[2016.08.03-02.36.39:306][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/TABLE/Table-Legs.Table-Legs for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.39:306][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/TABLE/tree-bark-01.tree-bark-01
+[2016.08.03-02.36.39:309][930]LogMaterial: Missing cached shader map for material Table-Legs-2, compiling. 
+[2016.08.03-02.36.39:309][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/TABLE/Table-Legs-2.Table-Legs-2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.39:309][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/TABLE/Wood_dry_cracked_bench_tree_bark_texture_2.Wood_dry_cracked_bench_tree_bark_texture_2
+[2016.08.03-02.36.39:362][930]LogMaterial: Missing cached shader map for material Tabuas, compiling. 
+[2016.08.03-02.36.39:363][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Stable/Tabuas.Tabuas for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.39:363][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Stable/746c9f88527bc3f85b32a08d9e57d016.746c9f88527bc3f85b32a08d9e57d016
+[2016.08.03-02.36.39:366][930]LogMaterial: Missing cached shader map for material Suportes, compiling. 
+[2016.08.03-02.36.39:367][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Stable/Suportes.Suportes for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.39:367][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Stable/Tileable-wood-texture.Tileable-wood-texture
+[2016.08.03-02.36.39:369][930]LogMaterial: Missing cached shader map for material Lona, compiling. 
+[2016.08.03-02.36.39:370][930]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Stable/Lona.Lona for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.03-02.36.39:370][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Stable/Tent3.Tent3
+[2016.08.03-02.36.39:370][930]LogStaticMesh: Criando malha estática Stable...
+[2016.08.03-02.36.39:525][930]LogStaticMesh: Built static mesh [0.16s] /Game/TheDarkAges/Scenes/Camp/Objects/Stable/Stable.Stable
+[2016.08.03-02.36.42:671][930]LogAIModule: Creating AISystem for world MAPA01
+[2016.08.03-02.36.42:735][930]LightingResults: New page: Compilação de Iluminação
+[2016.08.03-02.36.42:736][930]LoadErrors: New page: Carregando mapa: MAPA01.umap
+[2016.08.03-02.36.42:736][930]MapCheck: New page: Verificação de Mapa
+[2016.08.03-02.36.42:736][930]LightingResults: New page: Compilação de Iluminação
+[2016.08.03-02.36.45:103][930]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2016.08.03-02.36.45:223][930]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.03-02.36.47:010][930]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.03-02.36.47:153][930]MapCheck: Informações Map check complete: 0 Error(s), 0 Warning(s), took 143,241ms to complete.
+[2016.08.03-02.36.47:153][930]LogFileHelpers: Loading map 'MAPA01' took 4.419
+[2016.08.03-02.36.47:215][931]Cmd: UpdateLandscapeEditorData -warnings
+[2016.08.03-02.36.47:238][931]Cmd: UpdateLandscapeEditorData
+[2016.08.03-02.37.03:666][156]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.03-02.37.03:666][156]PIE: New page: Sessão de PIE : MAPA01 (02/08/2016 20:37:03)
+[2016.08.03-02.37.03:667][156]LogPlayLevel: Creating play world package: /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01
+[2016.08.03-02.37.03:930][156]LogPlayLevel: PIE: StaticDuplicateObject took: (0.263545s)
+[2016.08.03-02.37.03:931][156]LogAIModule: Creating AISystem for world MAPA01
+[2016.08.03-02.37.03:931][156]LogPlayLevel: PIE: World Init took: (0.001301s)
+[2016.08.03-02.37.03:932][156]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TheDarkAges/Maps/MAPA01.MAPA01 to /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01.MAPA01 (0.265265s)
+[2016.08.03-02.37.03:948][156]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.03-02.37.03:958][156]LogInit: FAudioDevice initialized.
+[2016.08.03-02.37.04:038][156]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.08.03-02.37.04:062][156]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2016.08.03-02.37.04:064][156]LogWorld: Bringing World /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01.MAPA01 up for play (max tick rate 0) at 2016.08.02-23.37.04
+[2016.08.03-02.37.04:066][156]LogWorld: Bringing up level for play took: 0.025801
+[2016.08.03-02.37.04:071][156]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2016.08.03-02.37.04:090][156]PIE: Informações Momento de início de reprodução no editor para /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01 1,066
+[2016.08.03-02.37.07:856][448]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=392.501 Y=453.809 Z=0.000 Location: X=294719.438 Y=283398.000 Z=196.295 Normal: X=-0.067 Y=-0.998 Z=0.001 PenetrationDepth:0.000 Actor:TowerGuard2 Component:StaticMeshComponent0 BoneName:None
+[2016.08.03-02.37.07:865][449]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=376.713 Y=466.999 Z=0.000 Location: X=294719.281 Y=283397.781 Z=197.984 Normal: X=-0.605 Y=-0.414 Z=-0.680 PenetrationDepth:0.000 Actor:TowerGuard2 Component:StaticMeshComponent0 BoneName:None
+[2016.08.03-02.37.07:876][450]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=373.438 Y=469.621 Z=0.000 Location: X=294719.531 Y=283398.844 Z=196.304 Normal: X=-0.047 Y=-0.999 Z=0.001 PenetrationDepth:0.000 Actor:TowerGuard2 Component:StaticMeshComponent0 BoneName:None
+[2016.08.03-02.39.51:254][932]Cmd: DELETE
+[2016.08.03-02.39.51:254][932]Cmd: ACTOR DELETE
+[2016.08.03-02.39.51:286][932]LogEditorActor: Deleted Actor: Jorah_BP_C
+[2016.08.03-02.39.51:368][932]LogEditorActor: Deleted 1 Actors (0.108 secs)
+[2016.08.03-02.39.54:272][ 99]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 111 classes and 0 folders.
+[2016.08.03-02.39.56:893][216]LogRenderer: Reallocating scene render targets to support 812x448 (Frame:9627).
+[2016.08.03-02.41.11:489][647]BlueprintLog: New page: Compilar Jorah_BP
+[2016.08.03-02.41.11:517][647]LogBlueprint:Warning: Compiler Advertência Evento de InputAction referencia uma Ação desconhecida 'ResetVR' para  InputAction ResetVR 
+[2016.08.03-02.41.12:133][647]LogBlueprint:Warning: Compiler Advertência [0413,49] Compile of Jorah_BP successful, but with 1 Warning(s) [in 644 ms] (/Game/TheDarkAges/Personagens/Jorah/Jorah_BP.Jorah_BP)
+[2016.08.03-02.41.12:133][647]BlueprintEditorCompileResults:Warning: Advertência Evento de InputAction referencia uma Ação desconhecida 'ResetVR' para  InputAction ResetVR 
+[2016.08.03-02.41.12:133][647]BlueprintEditorCompileResults:Warning: Advertência [0413,49] Compile of Jorah_BP successful, but with 1 Warning(s) [in 644 ms] (/Game/TheDarkAges/Personagens/Jorah/Jorah_BP.Jorah_BP)
+[2016.08.03-02.41.13:562][766]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.03-02.41.13:563][766]PIE: New page: Sessão de PIE : MAPA01 (02/08/2016 20:41:13)
+[2016.08.03-02.41.13:563][766]LogPlayLevel: Creating play world package: /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01
+[2016.08.03-02.41.13:704][766]LogPlayLevel: PIE: StaticDuplicateObject took: (0.141622s)
+[2016.08.03-02.41.13:706][766]LogAIModule: Creating AISystem for world MAPA01
+[2016.08.03-02.41.13:706][766]LogPlayLevel: PIE: World Init took: (0.001499s)
+[2016.08.03-02.41.13:706][766]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TheDarkAges/Maps/MAPA01.MAPA01 to /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01.MAPA01 (0.143548s)
+[2016.08.03-02.41.13:733][766]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.03-02.41.13:745][766]LogInit: FAudioDevice initialized.
+[2016.08.03-02.41.13:812][766]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.08.03-02.41.13:835][766]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2016.08.03-02.41.13:838][766]LogWorld: Bringing World /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01.MAPA01 up for play (max tick rate 0) at 2016.08.02-23.41.13
+[2016.08.03-02.41.13:839][766]LogWorld: Bringing up level for play took: 0.026029
+[2016.08.03-02.41.13:843][766]PIE: Informações Momento de início de reprodução no editor para /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01 0,819
+[2016.08.03-02.41.29:659][293]BlueprintLog: New page: Compilar Jorah_BP
+[2016.08.03-02.41.29:689][293]LogBlueprint:Warning: Compiler Advertência Evento de InputAction referencia uma Ação desconhecida 'ResetVR' para  InputAction ResetVR 
+[2016.08.03-02.41.29:949][293]LogBlueprint:Warning: Compiler Advertência [0431,30] Compile of Jorah_BP successful, but with 1 Warning(s) [in 290 ms] (/Game/TheDarkAges/Personagens/Jorah/Jorah_BP.Jorah_BP)
+[2016.08.03-02.41.29:950][293]BlueprintEditorCompileResults:Warning: Advertência Evento de InputAction referencia uma Ação desconhecida 'ResetVR' para  InputAction ResetVR 
+[2016.08.03-02.41.29:950][293]BlueprintEditorCompileResults:Warning: Advertência [0431,30] Compile of Jorah_BP successful, but with 1 Warning(s) [in 290 ms] (/Game/TheDarkAges/Personagens/Jorah/Jorah_BP.Jorah_BP)
+[2016.08.03-02.41.31:046][356]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.03-02.41.31:046][356]PIE: New page: Sessão de PIE : MAPA01 (02/08/2016 20:41:31)
+[2016.08.03-02.41.31:046][356]LogPlayLevel: Creating play world package: /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01
+[2016.08.03-02.41.31:198][356]LogPlayLevel: PIE: StaticDuplicateObject took: (0.151756s)
+[2016.08.03-02.41.31:199][356]LogAIModule: Creating AISystem for world MAPA01
+[2016.08.03-02.41.31:199][356]LogPlayLevel: PIE: World Init took: (0.001160s)
+[2016.08.03-02.41.31:199][356]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TheDarkAges/Maps/MAPA01.MAPA01 to /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01.MAPA01 (0.153286s)
+[2016.08.03-02.41.31:227][356]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.03-02.41.31:240][356]LogInit: FAudioDevice initialized.
+[2016.08.03-02.41.31:313][356]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.08.03-02.41.31:338][356]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2016.08.03-02.41.31:340][356]LogWorld: Bringing World /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01.MAPA01 up for play (max tick rate 0) at 2016.08.02-23.41.31
+[2016.08.03-02.41.31:342][356]LogWorld: Bringing up level for play took: 0.027141
+[2016.08.03-02.41.31:346][356]PIE: Informações Momento de início de reprodução no editor para /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01 0,322
+[2016.08.03-02.41.43:640][509]BlueprintLog: New page: Compilar Jorah_BP
+[2016.08.03-02.41.43:669][509]LogBlueprint:Warning: Compiler Advertência Evento de InputAction referencia uma Ação desconhecida 'ResetVR' para  InputAction ResetVR 
+[2016.08.03-02.41.43:928][509]LogBlueprint:Warning: Compiler Advertência [0445,28] Compile of Jorah_BP successful, but with 1 Warning(s) [in 287 ms] (/Game/TheDarkAges/Personagens/Jorah/Jorah_BP.Jorah_BP)
+[2016.08.03-02.41.43:928][509]BlueprintEditorCompileResults:Warning: Advertência Evento de InputAction referencia uma Ação desconhecida 'ResetVR' para  InputAction ResetVR 
+[2016.08.03-02.41.43:928][509]BlueprintEditorCompileResults:Warning: Advertência [0445,28] Compile of Jorah_BP successful, but with 1 Warning(s) [in 287 ms] (/Game/TheDarkAges/Personagens/Jorah/Jorah_BP.Jorah_BP)
+[2016.08.03-02.41.44:938][579]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.03-02.41.44:938][579]PIE: New page: Sessão de PIE : MAPA01 (02/08/2016 20:41:44)
+[2016.08.03-02.41.44:938][579]LogPlayLevel: Creating play world package: /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01
+[2016.08.03-02.41.45:073][579]LogPlayLevel: PIE: StaticDuplicateObject took: (0.134589s)
+[2016.08.03-02.41.45:074][579]LogAIModule: Creating AISystem for world MAPA01
+[2016.08.03-02.41.45:074][579]LogPlayLevel: PIE: World Init took: (0.001415s)
+[2016.08.03-02.41.45:075][579]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TheDarkAges/Maps/MAPA01.MAPA01 to /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01.MAPA01 (0.136417s)
+[2016.08.03-02.41.45:102][579]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.03-02.41.45:111][579]LogInit: FAudioDevice initialized.
+[2016.08.03-02.41.45:179][579]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.08.03-02.41.45:203][579]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2016.08.03-02.41.45:205][579]LogWorld: Bringing World /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01.MAPA01 up for play (max tick rate 0) at 2016.08.02-23.41.45
+[2016.08.03-02.41.45:206][579]LogWorld: Bringing up level for play took: 0.026240
+[2016.08.03-02.41.45:210][579]PIE: Informações Momento de início de reprodução no editor para /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01 0,187
+[2016.08.03-02.43.10:917][844]BlueprintLog: New page: Compilar Jorah_BP
+[2016.08.03-02.43.10:946][844]LogBlueprint:Warning: Compiler Advertência Evento de InputAction referencia uma Ação desconhecida 'ResetVR' para  InputAction ResetVR 
+[2016.08.03-02.43.11:762][844]LogBlueprint:Warning: Compiler Advertência [0533,12] Compile of Jorah_BP successful, but with 1 Warning(s) [in 845 ms] (/Game/TheDarkAges/Personagens/Jorah/Jorah_BP.Jorah_BP)
+[2016.08.03-02.43.11:762][844]BlueprintEditorCompileResults:Warning: Advertência Evento de InputAction referencia uma Ação desconhecida 'ResetVR' para  InputAction ResetVR 
+[2016.08.03-02.43.11:762][844]BlueprintEditorCompileResults:Warning: Advertência [0533,12] Compile of Jorah_BP successful, but with 1 Warning(s) [in 845 ms] (/Game/TheDarkAges/Personagens/Jorah/Jorah_BP.Jorah_BP)
+[2016.08.03-02.43.12:643][894]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.03-02.43.12:643][894]PIE: New page: Sessão de PIE : MAPA01 (02/08/2016 20:43:12)
+[2016.08.03-02.43.12:643][894]LogPlayLevel: Creating play world package: /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01
+[2016.08.03-02.43.12:784][894]LogPlayLevel: PIE: StaticDuplicateObject took: (0.140514s)
+[2016.08.03-02.43.12:785][894]LogAIModule: Creating AISystem for world MAPA01
+[2016.08.03-02.43.12:785][894]LogPlayLevel: PIE: World Init took: (0.001268s)
+[2016.08.03-02.43.12:785][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TheDarkAges/Maps/MAPA01.MAPA01 to /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01.MAPA01 (0.142129s)
+[2016.08.03-02.43.12:812][894]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.03-02.43.12:823][894]LogInit: FAudioDevice initialized.
+[2016.08.03-02.43.12:892][894]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.08.03-02.43.12:916][894]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2016.08.03-02.43.12:918][894]LogWorld: Bringing World /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01.MAPA01 up for play (max tick rate 0) at 2016.08.02-23.43.12
+[2016.08.03-02.43.12:920][894]LogWorld: Bringing up level for play took: 0.026775
+[2016.08.03-02.43.12:923][894]PIE: Informações Momento de início de reprodução no editor para /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01 -0,1
+[2016.08.03-02.44.06:502][747]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=17.224 Y=-40.636 Z=0.000 Location: X=295993.375 Y=279591.688 Z=290.148 Normal: X=0.071 Y=0.122 Z=0.990 PenetrationDepth:0.000 Actor:Tenda-Redonda2 Component:StaticMeshComponent0 BoneName:None
+[2016.08.03-02.44.06:538][750]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=45.921 Y=-108.338 Z=0.000 Location: X=295994.563 Y=279590.813 Z=291.880 Normal: X=0.071 Y=0.122 Z=0.990 PenetrationDepth:0.000 Actor:Tenda-Redonda2 Component:StaticMeshComponent0 BoneName:None
+[2016.08.03-02.44.06:561][752]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=64.385 Y=-151.900 Z=0.000 Location: X=295995.875 Y=279590.281 Z=293.118 Normal: X=0.071 Y=0.122 Z=0.990 PenetrationDepth:0.000 Actor:Tenda-Redonda2 Component:StaticMeshComponent0 BoneName:None
+[2016.08.03-02.44.06:572][753]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=73.326 Y=-172.995 Z=0.000 Location: X=295995.969 Y=279590.375 Z=293.860 Normal: X=0.071 Y=0.122 Z=0.990 PenetrationDepth:0.000 Actor:Tenda-Redonda2 Component:StaticMeshComponent0 BoneName:None
+[2016.08.03-02.44.06:627][758]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=117.401 Y=-276.977 Z=0.000 Location: X=296003.500 Y=279586.281 Z=296.564 Normal: X=-0.262 Y=-0.041 Z=0.964 PenetrationDepth:0.000 Actor:Tenda-Redonda2 Component:StaticMeshComponent0 BoneName:None
+[2016.08.03-02.44.06:639][759]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=126.754 Y=-299.043 Z=0.000 Location: X=296003.313 Y=279586.281 Z=297.287 Normal: X=-0.262 Y=-0.041 Z=0.964 PenetrationDepth:0.000 Actor:Tenda-Redonda2 Component:StaticMeshComponent0 BoneName:None
+[2016.08.03-02.44.06:673][762]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=153.522 Y=-362.194 Z=0.000 Location: X=296006.469 Y=279581.031 Z=298.987 Normal: X=-0.262 Y=-0.041 Z=0.964 PenetrationDepth:0.000 Actor:Tenda-Redonda2 Component:StaticMeshComponent0 BoneName:None
+[2016.08.03-02.44.06:684][763]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=162.326 Y=-382.966 Z=0.000 Location: X=296006.281 Y=279581.031 Z=299.710 Normal: X=-0.262 Y=-0.041 Z=0.964 PenetrationDepth:0.000 Actor:Tenda-Redonda2 Component:StaticMeshComponent0 BoneName:None
+[2016.08.03-02.44.06:695][764]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=171.332 Y=-404.212 Z=0.000 Location: X=296006.094 Y=279581.031 Z=300.433 Normal: X=-0.262 Y=-0.041 Z=0.964 PenetrationDepth:0.000 Actor:Tenda-Redonda2 Component:StaticMeshComponent0 BoneName:None
+[2016.08.03-02.44.30:037][791]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=45.165 Y=13.222 Z=0.000 Location: X=291925.969 Y=282512.656 Z=255.858 Normal: X=-0.181 Y=-0.294 Z=0.939 PenetrationDepth:0.000 Actor:Tenda-Redonda3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.03-02.44.30:115][798]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=201.334 Y=54.129 Z=0.000 Location: X=291930.500 Y=282508.656 Z=259.377 Normal: X=-0.229 Y=-0.302 Z=0.925 PenetrationDepth:0.000 Actor:Tenda-Redonda3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.03-02.44.30:127][799]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=224.578 Y=59.368 Z=0.000 Location: X=291930.313 Y=282508.469 Z=260.071 Normal: X=-0.229 Y=-0.302 Z=0.925 PenetrationDepth:0.000 Actor:Tenda-Redonda3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.03-02.44.30:138][800]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=247.496 Y=64.574 Z=0.000 Location: X=291930.125 Y=282508.281 Z=260.765 Normal: X=-0.229 Y=-0.302 Z=0.925 PenetrationDepth:0.000 Actor:Tenda-Redonda3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.03-02.44.30:150][801]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=270.736 Y=69.891 Z=0.000 Location: X=291929.938 Y=282508.094 Z=261.459 Normal: X=-0.229 Y=-0.302 Z=0.925 PenetrationDepth:0.000 Actor:Tenda-Redonda3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.03-02.44.30:161][802]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=293.272 Y=75.080 Z=0.000 Location: X=291929.750 Y=282507.906 Z=262.153 Normal: X=-0.229 Y=-0.302 Z=0.925 PenetrationDepth:0.000 Actor:Tenda-Redonda3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.03-02.44.30:173][803]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=211.721 Y=54.202 Z=0.000 Location: X=291929.563 Y=282507.719 Z=262.847 Normal: X=-0.229 Y=-0.302 Z=0.925 PenetrationDepth:0.000 Actor:Tenda-Redonda3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.03-02.44.30:185][804]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=149.115 Y=38.175 Z=0.000 Location: X=291929.375 Y=282507.531 Z=263.541 Normal: X=-0.229 Y=-0.302 Z=0.925 PenetrationDepth:0.000 Actor:Tenda-Redonda3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.03-02.44.30:197][805]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=98.372 Y=25.184 Z=0.000 Location: X=291929.188 Y=282507.344 Z=264.235 Normal: X=-0.229 Y=-0.302 Z=0.925 PenetrationDepth:0.000 Actor:Tenda-Redonda3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.03-02.44.30:208][806]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=58.128 Y=14.881 Z=0.000 Location: X=291929.000 Y=282507.156 Z=264.929 Normal: X=-0.229 Y=-0.302 Z=0.925 PenetrationDepth:0.000 Actor:Tenda-Redonda3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.03-02.44.30:219][807]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=24.246 Y=6.207 Z=0.000 Location: X=291928.813 Y=282506.969 Z=265.623 Normal: X=-0.229 Y=-0.302 Z=0.925 PenetrationDepth:0.000 Actor:Tenda-Redonda3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.03-02.44.30:550][837]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-441.516 Y=85.707 Z=0.000 Location: X=291872.094 Y=282497.813 Z=273.097 Normal: X=-0.001 Y=-0.255 Z=0.967 PenetrationDepth:0.000 Actor:Tenda-Redonda3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.03-02.44.30:673][848]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-528.760 Y=283.572 Z=0.000 Location: X=291852.031 Y=282514.625 Z=283.373 Normal: X=0.041 Y=-0.262 Z=0.964 PenetrationDepth:0.000 Actor:Tenda-Redonda3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.03-02.44.30:685][849]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-525.525 Y=289.523 Z=0.000 Location: X=291852.031 Y=282514.438 Z=284.096 Normal: X=0.041 Y=-0.262 Z=0.964 PenetrationDepth:0.000 Actor:Tenda-Redonda3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.03-02.44.30:797][859]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-508.350 Y=318.717 Z=0.000 Location: X=291843.031 Y=282524.656 Z=296.130 Normal: X=0.008 Y=-0.276 Z=0.961 PenetrationDepth:0.000 Actor:Tenda-Redonda3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.03-02.44.30:808][860]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-507.509 Y=320.054 Z=0.000 Location: X=291843.031 Y=282524.469 Z=296.850 Normal: X=0.008 Y=-0.276 Z=0.961 PenetrationDepth:0.000 Actor:Tenda-Redonda3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.03-02.44.30:832][862]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-506.114 Y=322.256 Z=0.000 Location: X=291842.094 Y=282525.625 Z=299.094 Normal: X=0.008 Y=-0.276 Z=0.961 PenetrationDepth:0.000 Actor:Tenda-Redonda3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.03-02.44.30:855][864]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-505.048 Y=323.924 Z=0.000 Location: X=291840.969 Y=282526.750 Z=301.319 Normal: X=0.008 Y=-0.276 Z=0.961 PenetrationDepth:0.000 Actor:Tenda-Redonda3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.03-02.47.26:439][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.03-02.47.26:439][368]PIE: New page: Sessão de PIE : MAPA01 (02/08/2016 20:47:26)
+[2016.08.03-02.47.26:439][368]LogPlayLevel: Creating play world package: /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01
+[2016.08.03-02.47.26:567][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.127884s)
+[2016.08.03-02.47.26:568][368]LogAIModule: Creating AISystem for world MAPA01
+[2016.08.03-02.47.26:569][368]LogPlayLevel: PIE: World Init took: (0.001606s)
+[2016.08.03-02.47.26:569][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TheDarkAges/Maps/MAPA01.MAPA01 to /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01.MAPA01 (0.129879s)
+[2016.08.03-02.47.26:598][368]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.03-02.47.26:611][368]LogInit: FAudioDevice initialized.
+[2016.08.03-02.47.26:678][368]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.08.03-02.47.26:701][368]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2016.08.03-02.47.26:704][368]LogWorld: Bringing World /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01.MAPA01 up for play (max tick rate 0) at 2016.08.02-23.47.26
+[2016.08.03-02.47.26:705][368]LogWorld: Bringing up level for play took: 0.025862
+[2016.08.03-02.47.26:709][368]PIE: Informações Momento de início de reprodução no editor para /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01 -0,315
+[2016.08.03-02.48.20:175][629]Cmd: DELETE
+[2016.08.03-02.48.20:175][629]Cmd: ACTOR DELETE
+[2016.08.03-02.48.20:177][629]LogEditorActor: Deleted Actor: Jorah_BP_C
+[2016.08.03-02.48.20:262][629]LogEditorActor: Deleted 1 Actors (0.087 secs)
+[2016.08.03-02.48.24:355][940]Cmd: DELETE
+[2016.08.03-02.48.24:355][940]Cmd: ACTOR DELETE
+[2016.08.03-02.48.24:357][940]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2016.08.03-02.48.24:384][940]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2016.08.03-02.48.29:936][230]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.03-02.48.29:936][230]PIE: New page: Sessão de PIE : MAPA01 (02/08/2016 20:48:29)
+[2016.08.03-02.48.29:936][230]LogPlayLevel: Creating play world package: /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01
+[2016.08.03-02.48.30:067][230]LogPlayLevel: PIE: StaticDuplicateObject took: (0.130899s)
+[2016.08.03-02.48.30:068][230]LogAIModule: Creating AISystem for world MAPA01
+[2016.08.03-02.48.30:068][230]LogPlayLevel: PIE: World Init took: (0.001277s)
+[2016.08.03-02.48.30:068][230]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TheDarkAges/Maps/MAPA01.MAPA01 to /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01.MAPA01 (0.132572s)
+[2016.08.03-02.48.30:124][230]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.03-02.48.30:134][230]LogInit: FAudioDevice initialized.
+[2016.08.03-02.48.30:203][230]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.08.03-02.48.30:228][230]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2016.08.03-02.48.30:268][230]LogWorld: Bringing World /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01.MAPA01 up for play (max tick rate 0) at 2016.08.02-23.48.30
+[2016.08.03-02.48.30:356][230]LogWorld: Bringing up level for play took: 0.151380
+[2016.08.03-02.48.30:365][230]PIE: Informações Momento de início de reprodução no editor para /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01 1,341
+[2016.08.03-02.49.08:808][167]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.08.03-02.49.38:161][518]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.08.03-02.50.13:962][ 54]LogSavePackage: Save=1669.39ms
+[2016.08.03-02.50.13:963][ 54]LogSavePackage: Moving '../../../../../../Users/Willian/Documents/01010100-01000100-01000001/01010100-01000100-01000001/ProjetoTeste/Saved/MAPA01_Auto1E360DF03486F633FC954E5AAEB3AE660.tmp' to '../../../../../../Users/Willian/Documents/01010100-01000100-01000001/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto1.umap'
+[2016.08.03-02.50.14:555][ 54]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Willian/Documents/01010100-01000100-01000001/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/MAPA01_Auto1.umap
+[2016.08.03-02.50.14:560][ 54]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TheDarkAges/Maps/MAPA01' took 2.405
+[2016.08.03-02.50.14:560][ 54]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.405
+[2016.08.03-02.50.14:567][ 54]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TheDarkAges/Personagens/Jorah/Jorah_BP] ([1] browsable assets)...
+[2016.08.03-02.50.14:634][ 54]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TheDarkAges/Personagens/Jorah/Jorah_BP.Jorah_BP]
+[2016.08.03-02.50.14:634][ 54]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheDarkAges/Personagens/Jorah/Jorah_BP]
+[2016.08.03-02.50.15:183][ 54]LogSavePackage: Save=112.26ms
+[2016.08.03-02.50.15:183][ 54]LogSavePackage: Moving '../../../../../../Users/Willian/Documents/01010100-01000100-01000001/01010100-01000100-01000001/ProjetoTeste/Saved/Jorah_BP_Auto1C3B45439493BA5E42851AF96D7BA32E8.tmp' to '../../../../../../Users/Willian/Documents/01010100-01000100-01000001/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Personagens/Jorah/Jorah_BP_Auto1.uasset'
+[2016.08.03-02.50.15:784][ 54]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Willian/Documents/01010100-01000100-01000001/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Personagens/Jorah/Jorah_BP_Auto1.uasset
+[2016.08.03-02.50.15:784][ 54]LogFileHelpers: Auto-saving content packages took 1.222
+[2016.08.03-02.55.20:482][307]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.03-02.55.20:482][307]PIE: New page: Sessão de PIE : MAPA01 (02/08/2016 20:55:20)
+[2016.08.03-02.55.20:482][307]LogPlayLevel: Creating play world package: /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01
+[2016.08.03-02.55.20:618][307]LogPlayLevel: PIE: StaticDuplicateObject took: (0.135696s)
+[2016.08.03-02.55.20:619][307]LogAIModule: Creating AISystem for world MAPA01
+[2016.08.03-02.55.20:619][307]LogPlayLevel: PIE: World Init took: (0.001247s)
+[2016.08.03-02.55.20:619][307]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TheDarkAges/Maps/MAPA01.MAPA01 to /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01.MAPA01 (0.137340s)
+[2016.08.03-02.55.20:648][307]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.03-02.55.20:658][307]LogInit: FAudioDevice initialized.
+[2016.08.03-02.55.20:731][307]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.08.03-02.55.20:755][307]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2016.08.03-02.55.20:782][307]LogWorld: Bringing World /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01.MAPA01 up for play (max tick rate 0) at 2016.08.02-23.55.20
+[2016.08.03-02.55.20:796][307]LogWorld: Bringing up level for play took: 0.063677
+[2016.08.03-02.55.20:800][307]PIE: Informações Momento de início de reprodução no editor para /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01 -0,224
+[2016.08.03-02.57.22:879][950]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.03-02.57.22:879][950]PIE: New page: Sessão de PIE : MAPA01 (02/08/2016 20:57:22)
+[2016.08.03-02.57.22:879][950]LogPlayLevel: Creating play world package: /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01
+[2016.08.03-02.57.23:014][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.134955s)
+[2016.08.03-02.57.23:015][950]LogAIModule: Creating AISystem for world MAPA01
+[2016.08.03-02.57.23:016][950]LogPlayLevel: PIE: World Init took: (0.001522s)
+[2016.08.03-02.57.23:016][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TheDarkAges/Maps/MAPA01.MAPA01 to /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01.MAPA01 (0.136946s)
+[2016.08.03-02.57.23:045][950]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.03-02.57.23:055][950]LogInit: FAudioDevice initialized.
+[2016.08.03-02.57.23:122][950]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.08.03-02.57.23:146][950]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2016.08.03-02.57.23:172][950]LogWorld: Bringing World /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01.MAPA01 up for play (max tick rate 0) at 2016.08.02-23.57.23
+[2016.08.03-02.57.23:186][950]LogWorld: Bringing up level for play took: 0.062690
+[2016.08.03-02.57.23:191][950]PIE: Informações Momento de início de reprodução no editor para /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01 0,166
+[2016.08.03-02.57.43:651][110]LogSavePackage: Save=1629.20ms
+[2016.08.03-02.57.43:651][110]LogSavePackage: Moving '../../../../../../Users/Willian/Documents/01010100-01000100-01000001/01010100-01000100-01000001/ProjetoTeste/Saved/MAPA0103397D944655569D42549AB86FD39CA8.tmp' to '../../../../../../Users/Willian/Documents/01010100-01000100-01000001/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Maps/MAPA01.umap'
+[2016.08.03-02.57.43:663][110]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Willian/Documents/01010100-01000100-01000001/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Maps/MAPA01.umap
+[2016.08.03-02.57.43:823][110]LogFileHelpers: Saving map 'MAPA01' took 2.072
+[2016.08.03-02.57.43:935][110]LogSavePackage: Save=79.49ms
+[2016.08.03-02.57.43:935][110]LogSavePackage: Moving '../../../../../../Users/Willian/Documents/01010100-01000100-01000001/01010100-01000100-01000001/ProjetoTeste/Saved/Jorah_BP9E595CEB44A4737F3BAA9E94AA69A730.tmp' to '../../../../../../Users/Willian/Documents/01010100-01000100-01000001/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Personagens/Jorah/Jorah_BP.uasset'
+[2016.08.03-02.57.43:943][110]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Willian/Documents/01010100-01000100-01000001/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Personagens/Jorah/Jorah_BP.uasset
+[2016.08.03-02.57.45:963][228]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.08.03-02.57.46:371][229]Cmd: QUIT_EDITOR
+[2016.08.03-02.57.47:143][229]LogExit: Preparing to exit.
+[2016.08.03-02.57.48:047][229]LogExit: Editor shut down
+[2016.08.03-02.57.48:047][229]LogExit: Transaction tracking system shut down
+[2016.08.03-02.57.48:438][229]LogObj: Freed 0b from 0 cluster array pools.
+[2016.08.03-02.57.48:438][229]LogExit: Object subsystem successfully closed.
+[2016.08.03-02.57.48:479][229]LogD3D11RHI: Shutdown
+[2016.08.03-02.57.48:479][229]LogD3D11RHI: CleanupD3DDevice
+[2016.08.03-02.57.48:754][229]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.08.03-02.57.48:772][229]LogModuleManager: Shutting down and abandoning module BlueprintGraph (215)
+[2016.08.03-02.57.48:772][229]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (214)
+[2016.08.03-02.57.48:772][229]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2016.08.03-02.57.48:772][229]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2016.08.03-02.57.48:772][229]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2016.08.03-02.57.48:772][229]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2016.08.03-02.57.48:772][229]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2016.08.03-02.57.48:774][229]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2016.08.03-02.57.48:774][229]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2016.08.03-02.57.48:774][229]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2016.08.03-02.57.48:774][229]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2016.08.03-02.57.48:774][229]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2016.08.03-02.57.48:774][229]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2016.08.03-02.57.48:774][229]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2016.08.03-02.57.48:774][229]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2016.08.03-02.57.48:774][229]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2016.08.03-02.57.48:774][229]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2016.08.03-02.57.48:774][229]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2016.08.03-02.57.48:774][229]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2016.08.03-02.57.48:774][229]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2016.08.03-02.57.48:774][229]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2016.08.03-02.57.48:774][229]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2016.08.03-02.57.48:774][229]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2016.08.03-02.57.48:774][229]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2016.08.03-02.57.48:774][229]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2016.08.03-02.57.48:775][229]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2016.08.03-02.57.48:775][229]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2016.08.03-02.57.48:775][229]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2016.08.03-02.57.48:775][229]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.08.03-02.57.48:775][229]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.08.03-02.57.48:775][229]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.08.03-02.57.48:775][229]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.08.03-02.57.48:775][229]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.08.03-02.57.48:775][229]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.08.03-02.57.48:775][229]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.08.03-02.57.48:775][229]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.08.03-02.57.49:305][229]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.08.03-02.57.49:305][229]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.08.03-02.57.49:305][229]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.08.03-02.57.49:305][229]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.08.03-02.57.49:305][229]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.08.03-02.57.49:305][229]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.08.03-02.57.49:305][229]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.08.03-02.57.49:305][229]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.08.03-02.57.49:305][229]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.08.03-02.57.49:305][229]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.08.03-02.57.49:306][229]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.08.03-02.57.49:306][229]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.08.03-02.57.49:306][229]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.08.03-02.57.49:306][229]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.08.03-02.57.49:306][229]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.08.03-02.57.49:306][229]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.08.03-02.57.49:307][229]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.08.03-02.57.49:307][229]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.08.03-02.57.49:307][229]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.08.03-02.57.49:308][229]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.08.03-02.57.49:308][229]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.08.03-02.57.49:308][229]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.08.03-02.57.49:308][229]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.08.03-02.57.49:308][229]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.08.03-02.57.49:308][229]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.08.03-02.57.49:363][229]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.08.03-02.57.49:363][229]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.08.03-02.57.49:363][229]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.08.03-02.57.49:363][229]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.08.03-02.57.49:363][229]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.08.03-02.57.49:363][229]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.08.03-02.57.49:364][229]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.08.03-02.57.49:364][229]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.08.03-02.57.49:364][229]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.08.03-02.57.49:365][229]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.08.03-02.57.49:365][229]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.08.03-02.57.49:365][229]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.08.03-02.57.49:365][229]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.08.03-02.57.49:365][229]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.08.03-02.57.49:365][229]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.08.03-02.57.49:365][229]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.08.03-02.57.49:365][229]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.08.03-02.57.49:366][229]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.08.03-02.57.49:366][229]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.08.03-02.57.49:366][229]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.08.03-02.57.49:366][229]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.08.03-02.57.49:366][229]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.08.03-02.57.49:366][229]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2016.08.03-02.57.49:366][229]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.08.03-02.57.49:366][229]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.08.03-02.57.49:366][229]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.08.03-02.57.49:394][229]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.08.03-02.57.49:394][229]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.08.03-02.57.49:394][229]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2016.08.03-02.57.49:394][229]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2016.08.03-02.57.49:394][229]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2016.08.03-02.57.49:394][229]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2016.08.03-02.57.49:394][229]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2016.08.03-02.57.49:394][229]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2016.08.03-02.57.49:395][229]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2016.08.03-02.57.49:395][229]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2016.08.03-02.57.49:395][229]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2016.08.03-02.57.49:395][229]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2016.08.03-02.57.49:395][229]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2016.08.03-02.57.49:395][229]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2016.08.03-02.57.49:395][229]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.08.03-02.57.49:395][229]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.08.03-02.57.49:395][229]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.08.03-02.57.49:395][229]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.08.03-02.57.49:395][229]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.08.03-02.57.49:396][229]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.08.03-02.57.49:396][229]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.08.03-02.57.49:396][229]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.08.03-02.57.49:397][229]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.08.03-02.57.49:397][229]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.08.03-02.57.49:397][229]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.08.03-02.57.49:397][229]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.08.03-02.57.49:397][229]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.08.03-02.57.49:397][229]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.08.03-02.57.49:397][229]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2016.08.03-02.57.49:397][229]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.08.03-02.57.49:400][229]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.08.03-02.57.49:400][229]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.08.03-02.57.49:403][229]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.08.03-02.57.49:408][229]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.08.03-02.57.49:408][229]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.08.03-02.57.49:509][229]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.08.03-02.57.49:509][229]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.08.03-02.57.49:509][229]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.08.03-02.57.49:509][229]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.08.03-02.57.49:509][229]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.08.03-02.57.49:509][229]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.08.03-02.57.49:509][229]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.08.03-02.57.49:509][229]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.08.03-02.57.49:509][229]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.08.03-02.57.49:509][229]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.08.03-02.57.49:509][229]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.08.03-02.57.49:509][229]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.08.03-02.57.49:509][229]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.08.03-02.57.49:509][229]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.08.03-02.57.49:509][229]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.08.03-02.57.49:509][229]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.08.03-02.57.49:510][229]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.08.03-02.57.49:510][229]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.08.03-02.57.49:510][229]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.08.03-02.57.49:510][229]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.08.03-02.57.49:510][229]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.08.03-02.57.49:510][229]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.08.03-02.57.49:510][229]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.08.03-02.57.49:510][229]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.08.03-02.57.49:515][229]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.08.03-02.57.49:515][229]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.08.03-02.57.49:515][229]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.08.03-02.57.49:515][229]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.08.03-02.57.49:515][229]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.08.03-02.57.49:515][229]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.08.03-02.57.49:517][229]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.08.03-02.57.49:697][229]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.08.03-02.57.49:697][229]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.08.03-02.57.49:697][229]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.08.03-02.57.49:697][229]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.08.03-02.57.49:791][229]LogDerivedDataCache: Shutdown
+[2016.08.03-02.57.49:791][229]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.08.03-02.57.49:791][229]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.08.03-02.57.49:791][229]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.08.03-02.57.49:791][229]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.08.03-02.57.49:791][229]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.08.03-02.57.49:791][229]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.08.03-02.57.49:791][229]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.08.03-02.57.49:792][229]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.08.03-02.57.49:792][229]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.08.03-02.57.49:793][229]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.08.03-02.57.49:793][229]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.08.03-02.57.49:793][229]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.08.03-02.57.49:793][229]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.08.03-02.57.49:793][229]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.08.03-02.57.49:793][229]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.08.03-02.57.49:793][229]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.08.03-02.57.49:793][229]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.08.03-02.57.49:793][229]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.08.03-02.57.49:793][229]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.08.03-02.57.49:793][229]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.08.03-02.57.49:793][229]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.08.03-02.57.49:794][229]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.08.03-02.57.49:794][229]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.08.03-02.57.49:794][229]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.08.03-02.57.49:794][229]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.08.03-02.57.49:794][229]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.08.03-02.57.49:794][229]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.08.03-02.57.49:794][229]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.08.03-02.57.49:794][229]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.08.03-02.57.49:794][229]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.08.03-02.57.49:794][229]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.08.03-02.57.49:794][229]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.08.03-02.57.49:794][229]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.08.03-02.57.49:795][229]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.08.03-02.57.49:795][229]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.08.03-02.57.49:795][229]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.08.03-02.57.49:795][229]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.08.03-02.57.49:795][229]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.08.03-02.57.49:795][229]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.08.03-02.57.54:335][229]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.08.03-02.57.54:336][229]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.08.03-02.57.54:336][229]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.08.03-02.57.54:336][229]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.08.03-02.57.54:336][229]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.08.03-02.57.54:336][229]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.08.03-02.57.54:336][229]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.08.03-02.57.54:342][229]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.08.03-02.57.54:342][229]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.08.03-02.57.54:342][229]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.08.03-02.57.54:343][229]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.08.03-02.57.54:343][229]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.08.03-02.57.54:343][229]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.08.03-02.57.54:343][229]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.08.03-02.57.54:343][229]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.08.03-02.57.54:343][229]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.08.03-02.57.54:343][229]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.08.03-02.57.54:352][229]LogExit: Exiting.
+[2016.08.03-02.57.54:393][229]Log file closed, 08/02/16 23:57:54
