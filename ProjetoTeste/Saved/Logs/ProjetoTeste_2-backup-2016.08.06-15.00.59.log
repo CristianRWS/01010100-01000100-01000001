@@ -1,0 +1,495 @@
+﻿Log file open, 08/06/16 14:54:48
+LogInit:Display: Running engine for game: ProjetoTeste
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(262138510) SRandInit(262138512).
+LogTaskGraph: Started task graph with 4 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.080105
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  /Temp/Autosaves/Game/TheDarkAges/Maps/UEDPCMAPA01 -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -windowed -messaging -SessionName="Play in Standalone Game" 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.08.06-17.54.48:536][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.06-17.54.48:536][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.08.06-17.54.48:543][  0]LogInit: Computer: DESKTOP-63GHF8H
+[2016.08.06-17.54.48:543][  0]LogInit: User: DiegoBA
+[2016.08.06-17.54.48:543][  0]LogInit: CPU Page size=65536, Cores=3
+[2016.08.06-17.54.48:543][  0]LogInit: High frequency timer resolution =3.237190 MHz
+[2016.08.06-17.54.48:543][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx)
+[2016.08.06-17.54.48:543][  0]LogMemory: Platform Memory Stats for Windows
+[2016.08.06-17.54.48:543][  0]LogMemory: Process Physical Memory: 188.88 MB used, 188.88 MB peak
+[2016.08.06-17.54.48:543][  0]LogMemory: Process Virtual Memory: 194.95 MB used, 194.95 MB peak
+[2016.08.06-17.54.48:543][  0]LogMemory: Physical Memory: 3044.00 MB used, 4078.11 MB total
+[2016.08.06-17.54.48:543][  0]LogMemory: Virtual Memory: 548.48 MB used, 134217728.00 MB total
+[2016.08.06-17.54.48:572][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.08.06-17.54.49:152][  0]LogD3D11RHI: D3D11 adapters:
+[2016.08.06-17.54.49:169][  0]LogD3D11RHI:    0. 'AMD Radeon R7 200 Series' (Feature Level 11_0)
+[2016.08.06-17.54.49:169][  0]LogD3D11RHI:       2026/0/2039 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2016.08.06-17.54.49:171][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.08.06-17.54.49:171][  0]LogD3D11RHI:       0/0/2039 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.08.06-17.54.49:171][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.08.06-17.54.49:177][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.08.06-17.54.49:177][  0]LogD3D11RHI:     GPU DeviceId: 0x6658 (for the marketing name, search the web for "GPU Device Id")
+[2016.08.06-17.54.49:177][  0]LogWindows: EnumDisplayDevices:
+[2016.08.06-17.54.49:177][  0]LogWindows:    0. 'AMD Radeon R7 200 Series' (P:1 D:1)
+[2016.08.06-17.54.49:178][  0]LogWindows:    1. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2016.08.06-17.54.49:178][  0]LogWindows:    2. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2016.08.06-17.54.49:178][  0]LogWindows:    3. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2016.08.06-17.54.49:178][  0]LogWindows:    4. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2016.08.06-17.54.49:179][  0]LogWindows:    5. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2016.08.06-17.54.49:179][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2016.08.06-17.54.49:179][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R7 200 Series
+[2016.08.06-17.54.49:179][  0]LogD3D11RHI:   Driver Version: Crimson 16.3.2 (internal:16.150.2211.0, unified:16.150.2211.0)
+[2016.08.06-17.54.49:179][  0]LogD3D11RHI:      Driver Date: 3-21-2016
+[2016.08.06-17.54.49:179][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.08.06-17.54.49:188][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.08.06-17.54.49:202][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2016.08.06-17.54.49:202][  0]LogShaderCompilers: Guid format shader working directory is -40 characters bigger than the processId version (../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Intermediate/Shaders/WorkingDirectory/6384/).
+[2016.08.06-17.54.49:203][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/DIEGOB~1/AppData/Local/Temp/UnrealShaderWorkingDir/F94A05C04BEB95E5C2E2F6897F892783/'.
+[2016.08.06-17.54.49:203][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.08.06-17.54.50:598][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.08.06-17.54.50:612][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.08.06-17.54.50:627][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.08.06-17.54.50:640][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.08.06-17.54.50:640][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.06-17.54.50:736][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.08.06-17.54.50:849][  0]LogDerivedDataCache: Loaded boot cache 0.11s 48MB C:/Users/Diego BA/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.08.06-17.54.50:850][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Diego BA/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.08.06-17.54.50:850][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.08.06-17.54.50:850][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.08.06-17.54.50:850][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.08.06-17.54.50:850][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.08.06-17.54.50:874][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.08.06-17.54.50:886][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Diego BA/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.08.06-17.54.52:723][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2016.08.06-17.54.52:732][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.008576 seconds
+[2016.08.06-17.54.52:741][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.06-17.54.52:742][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2016.08.06-17.54.53:021][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.08.06-17.54.53:021][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.08.06-17.54.53:021][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.08.06-17.54.53:607][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.08.06-17.54.54:304][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.06-17.54.54:304][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.06-17.54.55:494][  0]LogMoviePlayer: Initializing movie player
+[2016.08.06-17.54.55:631][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/Movies/Default_Startup.mp4
+[2016.08.06-17.54.55:792][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.08.06-17.54.55:891][  0]SourceControl: Info Source control is disabled
+[2016.08.06-17.54.55:892][  0]SourceControl: Info Source control is disabled
+[2016.08.06-17.54.55:915][  0]SourceControl: Info Source control is disabled
+[2016.08.06-17.54.56:275][  0]LogUObjectArray: 31193 objects as part of root set at end of initial load.
+[2016.08.06-17.54.56:275][  0]LogUObjectAllocator: 6752808 out of 0 bytes used by permanent object pool.
+[2016.08.06-17.54.56:275][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.08.06-17.54.56:509][  0]LogEngine: Initializing Engine...
+[2016.08.06-17.54.56:568][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.08.06-17.54.56:569][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.08.06-17.54.56:851][  0]LogInit: XAudio2 using 'Alto-falantes (Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.06-17.54.56:868][  0]LogInit: FAudioDevice initialized.
+[2016.08.06-17.54.56:895][  0]LogInit: Texture streaming: Enabled
+[2016.08.06-17.54.57:104][  0]LogNet: Browse: /Temp/Autosaves/Game/TheDarkAges/Maps/UEDPCMAPA01?Name=Player
+[2016.08.06-17.54.57:104][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/TheDarkAges/Maps/UEDPCMAPA01?Name=Player
+[2016.08.06-17.54.57:139][  0]LogMemory: Platform Memory Stats for Windows
+[2016.08.06-17.54.57:139][  0]LogMemory: Process Physical Memory: 518.94 MB used, 548.83 MB peak
+[2016.08.06-17.54.57:139][  0]LogMemory: Process Virtual Memory: 592.74 MB used, 592.75 MB peak
+[2016.08.06-17.54.57:139][  0]LogMemory: Physical Memory: 3298.46 MB used, 4078.11 MB total
+[2016.08.06-17.54.57:139][  0]LogMemory: Virtual Memory: 1200.62 MB used, 134217728.00 MB total
+[2016.08.06-17.54.57:139][  0]LogMemory: 
+[2016.08.06-17.54.57:139][  0]Allocator Stats for TBB: (not implemented)
+[2016.08.06-17.54.57:400][  0]LogBlueprint:Warning: Compiler Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR 
+[2016.08.06-17.54.57:405][  0]LogBlueprint:Warning: Compiler Warning [0009.67] Compile of Jorah_BP successful, but with 1 Warning(s) [in 9 ms] (/Game/TheDarkAges/Personagens/Jorah/Jorah_BP.Jorah_BP)
+[2016.08.06-17.54.57:405][  0]LogBlueprint:Warning: Compiler Warning [0009.67] Compile of Jorah_BP successful, but with 2 Warning(s) [in 0 ms] (/Game/TheDarkAges/Personagens/Jorah/Jorah_BP.Jorah_BP)
+[2016.08.06-17.54.57:405][  0]LogBlueprint:Warning: Compiler Warning [0009.67] Compile of Jorah_BP successful, but with 3 Warning(s) [in 0 ms] (/Game/TheDarkAges/Personagens/Jorah/Jorah_BP.Jorah_BP)
+[2016.08.06-17.54.57:418][  0]LogBlueprint:Warning: Compiler Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR 
+[2016.08.06-17.54.57:423][  0]LogBlueprint:Warning: Compiler Warning [0009.69] Compile of Jorah_BP successful, but with 1 Warning(s) [in 9 ms] (/Game/TheDarkAges/Personagens/Jorah/Jorah_BP.Jorah_BP)
+[2016.08.06-17.54.57:423][  0]LogBlueprint:Warning: Compiler Warning [0009.69] Compile of Jorah_BP successful, but with 2 Warning(s) [in 0 ms] (/Game/TheDarkAges/Personagens/Jorah/Jorah_BP.Jorah_BP)
+[2016.08.06-17.54.57:424][  0]LogBlueprint:Warning: Compiler Warning [0009.69] Compile of Jorah_BP successful, but with 3 Warning(s) [in 0 ms] (/Game/TheDarkAges/Personagens/Jorah/Jorah_BP.Jorah_BP)
+[2016.08.06-17.54.57:688][  0]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Training/Rope'
+[2016.08.06-17.54.57:688][  0]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Training/Rope.Rope Referenced by Training_Dummie
+[2016.08.06-17.54.57:688][  0]LogUObjectGlobals:Warning: Failed to load '/Game/TheDarkAges/Scenes/Camp/Training/Rope': Can't find file '/Game/TheDarkAges/Scenes/Camp/Training/Rope'
+[2016.08.06-17.54.57:688][  0]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Training/Rope' while loading NULL.
+[2016.08.06-17.54.57:688][  0]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Training/Rope.Rope Referenced by Training_Dummie
+[2016.08.06-17.54.57:688][  0]LogUObjectGlobals:Warning: Failed to load '/Game/TheDarkAges/Scenes/Camp/Training/Rope': Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Training/Rope' while loading NULL.
+[2016.08.06-17.54.57:688][  0]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Training/Wood'
+[2016.08.06-17.54.57:688][  0]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Training/Wood.Wood Referenced by Training_Dummie
+[2016.08.06-17.54.57:688][  0]LogUObjectGlobals:Warning: Failed to load '/Game/TheDarkAges/Scenes/Camp/Training/Wood': Can't find file '/Game/TheDarkAges/Scenes/Camp/Training/Wood'
+[2016.08.06-17.54.57:688][  0]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Training/Wood' while loading NULL.
+[2016.08.06-17.54.57:688][  0]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Training/Wood.Wood Referenced by Training_Dummie
+[2016.08.06-17.54.57:688][  0]LogUObjectGlobals:Warning: Failed to load '/Game/TheDarkAges/Scenes/Camp/Training/Wood': Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Training/Wood' while loading NULL.
+[2016.08.06-17.54.57:688][  0]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Training/Linen2'
+[2016.08.06-17.54.57:688][  0]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Training/Linen2.Linen2 Referenced by Training_Dummie
+[2016.08.06-17.54.57:688][  0]LogUObjectGlobals:Warning: Failed to load '/Game/TheDarkAges/Scenes/Camp/Training/Linen2': Can't find file '/Game/TheDarkAges/Scenes/Camp/Training/Linen2'
+[2016.08.06-17.54.57:689][  0]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Training/Linen2' while loading NULL.
+[2016.08.06-17.54.57:689][  0]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Training/Linen2.Linen2 Referenced by Training_Dummie
+[2016.08.06-17.54.57:689][  0]LogUObjectGlobals:Warning: Failed to load '/Game/TheDarkAges/Scenes/Camp/Training/Linen2': Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Training/Linen2' while loading NULL.
+[2016.08.06-17.54.57:689][  0]LogLinker:Warning: Can't find file '/Game/TheDarkAges/Scenes/Camp/Training/Target2'
+[2016.08.06-17.54.57:689][  0]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Training/Target2.Target2 Referenced by Training_Dummie
+[2016.08.06-17.54.57:689][  0]LogUObjectGlobals:Warning: Failed to load '/Game/TheDarkAges/Scenes/Camp/Training/Target2': Can't find file '/Game/TheDarkAges/Scenes/Camp/Training/Target2'
+[2016.08.06-17.54.57:689][  0]LogLinker:Warning: Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Training/Target2' while loading NULL.
+[2016.08.06-17.54.57:689][  0]LoadErrors: Info Failed to load /Game/TheDarkAges/Scenes/Camp/Training/Target2.Target2 Referenced by Training_Dummie
+[2016.08.06-17.54.57:689][  0]LogUObjectGlobals:Warning: Failed to load '/Game/TheDarkAges/Scenes/Camp/Training/Target2': Can't find file for asset '/Game/TheDarkAges/Scenes/Camp/Training/Target2' while loading NULL.
+[2016.08.06-17.55.06:787][  0]LogMaterial: Missing cached shader map for material Iron, compiling. 
+[2016.08.06-17.55.06:789][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Bed/Iron.Iron for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.06:789][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Objects/Bed/sleek-rock-grey-panel-b.sleek-rock-grey-panel-b
+[2016.08.06-17.55.06:812][  0]LogMaterial: Missing cached shader map for material Ropes, compiling. 
+[2016.08.06-17.55.06:813][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Bed/Ropes.Ropes for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.06:813][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Objects/Bed/8c1cae38e9f5b6d02b9cc1e4af3568fb.8c1cae38e9f5b6d02b9cc1e4af3568fb
+[2016.08.06-17.55.06:818][  0]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2016.08.06-17.55.06:819][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Garrafa/Material.Material for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.06:819][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Objects/Garrafa/rope_texture2089.rope_texture2089
+[2016.08.06-17.55.06:840][  0]LogMaterial: Missing cached shader map for material Wood-plank_003, compiling. 
+[2016.08.06-17.55.06:840][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Containers/Wood-plank_003.Wood-plank_003 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.06:840][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3.rough-wood-texture-seamless-design-3
+[2016.08.06-17.55.06:858][  0]LogMaterial: Missing cached shader map for material Wood-planks_1_001, compiling. 
+[2016.08.06-17.55.06:858][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Containers/Wood-planks_1_001.Wood-planks_1_001 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.06:858][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016.746c9f88527bc3f85b32a08d9e57d016
+[2016.08.06-17.55.07:079][  0]LogMaterial: Missing cached shader map for material Vaso2, compiling. 
+[2016.08.06-17.55.07:079][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Vasos/Vaso2.Vaso2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.07:079][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Objects/Vasos/12-ceramicas-e-porcelanatos-pedras-madeira-ladrilho.12-ceramicas-e-porcelanatos-pedras-madeira-ladrilho
+[2016.08.06-17.55.07:081][  0]LogMaterial: Missing cached shader map for material Ladrilho, compiling. 
+[2016.08.06-17.55.07:081][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Vasos/Ladrilho.Ladrilho for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.07:081][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Objects/Vasos/12-ceramicas-e-porcelanatos-pedras-madeira-ladrilho.12-ceramicas-e-porcelanatos-pedras-madeira-ladrilho
+[2016.08.06-17.55.07:083][  0]LogMaterial: Missing cached shader map for material Jarra, compiling. 
+[2016.08.06-17.55.07:083][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Vasos/Jarra.Jarra for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.07:083][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Objects/Vasos/MG_9809-Tiled-thetextureclub_com-Edit1.MG_9809-Tiled-thetextureclub_com-Edit1
+[2016.08.06-17.55.07:085][  0]LogMaterial: Missing cached shader map for material glass, compiling. 
+[2016.08.06-17.55.07:086][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/VINHO/glass.glass for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.07:086][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Objects/VINHO/sci_fi_metal_base.sci_fi_metal_base
+[2016.08.06-17.55.07:095][  0]LogMaterial: Missing cached shader map for material Rolha, compiling. 
+[2016.08.06-17.55.07:096][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/VINHO/Rolha.Rolha for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.07:096][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Objects/VINHO/MG_9809-Tiled-thetextureclub_com-Edit1.MG_9809-Tiled-thetextureclub_com-Edit1
+[2016.08.06-17.55.07:098][  0]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2016.08.06-17.55.07:098][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/CUP/Metal.Metal for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.07:098][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Objects/CUP/tn1_RustyMetalbyTaranMoltu_ocnfi.tn1_RustyMetalbyTaranMoltu_ocnfi
+[2016.08.06-17.55.07:100][  0]LogMaterial: Missing cached shader map for material Iron, compiling. 
+[2016.08.06-17.55.07:100][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/DrikingHorn/Iron.Iron for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.07:100][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Objects/DrikingHorn/txt_castIron.txt_castIron
+[2016.08.06-17.55.07:102][  0]LogMaterial: Missing cached shader map for material Horn, compiling. 
+[2016.08.06-17.55.07:102][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/DrikingHorn/Horn.Horn for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.07:102][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Objects/DrikingHorn/48-2.48-2
+[2016.08.06-17.55.07:255][  0]LogMaterial: Missing cached shader map for material Rope_001, compiling. 
+[2016.08.06-17.55.07:256][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Jar/Rope_001.Rope_001 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.07:257][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Objects/Jar/8c1cae38e9f5b6d02b9cc1e4af3568fb.8c1cae38e9f5b6d02b9cc1e4af3568fb
+[2016.08.06-17.55.07:262][  0]LogMaterial: Missing cached shader map for material Jarra_001, compiling. 
+[2016.08.06-17.55.07:263][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Jar/Jarra_001.Jarra_001 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.07:263][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Objects/Jar/MG_9809-Tiled-thetextureclub_com-Edit1.MG_9809-Tiled-thetextureclub_com-Edit1
+[2016.08.06-17.55.07:268][  0]LogMaterial: Missing cached shader map for material Rope, compiling. 
+[2016.08.06-17.55.07:270][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Jar/Rope.Rope for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.07:270][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Objects/Jar/8c1cae38e9f5b6d02b9cc1e4af3568fb.8c1cae38e9f5b6d02b9cc1e4af3568fb
+[2016.08.06-17.55.07:274][  0]LogMaterial: Missing cached shader map for material Jarra2, compiling. 
+[2016.08.06-17.55.07:275][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Jar/Jarra2.Jarra2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.07:275][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Objects/Jar/MG_9809-Tiled-thetextureclub_com-Edit1.MG_9809-Tiled-thetextureclub_com-Edit1
+[2016.08.06-17.55.07:277][  0]LogMaterial: Missing cached shader map for material Mug2, compiling. 
+[2016.08.06-17.55.07:277][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/MUG/Mug2.Mug2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.07:277][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Objects/MUG/sleek-rock-grey-panel-b.sleek-rock-grey-panel-b
+[2016.08.06-17.55.07:321][  0]LogMaterial: Missing cached shader map for material Material_002, compiling. 
+[2016.08.06-17.55.07:322][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Objetos/Material_002.Material_002 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.07:322][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Objects/Objetos/sci_fi_metal_base.sci_fi_metal_base
+[2016.08.06-17.55.07:443][  0]LogMaterial: Missing cached shader map for material Mug2, compiling. 
+[2016.08.06-17.55.07:443][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Containers/Mug2.Mug2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.07:443][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Containers/3e615c54899cd61ef14f8e1d41b43661.3e615c54899cd61ef14f8e1d41b43661
+[2016.08.06-17.55.07:463][  0]LogMaterial: Missing cached shader map for material Soya, compiling. 
+[2016.08.06-17.55.07:463][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Containers/Soya.Soya for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.07:463][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales.Soybean_Meal_100_mt_Ready_for_sales
+[2016.08.06-17.55.07:475][  0]LogMaterial: Missing cached shader map for material Linho, compiling. 
+[2016.08.06-17.55.07:476][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Containers/Linho.Linho for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.07:476][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-.43_linen-flaxseed-
+[2016.08.06-17.55.07:478][  0]LogMaterial: Missing cached shader map for material Lona, compiling. 
+[2016.08.06-17.55.07:478][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Stable/Lona.Lona for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.07:478][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Objects/Stable/Tent3.Tent3
+[2016.08.06-17.55.07:480][  0]LogMaterial: Missing cached shader map for material Tabuas, compiling. 
+[2016.08.06-17.55.07:481][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Stable/Tabuas.Tabuas for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.07:481][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Objects/Stable/746c9f88527bc3f85b32a08d9e57d016.746c9f88527bc3f85b32a08d9e57d016
+[2016.08.06-17.55.07:483][  0]LogMaterial: Missing cached shader map for material Suportes, compiling. 
+[2016.08.06-17.55.07:484][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Stable/Suportes.Suportes for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.07:484][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Objects/Stable/Tileable-wood-texture.Tileable-wood-texture
+[2016.08.06-17.55.07:561][  0]LogMaterial: Missing cached shader map for material Table-Legs-2, compiling. 
+[2016.08.06-17.55.07:562][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/TABLE/Table-Legs-2.Table-Legs-2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.07:562][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Objects/TABLE/Wood_dry_cracked_bench_tree_bark_texture_2.Wood_dry_cracked_bench_tree_bark_texture_2
+[2016.08.06-17.55.07:579][  0]LogMaterial: Missing cached shader map for material Table-Legs, compiling. 
+[2016.08.06-17.55.07:580][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/TABLE/Table-Legs.Table-Legs for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.07:580][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Objects/TABLE/tree-bark-01.tree-bark-01
+[2016.08.06-17.55.07:582][  0]LogMaterial: Missing cached shader map for material Table-Top, compiling. 
+[2016.08.06-17.55.07:583][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/TABLE/Table-Top.Table-Top for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.07:583][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Objects/TABLE/1-free-wood-plank-texture.1-free-wood-plank-texture
+[2016.08.06-17.55.07:586][  0]LogMaterial: Missing cached shader map for material Wood_001, compiling. 
+[2016.08.06-17.55.07:587][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Target/Wood_001.Wood_001 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.07:587][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Objects/Target/tree_bark.tree_bark
+[2016.08.06-17.55.07:600][  0]LogMaterial: Missing cached shader map for material Wood, compiling. 
+[2016.08.06-17.55.07:601][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Target/Wood.Wood for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.07:601][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Objects/Target/tileable_tree_bark_texture_by_ftourini-d3l69hz.tileable_tree_bark_texture_by_ftourini-d3l69hz
+[2016.08.06-17.55.07:612][  0]LogMaterial: Missing cached shader map for material Target_001, compiling. 
+[2016.08.06-17.55.07:612][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Target/Target_001.Target_001 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.07:612][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Objects/Target/linen.linen
+[2016.08.06-17.55.07:620][  0]LogMaterial: Missing cached shader map for material Target2, compiling. 
+[2016.08.06-17.55.07:620][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Target/Target2.Target2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.07:620][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Objects/Target/linen.linen
+[2016.08.06-17.55.07:835][  0]LogMaterial: Missing cached shader map for material Wood2, compiling. 
+[2016.08.06-17.55.07:836][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Bed/Wood2.Wood2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.07:836][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Objects/Bed/Wood_dry_cracked_bench_tree_bark_texture_ver_4.Wood_dry_cracked_bench_tree_bark_texture_ver_4
+[2016.08.06-17.55.07:837][  0]LogMaterial: Missing cached shader map for material Wood, compiling. 
+[2016.08.06-17.55.07:838][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Bed/Wood.Wood for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.07:838][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Objects/Bed/tileable_tree_bark_texture_by_ftourini-d3l69hz.tileable_tree_bark_texture_by_ftourini-d3l69hz
+[2016.08.06-17.55.07:839][  0]LogMaterial: Missing cached shader map for material Pelt, compiling. 
+[2016.08.06-17.55.07:839][  0]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Bed/Pelt.Pelt for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.06-17.55.07:839][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/TheDarkAges/Scenes/Camp/Objects/Bed/1238509-fur-texture2.1238509-fur-texture2
+[2016.08.06-17.55.07:890][  0]LogAIModule: Creating AISystem for world MAPA01
+[2016.08.06-17.55.07:900][  0]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.08.06-17.55.07:928][  0]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2016.08.06-17.55.07:980][  0]LogWorld: Bringing World /Temp/Autosaves/Game/TheDarkAges/Maps/UEDPCMAPA01.MAPA01 up for play (max tick rate 0) at 2016.08.06-14.55.07
+[2016.08.06-17.55.08:317][  0]LogWindows: Windows GetLastError: A operação foi concluída com êxito. (0)
+[2016.08.06-17.55.08:398][  0]LogWorld: Bringing up level for play took: 0.496159
+[2016.08.06-17.55.13:262][  0]LogOutputDevice:Warning: 
+
+Script Stack:
+GameMode.SpawnDefaultPawnFor
+
+[2016.08.06-17.55.14:237][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.967 s
+[2016.08.06-17.55.14:237][  0]LogOutputDevice:Warning: === Handled error: ===
+
+Ensure condition failed: IsInParallelRenderingThread() [File:D:\Build\++UE4+Release-4.12+Compile\Sync\Engine\Source\Runtime\Core\Public\HAL\IConsoleManager.h] [Line: 790]
+
+Stack: 
+UE4Editor-Core.dll
+UE4Editor-Core.dll
+UE4Editor-Core.dll
+UE4Editor-D3D11RHI.dll
+UE4Editor-D3D11RHI.dll
+UE4Editor-D3D11RHI.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-RenderCore.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Renderer.dll
+UE4Editor-Renderer.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-CoreUObject.dll
+UE4Editor-CoreUObject.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor.exe
+UE4Editor.exe
+UE4Editor.exe
+UE4Editor.exe
+UE4Editor.exe
+KERNEL32.DLL
+ntdll.dll
+ntdll.dll
+
+[2016.08.06-17.55.14:264][  0]LogStats:                SubmitErrorReport -  0.026 s
+[2016.08.06-17.55.14:264][  0]LogStats:                    SendNewReport -  0.000 s
+[2016.08.06-17.55.14:264][  0]LogStats:             FDebug::EnsureFailed -  1.002 s
+[2016.08.06-17.55.14:368][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.103 s
+[2016.08.06-17.55.14:368][  0]LogOutputDevice:Warning: === Handled error: ===
+
+Ensure condition failed: IsInParallelRenderingThread() [File:D:\Build\++UE4+Release-4.12+Compile\Sync\Engine\Source\Runtime\Core\Public\HAL\IConsoleManager.h] [Line: 790]
+
+Stack: 
+UE4Editor-Core.dll
+UE4Editor-Core.dll
+UE4Editor-Core.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-CoreUObject.dll
+UE4Editor-CoreUObject.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor.exe
+UE4Editor.exe
+UE4Editor.exe
+UE4Editor.exe
+UE4Editor.exe
+KERNEL32.DLL
+ntdll.dll
+ntdll.dll
+
+[2016.08.06-17.55.14:368][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2016.08.06-17.55.14:368][  0]LogStats:                    SendNewReport -  0.000 s
+[2016.08.06-17.55.14:368][  0]LogStats:             FDebug::EnsureFailed -  0.104 s
+[2016.08.06-17.55.14:412][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.044 s
+[2016.08.06-17.55.14:412][  0]LogOutputDevice:Warning: === Handled error: ===
+
+Ensure condition failed: IsInRenderingThread() [File:d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\public\ResourcePool.h] [Line: 200]
+
+Stack: 
+UE4Editor-Core.dll
+UE4Editor-Core.dll
+UE4Editor-Core.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-CoreUObject.dll
+UE4Editor-CoreUObject.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor.exe
+UE4Editor.exe
+UE4Editor.exe
+UE4Editor.exe
+UE4Editor.exe
+KERNEL32.DLL
+ntdll.dll
+ntdll.dll
+
+[2016.08.06-17.55.14:412][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2016.08.06-17.55.14:412][  0]LogStats:                    SendNewReport -  0.000 s
+[2016.08.06-17.55.14:412][  0]LogStats:             FDebug::EnsureFailed -  0.044 s
+[2016.08.06-17.55.14:444][  0]LogThreadingWindows:Error: Runnable thread SlateLoadingThread crashed.
+[2016.08.06-17.55.14:444][  0]LogWindows:Error: === Critical error: ===
+Ensure condition failed: IsInParallelRenderingThread() [File:D:\Build\++UE4+Release-4.12+Compile\Sync\Engine\Source\Runtime\Core\Public\HAL\IConsoleManager.h] [Line: 790] 
+
+
+
+
+Crash in runnable thread SlateLoadingThread
+
+[2016.08.06-17.55.14:452][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.039 s
+[2016.08.06-17.55.14:452][  0]LogOutputDevice:Warning: === Handled error: ===
+
+Ensure condition failed: IsInParallelRenderingThread() [File:D:\Build\++UE4+Release-4.12+Compile\Sync\Engine\Source\Runtime\Core\Public\HAL\IConsoleManager.h] [Line: 790]
+
+Stack: 
+UE4Editor-Core.dll
+UE4Editor-Core.dll
+UE4Editor-Core.dll
+UE4Editor-RHI.dll
+UE4Editor-RHI.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-CoreUObject.dll
+UE4Editor-CoreUObject.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor.exe
+UE4Editor.exe
+UE4Editor.exe
+UE4Editor.exe
+UE4Editor.exe
+KERNEL32.DLL
+ntdll.dll
+ntdll.dll
+
+[2016.08.06-17.55.14:452][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2016.08.06-17.55.14:452][  0]LogStats:                    SendNewReport -  0.000 s
+[2016.08.06-17.55.14:452][  0]LogStats:             FDebug::EnsureFailed -  0.040 s
+[2016.08.06-17.55.14:491][  0]LogExit: Executing StaticShutdownAfterError
+[2016.08.06-17.55.14:491][  0]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.08.06-17.55.14:491][  0]Log file closed, 08/06/16 14:55:14
