@@ -7855,4 +7855,434 @@ LogInit: Object subsystem initialized
 [2016.08.06-21.58.00:459][503]SourceControl: Info 	ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Texture/TentTexture3_Mat.uasset
 [2016.08.06-21.58.00:459][503]SourceControl: Info 	ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/UEDPCMAPA01.umap
 [2016.08.06-21.58.00:459][503]SourceControl: Info 	ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Objects/Armor/
-[2016.08.06-21.58.00
+[2016.08.06-21.58.00:459][503]SourceControl: Info 	ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Objects/BOX/
+[2016.08.06-21.58.00:459][503]SourceControl: Info 	ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Objects/FoodBucket/
+[2016.08.06-21.58.00:459][503]SourceControl: Info 	ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Objects/Forge/
+[2016.08.06-21.58.00:459][503]SourceControl: Info 	ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Objects/MetalIngots/
+[2016.08.06-21.58.00:459][503]SourceControl: Info 	ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Objects/Pira/
+[2016.08.06-21.58.00:459][503]SourceControl: Info 	ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Objects/WareHouse/
+[2016.08.06-21.58.00:459][503]SourceControl: Info 	ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Scenes/Camp/Texture/TentTexture3_Mat_Auto4.uasset
+[2016.08.06-21.58.00:459][503]SourceControl: Info 	ProjetoTeste/Saved/Backup/Iron_001_2016-08-06-17-11-45.uasset
+[2016.08.06-21.58.00:459][503]SourceControl: Info 	ProjetoTeste/Saved/Backup/Iron_001_2016-08-06-18-52-37.uasset
+[2016.08.06-21.58.00:459][503]SourceControl: Info 	ProjetoTeste/Saved/Backup/MAPA01_2016-08-06-17-11-44.umap
+[2016.08.06-21.58.00:459][503]SourceControl: Info 	ProjetoTeste/Saved/Backup/MAPA01_2016-08-06-17-29-56.umap
+[2016.08.06-21.58.00:459][503]SourceControl: Info 	ProjetoTeste/Saved/Backup/MAPA01_2016-08-06-17-50-19.umap
+[2016.08.06-21.58.00:459][503]SourceControl: Info 	ProjetoTeste/Saved/Backup/MAPA01_2016-08-06-18-01-32.umap
+[2016.08.06-21.58.00:459][503]SourceControl: Info 	ProjetoTeste/Saved/Backup/MAPA01_2016-08-06-18-16-27.umap
+[2016.08.06-21.58.00:459][503]SourceControl: Info 	ProjetoTeste/Saved/Backup/MAPA01_2016-08-06-18-30-52.umap
+[2016.08.06-21.58.00:459][503]SourceControl: Info 	ProjetoTeste/Saved/Backup/MAPA01_2016-08-06-18-43-09.umap
+[2016.08.06-21.58.00:459][503]SourceControl: Info 	ProjetoTeste/Saved/Backup/MAPA01_2016-08-06-18-52-13.umap
+[2016.08.06-21.58.00:459][503]SourceControl: Info 	ProjetoTeste/Saved/Logs/ProjetoTeste-backup-2016.08.06-14.45.13.log
+[2016.08.06-21.58.00:459][503]SourceControl: Info 	ProjetoTeste/Saved/Logs/ProjetoTeste_2-backup-2016.08.06-14.49.42.log
+[2016.08.06-21.58.00:459][503]SourceControl: Info 	ProjetoTeste/Saved/Logs/ProjetoTeste_2-backup-2016.08.06-14.54.35.log
+[2016.08.06-21.58.00:459][503]SourceControl: Info 	ProjetoTeste/Saved/Logs/ProjetoTeste_2-backup-2016.08.06-14.54.48.log
+[2016.08.06-21.58.00:459][503]SourceControl: Info 	ProjetoTeste/Saved/Logs/ProjetoTeste_2-backup-2016.08.06-15.00.59.log
+[2016.08.06-21.58.00:459][503]SourceControl: Info 	ProjetoTeste/Saved/Logs/ProjetoTeste_2-backup-2016.08.06-15.04.45.log
+[2016.08.06-21.58.00:460][503]SourceControl: Info 	ProjetoTeste/Saved/Logs/UE4CC-Windows-214349644C20F92ACEADF98C603FDDC3_0000/
+[2016.08.06-21.58.00:460][503]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2016.08.06-21.59.39:483][852]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.08.06-21.59.43:906][118]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.12/Engine/Content/: 'C:/Program Files (x86)/Epic Games/4.12/Engine/Content/' is outside repository
+[2016.08.07-00.00.10:080][732]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sword2)
+[2016.08.07-00.00.20:950][743]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.07-00.00.20:951][743]PIE: New page: PIE session: MAPA01 (Aug 6, 2016, 6:00:20 PM)
+[2016.08.07-00.00.20:952][743]LogPlayLevel: Creating play world package: /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01
+[2016.08.07-00.00.21:179][743]LogPlayLevel: PIE: StaticDuplicateObject took: (0.226059s)
+[2016.08.07-00.00.21:184][743]LogAIModule: Creating AISystem for world MAPA01
+[2016.08.07-00.00.21:186][743]LogPlayLevel: PIE: World Init took: (0.006343s)
+[2016.08.07-00.00.21:186][743]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TheDarkAges/Maps/MAPA01.MAPA01 to /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01.MAPA01 (0.233154s)
+[2016.08.07-00.00.21:271][743]LogInit: XAudio2 using 'Alto-falantes (Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.07-00.00.21:283][743]LogInit: FAudioDevice initialized.
+[2016.08.07-00.00.21:369][743]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.08.07-00.00.21:393][743]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2016.08.07-00.00.21:397][743]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cylinder.Cylinder] ConvexElem[0] invalid
+[2016.08.07-00.00.21:398][743]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cylinder.Cylinder] ConvexElem[1] invalid
+[2016.08.07-00.00.21:398][743]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cylinder.Cylinder] ConvexElem[2] invalid
+[2016.08.07-00.00.21:398][743]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cylinder.Cylinder] ConvexElem[3] invalid
+[2016.08.07-00.00.21:398][743]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cylinder.Cylinder] ConvexElem[0] invalid
+[2016.08.07-00.00.21:398][743]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cylinder.Cylinder] ConvexElem[1] invalid
+[2016.08.07-00.00.21:398][743]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cylinder.Cylinder] ConvexElem[2] invalid
+[2016.08.07-00.00.21:398][743]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cylinder.Cylinder] ConvexElem[3] invalid
+[2016.08.07-00.00.21:403][743]LogWorld: Bringing World /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01.MAPA01 up for play (max tick rate 0) at 2016.08.06-21.00.21
+[2016.08.07-00.00.21:405][743]LogWorld: Bringing up level for play took: 0.034475
+[2016.08.07-00.00.21:412][743]PIE: Info Play in editor start time for /Game/TheDarkAges/Maps/UEDPIE_0_MAPA01 0.267
+[2016.08.07-00.00.24:448][ 10]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-3.787 Y=-20.710 Z=0.000 Location: X=297103.875 Y=283520.500 Z=254.929 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:459][ 11]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-7.844 Y=-43.325 Z=0.000 Location: X=297103.688 Y=283520.938 Z=254.969 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:469][ 12]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-11.579 Y=-64.135 Z=0.000 Location: X=297103.500 Y=283521.375 Z=255.010 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:482][ 13]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-15.975 Y=-88.629 Z=0.000 Location: X=297103.313 Y=283521.813 Z=255.051 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:492][ 14]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-19.827 Y=-110.090 Z=0.000 Location: X=297103.125 Y=283522.250 Z=255.092 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:503][ 15]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-23.658 Y=-131.434 Z=0.000 Location: X=297102.938 Y=283522.688 Z=255.133 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:514][ 16]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-27.679 Y=-153.832 Z=0.000 Location: X=297102.750 Y=283523.125 Z=255.174 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:525][ 17]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-31.660 Y=-176.005 Z=0.000 Location: X=297102.563 Y=283523.563 Z=255.214 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:536][ 18]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-35.678 Y=-198.383 Z=0.000 Location: X=297102.375 Y=283524.000 Z=255.255 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:548][ 19]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-40.036 Y=-222.653 Z=0.000 Location: X=297102.188 Y=283524.438 Z=255.296 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:559][ 20]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-43.917 Y=-244.265 Z=0.000 Location: X=297102.000 Y=283524.875 Z=255.337 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:569][ 21]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-47.607 Y=-264.812 Z=0.000 Location: X=297101.813 Y=283525.313 Z=255.378 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:581][ 22]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-51.890 Y=-288.658 Z=0.000 Location: X=297101.625 Y=283525.750 Z=255.418 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:592][ 23]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-55.768 Y=-310.250 Z=0.000 Location: X=297101.438 Y=283526.188 Z=255.459 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:602][ 24]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-59.461 Y=-330.815 Z=0.000 Location: X=297101.250 Y=283526.625 Z=255.500 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:613][ 25]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-63.750 Y=-354.690 Z=0.000 Location: X=297101.063 Y=283527.063 Z=255.541 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:626][ 26]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-68.037 Y=-378.557 Z=0.000 Location: X=297100.875 Y=283527.500 Z=255.582 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:636][ 27]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-71.955 Y=-400.369 Z=0.000 Location: X=297100.688 Y=283527.938 Z=255.622 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:647][ 28]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-75.996 Y=-422.868 Z=0.000 Location: X=297100.500 Y=283528.375 Z=255.663 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:658][ 29]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-79.869 Y=-444.427 Z=0.000 Location: X=297100.313 Y=283528.813 Z=255.704 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:669][ 30]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-83.752 Y=-466.044 Z=0.000 Location: X=297100.125 Y=283529.250 Z=255.745 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:680][ 31]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-87.739 Y=-488.238 Z=0.000 Location: X=297099.938 Y=283529.688 Z=255.786 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:690][ 32]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-91.566 Y=-509.535 Z=0.000 Location: X=297099.750 Y=283530.125 Z=255.826 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:702][ 33]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-95.755 Y=-532.858 Z=0.000 Location: X=297099.563 Y=283530.563 Z=255.867 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:713][ 34]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-99.832 Y=-555.551 Z=0.000 Location: X=297099.375 Y=283531.000 Z=255.908 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:724][ 35]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-103.760 Y=-577.415 Z=0.000 Location: X=297099.188 Y=283531.438 Z=255.949 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:735][ 36]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-106.118 Y=-590.541 Z=0.000 Location: X=297099.000 Y=283531.875 Z=255.990 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:746][ 37]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-106.118 Y=-590.541 Z=0.000 Location: X=297098.813 Y=283532.313 Z=256.030 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:757][ 38]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-106.117 Y=-590.541 Z=0.000 Location: X=297098.625 Y=283532.750 Z=256.071 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:768][ 39]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-106.117 Y=-590.541 Z=0.000 Location: X=297098.438 Y=283533.188 Z=256.112 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:779][ 40]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-106.116 Y=-590.542 Z=0.000 Location: X=297098.250 Y=283533.625 Z=256.153 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:790][ 41]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-106.116 Y=-590.542 Z=0.000 Location: X=297098.063 Y=283534.063 Z=256.193 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:800][ 42]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-106.115 Y=-590.542 Z=0.000 Location: X=297097.875 Y=283534.500 Z=256.234 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:812][ 43]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-106.115 Y=-590.542 Z=0.000 Location: X=297097.688 Y=283534.938 Z=256.275 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:823][ 44]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-106.115 Y=-590.542 Z=0.000 Location: X=297097.500 Y=283535.375 Z=256.316 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:834][ 45]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-106.115 Y=-590.542 Z=0.000 Location: X=297097.313 Y=283535.813 Z=256.357 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:845][ 46]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-106.114 Y=-590.542 Z=0.000 Location: X=297097.125 Y=283536.250 Z=256.397 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:857][ 47]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-106.114 Y=-590.542 Z=0.000 Location: X=297096.938 Y=283536.688 Z=256.438 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:869][ 48]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-106.114 Y=-590.542 Z=0.000 Location: X=297096.750 Y=283537.125 Z=256.479 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:880][ 49]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-106.114 Y=-590.542 Z=0.000 Location: X=297096.563 Y=283537.563 Z=256.520 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:890][ 50]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-106.114 Y=-590.542 Z=0.000 Location: X=297096.375 Y=283538.000 Z=256.560 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:901][ 51]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-106.114 Y=-590.542 Z=0.000 Location: X=297096.188 Y=283538.438 Z=256.601 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:912][ 52]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-106.114 Y=-590.542 Z=0.000 Location: X=297096.000 Y=283538.875 Z=256.642 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:924][ 53]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-106.114 Y=-590.542 Z=0.000 Location: X=297095.813 Y=283539.313 Z=256.683 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:968][ 54]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-106.113 Y=-590.542 Z=0.000 Location: X=297095.625 Y=283539.750 Z=256.723 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:979][ 55]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-105.889 Y=-590.582 Z=0.000 Location: X=297095.438 Y=283540.188 Z=256.764 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.24:990][ 56]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-105.699 Y=-590.616 Z=0.000 Location: X=297095.250 Y=283540.625 Z=256.805 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.25:001][ 57]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-84.266 Y=-470.857 Z=0.000 Location: X=297095.063 Y=283541.063 Z=256.846 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.25:011][ 58]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-65.586 Y=-366.478 Z=0.000 Location: X=297094.875 Y=283541.500 Z=256.887 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.25:022][ 59]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-51.258 Y=-286.418 Z=0.000 Location: X=297094.688 Y=283541.938 Z=256.927 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.25:032][ 60]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-38.539 Y=-215.345 Z=0.000 Location: X=297094.500 Y=283542.375 Z=256.968 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.25:043][ 61]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-27.731 Y=-154.954 Z=0.000 Location: X=297094.313 Y=283542.813 Z=257.009 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.25:054][ 62]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-19.210 Y=-107.338 Z=0.000 Location: X=297094.125 Y=283543.250 Z=257.050 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.25:066][ 63]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-11.658 Y=-65.141 Z=0.000 Location: X=297093.938 Y=283543.688 Z=257.090 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.25:076][ 64]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=-5.714 Y=-31.927 Z=0.000 Location: X=297093.750 Y=283544.125 Z=257.131 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.25:160][ 72]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=20.428 Y=-3.606 Z=0.000 Location: X=297093.563 Y=283544.563 Z=257.172 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.25:214][ 77]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=130.981 Y=-23.123 Z=0.000 Location: X=297095.563 Y=283547.094 Z=257.294 Normal: X=-0.425 Y=0.902 Z=0.082 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.25:267][ 82]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=237.184 Y=-41.872 Z=0.000 Location: X=297100.813 Y=283551.281 Z=257.441 Normal: X=-0.362 Y=0.928 Z=0.085 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.25:278][ 83]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=259.351 Y=-45.785 Z=0.000 Location: X=297100.625 Y=283551.719 Z=257.484 Normal: X=-0.362 Y=0.928 Z=0.085 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.25:289][ 84]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=280.445 Y=-49.509 Z=0.000 Location: X=297100.438 Y=283552.156 Z=257.526 Normal: X=-0.362 Y=0.928 Z=0.085 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.25:299][ 85]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=302.286 Y=-53.365 Z=0.000 Location: X=297100.250 Y=283552.594 Z=257.569 Normal: X=-0.362 Y=0.928 Z=0.085 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.25:310][ 86]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=324.059 Y=-57.208 Z=0.000 Location: X=297100.063 Y=283553.031 Z=257.612 Normal: X=-0.362 Y=0.928 Z=0.085 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.25:321][ 87]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=345.165 Y=-60.934 Z=0.000 Location: X=297099.875 Y=283553.469 Z=257.654 Normal: X=-0.362 Y=0.928 Z=0.085 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.25:332][ 88]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=367.063 Y=-64.800 Z=0.000 Location: X=297099.688 Y=283553.906 Z=257.697 Normal: X=-0.362 Y=0.928 Z=0.085 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.25:342][ 89]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=388.737 Y=-68.626 Z=0.000 Location: X=297099.500 Y=283554.344 Z=257.740 Normal: X=-0.362 Y=0.928 Z=0.085 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.25:353][ 90]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=303.997 Y=-53.666 Z=0.000 Location: X=297099.313 Y=283554.781 Z=257.783 Normal: X=-0.362 Y=0.928 Z=0.085 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.25:363][ 91]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=228.946 Y=-40.417 Z=0.000 Location: X=297099.125 Y=283555.219 Z=257.825 Normal: X=-0.362 Y=0.928 Z=0.085 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.25:374][ 92]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=167.723 Y=-29.609 Z=0.000 Location: X=297098.938 Y=283555.656 Z=257.868 Normal: X=-0.362 Y=0.928 Z=0.085 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.25:385][ 93]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=119.174 Y=-21.039 Z=0.000 Location: X=297098.750 Y=283556.094 Z=257.911 Normal: X=-0.362 Y=0.928 Z=0.085 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.25:396][ 94]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=75.794 Y=-13.380 Z=0.000 Location: X=297098.563 Y=283556.531 Z=257.954 Normal: X=-0.362 Y=0.928 Z=0.085 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.25:407][ 95]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=42.301 Y=-7.468 Z=0.000 Location: X=297098.375 Y=283556.969 Z=257.996 Normal: X=-0.362 Y=0.928 Z=0.085 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.25:417][ 96]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=13.165 Y=-2.324 Z=0.000 Location: X=297098.188 Y=283557.406 Z=258.039 Normal: X=-0.362 Y=0.928 Z=0.085 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.25:515][105]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=2.524 Y=-69.666 Z=0.000 Location: X=297097.375 Y=283558.625 Z=258.167 Normal: X=-0.361 Y=0.929 Z=0.085 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.25:526][106]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=3.737 Y=-91.897 Z=0.000 Location: X=297097.188 Y=283559.063 Z=258.210 Normal: X=-0.362 Y=0.928 Z=0.085 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.25:547][108]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=7.072 Y=-136.001 Z=0.000 Location: X=297096.469 Y=283559.813 Z=258.295 Normal: X=-0.362 Y=0.928 Z=0.085 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.25:558][109]LogCharacterMovement: Jorah_BP_C_0 is stuck and failed to move! Velocity: X=9.220 Y=-157.838 Z=0.000 Location: X=297096.281 Y=283560.250 Z=258.338 Normal: X=-0.361 Y=0.929 Z=0.085 PenetrationDepth:0.000 Actor:Tenda-grande3 Component:StaticMeshComponent0 BoneName:None
+[2016.08.07-00.00.27:293][251]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.08.07-00.00.50:461][413]Cmd: TRANSACTION UNDO
+[2016.08.07-00.00.50:461][413]LogEditorTransaction: Undo Move Actors
+[2016.08.07-00.00.50:833][431]Cmd: TRANSACTION UNDO
+[2016.08.07-00.00.50:833][431]LogEditorTransaction: Undo Move Actors
+[2016.08.07-00.00.51:204][460]Cmd: TRANSACTION UNDO
+[2016.08.07-00.00.51:204][460]LogEditorTransaction: Undo Move Actors
+[2016.08.07-00.00.51:547][492]Cmd: TRANSACTION UNDO
+[2016.08.07-00.00.51:547][492]LogEditorTransaction: Undo Move Actors
+[2016.08.07-00.00.51:967][532]Cmd: TRANSACTION UNDO
+[2016.08.07-00.00.51:967][532]LogEditorTransaction: Undo Scale Actors
+[2016.08.07-00.00.52:324][565]Cmd: TRANSACTION UNDO
+[2016.08.07-00.00.52:324][565]LogEditorTransaction: Undo Move Actors
+[2016.08.07-00.00.52:656][596]Cmd: TRANSACTION UNDO
+[2016.08.07-00.00.52:657][596]LogEditorTransaction: Undo Move Actors
+[2016.08.07-00.00.53:230][651]Cmd: TRANSACTION UNDO
+[2016.08.07-00.00.53:230][651]LogEditorTransaction: Undo Scale Actors
+[2016.08.07-00.01.18:243][ 91]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TheDarkAges/Maps/MAPA01' took 0.020
+[2016.08.07-00.01.43:331][504]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Metal_Ingot8)
+[2016.08.07-00.01.57:828][856]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Metal_Ingot5)
+[2016.08.07-00.02.02:901][338]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Metal_Ingot8)
+[2016.08.07-00.02.06:829][702]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Metal_Ingot3)
+[2016.08.07-00.02.16:105][582]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.08.07-00.02.44:888][562]Cmd: TRANSACTION UNDO
+[2016.08.07-00.02.44:888][562]LogEditorTransaction: Undo Clicking on Actors
+[2016.08.07-00.02.45:305][586]Cmd: TRANSACTION UNDO
+[2016.08.07-00.02.45:305][586]LogEditorTransaction: Undo Move Actors
+[2016.08.07-00.02.45:563][607]Cmd: TRANSACTION UNDO
+[2016.08.07-00.02.45:563][607]LogEditorTransaction: Undo Clicking on Actors
+[2016.08.07-00.02.45:825][626]Cmd: TRANSACTION UNDO
+[2016.08.07-00.02.45:825][626]LogEditorTransaction: Undo Move Actors
+[2016.08.07-00.02.46:123][652]Cmd: TRANSACTION UNDO
+[2016.08.07-00.02.46:123][652]LogEditorTransaction: Undo Clicking on Actors
+[2016.08.07-00.02.46:410][672]Cmd: TRANSACTION UNDO
+[2016.08.07-00.02.46:410][672]LogEditorTransaction: Undo Move Actors
+[2016.08.07-00.02.46:748][702]Cmd: TRANSACTION UNDO
+[2016.08.07-00.02.46:748][702]LogEditorTransaction: Undo Clicking on Actors
+[2016.08.07-00.02.47:085][729]Cmd: TRANSACTION UNDO
+[2016.08.07-00.02.47:085][729]LogEditorTransaction: Undo Move Actors
+[2016.08.07-00.02.47:373][754]Cmd: TRANSACTION UNDO
+[2016.08.07-00.02.47:373][754]LogEditorTransaction: Undo Rotate Actors
+[2016.08.07-00.02.47:699][782]Cmd: TRANSACTION UNDO
+[2016.08.07-00.02.47:699][782]LogEditorTransaction: Undo Clicking on Actors
+[2016.08.07-00.02.48:004][806]Cmd: TRANSACTION UNDO
+[2016.08.07-00.02.48:004][806]LogEditorTransaction: Undo Clicking on Actors
+[2016.08.07-00.02.48:481][837]Cmd: TRANSACTION UNDO
+[2016.08.07-00.02.48:482][837]LogEditorTransaction: Undo Clicking on Actors
+[2016.08.07-00.03.01:119][300]LogSavePackage: Save=865.85ms
+[2016.08.07-00.03.01:119][300]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/MAPA015FB056AC4EF7B86F0C0745A97C5E41FC.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Maps/MAPA01.umap'
+[2016.08.07-00.03.01:130][300]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Maps/MAPA01.umap
+[2016.08.07-00.03.01:211][300]LogFileHelpers: Saving map 'MAPA01' took 5.466
+[2016.08.07-00.03.18:596][886]LogMaterial: Missing cached shader map for material TerrainMat, compiling. 
+[2016.08.07-00.03.18:675][886]LogMaterial: 0.04 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.07-00.03.19:558][886]LogMaterial: Missing cached shader map for material TerrainMat, compiling. 
+[2016.08.07-00.03.20:008][886]LogMaterial: Missing cached shader map for material TerrainMat, compiling. 
+[2016.08.07-00.03.20:510][886]LogMaterial: Missing cached shader map for material TerrainMat, compiling. 
+[2016.08.07-00.03.20:695][886]LogMaterial: Missing cached shader map for material TerrainMat, compiling. 
+[2016.08.07-00.03.20:811][886]LogMaterial: Missing cached shader map for material TerrainMat, compiling. 
+[2016.08.07-00.03.20:948][886]LogMaterial: Missing cached shader map for material TerrainMat, compiling. 
+[2016.08.07-00.03.21:080][886]LogMaterial: Missing cached shader map for material TerrainMat, compiling. 
+[2016.08.07-00.03.21:235][886]LogMaterial: Missing cached shader map for material TerrainMat, compiling. 
+[2016.08.07-00.03.21:390][886]LogMaterial: Missing cached shader map for material TerrainMat, compiling. 
+[2016.08.07-00.03.21:542][886]LogMaterial: Missing cached shader map for material TerrainMat, compiling. 
+[2016.08.07-00.03.21:701][886]LogMaterial: Missing cached shader map for material TerrainMat, compiling. 
+[2016.08.07-00.03.21:905][886]LogMaterial: 1.64 seconds spent updating 1 materials, 1 interfaces, 0 instances, 9 with static permutations.
+[2016.08.07-00.03.39:470][886]LogMaterial: Missing cached shader map for material sleek-rock-grey-panel-b_Mat, compiling. 
+[2016.08.07-00.03.39:525][886]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.07-00.03.39:633][886]LogMaterial: Missing cached shader map for material sleek-rock-grey-panel-b_Mat, compiling. 
+[2016.08.07-00.03.39:676][886]LogMaterial: Missing cached shader map for material sleek-rock-grey-panel-b_Mat, compiling. 
+[2016.08.07-00.03.39:719][886]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.07-00.03.45:602][886]LogSavePackage: Save=95.28ms
+[2016.08.07-00.03.45:602][886]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/TerrainMat1908CAAB4DEE48831A85BA9A9D1A46F8.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Material/TerrainMat.uasset'
+[2016.08.07-00.03.45:619][886]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Material/TerrainMat.uasset
+[2016.08.07-00.06.15:765][886]LogSavePackage: Save=58.98ms
+[2016.08.07-00.06.15:765][886]LogSavePackage: Moving '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Saved/sleek-rock-grey-panel-b_MatC0F38CBD414168202E64CF92E662AE9A.tmp' to '../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Objects/Forge/sleek-rock-grey-panel-b_Mat.uasset'
+[2016.08.07-00.06.15:776][886]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diego BA/Documents/GitHub/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Scenes/Camp/Objects/Forge/sleek-rock-grey-panel-b_Mat.uasset
+[2016.08.07-00.06.19:855][886]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.08.07-00.07.28:008][887]Cmd: QUIT_EDITOR
+[2016.08.07-00.07.38:763][887]LogExit: Preparing to exit.
+[2016.08.07-00.07.55:626][887]LogExit: Editor shut down
+[2016.08.07-00.07.55:783][887]LogExit: Transaction tracking system shut down
+[2016.08.07-00.08.57:315][887]LogObj: Freed 0b from 0 cluster array pools.
+[2016.08.07-00.08.57:345][887]LogExit: Object subsystem successfully closed.
+[2016.08.07-00.09.02:289][887]LogD3D11RHI: Shutdown
+[2016.08.07-00.09.02:290][887]LogD3D11RHI: CleanupD3DDevice
+[2016.08.07-00.09.03:846][887]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.08.07-00.09.10:344][887]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (218)
+[2016.08.07-00.09.10:367][887]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (217)
+[2016.08.07-00.09.10:372][887]LogModuleManager: Shutting down and abandoning module MaterialEditor (216)
+[2016.08.07-00.09.10:395][887]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (215)
+[2016.08.07-00.09.10:400][887]LogModuleManager: Shutting down and abandoning module CrashTracker (214)
+[2016.08.07-00.09.10:409][887]LogModuleManager: Shutting down and abandoning module SceneOutliner (213)
+[2016.08.07-00.09.10:437][887]LogModuleManager: Shutting down and abandoning module WidgetCarousel (212)
+[2016.08.07-00.09.10:446][887]LogModuleManager: Shutting down and abandoning module AddContentDialog (211)
+[2016.08.07-00.09.10:743][887]LogModuleManager: Shutting down and abandoning module GameplayTags (210)
+[2016.08.07-00.09.10:743][887]LogModuleManager: Shutting down and abandoning module EditorWidgets (209)
+[2016.08.07-00.09.10:744][887]LogModuleManager: Shutting down and abandoning module CollectionManager (208)
+[2016.08.07-00.09.10:774][887]LogModuleManager: Shutting down and abandoning module StatsViewer (207)
+[2016.08.07-00.09.10:779][887]LogModuleManager: Shutting down and abandoning module FoliageEdit (206)
+[2016.08.07-00.09.10:790][887]LogModuleManager: Shutting down and abandoning module LandscapeEditor (205)
+[2016.08.07-00.09.10:863][887]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (204)
+[2016.08.07-00.09.10:863][887]LogModuleManager: Shutting down and abandoning module ActorPickerMode (203)
+[2016.08.07-00.09.10:863][887]LogModuleManager: Shutting down and abandoning module GeometryMode (202)
+[2016.08.07-00.09.10:873][887]LogModuleManager: Shutting down and abandoning module TextureAlignMode (201)
+[2016.08.07-00.09.10:873][887]LogModuleManager: Shutting down and abandoning module BspMode (200)
+[2016.08.07-00.09.10:885][887]LogModuleManager: Shutting down and abandoning module HardwareSurvey (199)
+[2016.08.07-00.09.10:893][887]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (198)
+[2016.08.07-00.09.10:901][887]LogModuleManager: Shutting down and abandoning module SequenceRecorder (197)
+[2016.08.07-00.09.10:983][887]LogModuleManager: Shutting down and abandoning module AutomationWorker (196)
+[2016.08.07-00.09.10:990][887]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (195)
+[2016.08.07-00.09.10:995][887]LogModuleManager: Shutting down and abandoning module PlacementMode (194)
+[2016.08.07-00.09.11:023][887]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (193)
+[2016.08.07-00.09.11:065][887]LogModuleManager: Shutting down and abandoning module CharacterAI (192)
+[2016.08.07-00.09.11:065][887]LogModuleManager: Shutting down and abandoning module SmartSnapping (191)
+[2016.08.07-00.09.11:065][887]LogModuleManager: Shutting down and abandoning module SessionServices (190)
+[2016.08.07-00.09.11:065][887]LogModuleManager: Shutting down and abandoning module ViewportSnapping (189)
+[2016.08.07-00.09.11:065][887]LogModuleManager: Shutting down and abandoning module LogVisualizer (188)
+[2016.08.07-00.09.11:157][887]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (187)
+[2016.08.07-00.09.11:177][887]LogModuleManager: Shutting down and abandoning module IntroTutorials (186)
+[2016.08.07-00.09.11:264][887]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (185)
+[2016.08.07-00.09.11:279][887]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (184)
+[2016.08.07-00.09.11:375][887]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (183)
+[2016.08.07-00.09.11:375][887]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (182)
+[2016.08.07-00.09.11:431][887]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (181)
+[2016.08.07-00.09.11:448][887]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (180)
+[2016.08.07-00.09.11:448][887]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (179)
+[2016.08.07-00.09.11:448][887]LogModuleManager: Shutting down and abandoning module MergeActors (178)
+[2016.08.07-00.09.11:458][887]LogModuleManager: Shutting down and abandoning module SizeMap (177)
+[2016.08.07-00.09.11:475][887]LogModuleManager: Shutting down and abandoning module TreeMap (176)
+[2016.08.07-00.09.11:488][887]LogModuleManager: Shutting down and abandoning module ReferenceViewer (175)
+[2016.08.07-00.09.11:498][887]LogModuleManager: Shutting down and abandoning module LocalizationService (174)
+[2016.08.07-00.09.11:515][887]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (173)
+[2016.08.07-00.09.11:623][887]LogModuleManager: Shutting down and abandoning module HardwareTargeting (172)
+[2016.08.07-00.09.11:623][887]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (171)
+[2016.08.07-00.09.11:672][887]LogModuleManager: Shutting down and abandoning module UndoHistory (170)
+[2016.08.07-00.09.11:690][887]LogModuleManager: Shutting down and abandoning module UserFeedback (169)
+[2016.08.07-00.09.11:727][887]LogModuleManager: Shutting down and abandoning module XmlParser (168)
+[2016.08.07-00.09.11:740][887]LogModuleManager: Shutting down and abandoning module Blutility (167)
+[2016.08.07-00.09.11:740][887]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (166)
+[2016.08.07-00.09.11:792][887]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (165)
+[2016.08.07-00.09.11:792][887]LogModuleManager: Shutting down and abandoning module InputBindingEditor (164)
+[2016.08.07-00.09.11:976][887]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (163)
+[2016.08.07-00.09.11:985][887]LogModuleManager: Shutting down and abandoning module SettingsEditor (162)
+[2016.08.07-00.09.12:013][887]LogModuleManager: Shutting down and abandoning module ProjectLauncher (161)
+[2016.08.07-00.09.12:034][887]LogModuleManager: Shutting down and abandoning module SessionFrontend (160)
+[2016.08.07-00.09.12:046][887]LogModuleManager: Shutting down and abandoning module ProfilerClient (159)
+[2016.08.07-00.09.12:054][887]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (158)
+[2016.08.07-00.09.12:074][887]LogModuleManager: Shutting down and abandoning module DeviceManager (157)
+[2016.08.07-00.09.12:219][887]LogModuleManager: Shutting down and abandoning module AutomationController (156)
+[2016.08.07-00.09.12:252][887]LogModuleManager: Shutting down and abandoning module AutomationWindow (155)
+[2016.08.07-00.09.12:261][887]LogModuleManager: Shutting down and abandoning module Layers (154)
+[2016.08.07-00.09.12:274][887]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (153)
+[2016.08.07-00.09.12:274][887]LogModuleManager: Shutting down and abandoning module DetailCustomizations (152)
+[2016.08.07-00.09.12:307][887]LogModuleManager: Shutting down and abandoning module PackagesDialog (151)
+[2016.08.07-00.09.12:340][887]LogModuleManager: Shutting down and abandoning module Persona (150)
+[2016.08.07-00.09.12:376][887]LogModuleManager: Shutting down and abandoning module Kismet (149)
+[2016.08.07-00.09.12:445][887]LogModuleManager: Shutting down and abandoning module GraphEditor (148)
+[2016.08.07-00.09.12:554][887]LogModuleManager: Shutting down and abandoning module ClassViewer (147)
+[2016.08.07-00.09.12:611][887]LogModuleManager: Shutting down and abandoning module Toolbox (146)
+[2016.08.07-00.09.12:633][887]LogModuleManager: Shutting down and abandoning module ModuleUI (145)
+[2016.08.07-00.09.12:679][887]LogModuleManager: Shutting down and abandoning module MovieSceneTools (144)
+[2016.08.07-00.09.12:820][887]LogModuleManager: Shutting down and abandoning module OutputLog (143)
+[2016.08.07-00.09.12:856][887]LogModuleManager: Shutting down and abandoning module GammaUI (142)
+[2016.08.07-00.09.12:867][887]LogModuleManager: Shutting down and abandoning module Documentation (141)
+[2016.08.07-00.09.12:972][887]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (140)
+[2016.08.07-00.09.12:979][887]LogModuleManager: Shutting down and abandoning module AnalyticsET (139)
+[2016.08.07-00.09.12:979][887]LogModuleManager: Shutting down and abandoning module Analytics (138)
+[2016.08.07-00.09.12:979][887]LogModuleManager: Shutting down and abandoning module PortalServices (137)
+[2016.08.07-00.09.12:979][887]LogModuleManager: Shutting down and abandoning module PortalRpc (136)
+[2016.08.07-00.09.12:979][887]LogModuleManager: Shutting down and abandoning module MessagingRpc (135)
+[2016.08.07-00.09.12:979][887]LogModuleManager: Shutting down and abandoning module GameplayDebugger (134)
+[2016.08.07-00.09.12:997][887]LogModuleManager: Shutting down and abandoning module AITestSuite (133)
+[2016.08.07-00.09.13:000][887]LogModuleManager: Shutting down and abandoning module AIModule (132)
+[2016.08.07-00.09.13:000][887]LogModuleManager: Shutting down and abandoning module ProfilerService (131)
+[2016.08.07-00.09.13:214][887]LogModuleManager: Shutting down and abandoning module TaskGraph (130)
+[2016.08.07-00.09.13:235][887]LogModuleManager: Shutting down and abandoning module SlateRemote (129)
+[2016.08.07-00.09.13:245][887]LogModuleManager: Shutting down and abandoning module SteamVRController (128)
+[2016.08.07-00.09.13:245][887]LogModuleManager: Shutting down and abandoning module SteamVR (127)
+[2016.08.07-00.09.13:250][887]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (126)
+[2016.08.07-00.09.13:250][887]LogModuleManager: Shutting down and abandoning module OculusLibrary (125)
+[2016.08.07-00.09.13:250][887]LogModuleManager: Shutting down and abandoning module OculusInput (124)
+[2016.08.07-00.09.13:250][887]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (123)
+[2016.08.07-00.09.13:257][887]LogModuleManager: Shutting down and abandoning module CableComponent (122)
+[2016.08.07-00.09.13:261][887]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (121)
+[2016.08.07-00.09.13:261][887]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (120)
+[2016.08.07-00.09.13:277][887]LogModuleManager: Shutting down and abandoning module VaRestEditorPlugin (119)
+[2016.08.07-00.09.13:277][887]LogModuleManager: Shutting down and abandoning module HTML5Networking (118)
+[2016.08.07-00.09.13:287][887]LogModuleManager: Shutting down and abandoning module SuperSearch (117)
+[2016.08.07-00.09.13:293][887]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (116)
+[2016.08.07-00.09.13:293][887]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (115)
+[2016.08.07-00.09.13:300][887]LogModuleManager: Shutting down and abandoning module PluginBrowser (114)
+[2016.08.07-00.09.13:321][887]LogModuleManager: Shutting down and abandoning module EpicSurvey (113)
+[2016.08.07-00.09.13:338][887]LogModuleManager: Shutting down and abandoning module DesktopPlatform (112)
+[2016.08.07-00.09.13:365][887]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (111)
+[2016.08.07-00.09.13:376][887]LogModuleManager: Shutting down and abandoning module UObjectPlugin (110)
+[2016.08.07-00.09.13:376][887]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (109)
+[2016.08.07-00.09.13:394][887]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (108)
+[2016.08.07-00.09.13:413][887]LogModuleManager: Shutting down and abandoning module SourceControl (107)
+[2016.08.07-00.09.13:483][887]LogModuleManager: Shutting down and abandoning module GitSourceControl (106)
+[2016.08.07-00.09.13:488][887]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (105)
+[2016.08.07-00.09.13:488][887]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (104)
+[2016.08.07-00.09.13:494][887]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (103)
+[2016.08.07-00.09.13:502][887]LogModuleManager: Shutting down and abandoning module MeshPaint (102)
+[2016.08.07-00.09.13:506][887]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (101)
+[2016.08.07-00.09.13:519][887]LogModuleManager: Shutting down and abandoning module HotReload (100)
+[2016.08.07-00.09.13:594][887]LogModuleManager: Shutting down and abandoning module MainFrame (99)
+[2016.08.07-00.09.13:615][887]LogModuleManager: Shutting down and abandoning module LevelEditor (98)
+[2016.08.07-00.09.13:828][887]LogModuleManager: Shutting down and abandoning module ContentBrowser (97)
+[2016.08.07-00.09.13:895][887]LogModuleManager: Shutting down and abandoning module Paper2DEditor (96)
+[2016.08.07-00.09.13:938][887]LogModuleManager: Shutting down and abandoning module UdpMessaging (95)
+[2016.08.07-00.09.14:049][887]LogModuleManager: Shutting down and abandoning module VaRestPlugin (94)
+[2016.08.07-00.09.14:066][887]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.08.07-00.09.14:066][887]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.08.07-00.09.14:066][887]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.08.07-00.09.14:098][887]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.08.07-00.09.14:098][887]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.08.07-00.09.14:113][887]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.08.07-00.09.14:113][887]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.08.07-00.09.14:122][887]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.08.07-00.09.14:130][887]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.08.07-00.09.14:130][887]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.08.07-00.09.14:137][887]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.08.07-00.09.14:146][887]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.08.07-00.09.14:199][887]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.08.07-00.09.14:209][887]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.08.07-00.09.14:218][887]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.08.07-00.09.14:238][887]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.08.07-00.09.14:274][887]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.08.07-00.09.14:309][887]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.08.07-00.09.14:320][887]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.08.07-00.09.14:357][887]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.08.07-00.09.14:392][887]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.08.07-00.09.14:415][887]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.08.07-00.09.14:442][887]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.08.07-00.09.14:448][887]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.08.07-00.09.14:663][887]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.08.07-00.09.14:670][887]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.08.07-00.09.14:670][887]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.08.07-00.09.14:670][887]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.08.07-00.09.14:670][887]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.08.07-00.09.14:670][887]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.08.07-00.09.14:732][887]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.08.07-00.09.15:603][887]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.08.07-00.09.15:615][887]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.08.07-00.09.15:625][887]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.08.07-00.09.15:633][887]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.08.07-00.09.15:648][887]LogDerivedDataCache: Shutdown
+[2016.08.07-00.09.15:648][887]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.08.07-00.09.15:653][887]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.08.07-00.09.15:661][887]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.08.07-00.09.15:673][887]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.08.07-00.09.15:692][887]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.08.07-00.09.15:692][887]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.08.07-00.09.15:692][887]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.08.07-00.09.15:718][887]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.08.07-00.09.15:718][887]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.08.07-00.09.15:729][887]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.08.07-00.09.15:729][887]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.08.07-00.09.15:729][887]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.08.07-00.09.15:729][887]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.08.07-00.09.15:729][887]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.08.07-00.09.15:730][887]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.08.07-00.09.15:746][887]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.08.07-00.09.15:756][887]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.08.07-00.09.15:760][887]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.08.07-00.09.15:760][887]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.08.07-00.09.15:760][887]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.08.07-00.09.15:765][887]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.08.07-00.09.15:771][887]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.08.07-00.09.15:780][887]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.08.07-00.09.15:781][887]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.08.07-00.09.15:792][887]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.08.07-00.09.15:792][887]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.08.07-00.09.15:803][887]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.08.07-00.09.15:810][887]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.08.07-00.09.15:820][887]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.08.07-00.09.15:830][887]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.08.07-00.09.15:849][887]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.08.07-00.09.15:864][887]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.08.07-00.09.15:871][887]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.08.07-00.09.15:880][887]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.08.07-00.09.15:890][887]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.08.07-00.09.15:910][887]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.08.07-00.09.15:919][887]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.08.07-00.09.15:927][887]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.08.07-00.09.15:927][887]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.08.07-00.09.20:526][887]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.08.07-00.09.20:548][887]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.08.07-00.09.20:561][887]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.08.07-00.09.20:570][887]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.08.07-00.09.20:582][887]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.08.07-00.09.20:588][887]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.08.07-00.09.20:596][887]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.08.07-00.09.20:757][887]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.08.07-00.09.20:768][887]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.08.07-00.09.20:768][887]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.08.07-00.09.20:777][887]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.08.07-00.09.20:794][887]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.08.07-00.09.20:802][887]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.08.07-00.09.20:817][887]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.08.07-00.09.20:834][887]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.08.07-00.09.20:845][887]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.08.07-00.09.20:850][887]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.08.07-00.09.20:939][887]LogExit: Exiting.
+[2016.08.07-00.09.21:190][887]Log file closed, 08/06/16 21:09:21
