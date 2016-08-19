@@ -1,0 +1,645 @@
+﻿Log file open, 08/19/16 10:09:26
+LogInit:Display: Running engine for game: ProjetoTeste
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1397899981) SRandInit(-1397899979).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.078545
+LogInit: Version: 4.12.4-3028348+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3028348
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jun 27 2016 09:29:04
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.08.19-13.09.26:882][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.19-13.09.26:882][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.08.19-13.09.26:892][  0]LogInit: Computer: DESKTOP-6L1GLB8
+[2016.08.19-13.09.26:892][  0]LogInit: User: Vitor
+[2016.08.19-13.09.26:892][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.08.19-13.09.26:892][  0]LogInit: High frequency timer resolution =3.117782 MHz
+[2016.08.19-13.09.26:892][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.08.19-13.09.26:892][  0]LogMemory: Platform Memory Stats for Windows
+[2016.08.19-13.09.26:892][  0]LogMemory: Process Physical Memory: 195.46 MB used, 195.46 MB peak
+[2016.08.19-13.09.26:892][  0]LogMemory: Process Virtual Memory: 195.13 MB used, 195.13 MB peak
+[2016.08.19-13.09.26:892][  0]LogMemory: Physical Memory: 2960.01 MB used, 8129.84 MB total
+[2016.08.19-13.09.26:892][  0]LogMemory: Virtual Memory: 571.52 MB used, 134217728.00 MB total
+[2016.08.19-13.09.27:124][  0]LogD3D11RHI: D3D11 adapters:
+[2016.08.19-13.09.27:146][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750 Ti' (Feature Level 11_0)
+[2016.08.19-13.09.27:146][  0]LogD3D11RHI:       1992/0/4064 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.08.19-13.09.27:148][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.08.19-13.09.27:148][  0]LogD3D11RHI:       0/0/4064 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.08.19-13.09.27:148][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.08.19-13.09.27:152][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.08.19-13.09.27:153][  0]LogD3D11RHI:     GPU DeviceId: 0x1380 (for the marketing name, search the web for "GPU Device Id")
+[2016.08.19-13.09.27:153][  0]LogWindows: EnumDisplayDevices:
+[2016.08.19-13.09.27:153][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750 Ti' (P:1 D:1)
+[2016.08.19-13.09.27:153][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2016.08.19-13.09.27:153][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2016.08.19-13.09.27:153][  0]LogWindows:    3. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2016.08.19-13.09.27:153][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.08.19-13.09.27:153][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750 Ti
+[2016.08.19-13.09.27:153][  0]LogD3D11RHI:   Driver Version: 365.10 (internal:10.18.13.6510, unified:365.10)
+[2016.08.19-13.09.27:153][  0]LogD3D11RHI:      Driver Date: 4-27-2016
+[2016.08.19-13.09.27:153][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.08.19-13.09.27:165][  0]LogD3D11RHI: Async texture creation enabled
+[2016.08.19-13.09.27:176][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.08.19-13.09.27:176][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (../../../../../../Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Intermediate/Shaders/WorkingDirectory/2584/).
+[2016.08.19-13.09.27:176][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Vitor/AppData/Local/Temp/UnrealShaderWorkingDir/091504F74E6F7171996DB2AC94BC5E20/'.
+[2016.08.19-13.09.27:176][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.08.19-13.09.28:454][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.08.19-13.09.28:463][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.08.19-13.09.28:473][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.08.19-13.09.28:482][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.08.19-13.09.28:492][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.08.19-13.09.28:500][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.08.19-13.09.28:508][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.08.19-13.09.28:515][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.08.19-13.09.28:524][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.08.19-13.09.28:532][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.08.19-13.09.28:540][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.08.19-13.09.28:555][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.08.19-13.09.28:555][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.08.19-13.09.28:557][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.08.19-13.09.28:579][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.08.19-13.09.28:586][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.08.19-13.09.28:594][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.08.19-13.09.28:602][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.08.19-13.09.28:610][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.08.19-13.09.28:610][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.19-13.09.28:689][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.08.19-13.09.28:737][  0]LogDerivedDataCache: Loaded boot cache 0.05s 48MB C:/Users/Vitor/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.08.19-13.09.28:737][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Vitor/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.08.19-13.09.28:737][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.08.19-13.09.28:737][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.08.19-13.09.28:738][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.08.19-13.09.28:738][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.08.19-13.09.28:753][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.08.19-13.09.28:766][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Vitor/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.08.19-13.09.28:960][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.19-13.09.28:961][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.08.19-13.09.29:114][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.08.19-13.09.29:114][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.08.19-13.09.29:114][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.08.19-13.09.29:361][  0]LogAssetRegistry: FAssetRegistry took 0.0222 seconds to start up
+[2016.08.19-13.09.29:387][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.022761 seconds
+[2016.08.19-13.09.29:392][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.08.19-13.09.29:392][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2016.08.19-13.09.29:392][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.08.19-13.09.29:400][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.08.19-13.09.29:584][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.19-13.09.29:584][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.19-13.09.30:469][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.08.19-13.09.30:693][  0]SourceControl: Informações Controle de origem desativado
+[2016.08.19-13.09.30:695][  0]SourceControl: Informações Controle de origem desativado
+[2016.08.19-13.09.30:704][  0]SourceControl: Informações Controle de origem desativado
+[2016.08.19-13.09.30:713][  0]SourceControl: Informações Controle de origem desativado
+[2016.08.19-13.09.30:944][  0]LogEngine: Initializing Engine...
+[2016.08.19-13.09.30:945][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.08.19-13.09.30:945][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.08.19-13.09.31:082][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.08.19-13.09.31:091][  0]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.19-13.09.31:102][  0]LogInit: FAudioDevice initialized.
+[2016.08.19-13.09.31:127][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/Vitor/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.08.19-13.09.31:132][  0]LogInit: Texture streaming: Enabled
+[2016.08.19-13.09.31:155][  0]LogInit: Transaction tracking system initialized
+[2016.08.19-13.09.31:179][  0]BlueprintLog: New page: Carregar Editor
+[2016.08.19-13.09.31:256][  0]LocalizationService: Informações Localization service is disabled
+[2016.08.19-13.09.31:321][  0]LogConsoleResponse:Display: 
+[2016.08.19-13.09.31:428][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.08.19-13.09.31:428][  0]LogCook:Display: Mobile HDR setting 1
+[2016.08.19-13.09.31:534][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Content/' took 0.03s
+[2016.08.19-13.09.31:534][  0]SourceControl: Informações Controle de origem desativado
+[2016.08.19-13.09.31:534][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.19-13.09.31:535][  0]LightingResults: New page: Compilação de Iluminação
+[2016.08.19-13.09.31:538][  0]MapCheck: New page: Verificação de Mapa
+[2016.08.19-13.09.31:538][  0]LightingResults: New page: Compilação de Iluminação
+[2016.08.19-13.09.31:744][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.08.19-13.09.31:750][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.19-13.09.31:755][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.19-13.09.31:834][  0]MapCheck: Informações Map check complete: 0 Error(s), 0 Warning(s), took 79,181ms to complete.
+[2016.08.19-13.09.31:834][  0]LogFileHelpers: Loading map 'Template_Default' took 0.299
+[2016.08.19-13.09.31:969][  0]LogCollectionManager: Loaded 0 collections in 0.002126 seconds
+[2016.08.19-13.09.32:009][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Saved/Collections/' took 0.01s
+[2016.08.19-13.09.32:009][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Content/Developers/Vitor/Collections/' took 0.01s
+[2016.08.19-13.09.32:009][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Content/Collections/' took 0.01s
+[2016.08.19-13.09.32:009][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.08.19-13.09.32:028][  0]LogContentBrowser: Native class hierarchy populated in 0.0183 seconds. Added 2047 classes and 369 folders.
+[2016.08.19-13.09.32:038][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.08.19-13.09.32:038][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.08.19-13.09.32:039][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0011 seconds. Added 12 classes and 0 folders.
+[2016.08.19-13.09.32:045][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.08.19-13.09.32:107][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.08.19-13.09.32:111][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.08.19-13.09.32:125][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.08.19-13.09.32:129][  0]LogUObjectGlobals:Warning: Falha ao encontrar objeto “Class Nenhum.”
+[2016.08.19-13.09.32:155][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.08.19-13.09.32:156][  0]LogLoad: Full Startup: 20.63 seconds (BP compile: 0.03 seconds)
+[2016.08.19-13.09.32:156][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.08.19-13.09.32:165][  0]LogOcInput: OculusInput pre-init called
+[2016.08.19-13.09.32:184][  0]LogContentStreaming: Texture pool size now 700 MB
+[2016.08.19-13.09.32:332][  0]LogRenderer: Reallocating scene render targets to support 540x344 (Frame:2).
+[2016.08.19-13.09.32:430][  2]LogAssetRegistry: Asset discovery search completed in 3.0917 seconds
+[2016.08.19-13.09.32:430][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.08.19-13.09.32:430][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
+[2016.08.19-13.11.50:413][412]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/StarterContent/Particles/Materials/M_Fire_SubUV”
+[2016.08.19-13.11.50:414][412]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Content/Particles/P_Fire.uasset” ao carregar /Game/StarterContent/Particles/Materials/M_Fire_SubUV.
+[2016.08.19-13.11.50:414][412]LoadErrors:Error: Erro /Game/Particles/P_Fire : Não é possível encontrar o arquivo do ativo. /Game/StarterContent/Particles/Materials/M_Fire_SubUV
+[2016.08.19-13.11.50:414][412]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/StarterContent/Particles/Materials/M_Heat_Distortion”
+[2016.08.19-13.11.50:414][412]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Content/Particles/P_Fire.uasset” ao carregar /Game/StarterContent/Particles/Materials/M_Heat_Distortion.
+[2016.08.19-13.11.50:414][412]LoadErrors:Error: Erro /Game/Particles/P_Fire : Não é possível encontrar o arquivo do ativo. /Game/StarterContent/Particles/Materials/M_Heat_Distortion
+[2016.08.19-13.11.50:414][412]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/StarterContent/Particles/Materials/M_Radial_Gradient”
+[2016.08.19-13.11.50:414][412]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Content/Particles/P_Fire.uasset” ao carregar /Game/StarterContent/Particles/Materials/M_Radial_Gradient.
+[2016.08.19-13.11.50:414][412]LoadErrors:Error: Erro /Game/Particles/P_Fire : Não é possível encontrar o arquivo do ativo. /Game/StarterContent/Particles/Materials/M_Radial_Gradient
+[2016.08.19-13.11.50:415][412]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/StarterContent/Particles/Materials/M_smoke_subUV”
+[2016.08.19-13.11.50:415][412]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Content/Particles/P_Fire.uasset” ao carregar /Game/StarterContent/Particles/Materials/M_smoke_subUV.
+[2016.08.19-13.11.50:415][412]LoadErrors:Error: Erro /Game/Particles/P_Fire : Não é possível encontrar o arquivo do ativo. /Game/StarterContent/Particles/Materials/M_smoke_subUV
+[2016.08.19-13.11.50:415][412]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/StarterContent/Particles/Materials/M_Fire_SubUV”
+[2016.08.19-13.11.50:415][412]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Content/Particles/P_Fire.uasset” ao carregar /Game/StarterContent/Particles/Materials/M_Fire_SubUV.
+[2016.08.19-13.11.50:415][412]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/StarterContent/Particles/Materials/M_Heat_Distortion”
+[2016.08.19-13.11.50:415][412]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Content/Particles/P_Fire.uasset” ao carregar /Game/StarterContent/Particles/Materials/M_Heat_Distortion.
+[2016.08.19-13.11.50:415][412]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/StarterContent/Particles/Materials/M_Radial_Gradient”
+[2016.08.19-13.11.50:415][412]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Content/Particles/P_Fire.uasset” ao carregar /Game/StarterContent/Particles/Materials/M_Radial_Gradient.
+[2016.08.19-13.11.50:416][412]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/StarterContent/Particles/Materials/M_smoke_subUV”
+[2016.08.19-13.11.50:416][412]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Content/Particles/P_Fire.uasset” ao carregar /Game/StarterContent/Particles/Materials/M_smoke_subUV.
+[2016.08.19-13.11.50:983][412]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/StarterContent/Particles/Materials/M_Heat_Distortion”
+[2016.08.19-13.11.50:983][412]LoadErrors: Informações Falha ao carregar /Game/StarterContent/Particles/Materials/M_Heat_Distortion.M_Heat_Distortion Referenciado por ParticleModuleRequired_0
+[2016.08.19-13.11.50:983][412]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/StarterContent/Particles/Materials/M_Heat_Distortion.
+[2016.08.19-13.11.50:984][412]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/StarterContent/Particles/Materials/M_smoke_subUV”
+[2016.08.19-13.11.50:984][412]LoadErrors: Informações Falha ao carregar /Game/StarterContent/Particles/Materials/M_smoke_subUV.M_smoke_subUV Referenciado por ParticleModuleRequired_1
+[2016.08.19-13.11.50:984][412]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/StarterContent/Particles/Materials/M_smoke_subUV.
+[2016.08.19-13.11.50:984][412]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/StarterContent/Particles/Materials/M_Fire_SubUV”
+[2016.08.19-13.11.50:984][412]LoadErrors: Informações Falha ao carregar /Game/StarterContent/Particles/Materials/M_Fire_SubUV.M_Fire_SubUV Referenciado por ParticleModuleRequired_2
+[2016.08.19-13.11.50:984][412]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/StarterContent/Particles/Materials/M_Fire_SubUV.
+[2016.08.19-13.11.50:984][412]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/StarterContent/Particles/Materials/M_Radial_Gradient”
+[2016.08.19-13.11.50:984][412]LoadErrors: Informações Falha ao carregar /Game/StarterContent/Particles/Materials/M_Radial_Gradient.M_Radial_Gradient Referenciado por ParticleModuleRequired_3
+[2016.08.19-13.11.50:985][412]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/StarterContent/Particles/Materials/M_Radial_Gradient.
+[2016.08.19-13.11.50:985][412]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/StarterContent/Particles/Materials/M_Radial_Gradient”
+[2016.08.19-13.11.50:985][412]LoadErrors: Informações Falha ao carregar /Game/StarterContent/Particles/Materials/M_Radial_Gradient.M_Radial_Gradient Referenciado por ParticleModuleRequired_4
+[2016.08.19-13.11.50:985][412]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/StarterContent/Particles/Materials/M_Radial_Gradient.
+[2016.08.19-13.11.50:985][412]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/StarterContent/Particles/Materials/M_Fire_SubUV”
+[2016.08.19-13.11.50:985][412]LoadErrors: Informações Falha ao carregar /Game/StarterContent/Particles/Materials/M_Fire_SubUV.M_Fire_SubUV Referenciado por ParticleModuleRequired_5
+[2016.08.19-13.11.50:985][412]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/StarterContent/Particles/Materials/M_Fire_SubUV.
+[2016.08.19-13.11.51:764][412]LogMaterial: Missing cached shader map for material eixo_da_roda_Base_Color_Mat, compiling. 
+[2016.08.19-13.11.51:764][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Carroça/eixo_da_roda_Base_Color_Mat.eixo_da_roda_Base_Color_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.51:764][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Cor, should be Cor Linear for /Game/TheDarkAges/Scenes/Camp/Objects/Carroça/eixo_da_roda_Base_Color.eixo_da_roda_Base_Color
+[2016.08.19-13.11.52:181][412]LogMaterial: Missing cached shader map for material Wood_002, compiling. 
+[2016.08.19-13.11.52:182][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Forge/Wood_002.Wood_002 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:182][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Forge/Dark-Wood-Panels.Dark-Wood-Panels
+[2016.08.19-13.11.52:198][412]LogMaterial: Missing cached shader map for material Wood, compiling. 
+[2016.08.19-13.11.52:198][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Forge/Wood.Wood for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:198][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Forge/rough_wood_medium_tan2.rough_wood_medium_tan2
+[2016.08.19-13.11.52:200][412]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2016.08.19-13.11.52:200][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Forge/Metal.Metal for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:200][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Forge/sleek-rock-grey-panel-b.sleek-rock-grey-panel-b
+[2016.08.19-13.11.52:205][412]LogMaterial: Missing cached shader map for material Wood-Log, compiling. 
+[2016.08.19-13.11.52:206][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Forge/Wood-Log.Wood-Log for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:206][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Forge/tileable_tree_bark_texture_by_ftourini-d3l69hz.tileable_tree_bark_texture_by_ftourini-d3l69hz
+[2016.08.19-13.11.52:207][412]LogMaterial: Missing cached shader map for material Log2, compiling. 
+[2016.08.19-13.11.52:207][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Forge/Log2.Log2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:207][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Forge/Tileable-wood-texture.Tileable-wood-texture
+[2016.08.19-13.11.52:210][412]LogMaterial: Missing cached shader map for material Wood, compiling. 
+[2016.08.19-13.11.52:210][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/FoodBucket/Wood.Wood for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:210][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/FoodBucket/Seamless_Rough_Wood_Siding_2.Seamless_Rough_Wood_Siding_2
+[2016.08.19-13.11.52:211][412]LogMaterial: Missing cached shader map for material Soup, compiling. 
+[2016.08.19-13.11.52:212][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/FoodBucket/Soup.Soup for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:212][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/FoodBucket/low-fat-garden-vegetable-soup-with-pesto-bowl_desktop.low-fat-garden-vegetable-soup-with-pesto-bowl_desktop
+[2016.08.19-13.11.52:213][412]LogMaterial: Missing cached shader map for material Pot, compiling. 
+[2016.08.19-13.11.52:213][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/FoodBucket/Pot.Pot for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:213][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/FoodBucket/sci_fi_metal_base.sci_fi_metal_base
+[2016.08.19-13.11.52:225][412]LogMaterial: Missing cached shader map for material Iron, compiling. 
+[2016.08.19-13.11.52:226][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/DrikingHorn/Iron.Iron for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:226][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/DrikingHorn/txt_castIron.txt_castIron
+[2016.08.19-13.11.52:227][412]LogMaterial: Missing cached shader map for material Horn, compiling. 
+[2016.08.19-13.11.52:227][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/DrikingHorn/Horn.Horn for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:227][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/DrikingHorn/48-2.48-2
+[2016.08.19-13.11.52:230][412]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2016.08.19-13.11.52:230][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/CUP/Metal.Metal for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:230][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/CUP/tn1_RustyMetalbyTaranMoltu_ocnfi.tn1_RustyMetalbyTaranMoltu_ocnfi
+[2016.08.19-13.11.52:240][412]LogMaterial: Missing cached shader map for material Wood2, compiling. 
+[2016.08.19-13.11.52:241][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Bed/Wood2.Wood2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:241][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Bed/Wood_dry_cracked_bench_tree_bark_texture_ver_4.Wood_dry_cracked_bench_tree_bark_texture_ver_4
+[2016.08.19-13.11.52:243][412]LogMaterial: Missing cached shader map for material Wood, compiling. 
+[2016.08.19-13.11.52:243][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Bed/Wood.Wood for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:243][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Bed/tileable_tree_bark_texture_by_ftourini-d3l69hz.tileable_tree_bark_texture_by_ftourini-d3l69hz
+[2016.08.19-13.11.52:245][412]LogMaterial: Missing cached shader map for material Ropes, compiling. 
+[2016.08.19-13.11.52:246][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Bed/Ropes.Ropes for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:246][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Bed/8c1cae38e9f5b6d02b9cc1e4af3568fb.8c1cae38e9f5b6d02b9cc1e4af3568fb
+[2016.08.19-13.11.52:247][412]LogMaterial: Missing cached shader map for material Pelt, compiling. 
+[2016.08.19-13.11.52:248][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Bed/Pelt.Pelt for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:248][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Bed/1238509-fur-texture2.1238509-fur-texture2
+[2016.08.19-13.11.52:250][412]LogMaterial: Missing cached shader map for material Iron, compiling. 
+[2016.08.19-13.11.52:250][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Bed/Iron.Iron for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:250][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Bed/sleek-rock-grey-panel-b.sleek-rock-grey-panel-b
+[2016.08.19-13.11.52:252][412]LogMaterial: Missing cached shader map for material Soya, compiling. 
+[2016.08.19-13.11.52:253][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Containers/Soya.Soya for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:253][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales.Soybean_Meal_100_mt_Ready_for_sales
+[2016.08.19-13.11.52:254][412]LogMaterial: Missing cached shader map for material Mug2, compiling. 
+[2016.08.19-13.11.52:254][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Containers/Mug2.Mug2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:254][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Containers/3e615c54899cd61ef14f8e1d41b43661.3e615c54899cd61ef14f8e1d41b43661
+[2016.08.19-13.11.52:256][412]LogMaterial: Missing cached shader map for material Linho, compiling. 
+[2016.08.19-13.11.52:256][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Containers/Linho.Linho for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:256][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-.43_linen-flaxseed-
+[2016.08.19-13.11.52:261][412]LogMaterial: Missing cached shader map for material Wood-planks_1_001, compiling. 
+[2016.08.19-13.11.52:261][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Containers/Wood-planks_1_001.Wood-planks_1_001 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:261][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016.746c9f88527bc3f85b32a08d9e57d016
+[2016.08.19-13.11.52:262][412]LogMaterial: Missing cached shader map for material Wood-plank_003, compiling. 
+[2016.08.19-13.11.52:263][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Containers/Wood-plank_003.Wood-plank_003 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:263][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3.rough-wood-texture-seamless-design-3
+[2016.08.19-13.11.52:351][412]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2016.08.19-13.11.52:351][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Garrafa/Material.Material for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:351][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Garrafa/rope_texture2089.rope_texture2089
+[2016.08.19-13.11.52:384][412]LogMaterial: Missing cached shader map for material Wood_001, compiling. 
+[2016.08.19-13.11.52:385][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Forge/Wood_001.Wood_001 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:385][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Forge/380_3051_cad.380_3051_cad
+[2016.08.19-13.11.52:389][412]LogMaterial: Missing cached shader map for material Material_002, compiling. 
+[2016.08.19-13.11.52:389][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Forge/Material_002.Material_002 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:389][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Forge/fornalha1.fornalha1
+[2016.08.19-13.11.52:394][412]LogMaterial: Missing cached shader map for material BrownLeather, compiling. 
+[2016.08.19-13.11.52:394][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Forge/BrownLeather.BrownLeather for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:394][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Forge/4563912234_b820405ab5_z.4563912234_b820405ab5_z
+[2016.08.19-13.11.52:411][412]LogMaterial: Missing cached shader map for material Vaso2, compiling. 
+[2016.08.19-13.11.52:412][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Vasos/Vaso2.Vaso2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:412][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Vasos/12-ceramicas-e-porcelanatos-pedras-madeira-ladrilho.12-ceramicas-e-porcelanatos-pedras-madeira-ladrilho
+[2016.08.19-13.11.52:415][412]LogMaterial: Missing cached shader map for material Ladrilho, compiling. 
+[2016.08.19-13.11.52:415][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Vasos/Ladrilho.Ladrilho for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:415][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Vasos/12-ceramicas-e-porcelanatos-pedras-madeira-ladrilho.12-ceramicas-e-porcelanatos-pedras-madeira-ladrilho
+[2016.08.19-13.11.52:416][412]LogMaterial: Missing cached shader map for material Jarra, compiling. 
+[2016.08.19-13.11.52:417][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Vasos/Jarra.Jarra for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:417][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Vasos/MG_9809-Tiled-thetextureclub_com-Edit1.MG_9809-Tiled-thetextureclub_com-Edit1
+[2016.08.19-13.11.52:423][412]LogMaterial: Missing cached shader map for material Wood_001, compiling. 
+[2016.08.19-13.11.52:424][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Target/Wood_001.Wood_001 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:424][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Target/tree_bark.tree_bark
+[2016.08.19-13.11.52:425][412]LogMaterial: Missing cached shader map for material Wood, compiling. 
+[2016.08.19-13.11.52:426][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Target/Wood.Wood for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:426][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Target/tileable_tree_bark_texture_by_ftourini-d3l69hz.tileable_tree_bark_texture_by_ftourini-d3l69hz
+[2016.08.19-13.11.52:427][412]LogMaterial: Missing cached shader map for material Target_001, compiling. 
+[2016.08.19-13.11.52:427][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Target/Target_001.Target_001 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:427][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Target/linen.linen
+[2016.08.19-13.11.52:429][412]LogMaterial: Missing cached shader map for material Target2, compiling. 
+[2016.08.19-13.11.52:430][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Target/Target2.Target2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:430][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Target/linen.linen
+[2016.08.19-13.11.52:433][412]LogMaterial: Missing cached shader map for material Table-Top, compiling. 
+[2016.08.19-13.11.52:433][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/TABLE/Table-Top.Table-Top for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:433][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/TABLE/1-free-wood-plank-texture.1-free-wood-plank-texture
+[2016.08.19-13.11.52:435][412]LogMaterial: Missing cached shader map for material Table-Legs, compiling. 
+[2016.08.19-13.11.52:435][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/TABLE/Table-Legs.Table-Legs for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:435][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/TABLE/tree-bark-01.tree-bark-01
+[2016.08.19-13.11.52:437][412]LogMaterial: Missing cached shader map for material Table-Legs-2, compiling. 
+[2016.08.19-13.11.52:438][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/TABLE/Table-Legs-2.Table-Legs-2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:438][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/TABLE/Wood_dry_cracked_bench_tree_bark_texture_2.Wood_dry_cracked_bench_tree_bark_texture_2
+[2016.08.19-13.11.52:440][412]LogMaterial: Missing cached shader map for material Tabuas, compiling. 
+[2016.08.19-13.11.52:440][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Stable/Tabuas.Tabuas for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:440][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Stable/746c9f88527bc3f85b32a08d9e57d016.746c9f88527bc3f85b32a08d9e57d016
+[2016.08.19-13.11.52:441][412]LogMaterial: Missing cached shader map for material Suportes, compiling. 
+[2016.08.19-13.11.52:442][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Stable/Suportes.Suportes for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:442][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Stable/Tileable-wood-texture.Tileable-wood-texture
+[2016.08.19-13.11.52:443][412]LogMaterial: Missing cached shader map for material Lona, compiling. 
+[2016.08.19-13.11.52:443][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Stable/Lona.Lona for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:443][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Stable/Tent3.Tent3
+[2016.08.19-13.11.52:453][412]LogMaterial: Missing cached shader map for material Wood2, compiling. 
+[2016.08.19-13.11.52:453][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Props/Props1/Wood2.Wood2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:453][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Props/Props1/Wood.Wood
+[2016.08.19-13.11.52:455][412]LogMaterial: Missing cached shader map for material Wood2, compiling. 
+[2016.08.19-13.11.52:455][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Pira/Wood2.Wood2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:455][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Pira/Tileable-wood-texture.Tileable-wood-texture
+[2016.08.19-13.11.52:457][412]LogMaterial: Missing cached shader map for material Wood, compiling. 
+[2016.08.19-13.11.52:457][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Pira/Wood.Wood for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:457][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Pira/tileable_tree_bark_texture_by_ftourini-d3l69hz.tileable_tree_bark_texture_by_ftourini-d3l69hz
+[2016.08.19-13.11.52:458][412]LogMaterial: Missing cached shader map for material Material_001, compiling. 
+[2016.08.19-13.11.52:458][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Pira/Material_001.Material_001 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:459][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Pira/401272-Grey-rock-texture-background-Stock-Photo.401272-Grey-rock-texture-background-Stock-Photo
+[2016.08.19-13.11.52:460][412]LogMaterial: Missing cached shader map for material Iron, compiling. 
+[2016.08.19-13.11.52:460][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Pira/Iron.Iron for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:460][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Pira/5563577328_417286b825_b.5563577328_417286b825_b
+[2016.08.19-13.11.52:468][412]LogMaterial: Missing cached shader map for material Mug2, compiling. 
+[2016.08.19-13.11.52:469][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/MUG/Mug2.Mug2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:469][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/MUG/sleek-rock-grey-panel-b.sleek-rock-grey-panel-b
+[2016.08.19-13.11.52:475][412]LogMaterial: Missing cached shader map for material Iron2, compiling. 
+[2016.08.19-13.11.52:475][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/MetalIngots/Iron2.Iron2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:475][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/MetalIngots/Iron.Iron
+[2016.08.19-13.11.52:476][412]LogMaterial: Missing cached shader map for material Bronze2, compiling. 
+[2016.08.19-13.11.52:477][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/MetalIngots/Bronze2.Bronze2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:477][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/MetalIngots/Bronze.Bronze
+[2016.08.19-13.11.52:485][412]LogMaterial: Missing cached shader map for material Rope_001, compiling. 
+[2016.08.19-13.11.52:486][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Jar/Rope_001.Rope_001 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:486][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Jar/8c1cae38e9f5b6d02b9cc1e4af3568fb.8c1cae38e9f5b6d02b9cc1e4af3568fb
+[2016.08.19-13.11.52:487][412]LogMaterial: Missing cached shader map for material Rope, compiling. 
+[2016.08.19-13.11.52:487][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Jar/Rope.Rope for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:487][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Jar/8c1cae38e9f5b6d02b9cc1e4af3568fb.8c1cae38e9f5b6d02b9cc1e4af3568fb
+[2016.08.19-13.11.52:489][412]LogMaterial: Missing cached shader map for material Jarra_001, compiling. 
+[2016.08.19-13.11.52:489][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Jar/Jarra_001.Jarra_001 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:489][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Jar/MG_9809-Tiled-thetextureclub_com-Edit1.MG_9809-Tiled-thetextureclub_com-Edit1
+[2016.08.19-13.11.52:490][412]LogMaterial: Missing cached shader map for material Jarra2, compiling. 
+[2016.08.19-13.11.52:491][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Jar/Jarra2.Jarra2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:491][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Jar/MG_9809-Tiled-thetextureclub_com-Edit1.MG_9809-Tiled-thetextureclub_com-Edit1
+[2016.08.19-13.11.52:662][412]LogMaterial: Missing cached shader map for material Streps_001, compiling. 
+[2016.08.19-13.11.52:663][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Village/Carroça-Loja/Streps_001.Streps_001 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:663][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Village/Carroça-Loja/tileable_tree_bark_texture_by_ftourini-d3l69hz.tileable_tree_bark_texture_by_ftourini-d3l69hz
+[2016.08.19-13.11.52:664][412]LogMaterial: Missing cached shader map for material Streps, compiling. 
+[2016.08.19-13.11.52:664][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Village/Carroça-Loja/Streps.Streps for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:664][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Village/Carroça-Loja/tileable_tree_bark_texture_by_ftourini-d3l69hz.tileable_tree_bark_texture_by_ftourini-d3l69hz
+[2016.08.19-13.11.52:665][412]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2016.08.19-13.11.52:666][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Village/Carroça-Loja/Metal.Metal for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:666][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Village/Carroça-Loja/tn1_RustyMetalbyTaranMoltu_ocnfi.tn1_RustyMetalbyTaranMoltu_ocnfi
+[2016.08.19-13.11.52:667][412]LogMaterial: Missing cached shader map for material Lona_001, compiling. 
+[2016.08.19-13.11.52:667][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Village/Carroça-Loja/Lona_001.Lona_001 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:667][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Village/Carroça-Loja/Linen_silver_C7101-rtch.Linen_silver_C7101-rtch
+[2016.08.19-13.11.52:669][412]LogMaterial: Missing cached shader map for material Lona, compiling. 
+[2016.08.19-13.11.52:669][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Village/Carroça-Loja/Lona.Lona for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:669][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Village/Carroça-Loja/Linen_silver_C7101-rtch.Linen_silver_C7101-rtch
+[2016.08.19-13.11.52:671][412]LogMaterial: Missing cached shader map for material Carroça2, compiling. 
+[2016.08.19-13.11.52:672][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Village/Carroça-Loja/Carroça2.Carroça2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:672][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Village/Carroça-Loja/Suporte-Texture.Suporte-Texture
+[2016.08.19-13.11.52:673][412]LogMaterial: Missing cached shader map for material Carroça1, compiling. 
+[2016.08.19-13.11.52:673][412]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Village/Carroça-Loja/Carroça1.Carroça1 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.11.52:673][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Village/Carroça-Loja/Parede-Texture.Parede-Texture
+[2016.08.19-13.11.52:694][412]LogAIModule: Creating AISystem for world MAPA01
+[2016.08.19-13.11.52:788][412]Cmd: MAP LOAD FILE="../../../../../../Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Maps/MAPA01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.19-13.11.52:788][412]LightingResults: New page: Compilação de Iluminação
+[2016.08.19-13.11.52:789][412]LoadErrors: New page: Carregando mapa: MAPA01.umap
+[2016.08.19-13.11.52:789][412]MapCheck: New page: Verificação de Mapa
+[2016.08.19-13.11.52:790][412]LightingResults: New page: Compilação de Iluminação
+[2016.08.19-13.11.52:901][412]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2016.08.19-13.11.52:902][412]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cylinder.Cylinder] ConvexElem[0] invalid
+[2016.08.19-13.11.52:902][412]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cylinder.Cylinder] ConvexElem[1] invalid
+[2016.08.19-13.11.52:902][412]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cylinder.Cylinder] ConvexElem[2] invalid
+[2016.08.19-13.11.52:902][412]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cylinder.Cylinder] ConvexElem[3] invalid
+[2016.08.19-13.11.52:902][412]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cylinder.Cylinder] ConvexElem[0] invalid
+[2016.08.19-13.11.52:902][412]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cylinder.Cylinder] ConvexElem[1] invalid
+[2016.08.19-13.11.52:902][412]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cylinder.Cylinder] ConvexElem[2] invalid
+[2016.08.19-13.11.52:902][412]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cylinder.Cylinder] ConvexElem[3] invalid
+[2016.08.19-13.11.52:921][412]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.19-13.11.53:264][412]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.19-13.11.53:573][412]MapCheck: Informações Map check complete: 0 Error(s), 0 Warning(s), took 309,456ms to complete.
+[2016.08.19-13.11.53:574][412]LogFileHelpers: Loading map 'MAPA01' took 0.786
+[2016.08.19-13.11.53:616][413]Cmd: UpdateLandscapeEditorData -warnings
+[2016.08.19-13.11.53:620][413]Cmd: UpdateLandscapeEditorData
+[2016.08.19-13.12.17:166][217]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.08.19-13.12.48:520][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_AnimParadoBP_C_2' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:543][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_IA_C_0' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:543][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_IA_C_1' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:543][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_IA' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:544][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:544][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_soldadotreino3_C_51' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:544][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_soldadotreino3_C_50' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:544][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:545][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_soldadotreino2_C_49' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:545][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_soldadotreino2_C_48' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:545][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:547][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_soldadotreino_C_46' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:547][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_soldadotreino_C_47' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:547][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_soldadotreino_C_46' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:547][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_IATreino' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:548][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_IATreino_C_45' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:548][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_IATreino_C_44' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:550][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_AnimSoldadoTreinandoBp3_C_42' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:550][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_AnimSoldadoTreinandoBp3_C_43' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:550][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_AnimSoldadoTreinandoBp3_C_43' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:551][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_AnimSoldadoTreinandoBp3_C_42' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:553][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_AnimSoldadoTreinandoBP2_C_40' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:554][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_AnimSoldadoTreinandoBP2_C_41' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:554][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_AnimSoldadoTreinandoBP2_C_41' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:554][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_AnimSoldadoTreinandoBP2_C_40' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:556][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_AnimSoldadoTreinandoBP_C_38' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:556][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_AnimSoldadoTreinandoBP_C_39' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:557][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_AnimSoldadoTreinandoBP_C_39' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:557][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_AnimSoldadoTreinandoBP_C_38' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:558][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:559][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_Char2_C_34' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:559][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Char2_C_35' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:559][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Char2_C_34' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:559][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_IA2' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:559][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_IA2_C_37' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:560][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_IA2_C_36' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:560][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:561][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_Char_C_32' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:561][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Char_C_33' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:561][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Char_C_32' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:579][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_AnimationBPChar_C_30' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:579][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_AnimationBPChar_C_31' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:580][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_AnimationBPChar_C_31' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:581][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_AnimationBPChar_C_30' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:581][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_NewAnimBlueprint_C_29' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:581][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_NewAnimBlueprint_C_28' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:581][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:584][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_guardafala3_C_26' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:584][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_guardafala3_C_27' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:584][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_guardafala3_C_26' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:584][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:587][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_guardafala2_C_24' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:587][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_guardafala2_C_25' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:587][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_guardafala2_C_24' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:587][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:589][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_guardafala_C_22' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:590][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_guardafala_C_23' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:590][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_guardafala_C_22' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:590][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_conversando3' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:590][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_conversando3_C_21' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:590][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_conversando3_C_20' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:590][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_conversando2' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:590][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_conversando2_C_19' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:591][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_conversando2_C_18' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:591][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_conversando' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:591][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_conversando_C_17' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:592][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_conversando_C_16' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:595][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_AnimConversaBP_C_14' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:595][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_soldadotreino3_C_408' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:595][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:595][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_soldadotreino3_C_407' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:595][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_soldadotreino2_C_406' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:596][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:596][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_AnimConversaBP_C_15' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:596][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_soldadotreino2_C_405' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:596][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_soldadotreino_C_404' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:596][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:596][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__REINST_soldadotreino_C_403' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:596][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_AnimConversaBP_C_15' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:596][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_soldadotreino_C_403' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:596][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_IATreino_C_402' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:597][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_AnimConversaBP_C_14' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:598][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_IATreino_C_401' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:598][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__REINST_SKEL_AnimSoldadoTreinandoBp3_C_81' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:598][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Arqueira_C_9' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:598][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_AnimSoldadoTreinandoBp3_C_81' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:598][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:598][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_Arqueira_C_8' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:598][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Arqueira_C_8' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:599][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__REINST_AnimSoldadoTreinandoBp3_C_80' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:638][217]LogMaterial: Missing cached shader map for material Lashes_MAT, compiling. 
+[2016.08.19-13.12.48:638][217]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Personagens/Testes/arqueira/Lashes_MAT.Lashes_MAT for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.12.48:638][217]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.08.19-13.12.48:656][217]LogMaterial: Missing cached shader map for material EyeSpec_MAT, compiling. 
+[2016.08.19-13.12.48:657][217]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Personagens/Testes/arqueira/EyeSpec_MAT.EyeSpec_MAT for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.12.48:657][217]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.08.19-13.12.48:659][217]LogMaterial: Missing cached shader map for material EyeSpec_MAT, compiling. 
+[2016.08.19-13.12.48:660][217]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Personagens/Testes/arqueira/EyeSpec_MAT.EyeSpec_MAT for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.12.48:660][217]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.08.19-13.12.48:662][217]LogMaterial: Missing cached shader map for material Bow_MAT, compiling. 
+[2016.08.19-13.12.48:663][217]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Personagens/Testes/arqueira/Bow_MAT.Bow_MAT for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.12.48:663][217]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.08.19-13.12.48:665][217]LogMaterial: Missing cached shader map for material Bow_MAT, compiling. 
+[2016.08.19-13.12.48:665][217]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Personagens/Testes/arqueira/Bow_MAT.Bow_MAT for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.12.48:665][217]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.08.19-13.12.48:678][217]LogMaterial: Missing cached shader map for material Body_MAT, compiling. 
+[2016.08.19-13.12.48:679][217]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Personagens/Testes/arqueira/Body_MAT.Body_MAT for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.12.48:679][217]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.08.19-13.12.48:681][217]LogMaterial: Missing cached shader map for material Body_MAT, compiling. 
+[2016.08.19-13.12.48:681][217]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Personagens/Testes/arqueira/Body_MAT.Body_MAT for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.12.48:681][217]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.08.19-13.12.48:682][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_IAarqueira' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:682][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_AnimSoldadoTreinandoBp3_C_80' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:682][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__REINST_SKEL_AnimSoldadoTreinandoBP2_C_79' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:682][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_AnimSoldadoTreinandoBP2_C_79' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:682][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__REINST_AnimSoldadoTreinandoBP2_C_78' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:683][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_AnimSoldadoTreinandoBP2_C_78' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:683][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__REINST_SKEL_AnimSoldadoTreinandoBP_C_77' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:683][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_AnimSoldadoTreinandoBP_C_77' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:683][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__REINST_AnimSoldadoTreinandoBP_C_76' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:683][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_AnimSoldadoTreinandoBP_C_76' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:683][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_IA2_C_400' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:683][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_IA2_C_399' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:683][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Char2_C_398' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:683][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:684][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__REINST_Char2_C_397' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:684][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Char2_C_397' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:684][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Char_C_396' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:684][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:684][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__REINST_Char_C_395' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:684][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Char_C_395' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:684][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__REINST_SKEL_AnimationBPChar_C_75' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:684][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_IAarqueira_C_11' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:684][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_AnimationBPChar_C_75' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:685][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__REINST_AnimationBPChar_C_74' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:685][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_IAarqueira_C_10' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:686][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_AnimationBPChar_C_74' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:686][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_NewAnimBlueprint_C_73' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:686][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_NewAnimBlueprint_C_72' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:686][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_guardafala3_C_394' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:686][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:686][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__REINST_guardafala3_C_393' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:686][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_guardafala3_C_393' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:686][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_taskarqueira_C_13' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:687][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_guardafala2_C_392' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:687][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:687][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__REINST_guardafala2_C_391' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:687][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_taskarqueira_C_12' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:689][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_AnimArqueiraBP_C_6' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:689][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_guardafala2_C_391' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:689][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_guardafala_C_390' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:689][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:689][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__REINST_guardafala_C_389' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:689][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_guardafala_C_389' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:689][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_conversando3_C_388' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:689][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_conversando3_C_387' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:689][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_conversando2_C_386' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:689][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_conversando2_C_385' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:689][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_AnimArqueiraBP_C_7' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:689][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_conversando_C_384' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:689][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_conversando_C_383' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:689][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__REINST_SKEL_AnimConversaBP_C_71' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:690][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_AnimConversaBP_C_71' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:690][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__REINST_AnimConversaBP_C_70' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:690][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_AnimArqueiraBP_C_7' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:690][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_AnimConversaBP_C_70' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:690][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_taskarqueira_C_382' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:690][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_taskarqueira_C_381' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:690][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_AnimArqueiraBP_C_6' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:693][217]LogMaterial: Missing cached shader map for material Akai_MAT, compiling. 
+[2016.08.19-13.12.48:693][217]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Personagens/Testes/arqueira/Akai_MAT.Akai_MAT for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.12.48:693][217]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.08.19-13.12.48:696][217]LogMaterial: Missing cached shader map for material Akai_MAT, compiling. 
+[2016.08.19-13.12.48:696][217]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Personagens/Testes/arqueira/Akai_MAT.Akai_MAT for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.12.48:696][217]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.08.19-13.12.48:701][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_IAarqueira_C_380' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:707][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:707][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_IAarqueira_C_379' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:707][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Arqueira_C_378' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:707][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:707][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__REINST_Arqueira_C_377' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:707][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Arqueira_C_377' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:708][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__REINST_SKEL_AnimArqueiraBP_C_69' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:708][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_AnimArqueiraBP_C_69' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:708][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__REINST_AnimArqueiraBP_C_68' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:708][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_AnimArqueiraBP_C_68' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:708][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_guarda_C_376' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:708][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:708][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_guarda_C_375' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:708][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__REINST_SKEL_AnimParadoBP_C_67' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:709][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_AnimParadoBP_C_67' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:709][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__REINST_AnimParadoBP_C_66' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:709][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_AnimParadoBP_C_66' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:709][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_IA_C_374' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:709][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_IA_C_373' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:709][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_guarda_C_5' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:709][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_guarda_C_4' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:715][217]LogMaterial: Missing cached shader map for material Guard_03, compiling. 
+[2016.08.19-13.12.48:715][217]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Personagens/Testes/Guard_03.Guard_03 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.12.48:715][217]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.08.19-13.12.48:718][217]LogMaterial: Missing cached shader map for material Guard_03, compiling. 
+[2016.08.19-13.12.48:718][217]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Personagens/Testes/Guard_03.Guard_03 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.12.48:718][217]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.08.19-13.12.48:733][217]LogMaterial: Missing cached shader map for material Guard_03, compiling. 
+[2016.08.19-13.12.48:733][217]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Personagens/Testes/Guard_03.Guard_03 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.19-13.12.48:733][217]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.08.19-13.12.48:736][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_AnimParadoBP_C_2' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:736][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_AnimParadoBP_C_3' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:736][217]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_AnimParadoBP_C_3' or package '/Engine/Transient'.
+[2016.08.19-13.12.48:746][217]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2016.08.19-13.12.48:746][217]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cylinder.Cylinder] ConvexElem[0] invalid
+[2016.08.19-13.12.48:746][217]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cylinder.Cylinder] ConvexElem[1] invalid
+[2016.08.19-13.12.48:746][217]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cylinder.Cylinder] ConvexElem[2] invalid
+[2016.08.19-13.12.48:746][217]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cylinder.Cylinder] ConvexElem[3] invalid
+[2016.08.19-13.12.48:746][217]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cylinder.Cylinder] ConvexElem[0] invalid
+[2016.08.19-13.12.48:746][217]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cylinder.Cylinder] ConvexElem[1] invalid
+[2016.08.19-13.12.48:746][217]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cylinder.Cylinder] ConvexElem[2] invalid
+[2016.08.19-13.12.48:746][217]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cylinder.Cylinder] ConvexElem[3] invalid
+[2016.08.19-13.12.51:113][217]LogWindows: Windows GetLastError: A operação foi concluída com êxito. (0)
+[2016.08.19-13.12.59:503][217]LogCrashTracker: 
+
+
+[2016.08.19-13.12.59:503][217]LogCrashTracker: 
+
+
+[2016.08.19-13.12.59:503][217]LogWindows:Error: === Critical error: ===
+Assertion failed: Index >= 0 [File:d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\coreuobject\public\uobject\UObjectArray.h] [Line: 401] 
+
+
+
+
+
+[2016.08.19-13.12.59:571][217]LogExit: Executing StaticShutdownAfterError
+[2016.08.19-13.12.59:646][217]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.08.19-13.12.59:646][217]Log file closed, 08/19/16 10:12:59
