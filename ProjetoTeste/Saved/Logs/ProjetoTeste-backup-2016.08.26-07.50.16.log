@@ -1,0 +1,649 @@
+﻿Log file open, 08/23/16 21:12:05
+LogInit:Display: Running engine for game: ProjetoTeste
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-662422254) SRandInit(-662422253).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.077678
+LogInit: Version: 4.12.4-3028348+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3028348
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jun 27 2016 09:29:04
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.08.24-00.12.05:384][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.24-00.12.05:384][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.08.24-00.12.05:394][  0]LogInit: Computer: DESKTOP-6L1GLB8
+[2016.08.24-00.12.05:394][  0]LogInit: User: Vitor
+[2016.08.24-00.12.05:394][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.08.24-00.12.05:394][  0]LogInit: High frequency timer resolution =3.117783 MHz
+[2016.08.24-00.12.05:394][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.08.24-00.12.05:394][  0]LogMemory: Platform Memory Stats for Windows
+[2016.08.24-00.12.05:394][  0]LogMemory: Process Physical Memory: 195.63 MB used, 195.63 MB peak
+[2016.08.24-00.12.05:394][  0]LogMemory: Process Virtual Memory: 195.14 MB used, 195.14 MB peak
+[2016.08.24-00.12.05:394][  0]LogMemory: Physical Memory: 3097.80 MB used, 8129.84 MB total
+[2016.08.24-00.12.05:394][  0]LogMemory: Virtual Memory: 557.07 MB used, 134217728.00 MB total
+[2016.08.24-00.12.05:618][  0]LogD3D11RHI: D3D11 adapters:
+[2016.08.24-00.12.05:639][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750 Ti' (Feature Level 11_0)
+[2016.08.24-00.12.05:640][  0]LogD3D11RHI:       1992/0/4064 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.08.24-00.12.05:642][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.08.24-00.12.05:642][  0]LogD3D11RHI:       0/0/4064 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.08.24-00.12.05:642][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.08.24-00.12.05:645][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.08.24-00.12.05:645][  0]LogD3D11RHI:     GPU DeviceId: 0x1380 (for the marketing name, search the web for "GPU Device Id")
+[2016.08.24-00.12.05:645][  0]LogWindows: EnumDisplayDevices:
+[2016.08.24-00.12.05:645][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750 Ti' (P:1 D:1)
+[2016.08.24-00.12.05:646][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2016.08.24-00.12.05:646][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2016.08.24-00.12.05:646][  0]LogWindows:    3. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2016.08.24-00.12.05:646][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.08.24-00.12.05:646][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750 Ti
+[2016.08.24-00.12.05:646][  0]LogD3D11RHI:   Driver Version: 365.10 (internal:10.18.13.6510, unified:365.10)
+[2016.08.24-00.12.05:646][  0]LogD3D11RHI:      Driver Date: 4-27-2016
+[2016.08.24-00.12.05:646][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.08.24-00.12.05:659][  0]LogD3D11RHI: Async texture creation enabled
+[2016.08.24-00.12.05:668][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.08.24-00.12.05:668][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (../../../../../../Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Intermediate/Shaders/WorkingDirectory/8480/).
+[2016.08.24-00.12.05:668][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Vitor/AppData/Local/Temp/UnrealShaderWorkingDir/EDAE10734EEF30C227E8DE9A84D68493/'.
+[2016.08.24-00.12.05:668][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.08.24-00.12.07:896][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.08.24-00.12.07:906][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.08.24-00.12.07:916][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.08.24-00.12.07:926][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.08.24-00.12.07:936][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.08.24-00.12.07:944][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.08.24-00.12.07:953][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.08.24-00.12.07:962][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.08.24-00.12.07:970][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.08.24-00.12.07:979][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.08.24-00.12.07:987][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.08.24-00.12.08:003][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.08.24-00.12.08:004][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.08.24-00.12.08:005][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.08.24-00.12.08:027][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.08.24-00.12.08:035][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.08.24-00.12.08:042][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.08.24-00.12.08:050][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.08.24-00.12.08:059][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.08.24-00.12.08:059][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.24-00.12.08:137][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.08.24-00.12.08:188][  0]LogDerivedDataCache: Loaded boot cache 0.05s 48MB C:/Users/Vitor/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.08.24-00.12.08:189][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Vitor/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.08.24-00.12.08:189][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.08.24-00.12.08:189][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.08.24-00.12.08:189][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.08.24-00.12.08:189][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.08.24-00.12.08:206][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.08.24-00.12.08:217][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Vitor/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.08.24-00.12.08:413][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.24-00.12.08:414][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.08.24-00.12.08:571][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.08.24-00.12.08:571][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.08.24-00.12.08:571][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.08.24-00.12.08:822][  0]LogAssetRegistry: FAssetRegistry took 0.0212 seconds to start up
+[2016.08.24-00.12.08:848][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.022663 seconds
+[2016.08.24-00.12.08:854][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.08.24-00.12.08:854][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
+[2016.08.24-00.12.08:854][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.08.24-00.12.08:862][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.08.24-00.12.09:050][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.24-00.12.09:050][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.24-00.12.09:917][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.08.24-00.12.10:400][  0]SourceControl: Informações Controle de origem desativado
+[2016.08.24-00.12.10:401][  0]SourceControl: Informações Controle de origem desativado
+[2016.08.24-00.12.10:411][  0]SourceControl: Informações Controle de origem desativado
+[2016.08.24-00.12.10:420][  0]SourceControl: Informações Controle de origem desativado
+[2016.08.24-00.12.10:647][  0]LogEngine: Initializing Engine...
+[2016.08.24-00.12.10:648][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.08.24-00.12.10:649][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.08.24-00.12.10:782][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.08.24-00.12.10:790][  0]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.24-00.12.10:799][  0]LogInit: FAudioDevice initialized.
+[2016.08.24-00.12.10:827][  0]LogDerivedDataCache: Saved boot cache 0.03s 48MB C:/Users/Vitor/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.08.24-00.12.10:832][  0]LogInit: Texture streaming: Enabled
+[2016.08.24-00.12.10:854][  0]LogInit: Transaction tracking system initialized
+[2016.08.24-00.12.10:884][  0]BlueprintLog: New page: Carregar Editor
+[2016.08.24-00.12.10:966][  0]LocalizationService: Informações Localization service is disabled
+[2016.08.24-00.12.11:033][  0]LogConsoleResponse:Display: 
+[2016.08.24-00.12.11:139][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.08.24-00.12.11:139][  0]LogCook:Display: Mobile HDR setting 1
+[2016.08.24-00.12.11:246][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Content/' took 0.03s
+[2016.08.24-00.12.11:246][  0]SourceControl: Informações Controle de origem desativado
+[2016.08.24-00.12.11:247][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.24-00.12.11:247][  0]LightingResults: New page: Compilação de Iluminação
+[2016.08.24-00.12.11:250][  0]MapCheck: New page: Verificação de Mapa
+[2016.08.24-00.12.11:250][  0]LightingResults: New page: Compilação de Iluminação
+[2016.08.24-00.12.11:471][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.08.24-00.12.11:477][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.24-00.12.11:481][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.24-00.12.11:558][  0]MapCheck: Informações Map check complete: 0 Error(s), 0 Warning(s), took 76,483ms to complete.
+[2016.08.24-00.12.11:558][  0]LogFileHelpers: Loading map 'Template_Default' took 0.312
+[2016.08.24-00.12.11:677][  0]LogCollectionManager: Loaded 0 collections in 0.002392 seconds
+[2016.08.24-00.12.11:716][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Saved/Collections/' took 0.01s
+[2016.08.24-00.12.11:716][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Content/Developers/Vitor/Collections/' took 0.01s
+[2016.08.24-00.12.11:716][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Content/Collections/' took 0.01s
+[2016.08.24-00.12.11:716][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.08.24-00.12.11:724][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2047 classes and 369 folders.
+[2016.08.24-00.12.11:728][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.08.24-00.12.11:728][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.08.24-00.12.11:728][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.08.24-00.12.11:733][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.08.24-00.12.11:789][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.08.24-00.12.11:793][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.08.24-00.12.11:806][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.08.24-00.12.11:810][  0]LogUObjectGlobals:Warning: Falha ao encontrar objeto “Class Nenhum.”
+[2016.08.24-00.12.11:837][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.08.24-00.12.11:837][  0]LogLoad: Full Startup: 8.22 seconds (BP compile: 0.03 seconds)
+[2016.08.24-00.12.11:837][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.08.24-00.12.11:847][  0]LogOcInput: OculusInput pre-init called
+[2016.08.24-00.12.11:871][  0]LogContentStreaming: Texture pool size now 700 MB
+[2016.08.24-00.12.12:024][  0]LogRenderer: Reallocating scene render targets to support 540x344 (Frame:2).
+[2016.08.24-00.12.12:133][  2]LogAssetRegistry: Asset discovery search completed in 3.3329 seconds
+[2016.08.24-00.12.12:133][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.08.24-00.12.12:134][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2016.08.24-00.12.26:591][697]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/StarterContent/Particles/Materials/M_Fire_SubUV”
+[2016.08.24-00.12.26:591][697]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Content/Particles/P_Fire.uasset” ao carregar /Game/StarterContent/Particles/Materials/M_Fire_SubUV.
+[2016.08.24-00.12.26:591][697]LoadErrors:Error: Erro /Game/Particles/P_Fire : Não é possível encontrar o arquivo do ativo. /Game/StarterContent/Particles/Materials/M_Fire_SubUV
+[2016.08.24-00.12.26:591][697]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/StarterContent/Particles/Materials/M_Heat_Distortion”
+[2016.08.24-00.12.26:592][697]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Content/Particles/P_Fire.uasset” ao carregar /Game/StarterContent/Particles/Materials/M_Heat_Distortion.
+[2016.08.24-00.12.26:592][697]LoadErrors:Error: Erro /Game/Particles/P_Fire : Não é possível encontrar o arquivo do ativo. /Game/StarterContent/Particles/Materials/M_Heat_Distortion
+[2016.08.24-00.12.26:592][697]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/StarterContent/Particles/Materials/M_Radial_Gradient”
+[2016.08.24-00.12.26:592][697]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Content/Particles/P_Fire.uasset” ao carregar /Game/StarterContent/Particles/Materials/M_Radial_Gradient.
+[2016.08.24-00.12.26:592][697]LoadErrors:Error: Erro /Game/Particles/P_Fire : Não é possível encontrar o arquivo do ativo. /Game/StarterContent/Particles/Materials/M_Radial_Gradient
+[2016.08.24-00.12.26:592][697]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/StarterContent/Particles/Materials/M_smoke_subUV”
+[2016.08.24-00.12.26:592][697]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Content/Particles/P_Fire.uasset” ao carregar /Game/StarterContent/Particles/Materials/M_smoke_subUV.
+[2016.08.24-00.12.26:592][697]LoadErrors:Error: Erro /Game/Particles/P_Fire : Não é possível encontrar o arquivo do ativo. /Game/StarterContent/Particles/Materials/M_smoke_subUV
+[2016.08.24-00.12.26:592][697]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/StarterContent/Particles/Materials/M_Fire_SubUV”
+[2016.08.24-00.12.26:592][697]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Content/Particles/P_Fire.uasset” ao carregar /Game/StarterContent/Particles/Materials/M_Fire_SubUV.
+[2016.08.24-00.12.26:592][697]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/StarterContent/Particles/Materials/M_Heat_Distortion”
+[2016.08.24-00.12.26:593][697]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Content/Particles/P_Fire.uasset” ao carregar /Game/StarterContent/Particles/Materials/M_Heat_Distortion.
+[2016.08.24-00.12.26:593][697]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/StarterContent/Particles/Materials/M_Radial_Gradient”
+[2016.08.24-00.12.26:593][697]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Content/Particles/P_Fire.uasset” ao carregar /Game/StarterContent/Particles/Materials/M_Radial_Gradient.
+[2016.08.24-00.12.26:593][697]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/StarterContent/Particles/Materials/M_smoke_subUV”
+[2016.08.24-00.12.26:593][697]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Content/Particles/P_Fire.uasset” ao carregar /Game/StarterContent/Particles/Materials/M_smoke_subUV.
+[2016.08.24-00.12.27:184][697]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/StarterContent/Particles/Materials/M_Heat_Distortion”
+[2016.08.24-00.12.27:184][697]LoadErrors: Informações Falha ao carregar /Game/StarterContent/Particles/Materials/M_Heat_Distortion.M_Heat_Distortion Referenciado por ParticleModuleRequired_0
+[2016.08.24-00.12.27:184][697]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/StarterContent/Particles/Materials/M_Heat_Distortion.
+[2016.08.24-00.12.27:184][697]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/StarterContent/Particles/Materials/M_smoke_subUV”
+[2016.08.24-00.12.27:184][697]LoadErrors: Informações Falha ao carregar /Game/StarterContent/Particles/Materials/M_smoke_subUV.M_smoke_subUV Referenciado por ParticleModuleRequired_1
+[2016.08.24-00.12.27:184][697]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/StarterContent/Particles/Materials/M_smoke_subUV.
+[2016.08.24-00.12.27:185][697]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/StarterContent/Particles/Materials/M_Fire_SubUV”
+[2016.08.24-00.12.27:185][697]LoadErrors: Informações Falha ao carregar /Game/StarterContent/Particles/Materials/M_Fire_SubUV.M_Fire_SubUV Referenciado por ParticleModuleRequired_2
+[2016.08.24-00.12.27:185][697]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/StarterContent/Particles/Materials/M_Fire_SubUV.
+[2016.08.24-00.12.27:185][697]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/StarterContent/Particles/Materials/M_Radial_Gradient”
+[2016.08.24-00.12.27:185][697]LoadErrors: Informações Falha ao carregar /Game/StarterContent/Particles/Materials/M_Radial_Gradient.M_Radial_Gradient Referenciado por ParticleModuleRequired_3
+[2016.08.24-00.12.27:185][697]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/StarterContent/Particles/Materials/M_Radial_Gradient.
+[2016.08.24-00.12.27:186][697]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/StarterContent/Particles/Materials/M_Radial_Gradient”
+[2016.08.24-00.12.27:186][697]LoadErrors: Informações Falha ao carregar /Game/StarterContent/Particles/Materials/M_Radial_Gradient.M_Radial_Gradient Referenciado por ParticleModuleRequired_4
+[2016.08.24-00.12.27:186][697]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/StarterContent/Particles/Materials/M_Radial_Gradient.
+[2016.08.24-00.12.27:186][697]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/StarterContent/Particles/Materials/M_Fire_SubUV”
+[2016.08.24-00.12.27:186][697]LoadErrors: Informações Falha ao carregar /Game/StarterContent/Particles/Materials/M_Fire_SubUV.M_Fire_SubUV Referenciado por ParticleModuleRequired_5
+[2016.08.24-00.12.27:186][697]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/StarterContent/Particles/Materials/M_Fire_SubUV.
+[2016.08.24-00.12.28:063][697]LogMaterial: Missing cached shader map for material eixo_da_roda_Base_Color_Mat, compiling. 
+[2016.08.24-00.12.28:063][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Carroça/eixo_da_roda_Base_Color_Mat.eixo_da_roda_Base_Color_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:063][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Cor, should be Cor Linear for /Game/TheDarkAges/Scenes/Camp/Objects/Carroça/eixo_da_roda_Base_Color.eixo_da_roda_Base_Color
+[2016.08.24-00.12.28:559][697]LogMaterial: Missing cached shader map for material Wood, compiling. 
+[2016.08.24-00.12.28:560][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Bed/Wood.Wood for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:560][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Bed/tileable_tree_bark_texture_by_ftourini-d3l69hz.tileable_tree_bark_texture_by_ftourini-d3l69hz
+[2016.08.24-00.12.28:561][697]LogMaterial: Missing cached shader map for material Ropes, compiling. 
+[2016.08.24-00.12.28:561][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Bed/Ropes.Ropes for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:561][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Bed/8c1cae38e9f5b6d02b9cc1e4af3568fb.8c1cae38e9f5b6d02b9cc1e4af3568fb
+[2016.08.24-00.12.28:563][697]LogMaterial: Missing cached shader map for material Pelt, compiling. 
+[2016.08.24-00.12.28:563][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Bed/Pelt.Pelt for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:563][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Bed/1238509-fur-texture2.1238509-fur-texture2
+[2016.08.24-00.12.28:565][697]LogMaterial: Missing cached shader map for material Iron, compiling. 
+[2016.08.24-00.12.28:565][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Bed/Iron.Iron for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:565][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Bed/sleek-rock-grey-panel-b.sleek-rock-grey-panel-b
+[2016.08.24-00.12.28:568][697]LogMaterial: Missing cached shader map for material Soya, compiling. 
+[2016.08.24-00.12.28:568][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Containers/Soya.Soya for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:568][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Containers/Soybean_Meal_100_mt_Ready_for_sales.Soybean_Meal_100_mt_Ready_for_sales
+[2016.08.24-00.12.28:569][697]LogMaterial: Missing cached shader map for material Mug2, compiling. 
+[2016.08.24-00.12.28:570][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Containers/Mug2.Mug2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:570][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Containers/3e615c54899cd61ef14f8e1d41b43661.3e615c54899cd61ef14f8e1d41b43661
+[2016.08.24-00.12.28:571][697]LogMaterial: Missing cached shader map for material Linho, compiling. 
+[2016.08.24-00.12.28:571][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Containers/Linho.Linho for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:571][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Containers/43_linen-flaxseed-.43_linen-flaxseed-
+[2016.08.24-00.12.28:575][697]LogMaterial: Missing cached shader map for material Wood-planks_1_001, compiling. 
+[2016.08.24-00.12.28:576][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Containers/Wood-planks_1_001.Wood-planks_1_001 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:576][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Containers/746c9f88527bc3f85b32a08d9e57d016.746c9f88527bc3f85b32a08d9e57d016
+[2016.08.24-00.12.28:577][697]LogMaterial: Missing cached shader map for material Wood-plank_003, compiling. 
+[2016.08.24-00.12.28:577][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Containers/Wood-plank_003.Wood-plank_003 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:577][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Containers/rough-wood-texture-seamless-design-3.rough-wood-texture-seamless-design-3
+[2016.08.24-00.12.28:618][697]LogMaterial: Missing cached shader map for material Rope_001, compiling. 
+[2016.08.24-00.12.28:618][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Jar/Rope_001.Rope_001 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:618][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Jar/8c1cae38e9f5b6d02b9cc1e4af3568fb.8c1cae38e9f5b6d02b9cc1e4af3568fb
+[2016.08.24-00.12.28:620][697]LogMaterial: Missing cached shader map for material Rope, compiling. 
+[2016.08.24-00.12.28:621][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Jar/Rope.Rope for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:621][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Jar/8c1cae38e9f5b6d02b9cc1e4af3568fb.8c1cae38e9f5b6d02b9cc1e4af3568fb
+[2016.08.24-00.12.28:623][697]LogMaterial: Missing cached shader map for material Jarra_001, compiling. 
+[2016.08.24-00.12.28:623][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Jar/Jarra_001.Jarra_001 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:623][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Jar/MG_9809-Tiled-thetextureclub_com-Edit1.MG_9809-Tiled-thetextureclub_com-Edit1
+[2016.08.24-00.12.28:625][697]LogMaterial: Missing cached shader map for material Jarra2, compiling. 
+[2016.08.24-00.12.28:625][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Jar/Jarra2.Jarra2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:625][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Jar/MG_9809-Tiled-thetextureclub_com-Edit1.MG_9809-Tiled-thetextureclub_com-Edit1
+[2016.08.24-00.12.28:650][697]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2016.08.24-00.12.28:650][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Garrafa/Material.Material for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:650][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Garrafa/rope_texture2089.rope_texture2089
+[2016.08.24-00.12.28:681][697]LogMaterial: Missing cached shader map for material Wood_001, compiling. 
+[2016.08.24-00.12.28:681][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Forge/Wood_001.Wood_001 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:681][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Forge/380_3051_cad.380_3051_cad
+[2016.08.24-00.12.28:690][697]LogMaterial: Missing cached shader map for material Material_002, compiling. 
+[2016.08.24-00.12.28:690][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Forge/Material_002.Material_002 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:690][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Forge/fornalha1.fornalha1
+[2016.08.24-00.12.28:695][697]LogMaterial: Missing cached shader map for material BrownLeather, compiling. 
+[2016.08.24-00.12.28:695][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Forge/BrownLeather.BrownLeather for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:695][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Forge/4563912234_b820405ab5_z.4563912234_b820405ab5_z
+[2016.08.24-00.12.28:705][697]LogMaterial: Missing cached shader map for material Wood_002, compiling. 
+[2016.08.24-00.12.28:705][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Forge/Wood_002.Wood_002 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:705][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Forge/Dark-Wood-Panels.Dark-Wood-Panels
+[2016.08.24-00.12.28:717][697]LogMaterial: Missing cached shader map for material Wood, compiling. 
+[2016.08.24-00.12.28:717][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Forge/Wood.Wood for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:717][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Forge/rough_wood_medium_tan2.rough_wood_medium_tan2
+[2016.08.24-00.12.28:718][697]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2016.08.24-00.12.28:719][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Forge/Metal.Metal for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:719][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Forge/sleek-rock-grey-panel-b.sleek-rock-grey-panel-b
+[2016.08.24-00.12.28:724][697]LogMaterial: Missing cached shader map for material Wood-Log, compiling. 
+[2016.08.24-00.12.28:725][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Forge/Wood-Log.Wood-Log for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:725][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Forge/tileable_tree_bark_texture_by_ftourini-d3l69hz.tileable_tree_bark_texture_by_ftourini-d3l69hz
+[2016.08.24-00.12.28:726][697]LogMaterial: Missing cached shader map for material Log2, compiling. 
+[2016.08.24-00.12.28:726][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Forge/Log2.Log2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:726][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Forge/Tileable-wood-texture.Tileable-wood-texture
+[2016.08.24-00.12.28:729][697]LogMaterial: Missing cached shader map for material Wood, compiling. 
+[2016.08.24-00.12.28:729][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/FoodBucket/Wood.Wood for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:729][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/FoodBucket/Seamless_Rough_Wood_Siding_2.Seamless_Rough_Wood_Siding_2
+[2016.08.24-00.12.28:731][697]LogMaterial: Missing cached shader map for material Soup, compiling. 
+[2016.08.24-00.12.28:731][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/FoodBucket/Soup.Soup for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:731][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/FoodBucket/low-fat-garden-vegetable-soup-with-pesto-bowl_desktop.low-fat-garden-vegetable-soup-with-pesto-bowl_desktop
+[2016.08.24-00.12.28:732][697]LogMaterial: Missing cached shader map for material Pot, compiling. 
+[2016.08.24-00.12.28:733][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/FoodBucket/Pot.Pot for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:733][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/FoodBucket/sci_fi_metal_base.sci_fi_metal_base
+[2016.08.24-00.12.28:745][697]LogMaterial: Missing cached shader map for material Iron, compiling. 
+[2016.08.24-00.12.28:745][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/DrikingHorn/Iron.Iron for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:745][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/DrikingHorn/txt_castIron.txt_castIron
+[2016.08.24-00.12.28:747][697]LogMaterial: Missing cached shader map for material Horn, compiling. 
+[2016.08.24-00.12.28:747][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/DrikingHorn/Horn.Horn for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:747][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/DrikingHorn/48-2.48-2
+[2016.08.24-00.12.28:749][697]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2016.08.24-00.12.28:750][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/CUP/Metal.Metal for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:750][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/CUP/tn1_RustyMetalbyTaranMoltu_ocnfi.tn1_RustyMetalbyTaranMoltu_ocnfi
+[2016.08.24-00.12.28:761][697]LogMaterial: Missing cached shader map for material Wood2, compiling. 
+[2016.08.24-00.12.28:762][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Bed/Wood2.Wood2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:762][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Bed/Wood_dry_cracked_bench_tree_bark_texture_ver_4.Wood_dry_cracked_bench_tree_bark_texture_ver_4
+[2016.08.24-00.12.28:765][697]LogMaterial: Missing cached shader map for material Tabuas, compiling. 
+[2016.08.24-00.12.28:765][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Stable/Tabuas.Tabuas for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:765][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Stable/746c9f88527bc3f85b32a08d9e57d016.746c9f88527bc3f85b32a08d9e57d016
+[2016.08.24-00.12.28:767][697]LogMaterial: Missing cached shader map for material Suportes, compiling. 
+[2016.08.24-00.12.28:767][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Stable/Suportes.Suportes for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:767][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Stable/Tileable-wood-texture.Tileable-wood-texture
+[2016.08.24-00.12.28:768][697]LogMaterial: Missing cached shader map for material Lona, compiling. 
+[2016.08.24-00.12.28:769][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Stable/Lona.Lona for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:769][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Stable/Tent3.Tent3
+[2016.08.24-00.12.28:776][697]LogMaterial: Missing cached shader map for material Wood2, compiling. 
+[2016.08.24-00.12.28:777][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Props/Props1/Wood2.Wood2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:777][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Props/Props1/Wood.Wood
+[2016.08.24-00.12.28:779][697]LogMaterial: Missing cached shader map for material Wood2, compiling. 
+[2016.08.24-00.12.28:779][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Pira/Wood2.Wood2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:779][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Pira/Tileable-wood-texture.Tileable-wood-texture
+[2016.08.24-00.12.28:780][697]LogMaterial: Missing cached shader map for material Wood, compiling. 
+[2016.08.24-00.12.28:781][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Pira/Wood.Wood for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:781][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Pira/tileable_tree_bark_texture_by_ftourini-d3l69hz.tileable_tree_bark_texture_by_ftourini-d3l69hz
+[2016.08.24-00.12.28:782][697]LogMaterial: Missing cached shader map for material Material_001, compiling. 
+[2016.08.24-00.12.28:783][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Pira/Material_001.Material_001 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:783][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Pira/401272-Grey-rock-texture-background-Stock-Photo.401272-Grey-rock-texture-background-Stock-Photo
+[2016.08.24-00.12.28:784][697]LogMaterial: Missing cached shader map for material Iron, compiling. 
+[2016.08.24-00.12.28:784][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Pira/Iron.Iron for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:784][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Pira/5563577328_417286b825_b.5563577328_417286b825_b
+[2016.08.24-00.12.28:793][697]LogMaterial: Missing cached shader map for material Mug2, compiling. 
+[2016.08.24-00.12.28:793][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/MUG/Mug2.Mug2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:793][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/MUG/sleek-rock-grey-panel-b.sleek-rock-grey-panel-b
+[2016.08.24-00.12.28:799][697]LogMaterial: Missing cached shader map for material Iron2, compiling. 
+[2016.08.24-00.12.28:799][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/MetalIngots/Iron2.Iron2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:799][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/MetalIngots/Iron.Iron
+[2016.08.24-00.12.28:801][697]LogMaterial: Missing cached shader map for material Bronze2, compiling. 
+[2016.08.24-00.12.28:801][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/MetalIngots/Bronze2.Bronze2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:801][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/MetalIngots/Bronze.Bronze
+[2016.08.24-00.12.28:987][697]LogMaterial: Missing cached shader map for material Vaso2, compiling. 
+[2016.08.24-00.12.28:988][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Vasos/Vaso2.Vaso2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:988][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Vasos/12-ceramicas-e-porcelanatos-pedras-madeira-ladrilho.12-ceramicas-e-porcelanatos-pedras-madeira-ladrilho
+[2016.08.24-00.12.28:990][697]LogMaterial: Missing cached shader map for material Ladrilho, compiling. 
+[2016.08.24-00.12.28:990][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Vasos/Ladrilho.Ladrilho for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:990][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Vasos/12-ceramicas-e-porcelanatos-pedras-madeira-ladrilho.12-ceramicas-e-porcelanatos-pedras-madeira-ladrilho
+[2016.08.24-00.12.28:991][697]LogMaterial: Missing cached shader map for material Jarra, compiling. 
+[2016.08.24-00.12.28:992][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Vasos/Jarra.Jarra for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:992][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Vasos/MG_9809-Tiled-thetextureclub_com-Edit1.MG_9809-Tiled-thetextureclub_com-Edit1
+[2016.08.24-00.12.28:999][697]LogMaterial: Missing cached shader map for material Wood_001, compiling. 
+[2016.08.24-00.12.28:999][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Target/Wood_001.Wood_001 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.28:999][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Target/tree_bark.tree_bark
+[2016.08.24-00.12.29:000][697]LogMaterial: Missing cached shader map for material Wood, compiling. 
+[2016.08.24-00.12.29:001][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Target/Wood.Wood for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.29:001][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Target/tileable_tree_bark_texture_by_ftourini-d3l69hz.tileable_tree_bark_texture_by_ftourini-d3l69hz
+[2016.08.24-00.12.29:002][697]LogMaterial: Missing cached shader map for material Target_001, compiling. 
+[2016.08.24-00.12.29:002][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Target/Target_001.Target_001 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.29:002][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Target/linen.linen
+[2016.08.24-00.12.29:005][697]LogMaterial: Missing cached shader map for material Target2, compiling. 
+[2016.08.24-00.12.29:005][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/Target/Target2.Target2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.29:005][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/Target/linen.linen
+[2016.08.24-00.12.29:008][697]LogMaterial: Missing cached shader map for material Table-Top, compiling. 
+[2016.08.24-00.12.29:008][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/TABLE/Table-Top.Table-Top for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.29:008][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/TABLE/1-free-wood-plank-texture.1-free-wood-plank-texture
+[2016.08.24-00.12.29:010][697]LogMaterial: Missing cached shader map for material Table-Legs, compiling. 
+[2016.08.24-00.12.29:010][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/TABLE/Table-Legs.Table-Legs for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.29:010][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/TABLE/tree-bark-01.tree-bark-01
+[2016.08.24-00.12.29:011][697]LogMaterial: Missing cached shader map for material Table-Legs-2, compiling. 
+[2016.08.24-00.12.29:011][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Camp/Objects/TABLE/Table-Legs-2.Table-Legs-2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.29:011][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Camp/Objects/TABLE/Wood_dry_cracked_bench_tree_bark_texture_2.Wood_dry_cracked_bench_tree_bark_texture_2
+[2016.08.24-00.12.29:016][697]LogMaterial: Missing cached shader map for material Streps_001, compiling. 
+[2016.08.24-00.12.29:016][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Village/Carroça-Loja/Streps_001.Streps_001 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.29:016][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Village/Carroça-Loja/tileable_tree_bark_texture_by_ftourini-d3l69hz.tileable_tree_bark_texture_by_ftourini-d3l69hz
+[2016.08.24-00.12.29:018][697]LogMaterial: Missing cached shader map for material Streps, compiling. 
+[2016.08.24-00.12.29:018][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Village/Carroça-Loja/Streps.Streps for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.29:018][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Village/Carroça-Loja/tileable_tree_bark_texture_by_ftourini-d3l69hz.tileable_tree_bark_texture_by_ftourini-d3l69hz
+[2016.08.24-00.12.29:019][697]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2016.08.24-00.12.29:020][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Village/Carroça-Loja/Metal.Metal for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.29:020][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Village/Carroça-Loja/tn1_RustyMetalbyTaranMoltu_ocnfi.tn1_RustyMetalbyTaranMoltu_ocnfi
+[2016.08.24-00.12.29:022][697]LogMaterial: Missing cached shader map for material Lona_001, compiling. 
+[2016.08.24-00.12.29:022][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Village/Carroça-Loja/Lona_001.Lona_001 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.29:022][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Village/Carroça-Loja/Linen_silver_C7101-rtch.Linen_silver_C7101-rtch
+[2016.08.24-00.12.29:024][697]LogMaterial: Missing cached shader map for material Lona, compiling. 
+[2016.08.24-00.12.29:024][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Village/Carroça-Loja/Lona.Lona for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.29:024][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Village/Carroça-Loja/Linen_silver_C7101-rtch.Linen_silver_C7101-rtch
+[2016.08.24-00.12.29:027][697]LogMaterial: Missing cached shader map for material Carroça2, compiling. 
+[2016.08.24-00.12.29:027][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Village/Carroça-Loja/Carroça2.Carroça2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.29:027][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Village/Carroça-Loja/Suporte-Texture.Suporte-Texture
+[2016.08.24-00.12.29:029][697]LogMaterial: Missing cached shader map for material Carroça1, compiling. 
+[2016.08.24-00.12.29:029][697]LogMaterial:Warning: Failed to compile Material /Game/TheDarkAges/Scenes/Village/Carroça-Loja/Carroça1.Carroça1 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.24-00.12.29:029][697]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/TheDarkAges/Scenes/Village/Carroça-Loja/Parede-Texture.Parede-Texture
+[2016.08.24-00.12.29:032][697]LogAIModule: Creating AISystem for world MAPA01
+[2016.08.24-00.12.29:139][697]Cmd: MAP LOAD FILE="../../../../../../Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Maps/MAPA01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.24-00.12.29:139][697]LightingResults: New page: Compilação de Iluminação
+[2016.08.24-00.12.29:140][697]LoadErrors: New page: Carregando mapa: MAPA01.umap
+[2016.08.24-00.12.29:140][697]MapCheck: New page: Verificação de Mapa
+[2016.08.24-00.12.29:140][697]LightingResults: New page: Compilação de Iluminação
+[2016.08.24-00.12.29:250][697]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2016.08.24-00.12.29:251][697]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cylinder.Cylinder] ConvexElem[0] invalid
+[2016.08.24-00.12.29:251][697]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cylinder.Cylinder] ConvexElem[1] invalid
+[2016.08.24-00.12.29:251][697]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cylinder.Cylinder] ConvexElem[2] invalid
+[2016.08.24-00.12.29:251][697]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cylinder.Cylinder] ConvexElem[3] invalid
+[2016.08.24-00.12.29:251][697]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cylinder.Cylinder] ConvexElem[0] invalid
+[2016.08.24-00.12.29:251][697]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cylinder.Cylinder] ConvexElem[1] invalid
+[2016.08.24-00.12.29:251][697]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cylinder.Cylinder] ConvexElem[2] invalid
+[2016.08.24-00.12.29:251][697]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cylinder.Cylinder] ConvexElem[3] invalid
+[2016.08.24-00.12.29:275][697]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.24-00.12.29:666][697]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.24-00.12.29:982][697]MapCheck: Informações Map check complete: 0 Error(s), 0 Warning(s), took 316,493ms to complete.
+[2016.08.24-00.12.29:983][697]LogFileHelpers: Loading map 'MAPA01' took 0.846
+[2016.08.24-00.12.30:026][698]Cmd: UpdateLandscapeEditorData -warnings
+[2016.08.24-00.12.30:030][698]Cmd: UpdateLandscapeEditorData
+[2016.08.24-00.12.38:439][522]LogSavePackage: Save=763.12ms
+[2016.08.24-00.12.38:439][522]LogSavePackage: Moving '../../../../../../Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Saved/UEDPCMAPA0148F7F01F4C75D7E4696A579BFB4CE09D.tmp' to '../../../../../../Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/UEDPCMAPA01.umap'
+[2016.08.24-00.12.38:441][522]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/UEDPCMAPA01.umap
+[2016.08.24-00.12.38:445][522]LogEditorTransaction: Undo Spawn Play From Here Start
+[2016.08.24-00.13.13:955][ 18]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.08.24-00.13.18:593][473]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.08.24-00.13.24:080][994]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TowerGuard3)
+[2016.08.24-00.13.55:022][590]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.08.24-00.14.04:869][186]LogSavePackage: Save=745.07ms
+[2016.08.24-00.14.04:869][186]LogSavePackage: Moving '../../../../../../Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Saved/UEDPCMAPA01B9C57A0F495A40B0C6471BB2B13C4838.tmp' to '../../../../../../Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/UEDPCMAPA01.umap'
+[2016.08.24-00.14.04:873][186]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Saved/Autosaves/Game/TheDarkAges/Maps/UEDPCMAPA01.umap
+[2016.08.24-00.14.04:876][186]LogEditorTransaction: Undo Spawn Play From Here Start
+[2016.08.24-00.17.58:283][276]LogSavePackage: Save=682.81ms
+[2016.08.24-00.17.58:283][276]LogSavePackage: Moving '../../../../../../Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Saved/MAPA013A0C6DE44C713FA215E09288CAA9EF5E.tmp' to '../../../../../../Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Maps/MAPA01.umap'
+[2016.08.24-00.17.58:288][276]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Vitor/Documents/Git/01010100-01000100-01000001/ProjetoTeste/Content/TheDarkAges/Maps/MAPA01.umap
+[2016.08.24-00.18.06:360][ 98]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.08.24-00.18.09:818][452]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.08.24-00.18.09:991][453]Cmd: QUIT_EDITOR
+[2016.08.24-00.18.10:091][453]LogExit: Preparing to exit.
+[2016.08.24-00.18.11:276][453]LogExit: Editor shut down
+[2016.08.24-00.18.11:277][453]LogExit: Transaction tracking system shut down
+[2016.08.24-00.18.11:501][453]LogObj: Freed 0b from 0 cluster array pools.
+[2016.08.24-00.18.11:501][453]LogExit: Object subsystem successfully closed.
+[2016.08.24-00.18.11:535][453]LogD3D11RHI: Shutdown
+[2016.08.24-00.18.11:535][453]LogD3D11RHI: CleanupD3DDevice
+[2016.08.24-00.18.11:653][453]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.08.24-00.18.11:673][453]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2016.08.24-00.18.11:673][453]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2016.08.24-00.18.11:673][453]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2016.08.24-00.18.11:673][453]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2016.08.24-00.18.11:673][453]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2016.08.24-00.18.11:674][453]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2016.08.24-00.18.11:674][453]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2016.08.24-00.18.11:674][453]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2016.08.24-00.18.11:674][453]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2016.08.24-00.18.11:674][453]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2016.08.24-00.18.11:674][453]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2016.08.24-00.18.11:675][453]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2016.08.24-00.18.11:675][453]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2016.08.24-00.18.11:675][453]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2016.08.24-00.18.11:675][453]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2016.08.24-00.18.11:675][453]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2016.08.24-00.18.11:675][453]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2016.08.24-00.18.11:675][453]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2016.08.24-00.18.11:675][453]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2016.08.24-00.18.11:675][453]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2016.08.24-00.18.11:675][453]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2016.08.24-00.18.11:675][453]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2016.08.24-00.18.11:675][453]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2016.08.24-00.18.11:675][453]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2016.08.24-00.18.11:675][453]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2016.08.24-00.18.11:675][453]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2016.08.24-00.18.11:675][453]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.08.24-00.18.11:675][453]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.08.24-00.18.11:675][453]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.08.24-00.18.11:675][453]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.08.24-00.18.11:675][453]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.08.24-00.18.11:675][453]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.08.24-00.18.11:675][453]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.08.24-00.18.11:675][453]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.08.24-00.18.12:191][453]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.08.24-00.18.12:191][453]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.08.24-00.18.12:191][453]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.08.24-00.18.12:191][453]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.08.24-00.18.12:191][453]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.08.24-00.18.12:191][453]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.08.24-00.18.12:191][453]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.08.24-00.18.12:191][453]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.08.24-00.18.12:191][453]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.08.24-00.18.12:191][453]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.08.24-00.18.12:191][453]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.08.24-00.18.12:191][453]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.08.24-00.18.12:191][453]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.08.24-00.18.12:191][453]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.08.24-00.18.12:191][453]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.08.24-00.18.12:191][453]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.08.24-00.18.12:191][453]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.08.24-00.18.12:191][453]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.08.24-00.18.12:192][453]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.08.24-00.18.12:192][453]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.08.24-00.18.12:192][453]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.08.24-00.18.12:192][453]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.08.24-00.18.12:192][453]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.08.24-00.18.12:192][453]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.08.24-00.18.12:192][453]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.08.24-00.18.12:247][453]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.08.24-00.18.12:247][453]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.08.24-00.18.12:247][453]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.08.24-00.18.12:247][453]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.08.24-00.18.12:247][453]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.08.24-00.18.12:247][453]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.08.24-00.18.12:247][453]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.08.24-00.18.12:247][453]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.08.24-00.18.12:247][453]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.08.24-00.18.12:247][453]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.08.24-00.18.12:247][453]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.08.24-00.18.12:247][453]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.08.24-00.18.12:247][453]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.08.24-00.18.12:247][453]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.08.24-00.18.12:247][453]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.08.24-00.18.12:247][453]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.08.24-00.18.12:247][453]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.08.24-00.18.12:247][453]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.08.24-00.18.12:247][453]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.08.24-00.18.12:247][453]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.08.24-00.18.12:247][453]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.08.24-00.18.12:247][453]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.08.24-00.18.12:247][453]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2016.08.24-00.18.12:247][453]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.08.24-00.18.12:247][453]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.08.24-00.18.12:247][453]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.08.24-00.18.12:283][453]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.08.24-00.18.12:283][453]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.08.24-00.18.12:283][453]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2016.08.24-00.18.12:283][453]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2016.08.24-00.18.12:283][453]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2016.08.24-00.18.12:283][453]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2016.08.24-00.18.12:283][453]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2016.08.24-00.18.12:283][453]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2016.08.24-00.18.12:283][453]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2016.08.24-00.18.12:283][453]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2016.08.24-00.18.12:283][453]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2016.08.24-00.18.12:283][453]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2016.08.24-00.18.12:284][453]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2016.08.24-00.18.12:284][453]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2016.08.24-00.18.12:284][453]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.08.24-00.18.12:284][453]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.08.24-00.18.12:284][453]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.08.24-00.18.12:284][453]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.08.24-00.18.12:284][453]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.08.24-00.18.12:284][453]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.08.24-00.18.12:284][453]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.08.24-00.18.12:284][453]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.08.24-00.18.12:284][453]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.08.24-00.18.12:284][453]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.08.24-00.18.12:284][453]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.08.24-00.18.12:284][453]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.08.24-00.18.12:284][453]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.08.24-00.18.12:284][453]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.08.24-00.18.12:284][453]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2016.08.24-00.18.12:284][453]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.08.24-00.18.12:284][453]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.08.24-00.18.12:284][453]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.08.24-00.18.12:285][453]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.08.24-00.18.12:286][453]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.08.24-00.18.12:286][453]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.08.24-00.18.12:387][453]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.08.24-00.18.12:387][453]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.08.24-00.18.12:387][453]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.08.24-00.18.12:387][453]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.08.24-00.18.12:387][453]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.08.24-00.18.12:387][453]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.08.24-00.18.12:387][453]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.08.24-00.18.12:387][453]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.08.24-00.18.12:387][453]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.08.24-00.18.12:387][453]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.08.24-00.18.12:387][453]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.08.24-00.18.12:387][453]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.08.24-00.18.12:387][453]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.08.24-00.18.12:387][453]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.08.24-00.18.12:387][453]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.08.24-00.18.12:387][453]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.08.24-00.18.12:387][453]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.08.24-00.18.12:387][453]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.08.24-00.18.12:387][453]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.08.24-00.18.12:387][453]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.08.24-00.18.12:387][453]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.08.24-00.18.12:387][453]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.08.24-00.18.12:387][453]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.08.24-00.18.12:388][453]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.08.24-00.18.12:390][453]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.08.24-00.18.12:390][453]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.08.24-00.18.12:390][453]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.08.24-00.18.12:390][453]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.08.24-00.18.12:390][453]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.08.24-00.18.12:390][453]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.08.24-00.18.12:391][453]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.08.24-00.18.12:525][453]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.08.24-00.18.12:525][453]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.08.24-00.18.12:525][453]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.08.24-00.18.12:525][453]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.08.24-00.18.12:540][453]LogDerivedDataCache: Shutdown
+[2016.08.24-00.18.12:540][453]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.08.24-00.18.12:540][453]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.08.24-00.18.12:540][453]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.08.24-00.18.12:540][453]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.08.24-00.18.12:540][453]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.08.24-00.18.12:540][453]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.08.24-00.18.12:540][453]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.08.24-00.18.12:540][453]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.08.24-00.18.12:540][453]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.08.24-00.18.12:540][453]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.08.24-00.18.12:540][453]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.08.24-00.18.12:540][453]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.08.24-00.18.12:540][453]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.08.24-00.18.12:540][453]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.08.24-00.18.12:540][453]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.08.24-00.18.12:540][453]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.08.24-00.18.12:540][453]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.08.24-00.18.12:540][453]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.08.24-00.18.12:540][453]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.08.24-00.18.12:540][453]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.08.24-00.18.12:540][453]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.08.24-00.18.12:540][453]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.08.24-00.18.12:541][453]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.08.24-00.18.12:541][453]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.08.24-00.18.12:541][453]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.08.24-00.18.12:541][453]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.08.24-00.18.12:541][453]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.08.24-00.18.12:541][453]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.08.24-00.18.12:541][453]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.08.24-00.18.12:541][453]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.08.24-00.18.12:541][453]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.08.24-00.18.12:541][453]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.08.24-00.18.12:541][453]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.08.24-00.18.12:541][453]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.08.24-00.18.12:541][453]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.08.24-00.18.12:541][453]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.08.24-00.18.12:541][453]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.08.24-00.18.12:541][453]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.08.24-00.18.12:541][453]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.08.24-00.18.17:050][453]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.08.24-00.18.17:050][453]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.08.24-00.18.17:050][453]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.08.24-00.18.17:050][453]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.08.24-00.18.17:050][453]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.08.24-00.18.17:050][453]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.08.24-00.18.17:050][453]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.08.24-00.18.17:050][453]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.08.24-00.18.17:050][453]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.08.24-00.18.17:050][453]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.08.24-00.18.17:050][453]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.08.24-00.18.17:050][453]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.08.24-00.18.17:050][453]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.08.24-00.18.17:050][453]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.08.24-00.18.17:052][453]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.08.24-00.18.17:052][453]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.08.24-00.18.17:052][453]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.08.24-00.18.17:053][453]LogExit: Exiting.
+[2016.08.24-00.18.17:054][453]Log file closed, 08/23/16 21:18:17
